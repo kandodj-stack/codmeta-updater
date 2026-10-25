@@ -1,0 +1,48 @@
+name: Test fonti COD
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  connessione:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Verifica le connessioni
+        shell: bash
+        run: |
+          urls=(
+            "https://www.php.net/"
+            "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+            "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+          )
+
+          for url in "${urls[@]}"; do
+            echo "=== $url ==="
+            rc=0
+
+            curl --silent --show-error --location --max-redirs 3 \
+              --proto '=https' --proto-redir '=https' \
+              --connect-timeout 8 --max-time 25 \
+              --user-agent 'CODMetaArchive/1.0 (+https://www.kandodj.com/codmeta/)' \
+              --output "$RUNNER_TEMP/pagina.html" \
+              --write-out 'HTTP %{http_code} | IP %{remote_ip} | tempo %{time_total}s | byte %{size_download}\n' \
+              "$url" || rc=$?
+
+            echo "Codice cURL: $rc"
+
+            if [ "$rc" = 0 ]; then
+              python3 - "$RUNNER_TEMP/pagina.html" <<'PYTHON'
+          import re, sys
+          from html import unescape
+          from pathlib import Path
+          text = Path(sys.argv[1]).read_text(errors="replace")
+          title = re.search(r"<title[^>]*>(.*?)</title>", text, re.S | re.I)
+          print("Titolo:", unescape(title.group(1)).strip()[:200] if title else "assente")
+          print("Contenitore articolo COD:", "article-rich-text" in text)
+          PYTHON
+            fi
+          done
