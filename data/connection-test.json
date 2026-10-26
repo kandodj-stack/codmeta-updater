@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "project": "codmeta-updater",
-  "release": "connection-test-001",
+  "release": "connection-test-002",
   "message": "Sincronizzazione GitHub-Aruba funzionante"
 }
