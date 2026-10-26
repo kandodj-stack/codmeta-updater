@@ -1,0 +1,52 @@
+name: Test browser COD
+on:
+  workflow_dispatch:
+permissions: {}
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Installa Chromium
+        run: |
+          python3 -m venv /tmp/cod-browser
+          /tmp/cod-browser/bin/pip install playwright
+          /tmp/cod-browser/bin/python -m playwright install --with-deps chromium
+      - name: Leggi gli articoli
+        shell: bash
+        run: |
+          /tmp/cod-browser/bin/python -u <<'PY'
+          from playwright.sync_api import sync_playwright
+          urls = [
+              "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes",
+              "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+          ]
+          failures = 0
+          with sync_playwright() as p:
+              browser = p.chromium.launch()
+              for url in urls:
+                  page = browser.new_page()
+                  page.set_default_timeout(15000)
+                  print("\nURL:", url)
+                  try:
+                      response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                      print("HTTP:", response.status if response else "assente")
+                      print("Titolo:", page.title())
+                      print("URL finale:", page.url)
+                      page.locator(".article-rich-text").first.wait_for()
+                      heading = page.locator("h1").first.inner_text()
+                      blocks = page.locator(".article-rich-text").all_inner_texts()
+                      text = "\n".join(blocks).strip()
+                      print("H1:", heading)
+                      print("Caratteri articolo:", len(text))
+                      valid = response is not None and response.status == 200 and len(text) >= 300
+                      print("ESITO:", "ARTICOLO LETTO" if valid else "DA VERIFICARE")
+                      failures += int(not valid)
+                  except Exception as error:
+                      failures += 1
+                      print("ERRORE:", str(error)[:800])
+                  finally:
+                      page.close()
+              browser.close()
+          raise SystemExit(1 if failures else 0)
+          PY
