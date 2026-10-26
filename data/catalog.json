@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "release": 1,
+  "mw4": {
+    "buildCheckedAt": "2026-10-24",
+    "catalogCheckedAt": "2026-10-23",
+    "catalog": [
+      {
+        "name": "Han 86",
+        "maxLevel": 72,
+        "unlock": 4,
+        "apex": "Han X20 Skybreaker",
+        "category": "FUCILE D’ASSALTO"
+      },
+      {
+        "name": "M4",
+        "maxLevel": 72,
+        "unlock": 14,
+        "apex": "M4 Hurricane",
+        "category": "FUCILE D’ASSALTO"
+      },
+      {
+        "name": "Hyeon Burst",
+        "maxLevel": 68,
+        "unlock": 21,
+        "apex": "Hyeon Hyperburst",
+        "category": "FUCILE D’ASSALTO"
+      },
+      {
+        "name": "Patriot XMR",
+        "maxLevel": 72,
+        "unlock": 27,
+        "apex": "Patriot XMR Volt",
+        "category": "FUCILE D’ASSALTO"
+      },
+      {
+        "name": "Kastov 762",
+        "maxLevel": 68,
+        "unlock": 34,
+        "apex": "Kastov ARC",
+        "category": "FUCILE D’ASSALTO"
+      },
+      {
+        "name": "Oden",
+        "maxLevel": 65,
+        "unlock": 39,
+        "apex": "Oden Sentinel",
+        "category": "FUCILE D’ASSALTO"
+      },
+      {
+        "name": "Axion",
+        "maxLevel": 69,
+        "unlock": 52,
+        "apex": "Axion Clearcut",
+        "category": "FUCILE D’ASSALTO"
+      },
+      {
+        "name": "Cronen Squall",
+        "maxLevel": 67,
+        "unlock": 55,
+        "apex": "Cronen Maelstrom",
+        "category": "FUCILE D’ASSALTO"
+      },
+      {
+        "name": "ISO Nightshade",
+        "maxLevel": 64,
+        "unlock": 4,
+        "apex": "ISO Trace",
+        "category": "MITRAGLIETTA"
+      },
+      {
+        "name": "VEL 46",
+        "maxLevel": 60,
+        "unlock": 13,
+        "apex": "VEL 46 Snap",
+        "category": "MITRAGLIETTA",
+        "unlockSummary": 5
+      },
+      {
+        "name": "Wz.55 Striga",
+        "maxLevel": 60,
+        "unlock": 21,
+        "apex": "WZ.55 Striga Rampage",
+        "category": "MITRAGLIETTA",
+        "unlockSummary": 18
+      },
+      {
+        "name": "PPSh-41",
+        "maxLevel": 62,
+        "unlock": 27,
+        "apex": "PPSh-41 Ember",
+        "category": "MITRAGLIETTA",
+        "unlockSummary": 30
+      },
+      {
+        "name": "X-58 Nyx",
+        "maxLevel": 53,
+        "unlock": 34,
+        "apex": "X-58 Void",
+        "category": "MITRAGLIETTA",
+        "unlockSummary": 46
+      },
+      {
+        "name": "Rezi 12",
+        "maxLevel": 60,
+        "unlock": 4,
+        "apex": "Rezi 12 Enforcer",
+        "category": "FUCILE A POMPA"
+      },
+      {
+        "name": "Warlord",
+        "maxLevel": 60,
+        "unlock": 32,
+        "apex": "Warlord Lumen",
+        "category": "FUCILE A POMPA"
+      },
+      {
+        "name": "FiNN LMG",
+        "maxLevel": 59,
+        "unlock": 4,
+        "apex": "FiNN Adverse",
+        "category": "MITRAGLIATRICE LEGGERA"
+      },
+      {
+        "name": "Type 73",
+        "maxLevel": 65,
+        "unlock": 9,
+        "apex": "Type 73 Assault",
+        "category": "MITRAGLIATRICE LEGGERA"
+      },
+      {
+        "name": "APOC-338",
+        "maxLevel": 56,
+        "unlock": 44,
+        "apex": "APOC-338 Praetor",
+        "category": "MITRAGLIATRICE LEGGERA"
+      },
+      {
+        "name": "MAR-9",
+        "maxLevel": 73,
+        "unlock": 4,
+        "apex": "MAR-9 Auto",
+        "category": "FUCILE TATTICO"
+      },
+      {
+        "name": "Oris 8.6",
+        "maxLevel": 70,
+        "unlock": 11,
+        "apex": "Oris 8.6 Razor",
+        "category": "FUCILE TATTICO"
+      },
+      {
+        "name": "Mosin-Nagant",
+        "maxLevel": 69,
+        "unlock": 36,
+        "apex": "Mosin Harpoon",
+        "category": "FUCILE TATTICO"
+      },
+      {
+        "name": "KG-7 Vulcan",
+        "maxLevel": 75,
+        "unlock": 4,
+        "apex": "KG-7 Drillcharge",
+        "category": "FUCILE DI PRECISIONE"
+      },
+      {
+        "name": "Astaroth .57",
+        "maxLevel": 54,
+        "unlock": 10,
+        "apex": "Astaroth .57 Infiltrator",
+        "category": "FUCILE DI PRECISIONE",
+        "unlockSummary": 25
+      },
+      {
+        "name": "Signal 50",
+        "maxLevel": 74,
+        "unlock": 35,
+        "apex": "Signal Inferno",
+        "category": "FUCILE DI PRECISIONE",
+        "unlockSummary": 50
+      },
+      {
+        "name": "SANG 9mm",
+        "maxLevel": 38,
+        "unlock": 4,
+        "apex": "SANG Breach",
+        "category": "PISTOLA"
+      },
+      {
+        "name": "Krait P68",
+        "maxLevel": 38,
+        "unlock": 7,
+        "apex": "Krait P68 Commando",
+        "category": "PISTOLA"
+      },
+      {
+        "name": ".50 GS",
+        "maxLevel": 37,
+        "unlock": 41,
+        "apex": "GS Magna",
+        "category": "PISTOLA"
+      },
+      {
+        "name": "Mojave .357",
+        "maxLevel": 44,
+        "unlock": 48,
+        "apex": "Mojave Lawless",
+        "category": "PISTOLA"
+      },
+      {
+        "name": "PILA",
+        "maxLevel": 46,
+        "unlock": 4,
+        "apex": "N/A",
+        "category": "LANCIATORE"
+      },
+      {
+        "name": "RPG-8",
+        "maxLevel": 46,
+        "unlock": 23,
+        "apex": "N/A",
+        "category": "LANCIATORE"
+      },
+      {
+        "name": "JOKR",
+        "maxLevel": 46,
+        "unlock": 43,
+        "apex": "N/A",
+        "category": "LANCIATORE"
+      },
+      {
+        "name": "PM-40 Anvil",
+        "maxLevel": 46,
+        "unlock": 54,
+        "apex": "N/A",
+        "category": "LANCIATORE"
+      },
+      {
+        "name": "FSS Carbon Edge 1095",
+        "maxLevel": 46,
+        "unlock": 4,
+        "apex": "N/A",
+        "category": "CORPO A CORPO"
+      }
+    ],
+    "builds": {
+      "HAN 86": {
+        "rank": 1,
+        "category": "Fucili d’assalto",
+        "slug": "han-86",
+        "attachments": [
+          [
+            "Ottica",
+            "SZ PRIMA-4 DOT",
+            38
+          ],
+          [
+            "Canna",
+            "HAN 86 SILENCED 413MM",
+            55
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            54
+          ],
+          [
+            "Calcio",
+            "MEIKO L9P-FOLD",
+            45
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            46
+          ]
+        ]
+      },
+      "M4": {
+        "rank": 2,
+        "category": "Fucili d’assalto",
+        "slug": "m4",
+        "attachments": [
+          [
+            "Volata",
+            "FSS IS300",
+            4
+          ],
+          [
+            "Sottocanna",
+            "FSS FIRELINE GRIP",
+            38
+          ],
+          [
+            "Impugnatura posteriore",
+            "ZLR PHASE GRIP",
+            55
+          ],
+          [
+            "Calcio",
+            "ZLR ASP50 STOCK",
+            44
+          ],
+          [
+            "Laser",
+            "SA LAZ-500",
+            24
+          ]
+        ]
+      },
+      "ISO NIGHTSHADE": {
+        "rank": 1,
+        "category": "Mitragliette",
+        "slug": "iso-nightshade",
+        "attachments": [
+          [
+            "Volata",
+            "XRK HERDER 40",
+            17
+          ],
+          [
+            "Canna",
+            "ZLR CARBON-900",
+            41
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            55
+          ],
+          [
+            "Impugnatura posteriore",
+            "DEMO STP-1",
+            6
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            43
+          ]
+        ]
+      },
+      "VEL 46": {
+        "rank": 2,
+        "category": "Mitragliette",
+        "slug": "vel-46",
+        "attachments": [
+          [
+            "Volata",
+            "FSS CRACKDOWN",
+            4
+          ],
+          [
+            "Canna",
+            "VB-46 SERIES 11",
+            3
+          ],
+          [
+            "Impugnatura posteriore",
+            "LM COMBAT GRIP",
+            40
+          ],
+          [
+            "Calcio",
+            "VEL 46 EXTENDED",
+            20
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            null
+          ]
+        ]
+      },
+      "KASTOV 762": {
+        "rank": 3,
+        "category": "Fucili d’assalto",
+        "slug": "kastov-762",
+        "attachments": [
+          [
+            "Ottica",
+            "CRONEN ZERO-K",
+            35
+          ],
+          [
+            "Canna",
+            "FJX GHOSTFIRE 16.3\"",
+            61
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            47
+          ],
+          [
+            "Calcio",
+            "KASTOV DOGFIGHTER 27",
+            42
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            30
+          ]
+        ]
+      },
+      "X-58 NYX": {
+        "rank": 3,
+        "category": "Mitragliette",
+        "slug": "x-58-nyx",
+        "attachments": [
+          [
+            "Canna",
+            "LX3-V 408.94MM",
+            44
+          ],
+          [
+            "Sottocanna",
+            "MIRE-50 TAC GRIP",
+            7
+          ],
+          [
+            "Impugnatura posteriore",
+            "BOK-980",
+            20
+          ],
+          [
+            "Calcio",
+            "MUGI HUL-73.M STOCK",
+            3
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            12
+          ]
+        ]
+      },
+      "MOSIN-NAGANT": {
+        "rank": 1,
+        "category": "Fucili tattici",
+        "slug": "mosin-nagant",
+        "attachments": [
+          [
+            "Ottica",
+            "CRONEN R808",
+            9
+          ],
+          [
+            "Volata",
+            "DS RKT-90",
+            22
+          ],
+          [
+            "Canna",
+            "762 DOZOR BARREL",
+            41
+          ],
+          [
+            "Calcio",
+            "LOCKWOOD EAGLE STOCK",
+            27
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            5
+          ]
+        ]
+      }
+    },
+    "order": [
+      "HAN 86",
+      "M4",
+      "ISO NIGHTSHADE",
+      "VEL 46",
+      "KASTOV 762",
+      "X-58 NYX",
+      "MOSIN-NAGANT"
+    ]
+  }
+}
