@@ -1,0 +1,1049 @@
+{
+  "schemaVersion": 1,
+  "release": 1,
+  "header": {
+    "liveStatus": "STAGIONE 06 · NOTE 14–15.10 VERIFICATE"
+  },
+  "ticker": [
+    {
+      "tag": "27 OTT · ARCHIVIO",
+      "text": "Modern Warfare 2019, Cold War e Vanguard completati: catalogo di tutte le armi e 31 build di fine ciclo con fonte.",
+      "url": "https://wzstats.gg/it/modern-warfare-2019/meta"
+    },
+    {
+      "tag": "19 OTT · MW4",
+      "text": "33 armi di lancio: catalogo e progressione consultabili selezionando Modern Warfare 4. Sette build Multiplayer disponibili nelle schede MW4.",
+      "url": "https://www.callofduty.com/uk/en/blog/2026/10/call-of-duty-modern-warfare-4-launch-multiplayer-operators-weapons-equipment-create-a-class"
+    },
+    {
+      "tag": "14 OTT · WARZONE",
+      "text": "VMP: più rinculo visivo. Migliorati DS20 Mirage, Ryden 45K e XM325; build coinvolte da rivalutare.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+    },
+    {
+      "tag": "14 OTT · ACCESSORI",
+      "text": "TR51: Bolt Carrier Group +6% cadenza. Sokol Warpath: bonus ADS 30 ms e sprint-to-fire 15 ms. Argus Lever rallentato.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+    },
+    {
+      "tag": "15 OTT · BO7 MP",
+      "text": "Bilanciamento annunciato: TR51 Para 43→40 danni e 625→588 RPM; VMP con portata iniziale 20,3→13,5 m.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
+    },
+    {
+      "tag": "7 OTT · WARZONE",
+      "text": "C4: ritardo di detonazione da 0,05 a 0,2 s. Meno droni rifornimento e casse leggendarie.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+    },
+    {
+      "tag": "7 OTT · BO7 ZOMBIES",
+      "text": "XM325 con Titan Wield: corretto il problema delle munizioni usando Mule Kick e Pack Mule.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
+    },
+    {
+      "tag": "30 SET · TR51 PARA",
+      "text": "Warzone: cadenza ridotta da 625 a 333 colpi/minuto. Build e posizione meta in rivalutazione.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+    },
+    {
+      "tag": "30 SET · BO7 RANKED",
+      "text": "VMP: consentiti Quorum Velocity, Civet, Gambol Light e Venerate Rubberized Grip.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
+    },
+    {
+      "tag": "30 SET · WARZONE",
+      "text": "Gas più letale col tempo; elicotteri disattivati nell’ultimo cerchio.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+    },
+    {
+      "tag": "24 SET · HOTFIX",
+      "text": "VS Recon: ripristinato il progresso Network con Havoc Repeater. Corretto il Prestigio applicato all’arma sbagliata.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+    },
+    {
+      "tag": "24 SET · BO7 RANKED",
+      "text": "VMP e alcuni accessori ora consentiti nelle classificate BO7. La build Warzone non equivale a una build Ranked autorizzata.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
+    },
+    {
+      "tag": "24 SET · WARZONE",
+      "text": "C4 non detonabile da terra; zona di esclusione della barca di Fortune’s Keep: 2 utilizzi e circa 80 secondi.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+    },
+    {
+      "tag": "17 SET · WARZONE",
+      "text": "Meta verificato il 22 settembre: Voyak KT-3 e VMP guidano lunga e corta distanza. Classifica WZStats, non ufficiale Activision.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+    },
+    {
+      "tag": "BUFF S06",
+      "text": "Potenziati Voyak KT-3, EGRT-17, MPC-25 e altre armi. Apri il riepilogo delle patch.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+    },
+    {
+      "tag": "BATTLE PASS S06",
+      "text": "VMP gratuita a pagina 3, TR51 Para a pagina 6. BlackCell: Revenant e Mastercraft AN-94.",
+      "url": "https://www.callofduty.com/blog/2026/09/call-of-duty-black-ops-7-warzone-season-6-the-haunting-announcement"
+    },
+    {
+      "tag": "SFIDE S06",
+      "text": "Settimana 4: completa 6 sfide per il progetto FG42 Pearl Mollusk e 10.000 XP.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
+    },
+    {
+      "tag": "BO7 MULTIPLAYER",
+      "text": "Bilanciamento Multiplayer annunciato per il 15 ottobre: consulta le note separate da Warzone.",
+      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
+    }
+  ],
+  "news": {
+    "title": "PATCH & NEWS · CONTROLLO 22 OTTOBRE 2026",
+    "subtitle": "MW4: nuove note di lancio · Warzone e BO7: note del 14 ottobre",
+    "items": [
+      {
+        "label": "19 OTT · MODERN WARFARE 4",
+        "title": "Il catalogo di lancio è consultabile",
+        "body": "Seleziona Modern Warfare 4 nel menu del gioco per cercare le 33 armi annunciate per Multiplayer e DMZ. Apri le schede per progressione e Apex. Disponibile dal 23 ottobre: le build meta richiedono verifica sul gioco live.",
+        "link": {
+          "label": "CATALOGO UFFICIALE MW4 ↗",
+          "url": "https://www.callofduty.com/uk/en/blog/2026/10/call-of-duty-modern-warfare-4-launch-multiplayer-operators-weapons-equipment-create-a-class"
+        }
+      },
+      {
+        "label": "CONTROLLO 21 OTT",
+        "title": "Stato degli altri contenuti",
+        "body": "Le pagine ufficiali consultate riportano ancora le note del 14 ottobre, con bilanciamento BO7 previsto per il 15. Nessuna nuova patch verificata. Battle Pass S06 mantenuto; gli obiettivi settimanali pubblicati restano quelli verificati della settimana 4. Le settimane successive e nuove sfide BlackCell non vengono aggiunte senza obiettivi verificabili."
+      },
+      {
+        "label": "14 OTT · WARZONE · ARMI",
+        "title": "VMP più impegnativa; migliorati controllo e mobilità",
+        "body": "VMP: intensità e deviazione del rinculo visivo aumentate. DS20 Mirage: migliore dispersione senza mira, meno rinculo visivo e proiettile del lanciagranate più veloce. Ryden 45K: ridotti rinculo visivo e dell’arma; XM325: migliorati rinculo visivo e deviazione. Gremlin: movimento +4%. KRS 7.62: movimento +3% e rinculo visivo migliorato. REV-46: apertura/chiusura del calcio più rapida di 150 ms. Mammoth: lieve aumento del rinculo visivo. Le posizioni della classifica restano datate al 22 settembre: queste note richiedono nuove verifiche delle build, non stabiliscono una nuova graduatoria."
+      },
+      {
+        "label": "14 OTT · WARZONE · ACCESSORI E PROGRESSIONE",
+        "title": "Warpath potenziato, Argus Lever rallentato",
+        "body": "TR51 Para: Bolt Carrier Group ora migliora la cadenza del 6%. Sokol 545 Warpath Blitz Kit: bonus ADS 20→30 ms e sprint-to-fire 5→15 ms. M10 Breacher Argus Lever: tempo di riarmo 450→500 ms. Gremlin Procural Extended Mag: rimosse le modifiche a sprint-to-fire e tempo di ricarica indicate nelle note ufficiali. Corretti sfide Prestigio inattive, mirino MXR-17 con ANVL Conversion Barrel, selettori M34 Novaline/M8A1 e riduzione indesiderata della cadenza con l’accessorio Prestigio Mammoth. Nessun nuovo livello di sblocco indicato."
+      },
+      {
+        "label": "NOTE 14 OTT · BO7 MULTIPLAYER · ANNUNCIATE PER IL 15 OTT",
+        "title": "TR51 Para e VMP ridimensionate",
+        "body": "Treyarch annuncia il bilanciamento per il 15 ottobre: TR51 Para, danno massimo 43→40 e cadenza 625→588 RPM (conversione automatica esclusa); corretto Bolt Carrier Group, +6% cadenza. VMP: portata del danno massimo 20,3→13,5 m e rinculo visivo aumentato. REV-46: portata iniziale 14→15 m, moltiplicatore testa 1,28→1,3 e cambio calcio più rapido di 150 ms. Interventi anche su Gremlin, VST, Peacekeeper, shotgun e fucili tattici. Sono dati BO7 Multiplayer: non applicare questi valori alle build Warzone. Zombies ed Endgame ricevono soltanto le modifiche espressamente indicate dalla fonte."
+      },
+      {
+        "label": "7 OTT · WARZONE",
+        "title": "C4 più lento e meno droni rifornimento",
+        "body": "Il ritardo di detonazione del C4 passa da 0,05 a 0,2 secondi. Il limite di droni rifornimento simultanei scende da 13 a 11 in Battle Royale e da 8 a 7 in Resurgence. Aumenta leggermente la quota di casse riutilizzabili e diminuisce quella delle leggendarie. Corretti i danni degli elicotteri negli schianti e le espulsioni per inattività di giocatori attivi. Nessuna modifica ad armi, accessori o livelli di sblocco: questa patch non impone un riordino del meta."
+      },
+      {
+        "label": "7 OTT · BO7 ZOMBIES",
+        "title": "XM325: corretta l’arma sinistra con Titan Wield",
+        "body": "Risolto il problema che svuotava le munizioni dell’arma sinistra e la rendeva inutilizzabile usando XM325 con calcio Titan Wield, Mule Kick e Augment Pack Mule. Corretti anche il riutilizzo illimitato di Void Claw, la duplicazione di Web Mother, testi obiettivo tagliati a Kowakujō e la comparsa del portale Mangler Helmet Relic a Paradox Junction. Nessun nuovo buff o nerf annunciato."
+      },
+      {
+        "label": "30 SET · WARZONE · ARMI",
+        "title": "TR51 Para: cadenza quasi dimezzata",
+        "body": "La cadenza passa da 625 a 333 colpi/minuto. La precedente build resta consultabile, ma efficacia e posizione meta richiedono nuove prove dopo il nerf: la TR51 Para è stata spostata in fondo alla lista provvisoria."
+      },
+      {
+        "label": "30 SET · WARZONE · GAMEPLAY",
+        "title": "Gas più pericoloso e niente elicotteri nel finale",
+        "body": "Il danno del gas aumenta con la permanenza: ×2 dopo 35 secondi, ×4 dopo 50, ×6 dopo 65 e ×10 dopo 80. Gli elicotteri vengono disattivati nell’ultimo cerchio. Kit di auto-rianimazione, stim e stazioni di decontaminazione lasciati in profondità nel gas vengono rimossi a ogni chiusura del cerchio."
+      },
+      {
+        "label": "30 SET · BO7",
+        "title": "VMP Ranked e correzioni Zombies",
+        "body": "In Ranked sono consentiti altri quattro accessori VMP: Quorum Velocity Barrel, Civet Barrel, Gambol Light Barrel e Venerate Rubberized Grip. Per Roc 20mm in Zombies sono stati corretti le munizioni dopo Pack-a-Punch e i requisiti della mimetica Mutilate; la patch non indica il nuovo numero richiesto."
+      },
+      {
+        "label": "24 SET · BO7 MULTIPLAYER",
+        "title": "VMP disponibile in Ranked",
+        "body": "Rimosse le restrizioni per VMP e alcuni suoi accessori. La nota ufficiale non elenca quali: controlla quelli consentiti nel menu Ranked. Corretto anche il selettore della modalità di fuoco Akimbo del Warden 308."
+      },
+      {
+        "label": "24 SET · PROGRESSIONE ARMI",
+        "title": "Network e Prestigio corretti",
+        "body": "VS Recon con VS Rebound Havoc Repeater ora contribuisce alla mimetica Network in Warzone e BO7 Endgame. Risolto il problema che applicava il Prestigio all’arma precedente tramite “Equipaggia arma e apri Armaiolo”. Nessuna modifica annunciata ai livelli di sblocco o alle statistiche delle armi in questo hotfix."
+      },
+      {
+        "label": "24 SET · WARZONE",
+        "title": "C4 e zona di esclusione",
+        "body": "Il C4 non può essere detonato quando si è a terra (Last Stand). La zona di esclusione della barca di Fortune’s Keep passa da 3 a 2 utilizzi e da circa 140 a 80 secondi. Risolti problemi con casse equipaggiamento spostate dal C4 e invulnerabilità durante l’interazione con il caveau."
+      },
+      {
+        "label": "01 · WARZONE · PATCH 16 SET / LIVE 17 SET",
+        "title": "AN-94 e VST ridimensionati",
+        "body": "AN-94: danni 41/37/33 → 38/34/31, prima portata 45 → 38 m. In BR/Resurgence rinculo +12%, proiettile 920 → 890 m/s, ADS 235 → 245 ms. Canna Benthic: bonus velocità 20% → 15%, controllo 25% → 15%. VST: danni 29/27/22 → 27/24/19, prima portata 13,5 → 12,8 m."
+      },
+      {
+        "label": "02 · BILANCIAMENTO WARZONE",
+        "title": "Buff e build da rivalutare",
+        "body": "Voyak KT-3: danni 42/37/32, rinculo −8% in BR/Resurgence. Buff anche a DS20 Mirage, EGRT-17, M15 Mod 0, VX Compact, MPC-25, Strumwolf 45, MK.78, Sokol 545, XM325, Echo 12, M10 Breacher e SG-12. Nerf minori a MK35 ISR e REV-46. Classifica WZStats aggiornata al 22 settembre; sette build ricontrollate, le altre segnalate come precedenti alla patch."
+      },
+      {
+        "label": "03 · BO7 / SFIDE",
+        "title": "Settimana 4: obiettivi disponibili",
+        "body": "Settimana 4: completa 6 sfide tra le modalità per sbloccare il progetto FG42 “Pearl Mollusk” e 10.000 XP. Gli obiettivi sono consultabili nella sezione Sfide settimanali. Il bilanciamento Multiplayer BO7 è annunciato per il 15 ottobre."
+      },
+      {
+        "label": "04 · SBLOCCHI S06",
+        "title": "Armi e accessori",
+        "body": "VMP e TR51 Para nel Battle Pass. Arcblade tramite Camo Costume Party, Roc 20mm tramite DOOM Event Pass durante la stagione. Accessori settimanali annunciati: VS Rebound Havoc Repeater, Dravec 45 Aftermath Vertical Magazine e Sokol 545 Warpath Blitz Kit."
+      }
+    ],
+    "links": [
+      {
+        "label": "ANNUNCIO SEASON 06",
+        "url": "https://www.callofduty.com/blog/2026/09/call-of-duty-black-ops-7-warzone-season-6-the-haunting-announcement"
+      },
+      {
+        "label": "PATCH BO7 UFFICIALE",
+        "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
+      },
+      {
+        "label": "PATCH WARZONE UFFICIALE",
+        "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+      }
+    ]
+  },
+  "warzone": {
+    "status": "META WZSTATS · 22 SETTEMBRE",
+    "checked": "22 SET 2026 · CLASSIFICA / BUILD",
+    "sourceUrl": "https://wzstats.gg/it",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 22 settembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Sette build aggiornate; le altre riportano lo stato della verifica.",
+    "currentBuildDate": "22 SET 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 22 SETTEMBRE",
+    "ratingLabel": "Valutazione WZStats · 22 settembre 2026",
+    "pendingReview": [
+      "TR51 PARA"
+    ],
+    "pendingLabel": "Valutazione in sospeso dopo il nerf del 30 settembre",
+    "metaOrder": [
+      "VOYAK KT-3",
+      "VMP",
+      "MK35 ISR",
+      "REV-46",
+      "DS20 MIRAGE",
+      "MPC-25",
+      "FG42",
+      "RYDEN 45K",
+      "STRIDER 300",
+      "STURMWOLF 45",
+      "M15 MOD 0",
+      "VST",
+      "VX COMPACT",
+      "AN-94",
+      "TR51 PARA"
+    ],
+    "roleRanks": {
+      "VOYAK KT-3": 1,
+      "VMP": 1,
+      "MK35 ISR": 2,
+      "REV-46": 2,
+      "DS20 MIRAGE": 3,
+      "MPC-25": 3,
+      "FG42": 4,
+      "RYDEN 45K": 4,
+      "STRIDER 300": 1,
+      "STURMWOLF 45": 5,
+      "M15 MOD 0": 6,
+      "VST": 6,
+      "VX COMPACT": 7,
+      "AN-94": 8
+    },
+    "builds": [
+      {
+        "name": "VOYAK KT-3",
+        "rank": 1,
+        "tier": "S",
+        "category": "FUCILE D'ASSALTO",
+        "role": "LUNGA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "42",
+        "updated": "22 SET 2026",
+        "code": "A09-34FBS-SSP4W-11",
+        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
+        "attachments": [
+          {
+            "slot": "OTTICA",
+            "name": "OLE Fang Hoverpoint",
+            "unlock": "Armeria"
+          },
+          {
+            "slot": "VOLATA",
+            "name": "Silenziatore monoblocco",
+            "unlock": "Livello 28"
+          },
+          {
+            "slot": "CANNA",
+            "name": "LTI Grav-4 da 17,6\"",
+            "unlock": "Livello 34"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Tamburo SK-Garrison",
+            "unlock": "Livello 40"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Cuscinetto V-Last Control",
+            "unlock": "Livello 33"
+          }
+        ]
+      },
+      {
+        "name": "VMP",
+        "rank": 2,
+        "tier": "S",
+        "category": "MITRAGLIETTA",
+        "role": "CORTA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "35",
+        "updated": "22 SET 2026",
+        "code": "S14-6K7PG-6B11",
+        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "Freno stentoreo LTI",
+            "unlock": "Armeria"
+          },
+          {
+            "slot": "CANNA",
+            "name": "14.6\" Nocturnal-VI Barrel",
+            "unlock": "Livello 9"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "Ferma mano Sapper Guard",
+            "unlock": "Livello 33"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Dapple Capacity Mag",
+            "unlock": "Livello 35"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Greaves Valour Pad",
+            "unlock": "Livello 8"
+          }
+        ]
+      },
+      {
+        "name": "MK35 ISR",
+        "rank": 3,
+        "tier": "S",
+        "category": "FUCILE D'ASSALTO",
+        "role": "LUNGA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "43",
+        "updated": "22 SET 2026",
+        "code": "A12-34FBS-SSY4B-11",
+        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
+        "attachments": [
+          {
+            "slot": "OTTICA",
+            "name": "OLE Fang Hoverpoint",
+            "unlock": "Armeria"
+          },
+          {
+            "slot": "VOLATA",
+            "name": "Silenziatore monoblocco",
+            "unlock": "Livello 39"
+          },
+          {
+            "slot": "CANNA",
+            "name": "Greaves Bellum da 16,5\"",
+            "unlock": "Livello 14"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Tamburo Bowen Siren",
+            "unlock": "Livello 29"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Greaves Cassin Stock",
+            "unlock": "Livello 8"
+          }
+        ]
+      },
+      {
+        "name": "REV-46",
+        "rank": 4,
+        "tier": "S",
+        "category": "MITRAGLIETTA",
+        "role": "CORTA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "34",
+        "updated": "22 SET 2026",
+        "code": "S09-AV4JD-2ZI31-1",
+        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
+        "attachments": [
+          {
+            "slot": "OTTICA",
+            "name": "OLE Lethal Tools",
+            "unlock": "Da Dravec 45"
+          },
+          {
+            "slot": "VOLATA",
+            "name": "Freno stentoreo LTI",
+            "unlock": "Armeria"
+          },
+          {
+            "slot": "CANNA",
+            "name": "Caudal Target",
+            "unlock": "Livello 12"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "Ferma mano Sapper Guard",
+            "unlock": "Livello 24"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Tamburo Komodo",
+            "unlock": "Livello 34"
+          }
+        ]
+      },
+      {
+        "name": "DS20 MIRAGE",
+        "rank": 5,
+        "tier": "S",
+        "category": "FUCILE D'ASSALTO",
+        "role": "LUNGA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "43",
+        "updated": "22 SET 2026",
+        "code": "A05-34FBS-SSSND-11",
+        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
+        "attachments": [
+          {
+            "slot": "OTTICA",
+            "name": "OLE Fang Hoverpoint",
+            "unlock": "Armeria"
+          },
+          {
+            "slot": "VOLATA",
+            "name": "Silenziatore monoblocco",
+            "unlock": "Livello 18"
+          },
+          {
+            "slot": "CANNA",
+            "name": "Abdicator da 17,1\"",
+            "unlock": "Livello 29"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Griffon Reserve II",
+            "unlock": "Livello 27"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Calcio controbilanciato",
+            "unlock": "Livello 3"
+          }
+        ]
+      },
+      {
+        "name": "MPC-25",
+        "rank": 6,
+        "tier": "S",
+        "category": "MITRAGLIETTA",
+        "role": "CORTA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "42",
+        "updated": "22 SET 2026",
+        "code": "S06-AR6Y5-RN11",
+        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "Freno stentoreo LTI",
+            "unlock": "Armeria"
+          },
+          {
+            "slot": "CANNA",
+            "name": "VAS Ashe da 14,5\"",
+            "unlock": "Livello 15"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "Impugnatura anteriore VAS Convergence",
+            "unlock": "Armeria"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Tamburo MPC Overload",
+            "unlock": "Livello 35"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Calcio essenziale Viper",
+            "unlock": "Livello 34"
+          }
+        ]
+      },
+      {
+        "name": "RYDEN 45K",
+        "rank": 8,
+        "tier": "A",
+        "category": "MITRAGLIETTA",
+        "role": "CORTA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "42",
+        "updated": "23 AGO 2026",
+        "code": "S01-2W27L-7461D-11",
+        "note": "SMG facile da controllare e molto consistente: la build combina un caricatore capiente con mobilità e rinculo orizzontale ridotto.",
+        "attachments": [
+          {
+            "slot": "OTTICA",
+            "name": "FANG HoverPoint ELO",
+            "unlock": "Sfida settimanale"
+          },
+          {
+            "slot": "VOLATA",
+            "name": "LTI Stentorian Brake",
+            "unlock": "Battle Pass Season 4"
+          },
+          {
+            "slot": "CANNA",
+            "name": "9\" Basilisk Barrel",
+            "unlock": "Livello 12"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "Flowguard Foregrip",
+            "unlock": "Livello 28"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Forward Breach Mag",
+            "unlock": "Livello 27"
+          }
+        ]
+      },
+      {
+        "name": "STRIDER 300",
+        "rank": 9,
+        "tier": "S",
+        "category": "FUCILE DI PRECISIONE",
+        "role": "CECCHINO",
+        "origin": "BO7",
+        "maxLevel": "37",
+        "updated": "05 GIU 2026",
+        "code": "R07-2JD6P-5NM5G-6J11",
+        "note": "Configurazione da cecchino per massimizzare velocità del proiettile, precisione e rapidità di ricarica senza sacrificare il colpo decisivo.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "Monolithic Suppressor",
+            "unlock": "Livello 33"
+          },
+          {
+            "slot": "CANNA",
+            "name": "25\" Bowen Grooved Barrel",
+            "unlock": "Livello 21"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Carnation Fast Mag",
+            "unlock": "Livello 20"
+          },
+          {
+            "slot": "IMPUGNATURA",
+            "name": "Hatch Quick Grip",
+            "unlock": "Livello 23"
+          },
+          {
+            "slot": "MOD FUOCO",
+            "name": ".300 WM Overpressured",
+            "unlock": "Livello 24"
+          }
+        ]
+      },
+      {
+        "name": "VST",
+        "rank": 12,
+        "tier": "A",
+        "category": "MITRAGLIETTA",
+        "role": "CORTA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "39",
+        "updated": "26 AGO 2026",
+        "code": "S12-6KDYX-HL11",
+        "note": "Build da corta distanza ad alta cadenza: privilegia mobilità, velocità di mira e controllo del rinculo orizzontale.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "LTI Stentorian Brake",
+            "unlock": "Battle Pass Season 4"
+          },
+          {
+            "slot": "CANNA",
+            "name": "9.7\" Enmity Barrel",
+            "unlock": "Livello 10"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "EAM Steady-90 Grip",
+            "unlock": "Livello 36"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Amplify Extended Mag I",
+            "unlock": "Livello 15"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Hawker Cub-55 Pad",
+            "unlock": "Livello 13"
+          }
+        ]
+      },
+      {
+        "name": "VX COMPACT",
+        "rank": 13,
+        "tier": "A",
+        "category": "FUCILE D'ASSALTO",
+        "role": "SUPPORTO CECCHINO",
+        "origin": "BO7",
+        "maxLevel": "42",
+        "updated": "26 AGO 2026",
+        "code": "A14-34FBS-LIF4B-11",
+        "note": "Build da supporto cecchino molto mobile, pensata per coprire con precisione la corta e media distanza.",
+        "attachments": [
+          {
+            "slot": "OTTICA",
+            "name": "FANG HoverPoint ELO",
+            "unlock": "Sfida settimanale"
+          },
+          {
+            "slot": "VOLATA",
+            "name": "Redwell Shade-X Suppressor",
+            "unlock": "Sfida settimanale"
+          },
+          {
+            "slot": "CANNA",
+            "name": "14.3\" Redwell Ascent",
+            "unlock": "Livello 11"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Inclination Extended Mag",
+            "unlock": "Livello 14"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Lactic Light Stock",
+            "unlock": "Livello 36"
+          }
+        ]
+      },
+      {
+        "name": "AN-94",
+        "rank": 14,
+        "tier": "A",
+        "category": "FUCILE D'ASSALTO",
+        "role": "LUNGA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "42",
+        "updated": "28 AGO 2026",
+        "code": "A13-23Y3A-MYDVW-11",
+        "note": "Buff ufficiale: danni aumentati in tutte le fasce, portata massima da 40 a 45 m e rinculo verticale ridotto del 10%. La canna Benthic ora offre più controllo e velocità proiettile.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "Monolithic Suppressor",
+            "unlock": "Livello 39"
+          },
+          {
+            "slot": "CANNA",
+            "name": "15\" Benthic Barrel",
+            "unlock": "Livello 11"
+          },
+          {
+            "slot": "OTTICA",
+            "name": "Redwell 30-S 2x",
+            "unlock": "Da X9 Maverick"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "VAS Convergence Foregrip",
+            "unlock": "Armeria"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Rexford Extended II",
+            "unlock": "Livello 32"
+          }
+        ]
+      },
+      {
+        "name": "TR51 PARA",
+        "rank": 15,
+        "tier": "A",
+        "category": "FUCILE D'ASSALTO",
+        "role": "LUNGA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "41",
+        "updated": "22 SET 2026",
+        "code": "A17-34FK5-FBYY1-11",
+        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
+        "attachments": [
+          {
+            "slot": "OTTICA",
+            "name": "OLE Fang Hoverpoint",
+            "unlock": "Livello 1 secondo la fonte"
+          },
+          {
+            "slot": "VOLATA",
+            "name": "Silenziatore monoblocco",
+            "unlock": "Livello 37"
+          },
+          {
+            "slot": "CANNA",
+            "name": "18.5\" MFS Fallen Angel Barrel",
+            "unlock": "Prestigio"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "Impugnatura anteriore VAS Convergence",
+            "unlock": "Livello 1 secondo la fonte"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Carus Capacity Mag",
+            "unlock": "Livello 28"
+          }
+        ]
+      },
+      {
+        "name": "DRAVEC 45",
+        "rank": 109,
+        "tier": "A",
+        "category": "MITRAGLIETTA",
+        "role": "CORTA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "36",
+        "updated": "23 AGO 2026",
+        "code": "S04-BGW2E-IYU11",
+        "note": "Configurazione aggressiva con movimento e maneggevolezza elevati, adatta a Resurgence e agli scontri negli interni.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "LTI Stentorian Brake",
+            "unlock": "Battle Pass Season 4"
+          },
+          {
+            "slot": "CANNA",
+            "name": "12\" Cloud Barrel",
+            "unlock": "Livello 22"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Gator Extended Mag",
+            "unlock": "Livello 11"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "EAM Heritage Stock",
+            "unlock": "Livello 25"
+          },
+          {
+            "slot": "LASER",
+            "name": "MFS Agile Laser Pro",
+            "unlock": "Prestigio arma"
+          }
+        ]
+      },
+      {
+        "name": "VS RECON",
+        "rank": 110,
+        "tier": "A",
+        "category": "FUCILE DI PRECISIONE",
+        "role": "CECCHINO",
+        "origin": "BO7",
+        "maxLevel": "45",
+        "updated": "25 LUG 2026",
+        "code": "R01-21WSG-L369K-P711",
+        "note": "Alternativa da lunga distanza con forte velocità proiettile e un assetto stabile per i colpi di apertura.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "Monolithic Suppressor",
+            "unlock": "Livello 28"
+          },
+          {
+            "slot": "CANNA",
+            "name": "23\" G-Force Barrel",
+            "unlock": "Livello 18"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "MFS R-Stop Handguard",
+            "unlock": "Prestigio arma"
+          },
+          {
+            "slot": "IMPUGNATURA",
+            "name": "R-1 Shelf Grip",
+            "unlock": "Livello 34"
+          },
+          {
+            "slot": "MOD FUOCO",
+            "name": "7.62 NATO Overpressured",
+            "unlock": "Livello 39"
+          }
+        ]
+      },
+      {
+        "name": "EGRT-17",
+        "rank": 111,
+        "tier": "A",
+        "category": "FUCILE D'ASSALTO",
+        "role": "LUNGA DISTANZA",
+        "origin": "BO7",
+        "maxLevel": "—",
+        "updated": "28 AGO 2026",
+        "note": "Buff ufficiale: prima fascia estesa fino a 42 m, danno intermedio da 30 a 31 e danno minimo da 25 a 26. Più competitivo negli ingaggi a lunga distanza.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "Monolithic Suppressor",
+            "unlock": "Da sincronizzare"
+          },
+          {
+            "slot": "CANNA",
+            "name": "16.5\" Bowen Resistor",
+            "unlock": "Da sincronizzare"
+          },
+          {
+            "slot": "OTTICA",
+            "name": "FANG HoverPoint ELO",
+            "unlock": "Sfida settimanale"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Frigate Control Stock",
+            "unlock": "Da sincronizzare"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Fuel Cell-X3 Mag",
+            "unlock": "Da sincronizzare"
+          }
+        ]
+      }
+    ],
+    "extraBuilds": [
+      {
+        "name": "Kar98k",
+        "rank": 59,
+        "tier": "B",
+        "category": "FUCILE DI PRECISIONE",
+        "role": "CECCHINO · PORTATA MASSIMA",
+        "origin": "MWIII",
+        "maxLevel": "16",
+        "updated": "02 SET 2026",
+        "note": "Build Warzone da cecchino e massima portata. È fuori dalla Top 11 mostrata in apertura, ma resta disponibile nella ricerca completa con una configurazione verificata sulla fonte.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "VT-7 Spiritfire Suppressor",
+            "unlock": "Livello da verificare"
+          },
+          {
+            "slot": "CANNA",
+            "name": "Prazisionsgewehr 762 Long",
+            "unlock": "Kar98k livello 2"
+          },
+          {
+            "slot": "OTTICA",
+            "name": "Forge TAC Delta 4",
+            "unlock": "Livello da verificare"
+          },
+          {
+            "slot": "MUNIZIONI",
+            "name": "7.92 High Grain Rounds",
+            "unlock": "Livello da verificare"
+          },
+          {
+            "slot": "CINGHIA",
+            "name": "Recon Sling",
+            "unlock": "Kar98k livello 4"
+          }
+        ]
+      },
+      {
+        "name": "KILO 141",
+        "rank": 65,
+        "tier": "B",
+        "category": "FUCILE D'ASSALTO",
+        "role": "LUNGA DISTANZA",
+        "origin": "BO6",
+        "maxLevel": "48",
+        "updated": "02 SET 2026",
+        "note": "Build Warzone da lunga distanza orientata a controllo e velocità del proiettile. È indicizzata separatamente dalla Top 11 e viene mostrata quando cerchi Kilo.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "Firepower Suppressor",
+            "unlock": "Livello da verificare"
+          },
+          {
+            "slot": "CANNA",
+            "name": "Reinforced Barrel",
+            "unlock": "Livello da verificare"
+          },
+          {
+            "slot": "OTTICA",
+            "name": "Willis 3x",
+            "unlock": "Livello da verificare"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "Vertical Foregrip",
+            "unlock": "Livello da verificare"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Extended Mag II",
+            "unlock": "Livello da verificare"
+          }
+        ]
+      }
+    ],
+    "weaponNotes": {
+      "label": "AGGIORNAMENTO 14–15 OTTOBRE",
+      "sources": [
+        {
+          "label": "Fonte Warzone",
+          "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+        },
+        {
+          "label": "Fonte BO7",
+          "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
+        }
+      ],
+      "notes": {
+        "vmp": "WARZONE · 14 OTT: aumentati intensità e deviazione del rinculo visivo. BO7 MULTIPLAYER · annunciato per il 15 OTT: portata iniziale 20,3→13,5 m e più rinculo visivo. La build precedente richiede una nuova verifica; i valori BO7 non si applicano a Warzone.",
+        "tr51para": "WARZONE · 14 OTT: Bolt Carrier Group ora aumenta la cadenza del 6%; resta il nerf base del 30 settembre (625→333 RPM). BO7 MULTIPLAYER · annunciato per il 15 OTT: danno massimo 43→40 e 625→588 RPM, esclusa la conversione automatica. Build da rivalutare separatamente per gioco.",
+        "ds20mirage": "WARZONE · 14 OTT: migliore dispersione senza mira, rinculo visivo ridotto e proiettile del lanciagranate integrato più veloce. Build precedente da ricontrollare dopo la patch.",
+        "ryden45k": "WARZONE · 14 OTT: ridotti rinculo visivo e rinculo dell’arma. Build precedente da ricontrollare.",
+        "xm325": "WARZONE · 14 OTT: migliorati intensità e deviazione del rinculo visivo. BO7 ZOMBIES · 7 OTT: corretta l’arma sinistra inutilizzabile con Titan Wield, Mule Kick e Pack Mule.",
+        "gremlin": "WARZONE · 14 OTT: movimento +4%; Procural Extended Mag non modifica più sprint-to-fire e tempo di ricarica come indicato nella patch. Ricontrollare la configurazione.",
+        "sokol545": "WARZONE · 14 OTT: Warpath Blitz Kit, bonus ADS aumentato da 20 a 30 ms e bonus sprint-to-fire da 5 a 15 ms. Ricontrollare la build con il kit.",
+        "m10breacher": "WARZONE · 14 OTT: Argus Lever, tempo di riarmo aumentato da 450 a 500 ms. Configurazioni con questo accessorio da rivalutare.",
+        "rev46": "WARZONE · 14 OTT: cambio del calcio più rapido di 150 ms. BO7 MULTIPLAYER · annunciato per il 15 OTT: portata iniziale 14→15 m e moltiplicatore testa 1,28→1,3.",
+        "mammoth": "WARZONE · 14 OTT: rinculo visivo leggermente aumentato; corretta la riduzione indesiderata della cadenza con l’accessorio Prestigio.",
+        "krs762": "WARZONE · 14 OTT: movimento +3% e rinculo visivo migliorato. Build precedente da ricontrollare."
+      }
+    }
+  },
+  "weekly": {
+    "eyebrow": "WEEKLY OPERATIONS · SEASON 06",
+    "title": "Sfide settimanali BO7 / Warzone",
+    "intro": "Archivio BO7 / Warzone · Stagione 06 · Settimana 4: sei obiettivi per Warzone, Multiplayer e Zombies. Elenco riportato da Sportskeeda l’8 ottobre; controllato il 16 ottobre 2026.",
+    "officialUrl": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes",
+    "season": "Stagione 06",
+    "week": 4,
+    "summary": [
+      {
+        "label": "STATO",
+        "value": "S06 · SETTIMANA 4 VERIFICATA"
+      },
+      {
+        "label": "OBIETTIVO",
+        "value": "COMPLETA 6 SFIDE"
+      },
+      {
+        "label": "RICOMPENSA",
+        "value": "FG42 · PEARL MOLLUSK + 10.000 XP"
+      },
+      {
+        "label": "ULTIMO CONTROLLO",
+        "value": "16.10.2026"
+      }
+    ],
+    "sourceUrl": "https://www.sportskeeda.com/call-of-duty-game/all-warzone-black-ops-7-season-6-week-4-challenges-rewards",
+    "sourceLabel": "FONTE: SPORTSKEEDA · 08.10.2026",
+    "modes": {
+      "warzone": {
+        "label": "WARZONE",
+        "game": "CALL OF DUTY: WARZONE",
+        "description": "Stagione 06 · Settimana 4. Scegli gli obiettivi da completare.",
+        "challenges": [
+          {
+            "objective": "40 eliminazioni con armi raccolte a terra."
+          },
+          {
+            "objective": "5 eliminazioni nella stessa partita, per 10 partite."
+          },
+          {
+            "objective": "2 uccisioni senza morire, 5 volte."
+          },
+          {
+            "objective": "15 eliminazioni con mitragliatrici leggere (LMG)."
+          },
+          {
+            "objective": "Completa un contratto Ricercato (Most Wanted)."
+          },
+          {
+            "objective": "Schiera 5 casse corazze, munizioni o utilità."
+          }
+        ]
+      },
+      "multiplayer": {
+        "label": "BO7 MULTIPLAYER",
+        "game": "BLACK OPS 7 · MULTIPLAYER",
+        "description": "Stagione 06 · Settimana 4. Scegli gli obiettivi da completare.",
+        "challenges": [
+          {
+            "objective": "100 eliminazioni con mitragliatrici leggere (LMG)."
+          },
+          {
+            "objective": "Ottieni 4 medaglie Tripla uccisione: 3 uccisioni rapide."
+          },
+          {
+            "objective": "Vinci una partita e compari nel Winner’s Circle."
+          },
+          {
+            "objective": "15 uccisioni con serie di uccisioni di tipo arma."
+          },
+          {
+            "objective": "25 eliminazioni con un accessorio Akimbo equipaggiato."
+          },
+          {
+            "objective": "5 colpi alla testa con armi secondarie."
+          }
+        ]
+      },
+      "zombies": {
+        "label": "BO7 ZOMBIES",
+        "game": "BLACK OPS 7 · ZOMBIES",
+        "description": "Stagione 06 · Settimana 4. Scegli gli obiettivi da completare.",
+        "challenges": [
+          {
+            "objective": "20 uccisioni senza ricaricare con un’arma S05 o S06, 20 volte."
+          },
+          {
+            "objective": "250 uccisioni con un’arma della Cassa misteriosa di rarità epica o superiore."
+          },
+          {
+            "objective": "150 uccisioni senza mirare con mitragliatrici leggere (LMG)."
+          },
+          {
+            "objective": "100 uccisioni con serie di uccisioni di tipo arma."
+          },
+          {
+            "objective": "50 uccisioni con dispositivi Kazimir."
+          },
+          {
+            "objective": "25 uccisioni critiche consecutive, distanti al massimo 3 secondi."
+          }
+        ]
+      }
+    }
+  }
+}
