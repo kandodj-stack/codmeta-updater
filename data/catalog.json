@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 1,
+  "release": 2,
   "mw4": {
-    "buildCheckedAt": "2026-10-24",
+    "buildCheckedAt": "2026-10-28",
     "catalogCheckedAt": "2026-10-23",
     "catalog": [
       {
@@ -244,67 +244,35 @@
       }
     ],
     "builds": {
-      "HAN 86": {
+      "AXION": {
         "rank": 1,
         "category": "Fucili d’assalto",
-        "slug": "han-86",
-        "attachments": [
-          [
-            "Ottica",
-            "SZ PRIMA-4 DOT",
-            38
-          ],
-          [
-            "Canna",
-            "HAN 86 SILENCED 413MM",
-            55
-          ],
-          [
-            "Sottocanna",
-            "FSS TAC90 GRIP",
-            54
-          ],
-          [
-            "Calcio",
-            "MEIKO L9P-FOLD",
-            45
-          ],
-          [
-            "Laser",
-            "SCHLAGER VISIV-5",
-            46
-          ]
-        ]
-      },
-      "M4": {
-        "rank": 2,
-        "category": "Fucili d’assalto",
-        "slug": "m4",
+        "slug": "axion",
         "attachments": [
           [
             "Volata",
             "FSS IS300",
-            4
+            28
+          ],
+          [
+            "Canna",
+            "SA DMN-L 30\"",
+            6
           ],
           [
             "Sottocanna",
             "FSS FIRELINE GRIP",
-            38
+            7
           ],
           [
             "Impugnatura posteriore",
-            "ZLR PHASE GRIP",
+            "GS50 GRIP",
             55
           ],
           [
-            "Calcio",
-            "ZLR ASP50 STOCK",
-            44
-          ],
-          [
             "Laser",
-            "SA LAZ-500",
-            24
+            "SCHLAGER VISIV-5",
+            9
           ]
         ]
       },
@@ -340,6 +308,70 @@
           ]
         ]
       },
+      "HAN 86": {
+        "rank": 2,
+        "category": "Fucili d’assalto",
+        "slug": "han-86",
+        "attachments": [
+          [
+            "Ottica",
+            "SZ PRIMA-4 DOT",
+            38
+          ],
+          [
+            "Canna",
+            "HAN 86 SILENCED 413MM",
+            55
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            54
+          ],
+          [
+            "Calcio",
+            "MEIKO L9P-FOLD",
+            45
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            46
+          ]
+        ]
+      },
+      "M4": {
+        "rank": 3,
+        "category": "Fucili d’assalto",
+        "slug": "m4",
+        "attachments": [
+          [
+            "Volata",
+            "FSS IS300",
+            4
+          ],
+          [
+            "Sottocanna",
+            "FSS FIRELINE GRIP",
+            38
+          ],
+          [
+            "Impugnatura posteriore",
+            "ZLR PHASE GRIP",
+            55
+          ],
+          [
+            "Calcio",
+            "ZLR ASP50 STOCK",
+            44
+          ],
+          [
+            "Laser",
+            "SA LAZ-500",
+            24
+          ]
+        ]
+      },
       "VEL 46": {
         "rank": 2,
         "category": "Mitragliette",
@@ -347,8 +379,8 @@
         "attachments": [
           [
             "Volata",
-            "FSS CRACKDOWN",
-            4
+            "XRK HERDER 40",
+            51
           ],
           [
             "Canna",
@@ -356,9 +388,9 @@
             3
           ],
           [
-            "Impugnatura posteriore",
-            "LM COMBAT GRIP",
-            40
+            "Sottocanna",
+            "FSS FIRELINE GRIP",
+            10
           ],
           [
             "Calcio",
@@ -373,7 +405,7 @@
         ]
       },
       "KASTOV 762": {
-        "rank": 3,
+        "rank": 4,
         "category": "Fucili d’assalto",
         "slug": "kastov-762",
         "attachments": [
@@ -401,38 +433,6 @@
             "Laser",
             "SCHLAGER VISIV-5",
             30
-          ]
-        ]
-      },
-      "X-58 NYX": {
-        "rank": 3,
-        "category": "Mitragliette",
-        "slug": "x-58-nyx",
-        "attachments": [
-          [
-            "Canna",
-            "LX3-V 408.94MM",
-            44
-          ],
-          [
-            "Sottocanna",
-            "MIRE-50 TAC GRIP",
-            7
-          ],
-          [
-            "Impugnatura posteriore",
-            "BOK-980",
-            20
-          ],
-          [
-            "Calcio",
-            "MUGI HUL-73.M STOCK",
-            3
-          ],
-          [
-            "Laser",
-            "SCHLAGER VISIV-5",
-            12
           ]
         ]
       },
@@ -470,12 +470,12 @@
       }
     },
     "order": [
+      "AXION",
+      "ISO NIGHTSHADE",
       "HAN 86",
       "M4",
-      "ISO NIGHTSHADE",
       "VEL 46",
       "KASTOV 762",
-      "X-58 NYX",
       "MOSIN-NAGANT"
     ]
   }
