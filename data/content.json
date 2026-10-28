@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 2,
+  "release": 3,
   "header": {
-    "liveStatus": "STAGIONE 06 · META WZSTATS 27.10"
+    "liveStatus": "STAGIONE 06 · META WZSTATS 28.10"
   },
   "ticker": [
+    {
+      "tag": "28 OTT · WARZONE",
+      "text": "Meta WZStats del 28 ottobre: classifica invariata, Voyak KT-3 e VMP in testa. Nuove build per VST, EGRT-17 e Dravec 45. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "27 OTT · WARZONE",
       "text": "Meta WZStats del 27 ottobre: Voyak KT-3 e VMP in testa; Ryden 45K e Strider 300 entrano nel tier Meta. Classifica indipendente, non ufficiale Activision.",
@@ -99,17 +104,21 @@
       "tag": "SFIDE S06",
       "text": "Settimana 4: completa 6 sfide per il progetto FG42 Pearl Mollusk e 10.000 XP.",
       "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
-    },
-    {
-      "tag": "BO7 MULTIPLAYER",
-      "text": "Bilanciamento Multiplayer annunciato per il 15 ottobre: consulta le note separate da Warzone.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
     }
   ],
   "news": {
-    "title": "PATCH & NEWS · CONTROLLO 27 OTTOBRE 2026",
+    "title": "PATCH & NEWS · CONTROLLO 28 OTTOBRE 2026",
     "subtitle": "Warzone e BO7: nessuna patch dopo il 14 ottobre · MW4: hotfix del 25 ottobre",
     "items": [
+      {
+        "label": "CONTROLLO 28 OTT",
+        "title": "Classifica Warzone invariata, tre build aggiornate",
+        "body": "WZStats ha aggiornato il meta Battle Royale al 28 ottobre senza cambiare l’ordine delle armi. Cambiano le build consigliate di VST, EGRT-17 e Dravec 45. Nessuna nuova nota ufficiale per Warzone o Black Ops 7 dopo il 14–15 ottobre; per Modern Warfare 4 resta l’hotfix del 25 ottobre. Le sfide settimanali restano quelle della settimana 4, ultimo elenco verificato.",
+        "link": {
+          "label": "META WZSTATS ↗",
+          "url": "https://wzstats.gg/it"
+        }
+      },
       {
         "label": "CONTROLLO 27 OTT",
         "title": "Meta Warzone aggiornato, nessuna nuova patch",
@@ -234,13 +243,13 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS · 27 OTTOBRE",
-    "checked": "27 OTT 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS · 28 OTTOBRE",
+    "checked": "28 OTT 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 27 ottobre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Nove build verificate il 27 ottobre; le altre riportano la data della verifica precedente.",
-    "currentBuildDate": "27 OTT 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 27 OTTOBRE",
-    "ratingLabel": "Valutazione WZStats · 27 ottobre 2026",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 28 ottobre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 28 ottobre invariata rispetto al 27; aggiornate le build di VST, EGRT-17 e Dravec 45. Le altre riportano la data dell’ultima verifica.",
+    "currentBuildDate": "28 OTT 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 28 OTTOBRE",
+    "ratingLabel": "Valutazione WZStats · 28 ottobre 2026",
     "pendingReview": [
       "TR51 PARA"
     ],
@@ -655,34 +664,34 @@
         "role": "CORTA DISTANZA",
         "origin": "BO7",
         "maxLevel": "39",
-        "updated": "26 AGO 2026",
-        "code": "S12-6KDYX-HL11",
-        "note": "Build da corta distanza ad alta cadenza: privilegia mobilità, velocità di mira e controllo del rinculo orizzontale.",
+        "updated": "28 OTT 2026",
+        "code": "S12-7166A-FQ11",
+        "note": "Configurazione consigliata da WZStats per Battle Royale (controllo 28 ottobre 2026). Requisiti riportati dalla fonte; Armeria non corrisponde a un livello arma.",
         "attachments": [
           {
             "slot": "VOLATA",
-            "name": "LTI Stentorian Brake",
-            "unlock": "Battle Pass Season 4"
+            "name": "Freno stentoreo LTI",
+            "unlock": "Armeria"
           },
           {
             "slot": "CANNA",
-            "name": "9.7\" Enmity Barrel",
+            "name": "Enmity da 9,7\"",
             "unlock": "Livello 10"
           },
           {
             "slot": "SOTTOCANNA",
-            "name": "EAM Steady-90 Grip",
+            "name": "Impugnatura EAM Steady-90",
             "unlock": "Livello 36"
           },
           {
             "slot": "CARICATORE",
-            "name": "Amplify Extended Mag I",
-            "unlock": "Livello 15"
+            "name": "Caricatore aumentato II Avari",
+            "unlock": "Livello 28"
           },
           {
-            "slot": "CALCIO",
-            "name": "Hawker Cub-55 Pad",
-            "unlock": "Livello 13"
+            "slot": "IMPUGNATURA",
+            "name": "Impugnatura di controllo Quiver",
+            "unlock": "Livello 37"
           }
         ]
       },
@@ -693,36 +702,37 @@
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
         "origin": "BO7",
-        "maxLevel": "—",
-        "updated": "28 AGO 2026",
-        "note": "Buff ufficiale: prima fascia estesa fino a 42 m, danno intermedio da 30 a 31 e danno minimo da 25 a 26. Più competitivo negli ingaggi a lunga distanza.",
+        "maxLevel": "41",
+        "updated": "28 OTT 2026",
+        "note": "Configurazione consigliata da WZStats per Battle Royale (controllo 28 ottobre 2026). Requisiti riportati dalla fonte; Armeria non corrisponde a un livello arma.",
         "attachments": [
           {
+            "slot": "OTTICA",
+            "name": "OLE Fang Hoverpoint",
+            "unlock": "Armeria"
+          },
+          {
             "slot": "VOLATA",
-            "name": "Monolithic Suppressor",
-            "unlock": "Da sincronizzare"
+            "name": "Silenziatore monoblocco",
+            "unlock": "Livello 36"
           },
           {
             "slot": "CANNA",
-            "name": "16.5\" Bowen Resistor",
-            "unlock": "Da sincronizzare"
-          },
-          {
-            "slot": "OTTICA",
-            "name": "FANG HoverPoint ELO",
-            "unlock": "Sfida settimanale"
-          },
-          {
-            "slot": "CALCIO",
-            "name": "Frigate Control Stock",
-            "unlock": "Da sincronizzare"
+            "name": "Bowen Resistor da 16,5\"",
+            "unlock": "Livello 34"
           },
           {
             "slot": "CARICATORE",
-            "name": "Fuel Cell-X3 Mag",
-            "unlock": "Da sincronizzare"
+            "name": "Caricatore Fuel Cell-X3",
+            "unlock": "Livello 29"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Calcio di controllo Frigate",
+            "unlock": "Livello 8"
           }
-        ]
+        ],
+        "code": "A07-34FBS-SSUGJ-11"
       },
       {
         "name": "VS RECON",
@@ -804,46 +814,46 @@
       },
       {
         "name": "DRAVEC 45",
-        "rank": 109,
+        "rank": 25,
         "tier": "A",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
         "origin": "BO7",
         "maxLevel": "36",
-        "updated": "23 AGO 2026",
-        "code": "S04-BGW2E-IYU11",
-        "note": "Configurazione aggressiva con movimento e maneggevolezza elevati, adatta a Resurgence e agli scontri negli interni.",
+        "updated": "28 OTT 2026",
+        "code": "S04-BZLTS-31",
+        "note": "Configurazione consigliata da WZStats per Battle Royale (controllo 28 ottobre 2026). Requisiti riportati dalla fonte; Armeria non corrisponde a un livello arma.",
         "attachments": [
           {
             "slot": "VOLATA",
-            "name": "LTI Stentorian Brake",
-            "unlock": "Battle Pass Season 4"
+            "name": "Freno stentoreo LTI",
+            "unlock": "Armeria"
           },
           {
             "slot": "CANNA",
-            "name": "12\" Cloud Barrel",
-            "unlock": "Livello 22"
+            "name": "EAM Horizon da 19\"",
+            "unlock": "Livello 12"
           },
           {
             "slot": "CARICATORE",
-            "name": "Gator Extended Mag",
+            "name": "Caricatore aumentato Gator",
             "unlock": "Livello 11"
           },
           {
             "slot": "CALCIO",
-            "name": "EAM Heritage Stock",
-            "unlock": "Livello 25"
+            "name": "Calcio Serval Q-Step",
+            "unlock": "Livello 14"
           },
           {
-            "slot": "LASER",
-            "name": "MFS Agile Laser Pro",
-            "unlock": "Prestigio arma"
+            "slot": "MOD FUOCO",
+            "name": "Blocco portaotturatore",
+            "unlock": "Livello 18"
           }
         ]
       },
       {
         "name": "TR51 PARA",
-        "rank": 115,
+        "rank": 24,
         "tier": "A",
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
