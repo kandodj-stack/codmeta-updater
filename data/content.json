@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 4,
+  "release": 5,
   "header": {
-    "liveStatus": "STAGIONE 06 · META WZSTATS 28.10"
+    "liveStatus": "STAGIONE 06 · META WZSTATS 29.10"
   },
   "ticker": [
+    {
+      "tag": "29 OTT · WARZONE",
+      "text": "Meta WZStats del 29 ottobre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "28 OTT · MW4 PATCH",
       "text": "Primo bilanciamento armi: più portata per Han 86, Kastov 762 e M4; braccia a moltiplicatore 1 per le mitragliette (ISO Nightshade, VEL 46, PPSh-41, Striga, X-58 Nyx). Tuffo più lento del 23%.",
@@ -99,11 +104,6 @@
       "tag": "BUFF S06",
       "text": "Potenziati Voyak KT-3, EGRT-17, MPC-25 e altre armi. Apri il riepilogo delle patch.",
       "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
-    },
-    {
-      "tag": "BATTLE PASS S06",
-      "text": "VMP gratuita a pagina 3, TR51 Para a pagina 6. BlackCell: Revenant e Mastercraft AN-94.",
-      "url": "https://www.callofduty.com/blog/2026/09/call-of-duty-black-ops-7-warzone-season-6-the-haunting-announcement"
     }
   ],
   "news": {
@@ -247,13 +247,13 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS · 28 OTTOBRE",
-    "checked": "28 OTT 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS · 29 OTTOBRE",
+    "checked": "29 OTT 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 28 ottobre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 28 ottobre invariata rispetto al 27; aggiornate le build di VST, EGRT-17 e Dravec 45. Le altre riportano la data dell’ultima verifica.",
-    "currentBuildDate": "28 OTT 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 28 OTTOBRE",
-    "ratingLabel": "Valutazione WZStats · 28 ottobre 2026",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 29 ottobre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 29 ottobre invariata rispetto al 28; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
+    "currentBuildDate": "29 OTT 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 29 OTTOBRE",
+    "ratingLabel": "Valutazione WZStats · 29 ottobre 2026",
     "pendingReview": [
       "TR51 PARA"
     ],
