@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 3,
+  "release": 4,
   "header": {
     "liveStatus": "STAGIONE 06 · META WZSTATS 28.10"
   },
   "ticker": [
+    {
+      "tag": "28 OTT · MW4 PATCH",
+      "text": "Primo bilanciamento armi: più portata per Han 86, Kastov 762 e M4; braccia a moltiplicatore 1 per le mitragliette (ISO Nightshade, VEL 46, PPSh-41, Striga, X-58 Nyx). Tuffo più lento del 23%.",
+      "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+    },
     {
       "tag": "28 OTT · WARZONE",
       "text": "Meta WZStats del 28 ottobre: classifica invariata, Voyak KT-3 e VMP in testa. Nuove build per VST, EGRT-17 e Dravec 45. Classifica indipendente, non ufficiale Activision.",
@@ -99,21 +104,25 @@
       "tag": "BATTLE PASS S06",
       "text": "VMP gratuita a pagina 3, TR51 Para a pagina 6. BlackCell: Revenant e Mastercraft AN-94.",
       "url": "https://www.callofduty.com/blog/2026/09/call-of-duty-black-ops-7-warzone-season-6-the-haunting-announcement"
-    },
-    {
-      "tag": "SFIDE S06",
-      "text": "Settimana 4: completa 6 sfide per il progetto FG42 Pearl Mollusk e 10.000 XP.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
     }
   ],
   "news": {
-    "title": "PATCH & NEWS · CONTROLLO 28 OTTOBRE 2026",
+    "title": "PATCH & NEWS · CONTROLLO 29 OTTOBRE 2026",
     "subtitle": "Warzone e BO7: nessuna patch dopo il 14 ottobre · MW4: hotfix del 25 ottobre",
     "items": [
       {
+        "label": "28 OTT · MODERN WARFARE 4",
+        "title": "Primo bilanciamento armi: portata ai fucili, mitragliette più costanti",
+        "body": "Prima regolazione delle armi in Multiplayer, per uniformare i danni sulle varie parti del corpo e migliorare le mitragliette. Fucili d’assalto: Han 86 portata massima 1120→1200 e moltiplicatori collo e torace alto 1,1→1; Kastov 762 portata massima 950→1050; M4 990→1020; Oden collo e torace alto 1,2→1,1, torace basso 1,1→1; Hyeon Burst (Apex Hyperburst) danno in automatico 37→34 con portata 970→1220. Mitragliette: ISO Nightshade, VEL 46, PPSh-41, Wz.55 Striga e X-58 Nyx con moltiplicatori di braccia e mani 0,95→1; PPSh-41 anche mira più rapida (300→280 ms) e più mobilità; Striga portata 440→470; X-58 Nyx testa 1,25→1,3. Mitragliatrici leggere: APOC-338 e FiNN ridotte. Warlord con colpi slug: seconda fascia 900→810. Tuffo rallentato del 23% contro un exploit di velocità; Quick Fix ora si interrompe quando si subiscono danni. Nuove playlist (27 ottobre): Shipment 24/7, Kill Block 6v6 Gunfight e Gun Game. DMZ: Possum non si attiva con la squadra nemica vicina o prima di 4 minuti. Axion e Mosin-Nagant non cambiano (solo una correzione grafica per il Mosin). Cinque delle sette armi meta MW4 sono state modificate: le build WZStats del 28 ottobre vanno ricontrollate.",
+        "link": {
+          "label": "NOTE UFFICIALI MW4 ↗",
+          "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+        }
+      },
+      {
         "label": "CONTROLLO 28 OTT",
         "title": "Classifica Warzone invariata, tre build aggiornate",
-        "body": "WZStats ha aggiornato il meta Battle Royale al 28 ottobre senza cambiare l’ordine delle armi. Cambiano le build consigliate di VST, EGRT-17 e Dravec 45. Nessuna nuova nota ufficiale per Warzone o Black Ops 7 dopo il 14–15 ottobre; per Modern Warfare 4 resta l’hotfix del 25 ottobre. Le sfide settimanali restano quelle della settimana 4, ultimo elenco verificato.",
+        "body": "WZStats ha aggiornato il meta Battle Royale al 28 ottobre senza cambiare l’ordine delle armi. Cambiano le build consigliate di VST, EGRT-17 e Dravec 45. Nessuna nuova nota ufficiale per Warzone o Black Ops 7 dopo il 14–15 ottobre; per Modern Warfare 4 c’è l’aggiornamento del 28 ottobre, riportato a parte. Le sfide settimanali restano quelle della settimana 4, ultimo elenco verificato.",
         "link": {
           "label": "META WZSTATS ↗",
           "url": "https://wzstats.gg/it"
@@ -220,11 +229,6 @@
         "label": "03 · BO7 / SFIDE",
         "title": "Settimana 4: obiettivi disponibili",
         "body": "Settimana 4: completa 6 sfide tra le modalità per sbloccare il progetto FG42 “Pearl Mollusk” e 10.000 XP. Gli obiettivi sono consultabili nella sezione Sfide settimanali. Il bilanciamento Multiplayer BO7 è annunciato per il 15 ottobre."
-      },
-      {
-        "label": "04 · SBLOCCHI S06",
-        "title": "Armi e accessori",
-        "body": "VMP e TR51 Para nel Battle Pass. Arcblade tramite Camo Costume Party, Roc 20mm tramite DOOM Event Pass durante la stagione. Accessori settimanali annunciati: VS Rebound Havoc Repeater, Dravec 45 Aftermath Vertical Magazine e Sokol 545 Warpath Blitz Kit."
       }
     ],
     "links": [
