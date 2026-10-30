@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 2,
+  "release": 3,
   "mw4": {
-    "buildCheckedAt": "2026-10-28",
+    "buildCheckedAt": "2026-10-30",
     "catalogCheckedAt": "2026-10-23",
     "catalog": [
       {
@@ -308,70 +308,6 @@
           ]
         ]
       },
-      "HAN 86": {
-        "rank": 2,
-        "category": "Fucili d’assalto",
-        "slug": "han-86",
-        "attachments": [
-          [
-            "Ottica",
-            "SZ PRIMA-4 DOT",
-            38
-          ],
-          [
-            "Canna",
-            "HAN 86 SILENCED 413MM",
-            55
-          ],
-          [
-            "Sottocanna",
-            "FSS TAC90 GRIP",
-            54
-          ],
-          [
-            "Calcio",
-            "MEIKO L9P-FOLD",
-            45
-          ],
-          [
-            "Laser",
-            "SCHLAGER VISIV-5",
-            46
-          ]
-        ]
-      },
-      "M4": {
-        "rank": 3,
-        "category": "Fucili d’assalto",
-        "slug": "m4",
-        "attachments": [
-          [
-            "Volata",
-            "FSS IS300",
-            4
-          ],
-          [
-            "Sottocanna",
-            "FSS FIRELINE GRIP",
-            38
-          ],
-          [
-            "Impugnatura posteriore",
-            "ZLR PHASE GRIP",
-            55
-          ],
-          [
-            "Calcio",
-            "ZLR ASP50 STOCK",
-            44
-          ],
-          [
-            "Laser",
-            "SA LAZ-500",
-            24
-          ]
-        ]
-      },
       "VEL 46": {
         "rank": 2,
         "category": "Mitragliette",
@@ -404,35 +340,35 @@
           ]
         ]
       },
-      "KASTOV 762": {
-        "rank": 4,
+      "M4": {
+        "rank": 2,
         "category": "Fucili d’assalto",
-        "slug": "kastov-762",
+        "slug": "m4",
         "attachments": [
           [
-            "Ottica",
-            "CRONEN ZERO-K",
-            35
-          ],
-          [
-            "Canna",
-            "FJX GHOSTFIRE 16.3\"",
-            61
+            "Volata",
+            "FSS IS300",
+            4
           ],
           [
             "Sottocanna",
-            "FSS TAC90 GRIP",
-            47
+            "FSS FIRELINE GRIP",
+            38
+          ],
+          [
+            "Impugnatura posteriore",
+            "ZLR PHASE GRIP",
+            55
           ],
           [
             "Calcio",
-            "KASTOV DOGFIGHTER 27",
-            42
+            "ZLR ASP50 STOCK",
+            44
           ],
           [
             "Laser",
-            "SCHLAGER VISIV-5",
-            30
+            "SA LAZ-500",
+            24
           ]
         ]
       },
@@ -472,10 +408,8 @@
     "order": [
       "AXION",
       "ISO NIGHTSHADE",
-      "HAN 86",
-      "M4",
       "VEL 46",
-      "KASTOV 762",
+      "M4",
       "MOSIN-NAGANT"
     ]
   }

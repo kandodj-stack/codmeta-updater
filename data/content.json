@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": 5,
+  "release": 6,
   "header": {
     "liveStatus": "STAGIONE 06 · META WZSTATS 29.10"
   },
   "ticker": [
+    {
+      "tag": "30 OTT · MW4",
+      "text": "Meta MW4 WZStats del 30 ottobre: in classifica restano cinque armi (Axion, ISO Nightshade, VEL 46, M4, Mosin-Nagant); Han 86 e Kastov 762 scendono in A Tier. Build invariate. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it/mw4/meta"
+    },
+    {
+      "tag": "29 OTT · MW4 PATCH",
+      "text": "Nuova modalità Possession per Halloween, più XP in diverse modalità Multiplayer, più denaro dalle missioni DMZ e varie correzioni. Nessuna modifica alle armi.",
+      "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+    },
     {
       "tag": "29 OTT · WARZONE",
       "text": "Meta WZStats del 29 ottobre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
@@ -94,22 +104,21 @@
       "tag": "24 SET · BO7 RANKED",
       "text": "VMP e alcuni accessori ora consentiti nelle classificate BO7. La build Warzone non equivale a una build Ranked autorizzata.",
       "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
-    },
-    {
-      "tag": "24 SET · WARZONE",
-      "text": "C4 non detonabile da terra; zona di esclusione della barca di Fortune’s Keep: 2 utilizzi e circa 80 secondi.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
-    },
-    {
-      "tag": "BUFF S06",
-      "text": "Potenziati Voyak KT-3, EGRT-17, MPC-25 e altre armi. Apri il riepilogo delle patch.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
     }
   ],
   "news": {
     "title": "PATCH & NEWS · CONTROLLO 29 OTTOBRE 2026",
-    "subtitle": "Warzone e BO7: nessuna patch dopo il 14 ottobre · MW4: hotfix del 25 ottobre",
+    "subtitle": "Warzone e BO7: nessuna patch dopo il 14 ottobre · MW4: aggiornamento del 29 ottobre",
     "items": [
+      {
+        "label": "29 OTT · MODERN WARFARE 4",
+        "title": "Possession per Halloween, più XP e più denaro in DMZ",
+        "body": "Aggiornamento del 29 ottobre. Playlist: arriva Possession, nuova modalità dell’evento di Halloween. Multiplayer: XP aumentati in diverse modalità per una progressione più costante; rimossi effetti visivi fastidiosi su Lithium, l’indicatore di danno rosso delle granate stordenti e il timer non funzionante nel tabellone di Dominio; corretti fuori mappa del Recon Drone su Silkworm e di Mumbai, e segnalazioni ridondanti su Shipment. DMZ: più denaro da Dynamic Ops, Side Ops e repliche delle missioni storia; corretti la sfida Mimetica Maestria con le azioni dei compagni, il recupero degli ostaggi, l’estrazione delle piastrine con compagno disconnesso, i Voice Log dell’ordine Ears Everywhere e punti di blocco su Hajin. Generale: stabilità, crash e vari problemi di interfaccia. La ricompensa giubbotto a 3 piastre del livello DMZ 37 non è ancora arrivata a chi aveva già superato quel livello. Nessuna modifica alle armi: le build MW4 non cambiano.",
+        "link": {
+          "label": "NOTE UFFICIALI MW4 ↗",
+          "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+        }
+      },
       {
         "label": "28 OTT · MODERN WARFARE 4",
         "title": "Primo bilanciamento armi: portata ai fucili, mitragliette più costanti",
@@ -224,11 +233,6 @@
         "label": "02 · BILANCIAMENTO WARZONE",
         "title": "Buff e build da rivalutare",
         "body": "Voyak KT-3: danni 42/37/32, rinculo −8% in BR/Resurgence. Buff anche a DS20 Mirage, EGRT-17, M15 Mod 0, VX Compact, MPC-25, Strumwolf 45, MK.78, Sokol 545, XM325, Echo 12, M10 Breacher e SG-12. Nerf minori a MK35 ISR e REV-46. Classifica WZStats aggiornata al 22 settembre; sette build ricontrollate, le altre segnalate come precedenti alla patch."
-      },
-      {
-        "label": "03 · BO7 / SFIDE",
-        "title": "Settimana 4: obiettivi disponibili",
-        "body": "Settimana 4: completa 6 sfide tra le modalità per sbloccare il progetto FG42 “Pearl Mollusk” e 10.000 XP. Gli obiettivi sono consultabili nella sezione Sfide settimanali. Il bilanciamento Multiplayer BO7 è annunciato per il 15 ottobre."
       }
     ],
     "links": [
