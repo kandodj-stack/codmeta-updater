@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": 6,
+  "release": 7,
   "header": {
-    "liveStatus": "STAGIONE 06 · META WZSTATS 29.10"
+    "liveStatus": "STAGIONE 06 · META WZSTATS 31.10"
   },
   "ticker": [
+    {
+      "tag": "31 OTT · WARZONE",
+      "text": "Meta WZStats del 31 ottobre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
+    {
+      "tag": "31 OTT · MW4",
+      "text": "Meta MW4 WZStats: VEL 46 sale al secondo posto davanti a ISO Nightshade. Classifica: Axion, VEL 46, ISO Nightshade, M4, Mosin-Nagant. Build invariate. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it/mw4/meta"
+    },
     {
       "tag": "30 OTT · MW4",
       "text": "Meta MW4 WZStats del 30 ottobre: in classifica restano cinque armi (Axion, ISO Nightshade, VEL 46, M4, Mosin-Nagant); Han 86 e Kastov 762 scendono in A Tier. Build invariate. Classifica indipendente, non ufficiale Activision.",
@@ -94,16 +104,6 @@
       "tag": "30 SET · WARZONE",
       "text": "Gas più letale col tempo; elicotteri disattivati nell’ultimo cerchio.",
       "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
-    },
-    {
-      "tag": "24 SET · HOTFIX",
-      "text": "VS Recon: ripristinato il progresso Network con Havoc Repeater. Corretto il Prestigio applicato all’arma sbagliata.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
-    },
-    {
-      "tag": "24 SET · BO7 RANKED",
-      "text": "VMP e alcuni accessori ora consentiti nelle classificate BO7. La build Warzone non equivale a una build Ranked autorizzata.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
     }
   ],
   "news": {
@@ -251,13 +251,13 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS · 29 OTTOBRE",
-    "checked": "29 OTT 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS · 31 OTTOBRE",
+    "checked": "31 OTT 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 29 ottobre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 29 ottobre invariata rispetto al 28; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
-    "currentBuildDate": "29 OTT 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 29 OTTOBRE",
-    "ratingLabel": "Valutazione WZStats · 29 ottobre 2026",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 31 ottobre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 31 ottobre invariata rispetto al 29; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
+    "currentBuildDate": "31 OTT 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 31 OTTOBRE",
+    "ratingLabel": "Valutazione WZStats · 31 ottobre 2026",
     "pendingReview": [
       "TR51 PARA"
     ],

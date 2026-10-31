@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 3,
+  "release": 4,
   "mw4": {
-    "buildCheckedAt": "2026-10-30",
+    "buildCheckedAt": "2026-10-31",
     "catalogCheckedAt": "2026-10-23",
     "catalog": [
       {
@@ -276,40 +276,8 @@
           ]
         ]
       },
-      "ISO NIGHTSHADE": {
-        "rank": 1,
-        "category": "Mitragliette",
-        "slug": "iso-nightshade",
-        "attachments": [
-          [
-            "Volata",
-            "XRK HERDER 40",
-            17
-          ],
-          [
-            "Canna",
-            "ZLR CARBON-900",
-            41
-          ],
-          [
-            "Sottocanna",
-            "FSS TAC90 GRIP",
-            55
-          ],
-          [
-            "Impugnatura posteriore",
-            "DEMO STP-1",
-            6
-          ],
-          [
-            "Laser",
-            "SCHLAGER VISIV-5",
-            43
-          ]
-        ]
-      },
       "VEL 46": {
-        "rank": 2,
+        "rank": 1,
         "category": "Mitragliette",
         "slug": "vel-46",
         "attachments": [
@@ -337,6 +305,38 @@
             "Laser",
             "SCHLAGER VISIV-5",
             null
+          ]
+        ]
+      },
+      "ISO NIGHTSHADE": {
+        "rank": 2,
+        "category": "Mitragliette",
+        "slug": "iso-nightshade",
+        "attachments": [
+          [
+            "Volata",
+            "XRK HERDER 40",
+            17
+          ],
+          [
+            "Canna",
+            "ZLR CARBON-900",
+            41
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            55
+          ],
+          [
+            "Impugnatura posteriore",
+            "DEMO STP-1",
+            6
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            43
           ]
         ]
       },
@@ -407,8 +407,8 @@
     },
     "order": [
       "AXION",
-      "ISO NIGHTSHADE",
       "VEL 46",
+      "ISO NIGHTSHADE",
       "M4",
       "MOSIN-NAGANT"
     ]
