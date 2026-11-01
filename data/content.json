@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 7,
+  "release": 8,
   "header": {
     "liveStatus": "STAGIONE 06 · META WZSTATS 31.10"
   },
   "ticker": [
+    {
+      "tag": "30 OTT · MW4 PATCH",
+      "text": "Modalità Infected per il weekend di Halloween, più denaro in DMZ (Dynamic Ops, Side Ops, passi missione), correzioni a crash dei server ed exploit su Coal. Nessuna modifica alle armi.",
+      "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+    },
     {
       "tag": "31 OTT · WARZONE",
       "text": "Meta WZStats del 31 ottobre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
@@ -99,17 +104,21 @@
       "tag": "30 SET · BO7 RANKED",
       "text": "VMP: consentiti Quorum Velocity, Civet, Gambol Light e Venerate Rubberized Grip.",
       "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
-    },
-    {
-      "tag": "30 SET · WARZONE",
-      "text": "Gas più letale col tempo; elicotteri disattivati nell’ultimo cerchio.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
     }
   ],
   "news": {
     "title": "PATCH & NEWS · CONTROLLO 29 OTTOBRE 2026",
-    "subtitle": "Warzone e BO7: nessuna patch dopo il 14 ottobre · MW4: aggiornamento del 29 ottobre",
+    "subtitle": "Warzone e BO7: nessuna patch dopo il 14 ottobre · MW4: aggiornamento del 30 ottobre",
     "items": [
+      {
+        "label": "30 OTT · MODERN WARFARE 4",
+        "title": "Infected per Halloween e più denaro in DMZ",
+        "body": "Aggiornamento del 30 ottobre. Playlist: arriva Infected, modalità festa per il weekend di Halloween. Generale: corretti crash dei server durante le partite, l’avanzamento della mimetica Platinum dei fucili da tiratore su PC e i nomi delle sfide dei biglietti da visita nella lobby. Multiplayer: corretti lo schermo nero dopo il cambio squadra automatico nelle partite private, le espulsioni anticipate per inattività in Cerca e Distruggi ed exploit su Coal. DMZ: più denaro da Dynamic Ops (da 5.000–10.000 a 10.000–20.000), Side Ops (da 500 a 2.000) e passi missione (da 300 a 500); corretti le Dynamic Op Broken Resupply e Hunt Operator, l’acquisto di Intel dal Boss Board, l’icona danno all’elmetto, le ombre e un crash della FOB. Nessuna modifica alle armi: le build MW4 non cambiano.",
+        "link": {
+          "label": "NOTE UFFICIALI MW4 ↗",
+          "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+        }
+      },
       {
         "label": "29 OTT · MODERN WARFARE 4",
         "title": "Possession per Halloween, più XP e più denaro in DMZ",
@@ -228,11 +237,6 @@
         "label": "01 · WARZONE · PATCH 16 SET / LIVE 17 SET",
         "title": "AN-94 e VST ridimensionati",
         "body": "AN-94: danni 41/37/33 → 38/34/31, prima portata 45 → 38 m. In BR/Resurgence rinculo +12%, proiettile 920 → 890 m/s, ADS 235 → 245 ms. Canna Benthic: bonus velocità 20% → 15%, controllo 25% → 15%. VST: danni 29/27/22 → 27/24/19, prima portata 13,5 → 12,8 m."
-      },
-      {
-        "label": "02 · BILANCIAMENTO WARZONE",
-        "title": "Buff e build da rivalutare",
-        "body": "Voyak KT-3: danni 42/37/32, rinculo −8% in BR/Resurgence. Buff anche a DS20 Mirage, EGRT-17, M15 Mod 0, VX Compact, MPC-25, Strumwolf 45, MK.78, Sokol 545, XM325, Echo 12, M10 Breacher e SG-12. Nerf minori a MK35 ISR e REV-46. Classifica WZStats aggiornata al 22 settembre; sette build ricontrollate, le altre segnalate come precedenti alla patch."
       }
     ],
     "links": [
