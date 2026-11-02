@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": 5,
+  "release": 6,
   "mw4": {
     "buildCheckedAt": "2026-11-02",
     "catalogCheckedAt": "2026-10-23",
@@ -248,6 +248,8 @@
         "rank": 1,
         "category": "Fucili d’assalto",
         "slug": "axion",
+        "tier": "META",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Volata",
@@ -280,6 +282,8 @@
         "rank": 1,
         "category": "Mitragliette",
         "slug": "vel-46",
+        "tier": "META",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Volata",
@@ -312,6 +316,8 @@
         "rank": 2,
         "category": "Mitragliette",
         "slug": "iso-nightshade",
+        "tier": "META",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Volata",
@@ -344,6 +350,8 @@
         "rank": 2,
         "category": "Fucili d’assalto",
         "slug": "m4",
+        "tier": "META",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Volata",
@@ -376,6 +384,8 @@
         "rank": 1,
         "category": "Fucili tattici",
         "slug": "mosin-nagant",
+        "tier": "META",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Ottica",
@@ -408,6 +418,8 @@
         "rank": 3,
         "category": "Fucili d’assalto",
         "slug": "kastov-762",
+        "tier": "A",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Ottica",
@@ -440,6 +452,8 @@
         "rank": 4,
         "category": "Fucili d’assalto",
         "slug": "partriot-xmr",
+        "tier": "A",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Ottica",
@@ -472,6 +486,8 @@
         "rank": 5,
         "category": "Fucili d’assalto",
         "slug": "oden",
+        "tier": "A",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Ottica",
@@ -504,6 +520,8 @@
         "rank": 3,
         "category": "Mitragliette",
         "slug": "ppsh-41",
+        "tier": "A",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Volata",
@@ -536,6 +554,8 @@
         "rank": 4,
         "category": "Mitragliette",
         "slug": "x-58-nyx",
+        "tier": "A",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Canna",
@@ -568,6 +588,8 @@
         "rank": 5,
         "category": "Mitragliette",
         "slug": "wz55-striga",
+        "tier": "A",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Ottica",
@@ -600,6 +622,8 @@
         "rank": 6,
         "category": "Fucili d’assalto",
         "slug": "han-86",
+        "tier": "A",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Ottica",
@@ -632,6 +656,8 @@
         "rank": 1,
         "category": "Fucili di precisione",
         "slug": "kg-7-vulcan",
+        "tier": "A",
+        "buildType": "ADS Speed",
         "attachments": [
           [
             "Volata",
@@ -664,6 +690,8 @@
         "rank": 2,
         "category": "Fucili di precisione",
         "slug": "astaroth-57",
+        "tier": "A",
+        "buildType": "Long Range",
         "attachments": [
           [
             "Ottica",
@@ -696,6 +724,8 @@
         "rank": 1,
         "category": "Mitragliatrici leggere",
         "slug": "apoc-338",
+        "tier": "B",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Ottica",
@@ -728,6 +758,8 @@
         "rank": 2,
         "category": "Mitragliatrici leggere",
         "slug": "finn-lmg",
+        "tier": "B",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Ottica",
@@ -760,6 +792,8 @@
         "rank": 3,
         "category": "Mitragliatrici leggere",
         "slug": "type-73",
+        "tier": "B",
+        "buildType": "Low Level",
         "attachments": [
           [
             "Ottica",
@@ -792,6 +826,8 @@
         "rank": 2,
         "category": "Fucili tattici",
         "slug": "mar-9",
+        "tier": "B",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Ottica",
@@ -824,6 +860,8 @@
         "rank": 7,
         "category": "Fucili d’assalto",
         "slug": "cronen-squall",
+        "tier": "B",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Ottica",
@@ -856,6 +894,8 @@
         "rank": 1,
         "category": "Fucili a pompa",
         "slug": "warlord",
+        "tier": "B",
+        "buildType": "Versatile",
         "attachments": [
           [
             "Volata",

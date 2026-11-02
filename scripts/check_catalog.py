@@ -5,7 +5,7 @@ Uso:
     python3 scripts/check_catalog.py NUOVO.json RIFERIMENTO.json
 
 Replica le regole di app/catalog-sync.tsx (Zod) e di validateCatalog in
-public/monitor/sync-mw4.php (v39). Se cambiano lì, va aggiornato anche questo file.
+public/monitor/sync-mw4.php (v41). Se cambiano lì, va aggiornato anche questo file.
 In più richiede che release sia esattamente quella del riferimento + 1.
 """
 import datetime
@@ -105,8 +105,12 @@ def main():
     for name, b in builds.items():
         if name not in order or name not in names:
             err(f"build senza corrispondenza in ordine/catalogo: {name}")
-        if not fields(b, ["rank", "category", "slug", "attachments"], where=f"build {name}"):
+        if not fields(b, ["rank", "category", "slug", "attachments"], ["tier", "buildType"], where=f"build {name}"):
             continue
+        if "tier" in b and b["tier"] not in ("META", "A", "B", "C", "D"):
+            err(f"{name}: tier non valido (META, A, B, C, D)")
+        if "buildType" in b and not txt(b["buildType"], 60):
+            err(f"{name}: buildType non valido")
         if not (level(b["rank"]) and txt(b["category"]) and isinstance(b["slug"], str)
                 and re.fullmatch(r"[a-z0-9-]{1,80}", b["slug"])):
             err(f"metadati non validi nella build {name}")

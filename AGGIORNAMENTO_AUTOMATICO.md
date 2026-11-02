@@ -48,6 +48,9 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
    - `builds` ha una voce per ogni arma di `order`, nello stesso ordine. `rank` = posizione dell'arma tra le armi
      della **stessa categoria** in `order` (es. primo fucile d'assalto = 1, primo mitragliatore = 1).
      `category` al plurale come nelle voci esistenti (`Fucili d’assalto`, `Mitragliette`, `Fucili tattici`…).
+     `tier` = sezione della pagina in cui si trova l'arma: `META` (prima sezione «Modern Warfare 4 Meta»), `A`, `B`, `C`, `D`.
+     `buildType` = nome della build scelta come scritto su WZStats (`Versatile`, `Long Range`, `ADS Speed`, `Low Level`…).
+     Ordine dei campi in ogni build: `rank`, `category`, `slug`, `tier`, `buildType`, `attachments`.
      `slug` = la parte dell'indirizzo WZStats prima di `-mw4` (`iso-nightshade`, `wz55-striga`, `partriot-xmr`, `astaroth-57`).
    - Per ogni arma apri `https://wzstats.gg/it/best-loadouts/<slug>-mw4` (se non leggibile, la versione inglese
      `https://wzstats.gg/best-loadouts/<slug>-mw4`: i nomi degli accessori sono in inglese; non usare la versione tedesca)
@@ -63,7 +66,8 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
    - Leggi due volte classifica e build cambiate: devono coincidere. Se un'arma in classifica non è in `catalog`,
      non pubblicare il file MW4 e spiegalo nel resoconto. Le armi senza build valida (solo Apex, meno di 5 accessori,
      nomi mancanti, letture diverse) si saltano senza bloccare le altre.
-   - Se classifica e build sono identiche a quelle presenti, non toccare il file (nemmeno le date).
+   - Se classifica, tier e build sono identiche a quelle presenti, non toccare il file (nemmeno le date).
+   - Se un'arma cambia tier (es. da A a META) la classifica è cambiata: aggiorna `tier`, `order` e `rank`.
    - Se cambia qualcosa: aggiorna `buildCheckedAt` (AAAA-MM-GG), aumenta `release` di 1 e valida con
      `git show HEAD:data/catalog.json > /tmp/rif_cat.json && python3 scripts/check_catalog.py data/catalog.json /tmp/rif_cat.json`.
    - Il catalogo delle armi (`catalog`, `catalogCheckedAt`) si cambia solo se compare un'arma nuova con livello di sblocco,
