@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": 9,
+  "release": 10,
   "header": {
-    "liveStatus": "STAGIONE 06 · META WZSTATS 31.10"
+    "liveStatus": "STAGIONE 06 · META WZSTATS 01.11"
   },
   "ticker": [
+    {
+      "tag": "01 NOV · WARZONE",
+      "text": "Meta WZStats del 1° novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
+    {
+      "tag": "01 NOV · MW4",
+      "text": "Meta MW4 WZStats del 1° novembre: ISO Nightshade torna al secondo posto davanti a VEL 46; Hyeon Burst entra nel tier Meta ma ha solo build Apex, quindi non è tra le build. Build invariate. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it/mw4/meta"
+    },
     {
       "tag": "02 NOV · MW4",
       "text": "Build MW4: ora 20 build Multiplayer, tutte le armi della classifica WZStats con una build valida (Meta, A e B Tier). Classifica indipendente, non ufficiale Activision.",
@@ -93,16 +103,6 @@
     {
       "tag": "7 OTT · WARZONE",
       "text": "C4: ritardo di detonazione da 0,05 a 0,2 s. Meno droni rifornimento e casse leggendarie.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
-    },
-    {
-      "tag": "7 OTT · BO7 ZOMBIES",
-      "text": "XM325 con Titan Wield: corretto il problema delle munizioni usando Mule Kick e Pack Mule.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
-    },
-    {
-      "tag": "30 SET · TR51 PARA",
-      "text": "Warzone: cadenza ridotta da 625 a 333 colpi/minuto. Build e posizione meta in rivalutazione.",
       "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
     }
   ],
@@ -255,13 +255,13 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS · 31 OTTOBRE",
-    "checked": "31 OTT 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS · 1 NOVEMBRE",
+    "checked": "01 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 31 ottobre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 31 ottobre invariata rispetto al 29; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
-    "currentBuildDate": "31 OTT 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 31 OTTOBRE",
-    "ratingLabel": "Valutazione WZStats · 31 ottobre 2026",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 1 novembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 1° novembre invariata rispetto al 31 ottobre; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
+    "currentBuildDate": "01 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 1 NOVEMBRE",
+    "ratingLabel": "Valutazione WZStats · 1 novembre 2026",
     "pendingReview": [
       "TR51 PARA"
     ],

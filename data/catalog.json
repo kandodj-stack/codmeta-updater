@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": 6,
+  "release": 7,
   "mw4": {
     "buildCheckedAt": "2026-11-02",
     "catalogCheckedAt": "2026-10-23",
@@ -278,42 +278,8 @@
           ]
         ]
       },
-      "VEL 46": {
-        "rank": 1,
-        "category": "Mitragliette",
-        "slug": "vel-46",
-        "tier": "META",
-        "buildType": "Versatile",
-        "attachments": [
-          [
-            "Volata",
-            "XRK HERDER 40",
-            51
-          ],
-          [
-            "Canna",
-            "VB-46 SERIES 11",
-            3
-          ],
-          [
-            "Sottocanna",
-            "FSS FIRELINE GRIP",
-            10
-          ],
-          [
-            "Calcio",
-            "VEL 46 EXTENDED",
-            20
-          ],
-          [
-            "Laser",
-            "SCHLAGER VISIV-5",
-            null
-          ]
-        ]
-      },
       "ISO NIGHTSHADE": {
-        "rank": 2,
+        "rank": 1,
         "category": "Mitragliette",
         "slug": "iso-nightshade",
         "tier": "META",
@@ -343,6 +309,40 @@
             "Laser",
             "SCHLAGER VISIV-5",
             43
+          ]
+        ]
+      },
+      "VEL 46": {
+        "rank": 2,
+        "category": "Mitragliette",
+        "slug": "vel-46",
+        "tier": "META",
+        "buildType": "Versatile",
+        "attachments": [
+          [
+            "Volata",
+            "XRK HERDER 40",
+            51
+          ],
+          [
+            "Canna",
+            "VB-46 SERIES 11",
+            3
+          ],
+          [
+            "Sottocanna",
+            "FSS FIRELINE GRIP",
+            10
+          ],
+          [
+            "Calcio",
+            "VEL 46 EXTENDED",
+            20
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            null
           ]
         ]
       },
@@ -927,8 +927,8 @@
     },
     "order": [
       "AXION",
-      "VEL 46",
       "ISO NIGHTSHADE",
+      "VEL 46",
       "M4",
       "MOSIN-NAGANT",
       "KASTOV 762",
