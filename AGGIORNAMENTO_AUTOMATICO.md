@@ -40,19 +40,29 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
 
 4. **MW4 Multigiocatore (`data/catalog.json`).** Con WebFetch leggi `https://wzstats.gg/it/mw4/meta`
    e la data «Aggiornato».
-   - Le build del sito sono le armi della prima sezione «Modern Warfare 4 Meta» (non A Tier, non DMZ, non Warzone).
-   - `order` = quelle armi nell'ordine della pagina, nomi in MAIUSCOLO come in `catalog[].name` (es. `AXION`, `MOSIN-NAGANT`).
+   - Servono **sempre tutte le build disponibili** (richiesta di Kando, 2 nov 2026): tutte le armi della classifica
+     Multiplayer nell'ordine della pagina, sezione «Modern Warfare 4 Meta» e poi A, B, C, D Tier (non DMZ, non Warzone),
+     purché abbiano una build valida secondo le regole qui sotto. Le armi senza build valida si saltano e si elencano nel resoconto.
+   - `order` = quelle armi nell'ordine della pagina, nomi in MAIUSCOLO come in `catalog[].name` (es. `AXION`, `MOSIN-NAGANT`,
+     `PATRIOT XMR`; attenzione: WZStats scrive «PARTRIOT XMR»).
    - `builds` ha una voce per ogni arma di `order`, nello stesso ordine. `rank` = posizione dell'arma tra le armi
      della **stessa categoria** in `order` (es. primo fucile d'assalto = 1, primo mitragliatore = 1).
      `category` al plurale come nelle voci esistenti (`Fucili d’assalto`, `Mitragliette`, `Fucili tattici`…).
-     `slug` = nome in minuscolo con trattini (`iso-nightshade`).
-   - Per ogni arma apri `https://wzstats.gg/it/best-loadouts/<slug>-mw4` e prendi **solo la build Multiplayer
-     «Versatile»** (non Apex, non DMZ). Servono esattamente 5 accessori con slot diversi: `[slot, NOME, livello]`,
-     livello `null` se la fonte non lo indica. Slot in italiano come nelle voci esistenti
-     (Ottica, Volata, Canna, Sottocanna, Calcio, Impugnatura posteriore, Laser, Caricatore, Munizioni).
+     `slug` = la parte dell'indirizzo WZStats prima di `-mw4` (`iso-nightshade`, `wz55-striga`, `partriot-xmr`, `astaroth-57`).
+   - Per ogni arma apri `https://wzstats.gg/it/best-loadouts/<slug>-mw4` (se non leggibile, la versione inglese
+     `https://wzstats.gg/best-loadouts/<slug>-mw4`: i nomi degli accessori sono in inglese; non usare la versione tedesca)
+     e scegli la build Multiplayer così (mai DMZ o Warzone):
+     1. la build «Versatile», se c'è;
+     2. altrimenti la prima build Multiplayer **non Apex** della pagina (es. «Long Range», «ADS Speed», «Low Level», «Short Range»);
+     3. se ci sono solo build Apex (o la build contiene l'arma Apex), l'arma resta fuori.
+     Servono esattamente 5 accessori con slot diversi: `[slot, NOME, livello]`,
+     livello `null` se la fonte non lo indica. Se un nome di accessorio manca o i due controlli non coincidono, l'arma resta fuori.
+     Slot in italiano come nelle voci esistenti
+     (Ottica, Volata, Canna, Sottocanna, Calcio, Impugnatura posteriore, Laser, Caricatore, Munizioni, Poggiaguancia).
      Nomi accessori in inglese MAIUSCOLO, nella forma già usata (es. `FSS TAC90 GRIP`, non `IMPUGNATURA FSS TAC90`).
-   - Leggi due volte classifica e build cambiate: devono coincidere. Se una build non ha 5 accessori, o un'arma
-     in classifica non è in `catalog`, non pubblicare il file MW4 e spiegalo nel resoconto.
+   - Leggi due volte classifica e build cambiate: devono coincidere. Se un'arma in classifica non è in `catalog`,
+     non pubblicare il file MW4 e spiegalo nel resoconto. Le armi senza build valida (solo Apex, meno di 5 accessori,
+     nomi mancanti, letture diverse) si saltano senza bloccare le altre.
    - Se classifica e build sono identiche a quelle presenti, non toccare il file (nemmeno le date).
    - Se cambia qualcosa: aggiorna `buildCheckedAt` (AAAA-MM-GG), aumenta `release` di 1 e valida con
      `git show HEAD:data/catalog.json > /tmp/rif_cat.json && python3 scripts/check_catalog.py data/catalog.json /tmp/rif_cat.json`.

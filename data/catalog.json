@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 4,
+  "release": 5,
   "mw4": {
-    "buildCheckedAt": "2026-10-31",
+    "buildCheckedAt": "2026-11-02",
     "catalogCheckedAt": "2026-10-23",
     "catalog": [
       {
@@ -403,6 +403,486 @@
             5
           ]
         ]
+      },
+      "KASTOV 762": {
+        "rank": 3,
+        "category": "Fucili d’assalto",
+        "slug": "kastov-762",
+        "attachments": [
+          [
+            "Ottica",
+            "CRONEN ZERO-K",
+            35
+          ],
+          [
+            "Canna",
+            "FJX GHOSTFIRE 16.3\"",
+            61
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            47
+          ],
+          [
+            "Calcio",
+            "KASTOV DOGFIGHTER 27",
+            42
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            30
+          ]
+        ]
+      },
+      "PATRIOT XMR": {
+        "rank": 4,
+        "category": "Fucili d’assalto",
+        "slug": "partriot-xmr",
+        "attachments": [
+          [
+            "Ottica",
+            "FJX 708 PRO",
+            19
+          ],
+          [
+            "Volata",
+            "EXP UNDERTOW GEN. 2",
+            25
+          ],
+          [
+            "Sottocanna",
+            "FSS FIRELINE GRIP",
+            33
+          ],
+          [
+            "Impugnatura posteriore",
+            "SCHLAGER ATTACK-7 GRIP",
+            28
+          ],
+          [
+            "Laser",
+            "SA LAZ-500",
+            12
+          ]
+        ]
+      },
+      "ODEN": {
+        "rank": 5,
+        "category": "Fucili d’assalto",
+        "slug": "oden",
+        "attachments": [
+          [
+            "Ottica",
+            "SLIMLINE ELITE",
+            13
+          ],
+          [
+            "Volata",
+            "BRYSON BULLHIDE 90",
+            37
+          ],
+          [
+            "Sottocanna",
+            "FSS FIRELINE GRIP",
+            22
+          ],
+          [
+            "Calcio",
+            "HAEBANG STAL-W5",
+            3
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            6
+          ]
+        ]
+      },
+      "PPSH-41": {
+        "rank": 3,
+        "category": "Mitragliette",
+        "slug": "ppsh-41",
+        "attachments": [
+          [
+            "Volata",
+            "FTAC SILENT RECON",
+            12
+          ],
+          [
+            "Canna",
+            "HANBIT RDR-TIGER 50-XL",
+            15
+          ],
+          [
+            "Caricatore",
+            "53 ROUND MAG",
+            3
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            4
+          ],
+          [
+            "Munizioni",
+            "7.62 TOKAREV FRANGIBLE",
+            28
+          ]
+        ]
+      },
+      "X-58 NYX": {
+        "rank": 4,
+        "category": "Mitragliette",
+        "slug": "x-58-nyx",
+        "attachments": [
+          [
+            "Canna",
+            "LX3-V 408.94MM",
+            44
+          ],
+          [
+            "Sottocanna",
+            "MIRE-50 TAC GRIP",
+            7
+          ],
+          [
+            "Impugnatura posteriore",
+            "BOK-980",
+            20
+          ],
+          [
+            "Calcio",
+            "MUGI HUL-73.M STOCK",
+            3
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            12
+          ]
+        ]
+      },
+      "WZ.55 STRIGA": {
+        "rank": 5,
+        "category": "Mitragliette",
+        "slug": "wz55-striga",
+        "attachments": [
+          [
+            "Ottica",
+            "SZ PRIMA-4 DOT",
+            59
+          ],
+          [
+            "Volata",
+            "FTAC SILENT RECON",
+            13
+          ],
+          [
+            "Canna",
+            "DS 9X18 PRO",
+            44
+          ],
+          [
+            "Caricatore",
+            "35 ROUND MAG",
+            10
+          ],
+          [
+            "Calcio",
+            "WIRE STOCK",
+            52
+          ]
+        ]
+      },
+      "HAN 86": {
+        "rank": 6,
+        "category": "Fucili d’assalto",
+        "slug": "han-86",
+        "attachments": [
+          [
+            "Ottica",
+            "SZ PRIMA-4 DOT",
+            38
+          ],
+          [
+            "Canna",
+            "HAN 86 SILENCED 413MM",
+            55
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            54
+          ],
+          [
+            "Calcio",
+            "MEIKO L9P-FOLD",
+            45
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            46
+          ]
+        ]
+      },
+      "KG-7 VULCAN": {
+        "rank": 1,
+        "category": "Fucili di precisione",
+        "slug": "kg-7-vulcan",
+        "attachments": [
+          [
+            "Volata",
+            "IVANOV QR600",
+            64
+          ],
+          [
+            "Canna",
+            "HAEBANG NASEON V.5 26\"",
+            22
+          ],
+          [
+            "Poggiaguancia",
+            "HAEBANG YNC-45",
+            34
+          ],
+          [
+            "Calcio",
+            "TT G76-RP STOCK",
+            47
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            7
+          ]
+        ]
+      },
+      "ASTAROTH .57": {
+        "rank": 2,
+        "category": "Fucili di precisione",
+        "slug": "astaroth-57",
+        "attachments": [
+          [
+            "Ottica",
+            "SCHLAGER 7X",
+            9
+          ],
+          [
+            "Volata",
+            "FSS MOODKILLER",
+            5
+          ],
+          [
+            "Canna",
+            "FTAC CROSSWIND 30",
+            4
+          ],
+          [
+            "Impugnatura posteriore",
+            "FJX S-TAC GRIP",
+            44
+          ],
+          [
+            "Calcio",
+            "USENKO V8-LKR",
+            3
+          ]
+        ]
+      },
+      "APOC-338": {
+        "rank": 1,
+        "category": "Mitragliatrici leggere",
+        "slug": "apoc-338",
+        "attachments": [
+          [
+            "Ottica",
+            "SZ MICRO D-3",
+            11
+          ],
+          [
+            "Volata",
+            "EXP 450 RTL",
+            19
+          ],
+          [
+            "Sottocanna",
+            "BRUEN RENEGADE GRIP",
+            8
+          ],
+          [
+            "Calcio",
+            "DEMO BAR-7 STOCK",
+            15
+          ],
+          [
+            "Laser",
+            "SZ GEN.6 PEQ",
+            10
+          ]
+        ]
+      },
+      "FINN LMG": {
+        "rank": 2,
+        "category": "Mitragliatrici leggere",
+        "slug": "finn-lmg",
+        "attachments": [
+          [
+            "Ottica",
+            "IOTA-D",
+            45
+          ],
+          [
+            "Volata",
+            "XRK MIL-TAC SUPPRESSOR",
+            40
+          ],
+          [
+            "Sottocanna",
+            "BRUEN RENEGADE GRIP",
+            51
+          ],
+          [
+            "Caricatore",
+            "75 ROUND BOX MAG",
+            38
+          ],
+          [
+            "Laser",
+            "SZ GEN.6 PEQ",
+            50
+          ]
+        ]
+      },
+      "TYPE 73": {
+        "rank": 3,
+        "category": "Mitragliatrici leggere",
+        "slug": "type-73",
+        "attachments": [
+          [
+            "Ottica",
+            "FJX 708 PRO",
+            8
+          ],
+          [
+            "Volata",
+            "IVANOV QR600",
+            null
+          ],
+          [
+            "Canna",
+            "RSS-40F 12\"",
+            4
+          ],
+          [
+            "Impugnatura posteriore",
+            "EXP ZBR-904",
+            9
+          ],
+          [
+            "Laser",
+            "QFL-S4.5",
+            6
+          ]
+        ]
+      },
+      "MAR-9": {
+        "rank": 2,
+        "category": "Fucili tattici",
+        "slug": "mar-9",
+        "attachments": [
+          [
+            "Ottica",
+            "FJX 708 PRO",
+            54
+          ],
+          [
+            "Canna",
+            "BRUEN REAPER-X",
+            22
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            4
+          ],
+          [
+            "Impugnatura posteriore",
+            "HANBIT WRAP 76",
+            38
+          ],
+          [
+            "Laser",
+            "SA LAZ-500",
+            35
+          ]
+        ]
+      },
+      "CRONEN SQUALL": {
+        "rank": 7,
+        "category": "Fucili d’assalto",
+        "slug": "cronen-squall",
+        "attachments": [
+          [
+            "Ottica",
+            "SZ PRIMA-4 DOT",
+            16
+          ],
+          [
+            "Volata",
+            "OCTA-63 COMP",
+            12
+          ],
+          [
+            "Canna",
+            "BRYSON LONGHORN 20\"",
+            35
+          ],
+          [
+            "Caricatore",
+            "30 ROUND MAG",
+            10
+          ],
+          [
+            "Laser",
+            "SZ GEN.6 PEQ",
+            6
+          ]
+        ]
+      },
+      "WARLORD": {
+        "rank": 1,
+        "category": "Fucili a pompa",
+        "slug": "warlord",
+        "attachments": [
+          [
+            "Volata",
+            "WX-600 CHOKE",
+            44
+          ],
+          [
+            "Canna",
+            "MUGI CHUJEOK-800",
+            6
+          ],
+          [
+            "Impugnatura posteriore",
+            "DV3-SINSQK GRIP",
+            8
+          ],
+          [
+            "Calcio",
+            "MUGI D40 STOCK",
+            5
+          ],
+          [
+            "Laser",
+            "SZ GEN.6 PEQ",
+            null
+          ]
+        ]
       }
     },
     "order": [
@@ -410,7 +890,22 @@
       "VEL 46",
       "ISO NIGHTSHADE",
       "M4",
-      "MOSIN-NAGANT"
+      "MOSIN-NAGANT",
+      "KASTOV 762",
+      "PATRIOT XMR",
+      "ODEN",
+      "PPSH-41",
+      "X-58 NYX",
+      "WZ.55 STRIGA",
+      "HAN 86",
+      "KG-7 VULCAN",
+      "ASTAROTH .57",
+      "APOC-338",
+      "FINN LMG",
+      "TYPE 73",
+      "MAR-9",
+      "CRONEN SQUALL",
+      "WARLORD"
     ]
   }
 }
