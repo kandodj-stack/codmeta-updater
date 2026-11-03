@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": 10,
+  "release": 11,
   "header": {
-    "liveStatus": "STAGIONE 06 · META WZSTATS 01.11"
+    "liveStatus": "STAGIONE 06 · META WZSTATS 03.11"
   },
   "ticker": [
+    {
+      "tag": "03 NOV · WARZONE",
+      "text": "Meta WZStats del 3 novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
+    {
+      "tag": "02 NOV · MW4 PATCH",
+      "text": "Ripristinata la velocità del tuffo, modifiche agli spawn di Shipment, meno torri UAV in DMZ, Infrarossi del JOKR disattivato temporaneamente. Nessun bilanciamento delle armi.",
+      "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+    },
     {
       "tag": "01 NOV · WARZONE",
       "text": "Meta WZStats del 1° novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
@@ -94,22 +104,21 @@
       "tag": "14 OTT · ACCESSORI",
       "text": "TR51: Bolt Carrier Group +6% cadenza. Sokol Warpath: bonus ADS 30 ms e sprint-to-fire 15 ms. Argus Lever rallentato.",
       "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
-    },
-    {
-      "tag": "15 OTT · BO7 MP",
-      "text": "Bilanciamento annunciato: TR51 Para 43→40 danni e 625→588 RPM; VMP con portata iniziale 20,3→13,5 m.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
-    },
-    {
-      "tag": "7 OTT · WARZONE",
-      "text": "C4: ritardo di detonazione da 0,05 a 0,2 s. Meno droni rifornimento e casse leggendarie.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
     }
   ],
   "news": {
     "title": "PATCH & NEWS · CONTROLLO 29 OTTOBRE 2026",
     "subtitle": "Warzone e BO7: nessuna patch dopo il 14 ottobre · MW4: aggiornamento del 30 ottobre",
     "items": [
+      {
+        "label": "02 NOV · MODERN WARFARE 4",
+        "title": "Tuffo ripristinato, spawn di Shipment e meno torri UAV in DMZ",
+        "body": "Aggiornamento del 2 novembre. Generale: corretti problemi di stabilità e crash; annullata la riduzione temporanea del 23% della velocità del tuffo introdotta contro un exploit; corretto il passaggio da prono a in piedi senza animazioni (possibili piccoli bug visivi, da sistemare più avanti). Armi: JOKR con modalità Infrarossi disattivata temporaneamente per un exploit; corretto l’accessorio Apex Drill Charge del KG-9. Multiplayer: widget danni dopo la morte migliorato, prime modifiche agli spawn di Shipment, chiusi exploit fuori mappa su Sentry e Mumbai, icone teschio meno luminose, Final Killcam al posto di Best Play in Tutti contro tutti, corretti bug di sfide e il punto centrale del mirino visibile durante l’ispezione con laser. DMZ: torri UAV casuali e ridotte del 40% (non più garantite in ogni POI, tranne Deadtown), Inalatore Sedativo da 60 a 120 secondi, ricarica della Bandiera di tregua da 180 a 60 secondi, varie correzioni. Campagna: corretta la mossa finale «Hits Different». Nessuna modifica di bilanciamento alle armi: le build MW4 non cambiano.",
+        "link": {
+          "label": "NOTE UFFICIALI MW4 ↗",
+          "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+        }
+      },
       {
         "label": "30 OTT · MODERN WARFARE 4",
         "title": "Infected per Halloween e più denaro in DMZ",
@@ -232,11 +241,6 @@
         "label": "24 SET · WARZONE",
         "title": "C4 e zona di esclusione",
         "body": "Il C4 non può essere detonato quando si è a terra (Last Stand). La zona di esclusione della barca di Fortune’s Keep passa da 3 a 2 utilizzi e da circa 140 a 80 secondi. Risolti problemi con casse equipaggiamento spostate dal C4 e invulnerabilità durante l’interazione con il caveau."
-      },
-      {
-        "label": "01 · WARZONE · PATCH 16 SET / LIVE 17 SET",
-        "title": "AN-94 e VST ridimensionati",
-        "body": "AN-94: danni 41/37/33 → 38/34/31, prima portata 45 → 38 m. In BR/Resurgence rinculo +12%, proiettile 920 → 890 m/s, ADS 235 → 245 ms. Canna Benthic: bonus velocità 20% → 15%, controllo 25% → 15%. VST: danni 29/27/22 → 27/24/19, prima portata 13,5 → 12,8 m."
       }
     ],
     "links": [
@@ -255,12 +259,12 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS · 1 NOVEMBRE",
-    "checked": "01 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS · 3 NOVEMBRE",
+    "checked": "03 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 1 novembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 1° novembre invariata rispetto al 31 ottobre; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
-    "currentBuildDate": "01 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 1 NOVEMBRE",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 3 novembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 3 novembre invariata rispetto al 1° novembre; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
+    "currentBuildDate": "03 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 3 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 1 novembre 2026",
     "pendingReview": [
       "TR51 PARA"
