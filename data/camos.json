@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "release": 6,
+ "release": 7,
  "checkedAt": "2026-11-04",
  "modes": {
   "mp": {
@@ -190,6 +190,7 @@
    "special": [
     {
      "name": "Fumogeno",
+     "en": "Smoke",
      "level": 25,
      "mp": "Esegui 20 uccisioni di giocatori con l’arma posizionata",
      "dmz": "75 uccisioni di nemici con l’arma in appoggio",
@@ -202,6 +203,7 @@
     },
     {
      "name": "Onda di tempesta",
+     "en": "Stormwave",
      "level": 46,
      "mp": "Esegui 50 uccisioni contro i giocatori usando un silenziatore",
      "dmz": "125 uccisioni di nemici con un silenziatore",
@@ -214,6 +216,7 @@
     },
     {
      "name": "Rosso",
+     "en": "Red",
      "level": 72,
      "mp": "Esegui 3 uccisioni di giocatori senza morire, 15 volte",
      "dmz": "3 uccisioni di nemici senza subire danni, 50 volte",
@@ -263,6 +266,7 @@
    "special": [
     {
      "name": "Miriade",
+     "en": "Myriad",
      "level": 26,
      "mp": "Esegui 20 uccisioni bruciapelo contro i giocatori",
      "dmz": "75 uccisioni a bruciapelo contro nemici",
@@ -275,6 +279,7 @@
     },
     {
      "name": "Operazioni notturne",
+     "en": "Night Ops",
      "level": 51,
      "mp": "Esegui 20 uccisioni con arma posizionata contro i giocatori",
      "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
@@ -287,6 +292,7 @@
     },
     {
      "name": "Verde",
+     "en": "Green",
      "level": 72,
      "mp": "Esegui 25 uccisioni alle spalle contro i giocatori",
      "dmz": "100 uccisioni alle spalle contro nemici",
@@ -348,6 +354,7 @@
     },
     {
      "name": "Pioggia rossa",
+     "en": "Red Rain",
      "level": 46,
      "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
      "dmz": "75 uccisioni a lunga distanza contro nemici",
@@ -360,6 +367,7 @@
     },
     {
      "name": "Caos felino",
+     "en": "Kitty Kaos",
      "level": 68,
      "mp": "Esegui 100 uccisioni contro i giocatori usando un silenziatore",
      "dmz": "250 uccisioni di nemici con un silenziatore",
@@ -409,6 +417,7 @@
    "special": [
     {
      "name": "Mare di dune",
+     "en": "Dune Sea",
      "level": 24,
      "mp": "Esegui 20 uccisioni sparando senza mirare contro i giocatori",
      "dmz": "75 uccisioni sparando dall’anca contro nemici",
@@ -421,6 +430,7 @@
     },
     {
      "name": "Bruciatura",
+     "en": "Scorch",
      "level": 49,
      "mp": "Esegui 50 uccisioni contro i giocatori usando un silenziatore",
      "dmz": "125 uccisioni di nemici con un silenziatore",
@@ -433,6 +443,7 @@
     },
     {
      "name": "Dispersione",
+     "en": "Disperse",
      "level": 72,
      "mp": "Esegui 30 uccisioni contro i giocatori con colpi a distanza",
      "dmz": "100 uccisioni a lunga distanza contro nemici",
@@ -506,6 +517,7 @@
     },
     {
      "name": "Giallo",
+     "en": "Yellow",
      "level": 68,
      "mp": "Esegui 30 uccisioni contro i giocatori con fuoco senza mirare",
      "dmz": "100 uccisioni sparando dall’anca contro nemici",
@@ -555,6 +567,7 @@
    "special": [
     {
      "name": "Muschio scuro",
+     "en": "Dark Moss",
      "level": 25,
      "mp": "Esegui 25 uccisioni contro i giocatori usando il lanciagranate Miri 40 mm",
      "dmz": "75 uccisioni di nemici con il lanciagranate Miri 40MM",
@@ -567,6 +580,7 @@
     },
     {
      "name": "Roccia sedimentaria",
+     "en": "Shale",
      "level": 44,
      "mp": "Esegui 2 uccisioni senza ricaricare, 10 volte, contro i giocatori",
      "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
@@ -579,6 +593,7 @@
     },
     {
      "name": "Auto sportiva",
+     "en": "Hot Rod",
      "level": 65,
      "mp": "Esegui 100 uccisioni in modalità mirino contro i giocatori",
      "dmz": "250 uccisioni mirando contro nemici",
@@ -629,6 +644,7 @@
    "special": [
     {
      "name": "Roccia scheggiata",
+     "en": "Splinter Rock",
      "level": 23,
      "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
      "wz": null,
@@ -641,6 +657,7 @@
     },
     {
      "name": "Tramonto tropicale",
+     "en": "Sunset Tropic",
      "level": 45,
      "mp": "Esegui 25 uccisioni contro i giocatori usando il lanciagranate Miri 40 mm",
      "wz": null,
@@ -653,6 +670,7 @@
     },
     {
      "name": "Azzurro",
+     "en": "Cyan",
      "level": 69,
      "mp": "Esegui 2 uccisioni senza ricaricare, 25 volte, contro i giocatori",
      "wz": null,
@@ -770,6 +788,7 @@
    "special": [
     {
      "name": "Asfalto",
+     "en": "Asphalt",
      "level": 22,
      "mp": "Esegui 50 uccisioni di giocatori in modalità mirino",
      "dmz": "125 uccisioni mirando contro nemici",
@@ -782,6 +801,7 @@
     },
     {
      "name": "Topografia nera",
+     "en": "Black Topo",
      "level": 44,
      "mp": "Esegui 10 doppie uccisioni contro i giocatori",
      "dmz": "30 doppie uccisioni contro nemici",
@@ -794,6 +814,7 @@
     },
     {
      "name": "Marrone",
+     "en": "Brown",
      "level": 64,
      "mp": "Esegui 3 uccisioni di giocatori senza morire, 15 volte",
      "dmz": "3 uccisioni di nemici senza subire danni, 50 volte",
@@ -843,6 +864,7 @@
    "special": [
     {
      "name": "Ombra nella giungla",
+     "en": "Jungle Shadow",
      "level": 20,
      "mp": "Esegui 50 uccisioni di giocatori in modalità mirino",
      "dmz": "125 uccisioni mirando contro nemici",
@@ -855,6 +877,7 @@
     },
     {
      "name": "Orrore",
+     "en": "Ghast",
      "level": 40,
      "mp": "Esegui 20 uccisioni di giocatori in posizione sdraiata",
      "dmz": "100 uccisioni di nemici in posizione sdraiata",
@@ -867,6 +890,7 @@
     },
     {
      "name": "Metallo brunito",
+     "en": "Gunmetal",
      "level": 60,
      "mp": "Esegui 20 colpi alla testa contro i giocatori",
      "dmz": "75 colpi alla testa contro nemici",
@@ -916,6 +940,7 @@
    "special": [
     {
      "name": "Costellazione",
+     "en": "Stellation",
      "level": 20,
      "mp": "Esegui 50 uccisioni di giocatori usando un silenziatore",
      "dmz": "125 uccisioni di nemici con un silenziatore",
@@ -928,6 +953,7 @@
     },
     {
      "name": "Serpente a sonagli",
+     "en": "Rattlesnake",
      "level": 41,
      "mp": "Esegui 20 uccisioni di giocatori mentre salti",
      "dmz": "50 uccisioni di nemici mentre salti",
@@ -940,6 +966,7 @@
     },
     {
      "name": "Sabbia scura",
+     "en": "Dark Tan",
      "level": 60,
      "mp": "Esegui 40 uccisioni bruciapelo contro i giocatori",
      "dmz": "100 uccisioni a bruciapelo contro nemici",
@@ -1001,6 +1028,7 @@
     },
     {
      "name": "Ferro",
+     "en": "Iron",
      "level": 41,
      "mp": "Esegui 20 uccisioni contro i giocatori con colpi a distanza",
      "dmz": "75 uccisioni a lunga distanza contro nemici",
@@ -1013,6 +1041,7 @@
     },
     {
      "name": "Correnti",
+     "en": "Currents",
      "level": 62,
      "mp": "Esegui 100 uccisioni di giocatori in modalità mirino",
      "dmz": "250 uccisioni mirando contro nemici",
@@ -1062,6 +1091,7 @@
    "special": [
     {
      "name": "Velo del cecchino",
+     "en": "Sniper Veil",
      "level": 17,
      "mp": "Esegui 20 uccisioni di giocatori mentre ti muovi",
      "dmz": "75 uccisioni di nemici mentre ti muovi",
@@ -1074,6 +1104,7 @@
     },
     {
      "name": "Anidride carbonica",
+     "en": "Carbonated",
      "level": 35,
      "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
      "dmz": "75 uccisioni a lunga distanza contro nemici",
@@ -1135,6 +1166,7 @@
    "special": [
     {
      "name": "Oro nero",
+     "en": "Struck Oil",
      "level": 22,
      "mp": "Esegui 20 uccisioni bruciapelo contro i giocatori",
      "dmz": "75 uccisioni a bruciapelo contro nemici",
@@ -1147,6 +1179,7 @@
     },
     {
      "name": "Tocco dell’artista",
+     "en": "Brushstroke",
      "level": 42,
      "mp": "Esegui 10 uccisioni colpo a distanza contro i giocatori",
      "dmz": "50 uccisioni a lunga distanza contro nemici",
@@ -1159,6 +1192,7 @@
     },
     {
      "name": "Pino bianco",
+     "en": "White Pine",
      "level": 60,
      "mp": "Esegui 40 uccisioni di giocatori mentre salti",
      "dmz": "100 uccisioni di nemici mentre salti",
@@ -1208,6 +1242,7 @@
    "special": [
     {
      "name": "Fase rossa",
+     "en": "Redshift",
      "level": 21,
      "mp": "Esegui 20 uccisioni di giocatori mentre ti muovi",
      "dmz": "75 uccisioni di nemici mentre ti muovi",
@@ -1220,6 +1255,7 @@
     },
     {
      "name": "Argilla corrotta",
+     "en": "Corrupted Clay",
      "level": 41,
      "mp": "Esegui 10 doppie uccisioni contro i giocatori",
      "dmz": "30 doppie uccisioni contro nemici",
@@ -1232,6 +1268,7 @@
     },
     {
      "name": "Ira magmatica",
+     "en": "Magma Ire",
      "level": 60,
      "mp": "Esegui 50 uccisioni di giocatori in posizione sdraiata",
      "dmz": "125 uccisioni di nemici in posizione sdraiata",
@@ -1282,6 +1319,7 @@
    "special": [
     {
      "name": "Tattiche desertiche",
+     "en": "Desert Tactics",
      "level": 18,
      "mp": "Esegui 20 uccisioni bruciapelo contro i giocatori",
      "dmz": "75 uccisioni a bruciapelo contro nemici",
@@ -1294,6 +1332,7 @@
     },
     {
      "name": "Tigre verde",
+     "en": "Green Tiger",
      "level": 38,
      "levelSrc": 1,
      "mp": "Esegui 2 uccisioni senza ricaricare contro i giocatori, 10 volte",
@@ -1307,6 +1346,7 @@
     },
     {
      "name": "Nube temporalesca",
+     "en": "Thunderhead",
      "level": 59,
      "mp": "Esegui 30 uccisioni colpo a distanza contro i giocatori",
      "dmz": "100 uccisioni a lunga distanza contro nemici",
@@ -1356,6 +1396,7 @@
    "special": [
     {
      "name": "Frassino",
+     "en": "Ash Pine",
      "level": 23,
      "mp": "Esegui 20 uccisioni con arma posizionata contro i giocatori",
      "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
@@ -1368,6 +1409,7 @@
     },
     {
      "name": "Affioramento",
+     "en": "Outcrop",
      "level": 45,
      "mp": "Esegui 10 doppie uccisioni contro i giocatori",
      "dmz": "30 doppie uccisioni contro nemici",
@@ -1380,6 +1422,7 @@
     },
     {
      "name": "Passi di volpe",
+     "en": "Foxtrail",
      "level": 65,
      "mp": "Esegui 40 colpi alla testa contro i giocatori",
      "dmz": "100 colpi alla testa contro nemici",
@@ -1429,6 +1472,7 @@
    "special": [
     {
      "name": "Flusso fantasma",
+     "en": "Phantom Flux",
      "level": 15,
      "mp": "Esegui 20 uccisioni sparando senza mirare contro i giocatori",
      "dmz": "75 uccisioni sparando dall’anca contro nemici",
@@ -1441,6 +1485,7 @@
     },
     {
      "name": "Minerale",
+     "en": "Mineral",
      "level": 36,
      "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
      "dmz": "75 uccisioni a lunga distanza contro nemici",
@@ -1453,6 +1498,7 @@
     },
     {
      "name": "Artigliata di tigre",
+     "en": "Tiger Swipe",
      "level": 56,
      "mp": "Esegui 100 uccisioni di giocatori in posizione sdraiata",
      "dmz": "250 uccisioni di nemici in posizione sdraiata",
@@ -1503,6 +1549,7 @@
    "special": [
     {
      "name": "Mangrovia",
+     "en": "Mangrove",
      "level": 26,
      "mp": "Esegui 20 uccisioni con arma posizionata contro i giocatori",
      "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
@@ -1516,6 +1563,7 @@
     },
     {
      "name": "Griglia fungina",
+     "en": "Fungal Grid",
      "level": 49,
      "mp": "Esegui 25 uccisioni giocatore mentre sei accovacciato",
      "dmz": "75 uccisioni di nemici da accovacciato",
@@ -1529,6 +1577,7 @@
     },
     {
      "name": "Bianco",
+     "en": "White",
      "level": 73,
      "mp": "Esegui 30 uccisioni contro i giocatori con colpi a distanza",
      "dmz": "100 uccisioni a lunga distanza contro nemici",
@@ -1579,6 +1628,7 @@
    "special": [
     {
      "name": "Ibisco",
+     "en": "Hibiscus",
      "level": 27,
      "mp": "Esegui 10 uccisioni puntamento rapido contro i giocatori",
      "dmz": "50 uccisioni con puntamento rapido contro nemici",
@@ -1591,6 +1641,7 @@
     },
     {
      "name": "Topografia ardente",
+     "en": "Fire Topo",
      "level": 49,
      "mp": "Esegui 20 doppie uccisioni contro i giocatori",
      "dmz": "50 doppie uccisioni contro nemici",
@@ -1603,6 +1654,7 @@
     },
     {
      "name": "Spazio profondo",
+     "en": "Deep Space",
      "level": 70,
      "mp": "Esegui 3 uccisioni senza morire contro i giocatori, 15 volte",
      "dmz": "3 uccisioni di nemici senza subire danni, 50 volte",
@@ -1653,6 +1705,7 @@
    "special": [
     {
      "name": "Ghiaccio puro",
+     "en": "Ice Sheer",
      "level": 25,
      "mp": "Esegui 25 colpi alla testa contro i giocatori",
      "dmz": "75 colpi alla testa contro nemici",
@@ -1665,6 +1718,7 @@
     },
     {
      "name": "Neve frattale",
+     "en": "Fractal Snow",
      "level": 46,
      "levelSrc": 1,
      "mp": "Esegui 2 uccisioni di giocatori senza ricaricare, 10 volte",
@@ -1678,6 +1732,7 @@
     },
     {
      "name": "Shock adesivo",
+     "en": "Sticker Shock",
      "level": 69,
      "mp": "Esegui 100 uccisioni di giocatori mentre sei concentrato",
      "dmz": "250 uccisioni di nemici mentre sei concentrato",
@@ -1727,6 +1782,7 @@
    "special": [
     {
      "name": "Boscaglia",
+     "en": "Treeline",
      "level": 22,
      "mp": "Esegui 10 uccisioni sparando senza mirare contro i giocatori",
      "dmz": "25 uccisioni sparando dall’anca contro nemici",
@@ -1739,6 +1795,7 @@
     },
     {
      "name": "Tela di ragno",
+     "en": "Spidersilk",
      "level": 47,
      "mp": "Esegui 20 uccisioni con colpi alla testa contro i giocatori",
      "dmz": "75 uccisioni con colpi alla testa contro nemici",
@@ -1751,6 +1808,7 @@
     },
     {
      "name": "Tensione",
+     "en": "Tension",
      "level": 75,
      "mp": "Esegui 2 uccisioni contro i giocatori senza subire danni, 20 volte",
      "dmz": "2 uccisioni di nemici senza subire danni, 30 volte",
@@ -1800,6 +1858,7 @@
    "special": [
     {
      "name": "Pennello asciutto",
+     "en": "Dry Brush",
      "level": 20,
      "mp": "Esegui 3 uccisioni di giocatori senza morire, 10 volte",
      "dmz": "3 uccisioni di nemici senza subire danni, 25 volte",
@@ -1812,6 +1871,7 @@
     },
     {
      "name": "Territorio selvaggio",
+     "en": "Backcountry",
      "level": 37,
      "mp": "Esegui 20 uccisioni con arma posizionata contro i giocatori",
      "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
@@ -1824,6 +1884,7 @@
     },
     {
      "name": "Terrore contagioso",
+     "en": "Dread Plague",
      "level": 54,
      "mp": "Esegui 2 uccisioni di giocatori entro 5 secondi, 20 volte",
      "dmz": "2 uccisioni di nemici entro 5 secondi, 50 volte",
@@ -1885,6 +1946,7 @@
     },
     {
      "name": "Ondivago",
+     "en": "Ripplewave",
      "level": 52,
      "mp": "Esegui 20 uccisioni puntamento rapido contro i giocatori",
      "dmz": "30 uccisioni con puntamento rapido contro nemici",
@@ -1897,6 +1959,7 @@
     },
     {
      "name": "Scottatura",
+     "en": "Sunburn",
      "level": 74,
      "mp": "Esegui 40 uccisioni colpo a distanza contro i giocatori",
      "dmz": "100 uccisioni con un colpo solo contro nemici",
@@ -1946,6 +2009,7 @@
    "special": [
     {
      "name": "Autunno",
+     "en": "Autumn",
      "level": 13,
      "mp": "Esegui 25 uccisioni di giocatori in modalità mirino",
      "dmz": "75 uccisioni mirando contro nemici",
@@ -1958,6 +2022,7 @@
     },
     {
      "name": "Pelle di serpente",
+     "en": "Snakeskin",
      "level": 25,
      "mp": "Esegui 3 uccisioni di giocatori senza morire, 5 volte",
      "dmz": "3 uccisioni di nemici senza subire danni, 15 volte",
@@ -1970,6 +2035,7 @@
     },
     {
      "name": "Spaziotempo",
+     "en": "Space Time",
      "level": 38,
      "mp": "Esegui 50 uccisioni di giocatori mentre usi Akimbo",
      "dmz": "125 uccisioni di nemici con Akimbo",
@@ -2019,6 +2085,7 @@
    "special": [
     {
      "name": "Introvabile",
+     "en": "Off Grid",
      "level": 13,
      "mp": "Esegui 15 uccisioni contro i giocatori mentre ti appendi a una sporgenza",
      "dmz": "50 uccisioni di nemici mentre ti appendi a una sporgenza",
@@ -2031,6 +2098,7 @@
     },
     {
      "name": "Fenicottero urbano",
+     "en": "Urban Flamingo",
      "level": 25,
      "mp": "Esegui 15 uccisioni bruciapelo contro i giocatori",
      "dmz": "50 uccisioni a bruciapelo contro nemici",
@@ -2043,6 +2111,7 @@
     },
     {
      "name": "Cortina fumogena",
+     "en": "Smokescreen",
      "level": 38,
      "mp": "Esegui 50 uccisioni di giocatori usando un silenziatore",
      "dmz": "125 uccisioni di nemici con un silenziatore",
@@ -2066,6 +2135,84 @@
     "s1": "krait-p68-s1.webp",
     "s2": "krait-p68-s2.webp",
     "s3": "krait-p68-s3.webp"
+   }
+  },
+  {
+   "id": "50-gs",
+   "name": ".50 GS",
+   "class": "pi",
+   "unlock": 41,
+   "maxLevel": 37,
+   "military": {
+    "levels": [
+     8,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "src": [
+     "Gioco"
+    ]
+   },
+   "special": [
+    {
+     "name": "Brinato",
+     "en": "Frosted",
+     "level": 13,
+     "levelSrc": 1,
+     "mp": "Esegui 20 uccisioni con colpi alla testa contro i giocatori",
+     "dmz": "75 uccisioni con colpi alla testa contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Operazioni splatter",
+     "en": "Splatter Ops",
+     "level": 25,
+     "levelSrc": 1,
+     "mp": "Esegui 7 doppie uccisioni contro i giocatori",
+     "dmz": "20 doppie uccisioni contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Rosso tigre",
+     "en": "Red Tiger",
+     "level": 37,
+     "mp": "Esegui 30 uccisioni bruciapelo contro i giocatori",
+     "dmz": "75 uccisioni a bruciapelo contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "Destructoid"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "50-gs-s1.webp",
+    "s2": "50-gs-s2.webp",
+    "s3": "50-gs-s3.webp"
    }
   },
   {
@@ -2116,6 +2263,7 @@
     },
     {
      "name": "Ghirlanda",
+     "en": "Garland",
      "level": 44,
      "mp": "Esegui 30 uccisioni bruciapelo contro i giocatori",
      "dmz": "75 uccisioni a bruciapelo contro nemici",
@@ -2165,6 +2313,7 @@
    "special": [
     {
      "name": "Frontiera",
+     "en": "Frontier",
      "level": 16,
      "mp": "Esegui 10 uccisioni colpo diretto contro i giocatori",
      "dmz": "25 uccisioni con colpo diretto contro nemici",
@@ -2177,6 +2326,7 @@
     },
     {
      "name": "Sabbiatura",
+     "en": "Sandwash",
      "level": 31,
      "mp": "Esegui 5 doppie uccisioni contro i giocatori",
      "dmz": null,
@@ -2189,6 +2339,7 @@
     },
     {
      "name": "Caduta digitale",
+     "en": "Digital Fall",
      "level": 46,
      "mp": "Distruggi 30 serie di uccisioni o veicoli nemici",
      "dmz": "Distruggi 50 serie di uccisioni o veicoli",
@@ -2238,6 +2389,7 @@
    "special": [
     {
      "name": "Corteccia digitale",
+     "en": "Digi-Bark",
      "level": 16,
      "mp": "Esegui 10 uccisioni contro giocatori in posizione sdraiata",
      "dmz": "25 uccisioni di nemici in posizione sdraiata",
@@ -2250,6 +2402,7 @@
     },
     {
      "name": "Frammenti di pietra",
+     "en": "Stone Bits",
      "level": 31,
      "mp": "Esegui 10 uccisioni colpo a distanza contro i giocatori",
      "dmz": "25 uccisioni a lunga distanza contro nemici",
@@ -2262,6 +2415,7 @@
     },
     {
      "name": "Operazioni gommose",
+     "en": "Bubblegum Ops",
      "level": 46,
      "mp": "Distruggi 30 serie di uccisioni o veicoli",
      "dmz": "Distruggi 50 serie di uccisioni o veicoli",
@@ -2311,6 +2465,7 @@
    "special": [
     {
      "name": "Boschetto",
+     "en": "Thicket",
      "level": 16,
      "mp": "Esegui 5 doppie uccisioni contro i giocatori",
      "dmz": "15 doppie uccisioni contro nemici",
@@ -2323,6 +2478,7 @@
     },
     {
      "name": "Tettonico",
+     "en": "Tectonic",
      "level": 31,
      "mp": "Esegui 10 uccisioni colpo a distanza contro i giocatori",
      "dmz": "25 uccisioni a lunga distanza contro nemici",
@@ -2335,6 +2491,7 @@
     },
     {
      "name": "Blu tigre",
+     "en": "Blue Tiger",
      "level": 46,
      "mp": "Distruggi 30 serie di uccisioni o veicoli",
      "dmz": "Distruggi 50 serie di uccisioni o veicoli",
@@ -2463,6 +2620,7 @@
     },
     {
      "name": "Riserva",
+     "en": "Stockpile",
      "level": 31,
      "mp": "Esegui 25 uccisioni contro i giocatori usando il colpo di grazia corpo a corpo pesante",
      "dmz": "75 uccisioni di nemici con il colpo di grazia corpo a corpo pesante",
@@ -2475,6 +2633,7 @@
     },
     {
      "name": "Agonia",
+     "en": "Deathbed",
      "level": 46,
      "mp": "Esegui 2 uccisioni in 5 secondi contro i giocatori, 25 volte",
      "dmz": "2 uccisioni di nemici in 5 secondi, 50 volte",
@@ -2501,12 +2660,7 @@
    }
   }
  ],
- "others": [
-  [
-   ".50 GS",
-   "pi"
-  ]
- ],
+ "others": [],
  "weaponPrestige": [
   {
    "name": "Pyroclast",
@@ -2528,6 +2682,7 @@
   },
   {
    "name": "Cascata piroclastica",
+   "en": "Pyroclast Cascade",
    "req": "Raggiungi il livello Maestro Prestigio 250",
    "stage": "master",
    "level": 250
@@ -2536,6 +2691,7 @@
  "account": {
   "divergence": {
    "name": "Divergenza",
+   "en": "Divergence",
    "req": "Completa 33 sfide mimetica Rottura armonica"
   },
   "mastery": {
@@ -2543,16 +2699,19 @@
     {
      "id": "mercurial",
      "name": "Deriva mercuriale",
+     "en": "Mercurial Drift",
      "req": "Completa 33 sfide mimetica Rottura armonica, poi esegui 10 uccisioni in una partita, 250 volte"
     },
     {
      "id": "polyatomic",
      "name": "Poliatomico riforgiata",
+     "en": "Polyatomic Reforged",
      "req": "Esegui 10 uccisioni in una partita, 250 volte (sfida di Deriva mercuriale), poi esegui 3 uccisioni senza subire danni, 300 volte"
     },
     {
      "id": "orion",
      "name": "Orione riforgiata",
+     "en": "Orion Reforged",
      "req": "Esegui 3 uccisioni senza subire danni, 300 volte (sfida di Poliatomico riforgiata), poi esegui 5 uccisioni senza morire, 500 volte"
     }
    ],
