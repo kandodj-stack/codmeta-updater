@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "release": 3,
-  "checkedAt": "2026-10-30",
+  "release": 4,
+  "checkedAt": "2026-11-04",
   "modes": {
     "mp": {
       "label": "Multiplayer",
@@ -78,6 +78,438 @@
   },
   "weapons": [
     {
+      "id": "han-86",
+      "name": "Han 86",
+      "class": "ar",
+      "unlock": 4,
+      "maxLevel": 72,
+      "military": {
+        "levels": [
+          10,
+          18,
+          25,
+          34,
+          42,
+          50,
+          57,
+          65
+        ],
+        "src": [
+          "Upblazed"
+        ]
+      },
+      "special": [
+        {
+          "name": "Smoke",
+          "level": 25,
+          "mp": "20 uccisioni di giocatori con l’arma in appoggio",
+          "dmz": "75 uccisioni di nemici con l’arma in appoggio",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Stormwave",
+          "level": 46,
+          "mp": "50 uccisioni di giocatori con un silenziatore",
+          "dmz": "125 uccisioni di nemici con un silenziatore",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Red",
+          "level": 72,
+          "mp": "3 uccisioni di giocatori senza morire, 15 volte",
+          "dmz": "3 uccisioni di nemici senza subire danni, 50 volte",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        }
+      ],
+      "images": {
+        "m1": "mil-1.webp",
+        "m2": "mil-2.webp",
+        "m3": "mil-3.webp",
+        "m4": "mil-4.webp",
+        "m5": "mil-5.webp",
+        "m6": "mil-6.webp",
+        "m7": "mil-7.webp",
+        "m8": "mil-8.webp",
+        "s1": "han-86-s1.webp",
+        "s2": "han-86-s2.webp",
+        "s3": "han-86-s3.webp"
+      }
+    },
+    {
+      "id": "m4",
+      "name": "M4",
+      "class": "ar",
+      "unlock": 14,
+      "maxLevel": 72,
+      "military": {
+        "levels": [
+          10,
+          18,
+          26,
+          35,
+          39,
+          44,
+          51,
+          59
+        ],
+        "src": [
+          "Upblazed"
+        ]
+      },
+      "special": [
+        {
+          "name": "Myriad",
+          "level": 26,
+          "levelSrc": 1,
+          "mp": "20 uccisioni a bruciapelo contro giocatori",
+          "dmz": "75 uccisioni a bruciapelo contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Night Ops",
+          "level": 51,
+          "levelSrc": 1,
+          "mp": "20 uccisioni con l’arma in appoggio contro giocatori",
+          "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Green",
+          "level": 72,
+          "levelSrc": 1,
+          "mp": "25 uccisioni alle spalle contro giocatori",
+          "dmz": "100 uccisioni alle spalle contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        }
+      ],
+      "images": {
+        "m1": "mil-1.webp",
+        "m2": "mil-2.webp",
+        "m3": "mil-3.webp",
+        "m4": "mil-4.webp",
+        "m5": "mil-5.webp",
+        "m6": "mil-6.webp",
+        "m7": "mil-7.webp",
+        "m8": "mil-8.webp",
+        "s1": "m4-s1.webp",
+        "s2": "m4-s2.webp",
+        "s3": "m4-s3.webp"
+      }
+    },
+    {
+      "id": "hyeon-burst",
+      "name": "Hyeon Burst",
+      "class": "ar",
+      "unlock": 21,
+      "maxLevel": 68,
+      "military": {
+        "levels": [
+          10,
+          17,
+          26,
+          32,
+          40,
+          49,
+          55,
+          62
+        ],
+        "src": [
+          "Upblazed"
+        ]
+      },
+      "special": [
+        {
+          "name": "Ponderosa",
+          "level": 23,
+          "mp": "2 uccisioni senza ricaricare, 10 volte, contro giocatori",
+          "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Red Rain",
+          "level": 46,
+          "mp": "20 uccisioni a lunga distanza contro giocatori",
+          "dmz": "75 uccisioni a lunga distanza contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Kitty Kaos",
+          "level": 68,
+          "mp": "100 uccisioni di giocatori con un silenziatore",
+          "dmz": "250 uccisioni di nemici con un silenziatore",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        }
+      ],
+      "images": {
+        "m1": "mil-1.webp",
+        "m2": "mil-2.webp",
+        "m3": "mil-3.webp",
+        "m4": "mil-4.webp",
+        "m5": "mil-5.webp",
+        "m6": "mil-6.webp",
+        "m7": "mil-7.webp",
+        "m8": "mil-8.webp",
+        "s1": "hyeon-burst-s1.webp",
+        "s2": "hyeon-burst-s2.webp",
+        "s3": "hyeon-burst-s3.webp"
+      }
+    },
+    {
+      "id": "patriot-xmr",
+      "name": "Patriot XMR",
+      "class": "ar",
+      "unlock": 27,
+      "maxLevel": 72,
+      "military": {
+        "levels": [
+          12,
+          20,
+          28,
+          36,
+          43,
+          52,
+          59,
+          66
+        ],
+        "src": [
+          "Upblazed"
+        ]
+      },
+      "special": [
+        {
+          "name": "Dune Sea",
+          "level": 24,
+          "levelSrc": 1,
+          "mp": "20 uccisioni sparando dall’anca contro giocatori",
+          "dmz": "75 uccisioni sparando dall’anca contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Scorch",
+          "level": 49,
+          "levelSrc": 1,
+          "mp": "50 uccisioni di giocatori con un silenziatore",
+          "dmz": "125 uccisioni di nemici con un silenziatore",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Disperse",
+          "level": 72,
+          "levelSrc": 1,
+          "mp": "30 uccisioni a lunga distanza contro giocatori",
+          "dmz": "100 uccisioni a lunga distanza contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        }
+      ],
+      "images": {
+        "m1": "mil-1.webp",
+        "m2": "mil-2.webp",
+        "m3": "mil-3.webp",
+        "m4": "mil-4.webp",
+        "m5": "mil-5.webp",
+        "m6": "mil-6.webp",
+        "m7": "mil-7.webp",
+        "m8": "mil-8.webp",
+        "s1": "patriot-xmr-s1.webp",
+        "s2": "patriot-xmr-s2.webp",
+        "s3": "patriot-xmr-s3.webp"
+      }
+    },
+    {
+      "id": "kastov-762",
+      "name": "Kastov 762",
+      "class": "ar",
+      "unlock": 34,
+      "maxLevel": 68,
+      "military": {
+        "levels": [
+          10,
+          19,
+          27,
+          37,
+          45,
+          54,
+          61,
+          67
+        ],
+        "src": [
+          "Upblazed"
+        ]
+      },
+      "special": [
+        {
+          "name": "Samnim",
+          "level": 24,
+          "levelSrc": 1,
+          "mp": "3 uccisioni senza morire, 10 volte",
+          "dmz": "5 uccisioni di nemici senza subire danni, 25 volte",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Raster Aux",
+          "level": 48,
+          "levelSrc": 1,
+          "mp": "20 uccisioni a lunga distanza contro giocatori",
+          "dmz": "75 uccisioni a lunga distanza contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Yellow",
+          "level": 71,
+          "levelSrc": 1,
+          "mp": "30 uccisioni sparando dall’anca contro giocatori",
+          "dmz": "100 uccisioni sparando dall’anca contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        }
+      ],
+      "images": {
+        "m1": "mil-1.webp",
+        "m2": "mil-2.webp",
+        "m3": "mil-3.webp",
+        "m4": "mil-4.webp",
+        "m5": "mil-5.webp",
+        "m6": "mil-6.webp",
+        "m7": "mil-7.webp",
+        "m8": "mil-8.webp",
+        "s1": "kastov-762-s1.webp",
+        "s2": "kastov-762-s2.webp",
+        "s3": "kastov-762-s3.webp"
+      }
+    },
+    {
+      "id": "oden",
+      "name": "Oden",
+      "class": "ar",
+      "unlock": 39,
+      "maxLevel": 65,
+      "military": {
+        "levels": [
+          12,
+          21,
+          25,
+          33,
+          39,
+          46,
+          53,
+          59
+        ],
+        "src": [
+          "Upblazed"
+        ]
+      },
+      "special": [
+        {
+          "name": "Dark Moss",
+          "level": 25,
+          "levelSrc": 1,
+          "mp": "25 uccisioni di giocatori con il lanciagranate Miri 40MM",
+          "dmz": "75 uccisioni di nemici con il lanciagranate Miri 40MM",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Shale",
+          "level": 44,
+          "levelSrc": 1,
+          "mp": "2 uccisioni senza ricaricare, 10 volte, contro giocatori",
+          "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        },
+        {
+          "name": "Hot Rod",
+          "level": 65,
+          "levelSrc": 1,
+          "mp": "100 uccisioni mirando contro giocatori",
+          "dmz": "250 uccisioni mirando contro nemici",
+          "wz": null,
+          "src": [
+            "Upblazed",
+            "WarzoneLoadout"
+          ]
+        }
+      ],
+      "images": {
+        "m1": "mil-1.webp",
+        "m2": "mil-2.webp",
+        "m3": "mil-3.webp",
+        "m4": "mil-4.webp",
+        "m5": "mil-5.webp",
+        "m6": "mil-6.webp",
+        "m7": "mil-7.webp",
+        "m8": "mil-8.webp",
+        "s1": "oden-s1.webp",
+        "s2": "oden-s2.webp",
+        "s3": "oden-s3.webp"
+      }
+    },
+    {
       "id": "axion",
       "name": "Axion",
       "class": "ar",
@@ -129,7 +561,8 @@
           "wz": null,
           "src": [
             "BossLobbies",
-            "Upblazed"
+            "Upblazed",
+            "Gioco"
           ]
         }
       ],
@@ -284,35 +717,10 @@
             "Upblazed"
           ]
         }
-      ],
-      "images": {}
+      ]
     }
   ],
   "others": [
-    [
-      "Han 86",
-      "ar"
-    ],
-    [
-      "M4",
-      "ar"
-    ],
-    [
-      "Hyeon Burst",
-      "ar"
-    ],
-    [
-      "Patriot XMR",
-      "ar"
-    ],
-    [
-      "Kastov 762",
-      "ar"
-    ],
-    [
-      "Oden",
-      "ar"
-    ],
     [
       "Cronen Squall",
       "ar"
@@ -446,7 +854,7 @@
         {
           "id": "mercurial",
           "name": "Mercurial Drift",
-          "req": "10 uccisioni in una partita, 250 volte"
+          "req": "Harmonic Break su tutte le 33 armi, poi 10 uccisioni in una partita, 250 volte"
         },
         {
           "id": "polyatomic",
@@ -459,7 +867,23 @@
           "req": "5 uccisioni senza morire, 500 volte"
         }
       ],
-      "dmz": [],
+      "dmz": [
+        {
+          "id": "dmz-1",
+          "name": "Maestria DMZ 1",
+          "req": null
+        },
+        {
+          "id": "dmz-2",
+          "name": "Maestria DMZ 2",
+          "req": null
+        },
+        {
+          "id": "dmz-3",
+          "name": "Maestria DMZ 3",
+          "req": null
+        }
+      ],
       "wz": [
         {
           "id": "parallax",
@@ -489,9 +913,15 @@
     "hb": "harmonic-break.webp",
     "divergence": "divergence.webp",
     "wp1": "pyroclast-1.webp",
-    "wp2": "pyroclast-2.webp",
+    "wp2": "pyroclast-2b.webp",
     "wp3": "pyroclast-3.webp",
-    "wp4": "pyroclast-4.webp"
+    "wp4": "pyroclast-4.webp",
+    "mp:mercurial": "mastery-mp-mercurial.webp",
+    "mp:polyatomic": "mastery-mp-polyatomic.webp",
+    "mp:orion": "mastery-mp-orion.webp",
+    "dmz:dmz-1": "mastery-dmz-dmz-1.webp",
+    "dmz:dmz-2": "mastery-dmz-dmz-2.webp",
+    "dmz:dmz-3": "mastery-dmz-dmz-3.webp"
   },
   "sources": [
     {
@@ -517,6 +947,11 @@
     {
       "label": "MW4 Camo Tracker",
       "url": "https://mw4camotracker.com/weapons/axion-camos",
+      "official": false
+    },
+    {
+      "label": "WarzoneLoadout",
+      "url": "https://warzoneloadout.games/mw4/camos/mw4",
       "official": false
     }
   ]

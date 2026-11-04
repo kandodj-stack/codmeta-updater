@@ -64,7 +64,20 @@ def mode_texts(t, path, required=()):
                 err(f"{path}.{k}: testo non valido")
 
 
+def no_empty_objects(x, path="camos"):
+    # sync-mw4.php legge il JSON come array PHP: un oggetto vuoto {} diventa [] sul server e il sito lo rifiuta.
+    if isinstance(x, dict):
+        if not x:
+            err(f"{path}: oggetto vuoto {{}} non ammesso (sul server diventerebbe []): togli il campo")
+        for k, v in x.items():
+            no_empty_objects(v, f"{path}.{k}")
+    elif isinstance(x, list):
+        for i, v in enumerate(x):
+            no_empty_objects(v, f"{path}[{i}]")
+
+
 def check(d, base_dir):
+    no_empty_objects(d)
     if not keys(d, "camos", ["schemaVersion", "release", "checkedAt", "modes", "gold", "classes", "weapons", "others", "weaponPrestige", "account", "wzExtra", "images", "sources"]):
         return
     if d["schemaVersion"] != 1 or not is_int(d["release"], 1, 2147483647):
