@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 7,
+  "release": 8,
   "mw4": {
-    "buildCheckedAt": "2026-11-02",
+    "buildCheckedAt": "2026-11-04",
     "catalogCheckedAt": "2026-10-23",
     "catalog": [
       {
@@ -923,6 +923,40 @@
             null
           ]
         ]
+      },
+      "MOJAVE .357": {
+        "rank": 1,
+        "category": "Pistole",
+        "slug": "mojave-357",
+        "tier": "C",
+        "buildType": "Short Range",
+        "attachments": [
+          [
+            "Volata",
+            "MATUZEK H357-M COMP",
+            2
+          ],
+          [
+            "Canna",
+            "BRYSON SNUB 2",
+            15
+          ],
+          [
+            "Caricatore",
+            "MOJAVE SPEED CYLINDER",
+            9
+          ],
+          [
+            "Impugnatura posteriore",
+            "CP37 GRIP",
+            35
+          ],
+          [
+            "Grilletto",
+            "M357 LIGHT",
+            23
+          ]
+        ]
       }
     },
     "order": [
@@ -945,7 +979,8 @@
       "TYPE 73",
       "MAR-9",
       "CRONEN SQUALL",
-      "WARLORD"
+      "WARLORD",
+      "MOJAVE .357"
     ]
   }
 }

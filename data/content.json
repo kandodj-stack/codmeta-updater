@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 12,
+  "release": 13,
   "header": {
     "liveStatus": "STAGIONE 06 · META WZSTATS 04.11"
   },
   "ticker": [
+    {
+      "tag": "04 NOV · MW4",
+      "text": "Meta MW4 WZStats del 4 novembre: classifica e build invariate; entra la build Short Range della Mojave .357 (tier C), prima pistola tra le build. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it/mw4/meta"
+    },
     {
       "tag": "04 NOV · WARZONE",
       "text": "Meta WZStats del 4 novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
@@ -99,11 +104,6 @@
       "tag": "19 OTT · MW4",
       "text": "33 armi di lancio: catalogo e progressione consultabili selezionando Modern Warfare 4. Sette build Multiplayer disponibili nelle schede MW4.",
       "url": "https://www.callofduty.com/uk/en/blog/2026/10/call-of-duty-modern-warfare-4-launch-multiplayer-operators-weapons-equipment-create-a-class"
-    },
-    {
-      "tag": "14 OTT · WARZONE",
-      "text": "VMP: più rinculo visivo. Migliorati DS20 Mirage, Ryden 45K e XM325; build coinvolte da rivalutare.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
     }
   ],
   "news": {

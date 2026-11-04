@@ -48,7 +48,7 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
      `PATRIOT XMR`; attenzione: WZStats scrive «PARTRIOT XMR»).
    - `builds` ha una voce per ogni arma di `order`, nello stesso ordine. `rank` = posizione dell'arma tra le armi
      della **stessa categoria** in `order` (es. primo fucile d'assalto = 1, primo mitragliatore = 1).
-     `category` al plurale come nelle voci esistenti (`Fucili d’assalto`, `Mitragliette`, `Fucili tattici`…).
+     `category` al plurale come nelle voci esistenti (`Fucili d’assalto`, `Mitragliette`, `Fucili tattici`, `Pistole`…).
      `tier` = sezione della pagina in cui si trova l'arma: `META` (prima sezione «Modern Warfare 4 Meta»), `A`, `B`, `C`, `D`.
      `buildType` = nome della build scelta come scritto su WZStats (`Versatile`, `Long Range`, `ADS Speed`, `Low Level`…).
      Ordine dei campi in ogni build: `rank`, `category`, `slug`, `tier`, `buildType`, `attachments`.
@@ -62,7 +62,8 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
      Servono esattamente 5 accessori con slot diversi: `[slot, NOME, livello]`,
      livello `null` se la fonte non lo indica. Se un nome di accessorio manca o i due controlli non coincidono, l'arma resta fuori.
      Slot in italiano come nelle voci esistenti
-     (Ottica, Volata, Canna, Sottocanna, Calcio, Impugnatura posteriore, Laser, Caricatore, Munizioni, Poggiaguancia).
+     (Ottica, Volata, Canna, Sottocanna, Calcio, Impugnatura posteriore, Laser, Caricatore, Munizioni, Poggiaguancia,
+     Grilletto per «Trigger Action» delle pistole).
      Nomi accessori in inglese MAIUSCOLO, nella forma già usata (es. `FSS TAC90 GRIP`, non `IMPUGNATURA FSS TAC90`).
    - Leggi due volte classifica e build cambiate: devono coincidere. Se un'arma in classifica non è in `catalog`,
      non pubblicare il file MW4 e spiegalo nel resoconto. Le armi senza build valida (solo Apex, meno di 5 accessori,
