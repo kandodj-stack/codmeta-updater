@@ -76,6 +76,22 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
      livello massimo e Apex letti da una fonte; altrimenti segnalalo nel resoconto senza aggiungerla.
    - Se cambia la classifica MW4, aggiungi anche una voce in testa a `ticker` di `content.json`.
 
+4b. **Armi nuove → promemoria screenshot per Kando** (richiesta di Kando, 4 nov 2026). Non modificare `data/camos.json`.
+   Confronta le armi MW4 note in questa esecuzione (`catalog[].name` di `data/catalog.json`, classifica WZStats MW4,
+   note di patch o di stagione ufficiali che annunciano armi nuove) con le armi di `data/camos.json`
+   (`weapons[].name` e `others[][0]`; confronta senza maiuscole, spazi e punteggiatura: «SANG 9mm» = «sang9mm»).
+   Per ogni arma che manca in `camos.json`, metti **all'inizio del resoconto** questo promemoria, con il nome dell'arma
+   e la classe se la conosci (testo da copiare così, cambiando solo le parti tra < >):
+
+   > Arma nuova da aggiungere al tracker mimetiche: <NOME ARMA> (<classe>). Quando l'hai sbloccata, fai questi screenshot con OBS (PS5 → Elgato, immagine intera 1920×1080):
+   > 1. Crea una classe → arma <NOME ARMA> → schermata «Selezione mimetica», scheda «Progressione <NOME ARMA>»: uno screenshot così com'è, con il cursore su Militare 1.
+   > 2. Cursore sulla 1ª Speciale → screenshot; poi sulla 2ª e sulla 3ª (3 screenshot in tutto).
+   > 3. Solo se l'arma è di una classe nuova: cursore su Platino → screenshot, poi su Rottura armonica → screenshot.
+   > Metti gli screenshot in una cartella con il nome dell'arma, comprimila (7z o zip) e mandala a Claude nel progetto Codmeta. Finché l'arma è bloccata non serve niente: Claude usa le guide.
+
+   Ripeti il promemoria ogni giorno finché l'arma non compare in `camos.json`. Le armi già presenti in `weapons[]` o in
+   `others` non danno promemoria (es. .50 GS, che resta in `others` solo finché non è online la v45).
+
 5. **Sfide settimanali.** Prova a trovare la settimana successiva a `weekly.week` da una fonte leggibile.
    Pubblica solo l'elenco completo per tutte e tre le modalità, con fonte e data. Altrimenti lascia tutto com'è.
 
@@ -97,6 +113,7 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
 ## Resoconto finale
 
 In italiano, breve, leggibile da telefono:
+- per prima cosa l'eventuale promemoria screenshot del punto 4b (armi nuove da aggiungere al tracker mimetiche);
 - pubblicato sì/no e con quale `release`;
 - cosa è cambiato (meta Warzone, meta MW4, build, patch, sfide);
 - cosa non è stato possibile verificare e perché;
