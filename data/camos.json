@@ -1,968 +1,2652 @@
 {
-  "schemaVersion": 1,
-  "release": 5,
-  "checkedAt": "2026-11-04",
-  "modes": {
-    "mp": {
-      "label": "Multigiocatore",
-      "live": true
-    },
-    "dmz": {
-      "label": "DMZ",
-      "live": true
-    },
-    "wz": {
-      "label": "Warzone",
-      "live": false,
-      "from": "Stagione 1"
-    }
+ "schemaVersion": 1,
+ "release": 6,
+ "checkedAt": "2026-11-04",
+ "modes": {
+  "mp": {
+   "label": "Multigiocatore",
+   "live": true
   },
-  "gold": {
-    "mp": "Esegui 15 uccisioni contro i giocatori in una sola partita",
-    "wz": null,
-    "src": [
-      "Gioco",
-      "Activision"
-    ]
+  "dmz": {
+   "label": "DMZ",
+   "live": true
   },
-  "classes": {
-    "ar": {
-      "label": "Fucili d’assalto",
-      "size": 8,
-      "platinum": {
-        "mp": "Esegui 50 colpi alla testa contro i giocatori",
-        "wz": null
-      },
-      "harmonic": {
-        "mp": "Esegui 25 doppie uccisioni contro i giocatori",
-        "wz": null
-      },
-      "src": [
-        "Gioco",
-        "BossLobbies",
-        "Upblazed",
-        "Game8"
-      ]
-    },
-    "smg": {
-      "label": "Mitragliette",
-      "size": 5,
-      "platinum": {
-        "mp": "25 uccisioni di giocatori alle spalle",
-        "wz": null
-      },
-      "harmonic": {
-        "mp": "50 uccisioni di giocatori sparando dall’anca",
-        "wz": null
-      },
-      "src": [
-        "CODMunity",
-        "BossLobbies",
-        "Upblazed"
-      ]
-    },
-    "tac": {
-      "label": "Fucili tattici",
-      "size": 3,
-      "platinum": {
-        "mp": "75 uccisioni di giocatori da prono",
-        "wz": null
-      },
-      "harmonic": {
-        "mp": "75 uccisioni con un colpo solo contro giocatori",
-        "wz": null
-      },
-      "src": [
-        "BossLobbies",
-        "Upblazed"
-      ]
-    }
-  },
-  "weapons": [
-    {
-      "id": "han-86",
-      "name": "Han 86",
-      "class": "ar",
-      "unlock": 4,
-      "maxLevel": 72,
-      "military": {
-        "levels": [
-          10,
-          18,
-          25,
-          34,
-          42,
-          50,
-          57,
-          65
-        ],
-        "src": [
-          "Upblazed"
-        ]
-      },
-      "special": [
-        {
-          "name": "Fumogeno",
-          "level": 25,
-          "mp": "Esegui 20 uccisioni di giocatori con l’arma posizionata",
-          "dmz": "75 uccisioni di nemici con l’arma in appoggio",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Onda di tempesta",
-          "level": 46,
-          "mp": "Esegui 50 uccisioni contro i giocatori usando un silenziatore",
-          "dmz": "125 uccisioni di nemici con un silenziatore",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Rosso",
-          "level": 72,
-          "mp": "Esegui 3 uccisioni di giocatori senza morire, 15 volte",
-          "dmz": "3 uccisioni di nemici senza subire danni, 50 volte",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        }
-      ],
-      "images": {
-        "m1": "mil-1.webp",
-        "m2": "mil-2.webp",
-        "m3": "mil-3.webp",
-        "m4": "mil-4.webp",
-        "m5": "mil-5.webp",
-        "m6": "mil-6.webp",
-        "m7": "mil-7.webp",
-        "m8": "mil-8.webp",
-        "s1": "han-86-s1.webp",
-        "s2": "han-86-s2.webp",
-        "s3": "han-86-s3.webp"
-      }
-    },
-    {
-      "id": "m4",
-      "name": "M4",
-      "class": "ar",
-      "unlock": 14,
-      "maxLevel": 72,
-      "military": {
-        "levels": [
-          10,
-          18,
-          26,
-          35,
-          39,
-          44,
-          51,
-          59
-        ],
-        "src": [
-          "Upblazed"
-        ]
-      },
-      "special": [
-        {
-          "name": "Miriade",
-          "level": 26,
-          "mp": "Esegui 20 uccisioni bruciapelo contro i giocatori",
-          "dmz": "75 uccisioni a bruciapelo contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Operazioni notturne",
-          "level": 51,
-          "mp": "Esegui 20 uccisioni con arma posizionata contro i giocatori",
-          "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Verde",
-          "level": 72,
-          "mp": "Esegui 25 uccisioni alle spalle contro i giocatori",
-          "dmz": "100 uccisioni alle spalle contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        }
-      ],
-      "images": {
-        "m1": "mil-1.webp",
-        "m2": "mil-2.webp",
-        "m3": "mil-3.webp",
-        "m4": "mil-4.webp",
-        "m5": "mil-5.webp",
-        "m6": "mil-6.webp",
-        "m7": "mil-7.webp",
-        "m8": "mil-8.webp",
-        "s1": "m4-s1.webp",
-        "s2": "m4-s2.webp",
-        "s3": "m4-s3.webp"
-      }
-    },
-    {
-      "id": "hyeon-burst",
-      "name": "Hyeon Burst",
-      "class": "ar",
-      "unlock": 21,
-      "maxLevel": 68,
-      "military": {
-        "levels": [
-          10,
-          17,
-          26,
-          32,
-          40,
-          49,
-          55,
-          62
-        ],
-        "src": [
-          "Upblazed"
-        ]
-      },
-      "special": [
-        {
-          "name": "Ponderosa",
-          "level": 23,
-          "mp": "Esegui 2 uccisioni senza ricaricare, 10 volte, contro i giocatori",
-          "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Pioggia rossa",
-          "level": 46,
-          "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
-          "dmz": "75 uccisioni a lunga distanza contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Caos felino",
-          "level": 68,
-          "mp": "Esegui 100 uccisioni contro i giocatori usando un silenziatore",
-          "dmz": "250 uccisioni di nemici con un silenziatore",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        }
-      ],
-      "images": {
-        "m1": "mil-1.webp",
-        "m2": "mil-2.webp",
-        "m3": "mil-3.webp",
-        "m4": "mil-4.webp",
-        "m5": "mil-5.webp",
-        "m6": "mil-6.webp",
-        "m7": "mil-7.webp",
-        "m8": "mil-8.webp",
-        "s1": "hyeon-burst-s1.webp",
-        "s2": "hyeon-burst-s2.webp",
-        "s3": "hyeon-burst-s3.webp"
-      }
-    },
-    {
-      "id": "patriot-xmr",
-      "name": "Patriot XMR",
-      "class": "ar",
-      "unlock": 27,
-      "maxLevel": 72,
-      "military": {
-        "levels": [
-          12,
-          20,
-          28,
-          36,
-          43,
-          52,
-          59,
-          66
-        ],
-        "src": [
-          "Upblazed"
-        ]
-      },
-      "special": [
-        {
-          "name": "Mare di dune",
-          "level": 24,
-          "mp": "Esegui 20 uccisioni sparando senza mirare contro i giocatori",
-          "dmz": "75 uccisioni sparando dall’anca contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Bruciatura",
-          "level": 49,
-          "mp": "Esegui 50 uccisioni contro i giocatori usando un silenziatore",
-          "dmz": "125 uccisioni di nemici con un silenziatore",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Dispersione",
-          "level": 72,
-          "mp": "Esegui 30 uccisioni contro i giocatori con colpi a distanza",
-          "dmz": "100 uccisioni a lunga distanza contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        }
-      ],
-      "images": {
-        "m1": "mil-1.webp",
-        "m2": "mil-2.webp",
-        "m3": "mil-3.webp",
-        "m4": "mil-4.webp",
-        "m5": "mil-5.webp",
-        "m6": "mil-6.webp",
-        "m7": "mil-7.webp",
-        "m8": "mil-8.webp",
-        "s1": "patriot-xmr-s1.webp",
-        "s2": "patriot-xmr-s2.webp",
-        "s3": "patriot-xmr-s3.webp"
-      }
-    },
-    {
-      "id": "kastov-762",
-      "name": "Kastov 762",
-      "class": "ar",
-      "unlock": 34,
-      "maxLevel": 68,
-      "military": {
-        "levels": [
-          10,
-          19,
-          27,
-          37,
-          45,
-          54,
-          61,
-          67
-        ],
-        "src": [
-          "Upblazed"
-        ]
-      },
-      "special": [
-        {
-          "name": "Samnim",
-          "level": 23,
-          "mp": "Esegui 3 uccisioni senza morire, 10 volte",
-          "dmz": "5 uccisioni di nemici senza subire danni, 25 volte",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Raster Aux",
-          "level": 48,
-          "mp": "Esegui 20 uccisioni contro i giocatori con colpi a distanza",
-          "dmz": "75 uccisioni a lunga distanza contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Giallo",
-          "level": 68,
-          "mp": "Esegui 30 uccisioni contro i giocatori con fuoco senza mirare",
-          "dmz": "100 uccisioni sparando dall’anca contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        }
-      ],
-      "images": {
-        "m1": "mil-1.webp",
-        "m2": "mil-2.webp",
-        "m3": "mil-3.webp",
-        "m4": "mil-4.webp",
-        "m5": "mil-5.webp",
-        "m6": "mil-6.webp",
-        "m7": "mil-7.webp",
-        "m8": "mil-8.webp",
-        "s1": "kastov-762-s1.webp",
-        "s2": "kastov-762-s2.webp",
-        "s3": "kastov-762-s3.webp"
-      }
-    },
-    {
-      "id": "oden",
-      "name": "Oden",
-      "class": "ar",
-      "unlock": 39,
-      "maxLevel": 65,
-      "military": {
-        "levels": [
-          12,
-          21,
-          25,
-          33,
-          39,
-          46,
-          53,
-          59
-        ],
-        "src": [
-          "Upblazed"
-        ]
-      },
-      "special": [
-        {
-          "name": "Muschio scuro",
-          "level": 25,
-          "mp": "Esegui 25 uccisioni contro i giocatori usando il lanciagranate Miri 40 mm",
-          "dmz": "75 uccisioni di nemici con il lanciagranate Miri 40MM",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Roccia sedimentaria",
-          "level": 44,
-          "mp": "Esegui 2 uccisioni senza ricaricare, 10 volte, contro i giocatori",
-          "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        },
-        {
-          "name": "Auto sportiva",
-          "level": 65,
-          "mp": "Esegui 100 uccisioni in modalità mirino contro i giocatori",
-          "dmz": "250 uccisioni mirando contro nemici",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "Upblazed",
-            "WarzoneLoadout"
-          ]
-        }
-      ],
-      "images": {
-        "m1": "mil-1.webp",
-        "m2": "mil-2.webp",
-        "m3": "mil-3.webp",
-        "m4": "mil-4.webp",
-        "m5": "mil-5.webp",
-        "m6": "mil-6.webp",
-        "m7": "mil-7.webp",
-        "m8": "mil-8.webp",
-        "s1": "oden-s1.webp",
-        "s2": "oden-s2.webp",
-        "s3": "oden-s3.webp"
-      }
-    },
-    {
-      "id": "axion",
-      "name": "Axion",
-      "class": "ar",
-      "unlock": 52,
-      "maxLevel": 69,
-      "military": {
-        "levels": [
-          10,
-          19,
-          26,
-          34,
-          41,
-          48,
-          55,
-          62
-        ],
-        "src": [
-          "BossLobbies",
-          "Upblazed"
-        ]
-      },
-      "special": [
-        {
-          "name": "Roccia scheggiata",
-          "level": 23,
-          "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "BossLobbies",
-            "Upblazed",
-            "MW4 Camo Tracker"
-          ]
-        },
-        {
-          "name": "Tramonto tropicale",
-          "level": 45,
-          "mp": "Esegui 25 uccisioni contro i giocatori usando il lanciagranate Miri 40 mm",
-          "wz": null,
-          "src": [
-            "Gioco",
-            "BossLobbies",
-            "Upblazed",
-            "MW4 Camo Tracker"
-          ]
-        },
-        {
-          "name": "Azzurro",
-          "level": 69,
-          "mp": "Esegui 2 uccisioni senza ricaricare, 25 volte, contro i giocatori",
-          "wz": null,
-          "src": [
-            "BossLobbies",
-            "Upblazed",
-            "Gioco"
-          ]
-        }
-      ],
-      "images": {
-        "m1": "mil-1.webp",
-        "m2": "mil-2.webp",
-        "m3": "mil-3.webp",
-        "m4": "mil-4.webp",
-        "m5": "mil-5.webp",
-        "m6": "mil-6.webp",
-        "m7": "mil-7.webp",
-        "m8": "mil-8.webp",
-        "s1": "axion-s1.webp",
-        "s2": "axion-s2.webp",
-        "s3": "axion-s3.webp"
-      }
-    },
-    {
-      "id": "iso-nightshade",
-      "name": "ISO Nightshade",
-      "class": "smg",
-      "unlock": 4,
-      "maxLevel": 64,
-      "military": {
-        "levels": [
-          12,
-          19,
-          25,
-          31,
-          38,
-          44,
-          50,
-          57
-        ],
-        "src": [
-          "CODMunity",
-          "BossLobbies",
-          "Upblazed"
-        ]
-      },
-      "special": [
-        {
-          "name": "Asphalt",
-          "level": 22,
-          "levelSrc": 1,
-          "mp": "50 uccisioni di giocatori mirando",
-          "wz": null,
-          "src": [
-            "CODMunity",
-            "BossLobbies",
-            "Upblazed"
-          ]
-        },
-        {
-          "name": "Black Topo",
-          "level": 44,
-          "levelSrc": 1,
-          "mp": "10 uccisioni doppie contro giocatori",
-          "wz": null,
-          "src": [
-            "CODMunity",
-            "BossLobbies",
-            "Upblazed"
-          ]
-        },
-        {
-          "name": "Brown",
-          "level": 64,
-          "levelSrc": 1,
-          "mp": "3 uccisioni di giocatori senza morire, 15 volte",
-          "wz": null,
-          "src": [
-            "CODMunity",
-            "BossLobbies",
-            "Upblazed"
-          ]
-        }
-      ],
-      "images": {
-        "m1": "mil-1.webp",
-        "m2": "mil-2.webp",
-        "m3": "mil-3.webp",
-        "m4": "mil-4.webp",
-        "m5": "mil-5.webp",
-        "m6": "mil-6.webp",
-        "m7": "mil-7.webp",
-        "m8": "mil-8.webp",
-        "s1": "iso-nightshade-s1.webp",
-        "s2": "iso-nightshade-s2.webp",
-        "s3": "iso-nightshade-s3.webp"
-      }
-    },
-    {
-      "id": "mosin-nagant",
-      "name": "Mosin-Nagant",
-      "class": "tac",
-      "unlock": 36,
-      "maxLevel": 69,
-      "military": {
-        "levels": [
-          10,
-          17,
-          25,
-          31,
-          38,
-          47,
-          55,
-          61
-        ],
-        "src": [
-          "BossLobbies",
-          "Upblazed"
-        ]
-      },
-      "special": [
-        {
-          "name": "Ice Sheer",
-          "level": 25,
-          "levelSrc": 1,
-          "mp": "25 colpi alla testa contro giocatori",
-          "wz": null,
-          "src": [
-            "BossLobbies",
-            "Upblazed"
-          ]
-        },
-        {
-          "name": "Speciale 2",
-          "altNames": [
-            "Brown",
-            "Fractal Snow"
-          ],
-          "level": null,
-          "mp": "3 uccisioni di giocatori senza morire, 15 volte",
-          "wz": null,
-          "src": [
-            "BossLobbies",
-            "Upblazed"
-          ]
-        },
-        {
-          "name": "Speciale 3",
-          "altNames": [
-            "Gunmetal",
-            "Sticker Shock"
-          ],
-          "level": null,
-          "mp": "20 colpi alla testa contro giocatori",
-          "wz": null,
-          "src": [
-            "BossLobbies",
-            "Upblazed"
-          ]
-        }
-      ]
-    }
-  ],
-  "others": [
-    [
-      "Cronen Squall",
-      "ar"
-    ],
-    [
-      "VEL 46",
-      "smg"
-    ],
-    [
-      "Wz.55 Striga",
-      "smg"
-    ],
-    [
-      "PPSh-41",
-      "smg"
-    ],
-    [
-      "X-58 Nyx",
-      "smg"
-    ],
-    [
-      "Rezi 12",
-      "sg"
-    ],
-    [
-      "Warlord",
-      "sg"
-    ],
-    [
-      "FiNN LMG",
-      "lmg"
-    ],
-    [
-      "Type 73",
-      "lmg"
-    ],
-    [
-      "APOC-338",
-      "lmg"
-    ],
-    [
-      "MAR-9",
-      "tac"
-    ],
-    [
-      "Oris 8.6",
-      "tac"
-    ],
-    [
-      "KG-7 Vulcan",
-      "sn"
-    ],
-    [
-      "Astaroth .57",
-      "sn"
-    ],
-    [
-      "Signal 50",
-      "sn"
-    ],
-    [
-      "SANG 9mm",
-      "pi"
-    ],
-    [
-      "Krait P68",
-      "pi"
-    ],
-    [
-      ".50 GS",
-      "pi"
-    ],
-    [
-      "Mojave .357",
-      "pi"
-    ],
-    [
-      "PILA",
-      "la"
-    ],
-    [
-      "RPG-8",
-      "la"
-    ],
-    [
-      "JOKR",
-      "la"
-    ],
-    [
-      "PM-40 Anvil",
-      "la"
-    ],
-    [
-      "FSS Carbon Edge 1095",
-      "me"
-    ]
-  ],
-  "weaponPrestige": [
-    {
-      "name": "Pyroclast",
-      "req": "Prestigio arma 1, livello 1",
-      "stage": "p1",
-      "level": 1
-    },
-    {
-      "name": "Pyroclast Terminus",
-      "req": "Livello massimo nel Prestigio arma 1",
-      "stage": "p1",
-      "level": null
-    },
-    {
-      "name": "Pyroclast Scatter",
-      "req": "Prestigio arma Master, livello 150",
-      "stage": "master",
-      "level": 150
-    },
-    {
-      "name": "Cascata piroclastica",
-      "req": "Raggiungi il livello Maestro Prestigio 250",
-      "stage": "master",
-      "level": 250
-    }
-  ],
-  "account": {
-    "divergence": {
-      "name": "Divergenza",
-      "req": "Completa 33 sfide mimetica Rottura armonica (Harmonic Break su tutte le 33 armi)"
-    },
-    "mastery": {
-      "mp": [
-        {
-          "id": "mercurial",
-          "name": "Deriva mercuriale",
-          "req": "Completa 33 sfide mimetica Rottura armonica, poi esegui 10 uccisioni in una partita, 250 volte"
-        },
-        {
-          "id": "polyatomic",
-          "name": "Poliatomico riforgiata",
-          "req": "Esegui 10 uccisioni in una partita, 250 volte (sfida di Deriva mercuriale), poi esegui 3 uccisioni senza subire danni, 300 volte"
-        },
-        {
-          "id": "orion",
-          "name": "Orione riforgiata",
-          "req": "Esegui 3 uccisioni senza subire danni, 300 volte (sfida di Poliatomico riforgiata), poi esegui 5 uccisioni senza morire, 500 volte"
-        }
-      ],
-      "dmz": [
-        {
-          "id": "dmz-1",
-          "name": "Chirale",
-          "req": "Completa 33 sfide mimetica Rottura armonica, poi esegui 2500 uccisioni contro nemici al livello 3 o più"
-        },
-        {
-          "id": "dmz-2",
-          "name": "Marea increspata",
-          "req": "Esegui 2500 uccisioni contro nemici al livello 3 o più (sfida di Chirale), poi estrai 2 piastrine tenente in un singolo dispiegamento, 50 volte"
-        },
-        {
-          "id": "dmz-3",
-          "name": "Elio",
-          "req": "Estrai 2 piastrine tenente in un singolo dispiegamento, 50 volte (sfida di Marea increspata), poi esegui 25000 uccisioni usando un’arma leggendaria con un operatore di livello massimo"
-        }
-      ],
-      "wz": [
-        {
-          "id": "parallax",
-          "name": "Parallax",
-          "req": null
-        },
-        {
-          "id": "damascus",
-          "name": "Damascus Reforged",
-          "req": null
-        },
-        {
-          "id": "empyros",
-          "name": "Empyros",
-          "req": null
-        }
-      ]
-    }
-  },
-  "wzExtra": {
-    "status": "pending",
-    "items": []
-  },
-  "images": {
-    "gold": "gold.webp",
-    "plat": "platinum.webp",
-    "hb": "harmonic-break.webp",
-    "divergence": "divergence.webp",
-    "wp1": "pyroclast-1.webp",
-    "wp2": "pyroclast-2b.webp",
-    "wp3": "pyroclast-3.webp",
-    "wp4": "pyroclast-4.webp",
-    "mp:mercurial": "mastery-mp-mercurial-2.webp",
-    "mp:polyatomic": "mastery-mp-polyatomic.webp",
-    "mp:orion": "mastery-mp-orion.webp",
-    "dmz:dmz-1": "mastery-dmz-dmz-1.webp",
-    "dmz:dmz-2": "mastery-dmz-dmz-2.webp",
-    "dmz:dmz-3": "mastery-dmz-dmz-3.webp"
-  },
-  "sources": [
-    {
-      "label": "Activision · progressione e prestigio MW4",
-      "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige",
-      "official": true
-    },
-    {
-      "label": "BossLobbies",
-      "url": "https://bosslobbies.com/guides/modern-warfare-4/camos/",
-      "official": false
-    },
-    {
-      "label": "Upblazed",
-      "url": "https://upblazed.com/tools/mw4-camo-tracker",
-      "official": false
-    },
-    {
-      "label": "CODMunity",
-      "url": "https://codmunity.gg/camo-tracker/mw4",
-      "official": false
-    },
-    {
-      "label": "MW4 Camo Tracker",
-      "url": "https://mw4camotracker.com/weapons/axion-camos",
-      "official": false
-    },
-    {
-      "label": "WarzoneLoadout",
-      "url": "https://warzoneloadout.games/mw4/camos/mw4",
-      "official": false
-    }
+  "wz": {
+   "label": "Warzone",
+   "live": false,
+   "from": "Stagione 1"
+  }
+ },
+ "gold": {
+  "mp": "Esegui 15 uccisioni contro i giocatori in una sola partita",
+  "wz": null,
+  "src": [
+   "Gioco",
+   "Activision"
   ]
+ },
+ "classes": {
+  "ar": {
+   "label": "Fucili d’assalto",
+   "size": 8,
+   "platinum": {
+    "mp": "Esegui 50 colpi alla testa contro i giocatori",
+    "wz": null
+   },
+   "harmonic": {
+    "mp": "Esegui 25 doppie uccisioni contro i giocatori",
+    "wz": null
+   },
+   "src": [
+    "Gioco",
+    "BossLobbies",
+    "Upblazed",
+    "Game8"
+   ]
+  },
+  "smg": {
+   "label": "Mitragliette",
+   "size": 5,
+   "platinum": {
+    "mp": "Esegui 25 uccisioni di giocatori da dietro",
+    "wz": null
+   },
+   "harmonic": {
+    "mp": "Esegui 50 uccisioni sparando senza mirare contro i giocatori",
+    "wz": null
+   },
+   "src": [
+    "Gioco"
+   ]
+  },
+  "sg": {
+   "label": "Fucili a canna liscia",
+   "size": 2,
+   "platinum": {
+    "mp": "Esegui 50 uccisioni sparando senza mirare contro i giocatori",
+    "wz": null
+   },
+   "harmonic": {
+    "mp": "Esegui 2 uccisioni di giocatori senza ricaricare, 25 volte",
+    "wz": null
+   },
+   "src": [
+    "Gioco"
+   ]
+  },
+  "lmg": {
+   "label": "Mitragliatrici leggere",
+   "size": 3,
+   "platinum": {
+    "mp": "Esegui 3 uccisioni di giocatori senza morire, 15 volte",
+    "wz": null
+   },
+   "harmonic": {
+    "mp": "Esegui 2 uccisioni di giocatori senza rilasciare il grilletto, 25 volte",
+    "wz": null
+   },
+   "src": [
+    "Gioco"
+   ]
+  },
+  "tac": {
+   "label": "Fucili tattici",
+   "size": 3,
+   "platinum": {
+    "mp": "Esegui 75 uccisioni di giocatori in posizione sdraiata",
+    "wz": null
+   },
+   "harmonic": {
+    "mp": "Esegui 75 uccisioni Colpo singolo contro i giocatori",
+    "wz": null
+   },
+   "src": [
+    "Gioco"
+   ]
+  },
+  "sn": {
+   "label": "Fucili di precisione",
+   "size": 3,
+   "platinum": {
+    "mp": "Esegui 75 uccisioni di giocatori in posizione sdraiata",
+    "wz": null
+   },
+   "harmonic": {
+    "mp": "Esegui 75 uccisioni Colpo singolo contro i giocatori",
+    "wz": null
+   },
+   "src": [
+    "Gioco"
+   ]
+  },
+  "pi": {
+   "label": "Pistole",
+   "size": 4,
+   "platinum": {
+    "mp": "Esegui 20 uccisioni di giocatori da dietro",
+    "wz": null
+   },
+   "harmonic": {
+    "mp": "Esegui 40 uccisioni sparando senza mirare contro i giocatori",
+    "wz": null
+   },
+   "src": [
+    "Gioco"
+   ]
+  },
+  "la": {
+   "label": "Lanciatori",
+   "size": 4,
+   "platinum": {
+    "mp": "Esegui 2 uccisioni contro i giocatori senza subire danni, 15 volte",
+    "wz": null
+   },
+   "harmonic": {
+    "mp": "Esegui 10 uccisioni contro i giocatori in una partita, 7 volte",
+    "wz": null
+   },
+   "src": [
+    "Gioco"
+   ]
+  },
+  "me": {
+   "label": "Da mischia",
+   "size": 1,
+   "platinum": {
+    "mp": "Esegui 3 uccisioni senza morire, 15 volte, contro i giocatori",
+    "wz": null
+   },
+   "harmonic": {
+    "mp": "Esegui 25 uccisioni di giocatori da dietro",
+    "wz": null
+   },
+   "src": [
+    "Gioco"
+   ]
+  }
+ },
+ "weapons": [
+  {
+   "id": "han-86",
+   "name": "Han 86",
+   "class": "ar",
+   "unlock": 4,
+   "maxLevel": 72,
+   "military": {
+    "levels": [
+     10,
+     18,
+     25,
+     34,
+     42,
+     50,
+     57,
+     65
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Fumogeno",
+     "level": 25,
+     "mp": "Esegui 20 uccisioni di giocatori con l’arma posizionata",
+     "dmz": "75 uccisioni di nemici con l’arma in appoggio",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Onda di tempesta",
+     "level": 46,
+     "mp": "Esegui 50 uccisioni contro i giocatori usando un silenziatore",
+     "dmz": "125 uccisioni di nemici con un silenziatore",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Rosso",
+     "level": 72,
+     "mp": "Esegui 3 uccisioni di giocatori senza morire, 15 volte",
+     "dmz": "3 uccisioni di nemici senza subire danni, 50 volte",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "han-86-s1.webp",
+    "s2": "han-86-s2.webp",
+    "s3": "han-86-s3.webp"
+   }
+  },
+  {
+   "id": "m4",
+   "name": "M4",
+   "class": "ar",
+   "unlock": 14,
+   "maxLevel": 72,
+   "military": {
+    "levels": [
+     10,
+     18,
+     26,
+     35,
+     39,
+     44,
+     51,
+     59
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Miriade",
+     "level": 26,
+     "mp": "Esegui 20 uccisioni bruciapelo contro i giocatori",
+     "dmz": "75 uccisioni a bruciapelo contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Operazioni notturne",
+     "level": 51,
+     "mp": "Esegui 20 uccisioni con arma posizionata contro i giocatori",
+     "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Verde",
+     "level": 72,
+     "mp": "Esegui 25 uccisioni alle spalle contro i giocatori",
+     "dmz": "100 uccisioni alle spalle contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "m4-s1.webp",
+    "s2": "m4-s2.webp",
+    "s3": "m4-s3.webp"
+   }
+  },
+  {
+   "id": "hyeon-burst",
+   "name": "Hyeon Burst",
+   "class": "ar",
+   "unlock": 21,
+   "maxLevel": 68,
+   "military": {
+    "levels": [
+     10,
+     17,
+     26,
+     32,
+     40,
+     49,
+     55,
+     62
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Ponderosa",
+     "level": 23,
+     "mp": "Esegui 2 uccisioni senza ricaricare, 10 volte, contro i giocatori",
+     "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Pioggia rossa",
+     "level": 46,
+     "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
+     "dmz": "75 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Caos felino",
+     "level": 68,
+     "mp": "Esegui 100 uccisioni contro i giocatori usando un silenziatore",
+     "dmz": "250 uccisioni di nemici con un silenziatore",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "hyeon-burst-s1.webp",
+    "s2": "hyeon-burst-s2.webp",
+    "s3": "hyeon-burst-s3.webp"
+   }
+  },
+  {
+   "id": "patriot-xmr",
+   "name": "Patriot XMR",
+   "class": "ar",
+   "unlock": 27,
+   "maxLevel": 72,
+   "military": {
+    "levels": [
+     12,
+     20,
+     28,
+     36,
+     43,
+     52,
+     59,
+     66
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Mare di dune",
+     "level": 24,
+     "mp": "Esegui 20 uccisioni sparando senza mirare contro i giocatori",
+     "dmz": "75 uccisioni sparando dall’anca contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Bruciatura",
+     "level": 49,
+     "mp": "Esegui 50 uccisioni contro i giocatori usando un silenziatore",
+     "dmz": "125 uccisioni di nemici con un silenziatore",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Dispersione",
+     "level": 72,
+     "mp": "Esegui 30 uccisioni contro i giocatori con colpi a distanza",
+     "dmz": "100 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "patriot-xmr-s1.webp",
+    "s2": "patriot-xmr-s2.webp",
+    "s3": "patriot-xmr-s3.webp"
+   }
+  },
+  {
+   "id": "kastov-762",
+   "name": "Kastov 762",
+   "class": "ar",
+   "unlock": 34,
+   "maxLevel": 68,
+   "military": {
+    "levels": [
+     10,
+     19,
+     27,
+     37,
+     45,
+     54,
+     61,
+     67
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Samnim",
+     "level": 23,
+     "mp": "Esegui 3 uccisioni senza morire, 10 volte",
+     "dmz": "5 uccisioni di nemici senza subire danni, 25 volte",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Raster Aux",
+     "level": 48,
+     "mp": "Esegui 20 uccisioni contro i giocatori con colpi a distanza",
+     "dmz": "75 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Giallo",
+     "level": 68,
+     "mp": "Esegui 30 uccisioni contro i giocatori con fuoco senza mirare",
+     "dmz": "100 uccisioni sparando dall’anca contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "kastov-762-s1.webp",
+    "s2": "kastov-762-s2.webp",
+    "s3": "kastov-762-s3.webp"
+   }
+  },
+  {
+   "id": "oden",
+   "name": "Oden",
+   "class": "ar",
+   "unlock": 39,
+   "maxLevel": 65,
+   "military": {
+    "levels": [
+     12,
+     21,
+     25,
+     33,
+     39,
+     46,
+     53,
+     59
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Muschio scuro",
+     "level": 25,
+     "mp": "Esegui 25 uccisioni contro i giocatori usando il lanciagranate Miri 40 mm",
+     "dmz": "75 uccisioni di nemici con il lanciagranate Miri 40MM",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Roccia sedimentaria",
+     "level": 44,
+     "mp": "Esegui 2 uccisioni senza ricaricare, 10 volte, contro i giocatori",
+     "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    },
+    {
+     "name": "Auto sportiva",
+     "level": 65,
+     "mp": "Esegui 100 uccisioni in modalità mirino contro i giocatori",
+     "dmz": "250 uccisioni mirando contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "WarzoneLoadout"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "oden-s1.webp",
+    "s2": "oden-s2.webp",
+    "s3": "oden-s3.webp"
+   }
+  },
+  {
+   "id": "axion",
+   "name": "Axion",
+   "class": "ar",
+   "unlock": 52,
+   "maxLevel": 69,
+   "military": {
+    "levels": [
+     10,
+     19,
+     26,
+     34,
+     41,
+     48,
+     55,
+     62
+    ],
+    "src": [
+     "BossLobbies",
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Roccia scheggiata",
+     "level": 23,
+     "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed",
+      "MW4 Camo Tracker"
+     ]
+    },
+    {
+     "name": "Tramonto tropicale",
+     "level": 45,
+     "mp": "Esegui 25 uccisioni contro i giocatori usando il lanciagranate Miri 40 mm",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed",
+      "MW4 Camo Tracker"
+     ]
+    },
+    {
+     "name": "Azzurro",
+     "level": 69,
+     "mp": "Esegui 2 uccisioni senza ricaricare, 25 volte, contro i giocatori",
+     "wz": null,
+     "src": [
+      "BossLobbies",
+      "Upblazed",
+      "Gioco"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "axion-s1.webp",
+    "s2": "axion-s2.webp",
+    "s3": "axion-s3.webp"
+   }
+  },
+  {
+   "id": "cronen-squall",
+   "name": "Cronen Squall",
+   "class": "ar",
+   "unlock": 55,
+   "maxLevel": 67,
+   "military": {
+    "levels": [
+     10,
+     17,
+     24,
+     31,
+     39,
+     45,
+     54,
+     60
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Oni",
+     "level": 24,
+     "mp": "20 uccisioni a bruciapelo contro giocatori",
+     "dmz": "75 uccisioni a bruciapelo contro nemici",
+     "wz": null,
+     "src": [
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Urban Smoke",
+     "level": 45,
+     "mp": "20 uccisioni con l’arma in appoggio contro giocatori",
+     "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
+     "wz": null,
+     "src": [
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Optical Reverb",
+     "level": 67,
+     "mp": "3 uccisioni di giocatori senza morire, 15 volte",
+     "dmz": "50 uccisioni mirando contro nemici",
+     "wz": null,
+     "src": [
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp"
+   }
+  },
+  {
+   "id": "iso-nightshade",
+   "name": "ISO Nightshade",
+   "class": "smg",
+   "unlock": 4,
+   "maxLevel": 64,
+   "military": {
+    "levels": [
+     12,
+     19,
+     25,
+     31,
+     38,
+     44,
+     50,
+     57
+    ],
+    "src": [
+     "Upblazed",
+     "CODMunity",
+     "BossLobbies"
+    ]
+   },
+   "special": [
+    {
+     "name": "Asfalto",
+     "level": 22,
+     "mp": "Esegui 50 uccisioni di giocatori in modalità mirino",
+     "dmz": "125 uccisioni mirando contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Topografia nera",
+     "level": 44,
+     "mp": "Esegui 10 doppie uccisioni contro i giocatori",
+     "dmz": "30 doppie uccisioni contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Marrone",
+     "level": 64,
+     "mp": "Esegui 3 uccisioni di giocatori senza morire, 15 volte",
+     "dmz": "3 uccisioni di nemici senza subire danni, 50 volte",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "iso-nightshade-s1.webp",
+    "s2": "iso-nightshade-s2.webp",
+    "s3": "iso-nightshade-s3.webp"
+   }
+  },
+  {
+   "id": "vel-46",
+   "name": "VEL 46",
+   "class": "smg",
+   "unlock": 13,
+   "maxLevel": 60,
+   "military": {
+    "levels": [
+     9,
+     15,
+     22,
+     28,
+     33,
+     40,
+     47,
+     54
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Ombra nella giungla",
+     "level": 20,
+     "mp": "Esegui 50 uccisioni di giocatori in modalità mirino",
+     "dmz": "125 uccisioni mirando contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Orrore",
+     "level": 40,
+     "mp": "Esegui 20 uccisioni di giocatori in posizione sdraiata",
+     "dmz": "100 uccisioni di nemici in posizione sdraiata",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Metallo brunito",
+     "level": 60,
+     "mp": "Esegui 20 colpi alla testa contro i giocatori",
+     "dmz": "75 colpi alla testa contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "vel-46-s1.webp",
+    "s2": "vel-46-s2.webp",
+    "s3": "vel-46-s3.webp"
+   }
+  },
+  {
+   "id": "wz-55-striga",
+   "name": "Wz.55 Striga",
+   "class": "smg",
+   "unlock": 21,
+   "maxLevel": 60,
+   "military": {
+    "levels": [
+     12,
+     18,
+     23,
+     29,
+     36,
+     41,
+     47,
+     54
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Costellazione",
+     "level": 20,
+     "mp": "Esegui 50 uccisioni di giocatori usando un silenziatore",
+     "dmz": "125 uccisioni di nemici con un silenziatore",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Serpente a sonagli",
+     "level": 41,
+     "mp": "Esegui 20 uccisioni di giocatori mentre salti",
+     "dmz": "50 uccisioni di nemici mentre salti",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Sabbia scura",
+     "level": 60,
+     "mp": "Esegui 40 uccisioni bruciapelo contro i giocatori",
+     "dmz": "100 uccisioni a bruciapelo contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "wz-55-striga-s1.webp",
+    "s2": "wz-55-striga-s2.webp",
+    "s3": "wz-55-striga-s3.webp"
+   }
+  },
+  {
+   "id": "ppsh-41",
+   "name": "PPSh-41",
+   "class": "smg",
+   "unlock": 27,
+   "maxLevel": 62,
+   "military": {
+    "levels": [
+     11,
+     17,
+     23,
+     31,
+     38,
+     44,
+     51,
+     57
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Blackwell",
+     "level": 20,
+     "mp": "Esegui 10 doppie uccisioni contro i giocatori",
+     "dmz": "30 doppie uccisioni contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Ferro",
+     "level": 41,
+     "mp": "Esegui 20 uccisioni contro i giocatori con colpi a distanza",
+     "dmz": "75 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Correnti",
+     "level": 62,
+     "mp": "Esegui 100 uccisioni di giocatori in modalità mirino",
+     "dmz": "250 uccisioni mirando contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "ppsh-41-s1.webp",
+    "s2": "ppsh-41-s2.webp",
+    "s3": "ppsh-41-s3.webp"
+   }
+  },
+  {
+   "id": "x-58-nyx",
+   "name": "X-58 Nyx",
+   "class": "smg",
+   "unlock": 34,
+   "maxLevel": 53,
+   "military": {
+    "levels": [
+     9,
+     15,
+     20,
+     25,
+     29,
+     35,
+     42,
+     47
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Velo del cecchino",
+     "level": 17,
+     "mp": "Esegui 20 uccisioni di giocatori mentre ti muovi",
+     "dmz": "75 uccisioni di nemici mentre ti muovi",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Anidride carbonica",
+     "level": 35,
+     "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
+     "dmz": "75 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Lime",
+     "level": 53,
+     "mp": "Esegui 40 uccisioni con colpi alla testa contro i giocatori",
+     "dmz": "100 uccisioni con colpi alla testa contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "x-58-nyx-s1.webp",
+    "s2": "x-58-nyx-s2.webp",
+    "s3": "x-58-nyx-s3.webp"
+   }
+  },
+  {
+   "id": "rezi-12",
+   "name": "Rezi 12",
+   "class": "sg",
+   "unlock": 4,
+   "maxLevel": 60,
+   "military": {
+    "levels": [
+     11,
+     18,
+     26,
+     30,
+     38,
+     42,
+     47,
+     54
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Oro nero",
+     "level": 22,
+     "mp": "Esegui 20 uccisioni bruciapelo contro i giocatori",
+     "dmz": "75 uccisioni a bruciapelo contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Tocco dell’artista",
+     "level": 42,
+     "mp": "Esegui 10 uccisioni colpo a distanza contro i giocatori",
+     "dmz": "50 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Pino bianco",
+     "level": 60,
+     "mp": "Esegui 40 uccisioni di giocatori mentre salti",
+     "dmz": "100 uccisioni di nemici mentre salti",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "rezi-12-s1.webp",
+    "s2": "rezi-12-s2.webp",
+    "s3": "rezi-12-s3.webp"
+   }
+  },
+  {
+   "id": "warlord",
+   "name": "Warlord",
+   "class": "sg",
+   "unlock": 32,
+   "maxLevel": 60,
+   "military": {
+    "levels": [
+     13,
+     19,
+     25,
+     30,
+     37,
+     43,
+     49,
+     55
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Fase rossa",
+     "level": 21,
+     "mp": "Esegui 20 uccisioni di giocatori mentre ti muovi",
+     "dmz": "75 uccisioni di nemici mentre ti muovi",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Argilla corrotta",
+     "level": 41,
+     "mp": "Esegui 10 doppie uccisioni contro i giocatori",
+     "dmz": "30 doppie uccisioni contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Ira magmatica",
+     "level": 60,
+     "mp": "Esegui 50 uccisioni di giocatori in posizione sdraiata",
+     "dmz": "125 uccisioni di nemici in posizione sdraiata",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "warlord-s1.webp",
+    "s2": "warlord-s2.webp",
+    "s3": "warlord-s3.webp"
+   }
+  },
+  {
+   "id": "finn-lmg",
+   "name": "FiNN LMG",
+   "class": "lmg",
+   "unlock": 4,
+   "maxLevel": 59,
+   "military": {
+    "levels": [
+     12,
+     18,
+     24,
+     31,
+     37,
+     42,
+     48,
+     53
+    ],
+    "src": [
+     "Upblazed",
+     "CODMunity"
+    ]
+   },
+   "special": [
+    {
+     "name": "Tattiche desertiche",
+     "level": 18,
+     "mp": "Esegui 20 uccisioni bruciapelo contro i giocatori",
+     "dmz": "75 uccisioni a bruciapelo contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "CODMunity"
+     ]
+    },
+    {
+     "name": "Tigre verde",
+     "level": 38,
+     "levelSrc": 1,
+     "mp": "Esegui 2 uccisioni senza ricaricare contro i giocatori, 10 volte",
+     "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "CODMunity"
+     ]
+    },
+    {
+     "name": "Nube temporalesca",
+     "level": 59,
+     "mp": "Esegui 30 uccisioni colpo a distanza contro i giocatori",
+     "dmz": "100 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "Upblazed",
+      "CODMunity"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "finn-lmg-s1.webp",
+    "s2": "finn-lmg-s2.webp",
+    "s3": "finn-lmg-s3.webp"
+   }
+  },
+  {
+   "id": "type-73",
+   "name": "Type 73",
+   "class": "lmg",
+   "unlock": 9,
+   "maxLevel": 65,
+   "military": {
+    "levels": [
+     12,
+     19,
+     26,
+     34,
+     41,
+     48,
+     55,
+     61
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Frassino",
+     "level": 23,
+     "mp": "Esegui 20 uccisioni con arma posizionata contro i giocatori",
+     "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Affioramento",
+     "level": 45,
+     "mp": "Esegui 10 doppie uccisioni contro i giocatori",
+     "dmz": "30 doppie uccisioni contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Passi di volpe",
+     "level": 65,
+     "mp": "Esegui 40 colpi alla testa contro i giocatori",
+     "dmz": "100 colpi alla testa contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "type-73-s1.webp",
+    "s2": "type-73-s2.webp",
+    "s3": "type-73-s3.webp"
+   }
+  },
+  {
+   "id": "apoc-338",
+   "name": "APOC-338",
+   "class": "lmg",
+   "unlock": 44,
+   "maxLevel": 56,
+   "military": {
+    "levels": [
+     9,
+     15,
+     22,
+     26,
+     33,
+     40,
+     44,
+     51
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Flusso fantasma",
+     "level": 15,
+     "mp": "Esegui 20 uccisioni sparando senza mirare contro i giocatori",
+     "dmz": "75 uccisioni sparando dall’anca contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Minerale",
+     "level": 36,
+     "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
+     "dmz": "75 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Artigliata di tigre",
+     "level": 56,
+     "mp": "Esegui 100 uccisioni di giocatori in posizione sdraiata",
+     "dmz": "250 uccisioni di nemici in posizione sdraiata",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "apoc-338-s1.webp",
+    "s2": "apoc-338-s2.webp",
+    "s3": "apoc-338-s3.webp"
+   }
+  },
+  {
+   "id": "mar-9",
+   "name": "MAR-9",
+   "class": "tac",
+   "unlock": 4,
+   "maxLevel": 73,
+   "military": {
+    "levels": [
+     10,
+     19,
+     29,
+     38,
+     45,
+     52,
+     58,
+     69
+    ],
+    "src": [
+     "Upblazed",
+     "CODMunity"
+    ]
+   },
+   "special": [
+    {
+     "name": "Mangrovia",
+     "level": 26,
+     "mp": "Esegui 20 uccisioni con arma posizionata contro i giocatori",
+     "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed",
+      "CODMunity"
+     ]
+    },
+    {
+     "name": "Griglia fungina",
+     "level": 49,
+     "mp": "Esegui 25 uccisioni giocatore mentre sei accovacciato",
+     "dmz": "75 uccisioni di nemici da accovacciato",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed",
+      "CODMunity"
+     ]
+    },
+    {
+     "name": "Bianco",
+     "level": 73,
+     "mp": "Esegui 30 uccisioni contro i giocatori con colpi a distanza",
+     "dmz": "100 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed",
+      "CODMunity"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "mar-9-s1.webp",
+    "s2": "mar-9-s2.webp",
+    "s3": "mar-9-s3.webp"
+   }
+  },
+  {
+   "id": "oris-86",
+   "name": "Oris 8.6",
+   "class": "tac",
+   "unlock": 11,
+   "maxLevel": 70,
+   "military": {
+    "levels": [
+     11,
+     18,
+     27,
+     33,
+     42,
+     49,
+     55,
+     61
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Ibisco",
+     "level": 27,
+     "mp": "Esegui 10 uccisioni puntamento rapido contro i giocatori",
+     "dmz": "50 uccisioni con puntamento rapido contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Topografia ardente",
+     "level": 49,
+     "mp": "Esegui 20 doppie uccisioni contro i giocatori",
+     "dmz": "50 doppie uccisioni contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Spazio profondo",
+     "level": 70,
+     "mp": "Esegui 3 uccisioni senza morire contro i giocatori, 15 volte",
+     "dmz": "3 uccisioni di nemici senza subire danni, 50 volte",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "oris-86-s1.webp",
+    "s2": "oris-86-s2.webp",
+    "s3": "oris-86-s3.webp"
+   }
+  },
+  {
+   "id": "mosin-nagant",
+   "name": "Mosin-Nagant",
+   "class": "tac",
+   "unlock": 36,
+   "maxLevel": 69,
+   "military": {
+    "levels": [
+     10,
+     17,
+     25,
+     31,
+     38,
+     47,
+     55,
+     61
+    ],
+    "src": [
+     "Upblazed",
+     "BossLobbies"
+    ]
+   },
+   "special": [
+    {
+     "name": "Ghiaccio puro",
+     "level": 25,
+     "mp": "Esegui 25 colpi alla testa contro i giocatori",
+     "dmz": "75 colpi alla testa contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Neve frattale",
+     "level": 46,
+     "levelSrc": 1,
+     "mp": "Esegui 2 uccisioni di giocatori senza ricaricare, 10 volte",
+     "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Shock adesivo",
+     "level": 69,
+     "mp": "Esegui 100 uccisioni di giocatori mentre sei concentrato",
+     "dmz": "250 uccisioni di nemici mentre sei concentrato",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "mosin-nagant-s1.webp",
+    "s2": "mosin-nagant-s2.webp",
+    "s3": "mosin-nagant-s3.webp"
+   }
+  },
+  {
+   "id": "kg-7-vulcan",
+   "name": "KG-7 Vulcan",
+   "class": "sn",
+   "unlock": 4,
+   "maxLevel": 75,
+   "military": {
+    "levels": [
+     13,
+     22,
+     31,
+     38,
+     47,
+     54,
+     61,
+     69
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Boscaglia",
+     "level": 22,
+     "mp": "Esegui 10 uccisioni sparando senza mirare contro i giocatori",
+     "dmz": "25 uccisioni sparando dall’anca contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Tela di ragno",
+     "level": 47,
+     "mp": "Esegui 20 uccisioni con colpi alla testa contro i giocatori",
+     "dmz": "75 uccisioni con colpi alla testa contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Tensione",
+     "level": 75,
+     "mp": "Esegui 2 uccisioni contro i giocatori senza subire danni, 20 volte",
+     "dmz": "2 uccisioni di nemici senza subire danni, 30 volte",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "kg-7-vulcan-s1.webp",
+    "s2": "kg-7-vulcan-s2.webp",
+    "s3": "kg-7-vulcan-s3.webp"
+   }
+  },
+  {
+   "id": "astaroth-57",
+   "name": "Astaroth .57",
+   "class": "sn",
+   "unlock": 10,
+   "maxLevel": 54,
+   "military": {
+    "levels": [
+     10,
+     15,
+     20,
+     26,
+     32,
+     37,
+     42,
+     48
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Pennello asciutto",
+     "level": 20,
+     "mp": "Esegui 3 uccisioni di giocatori senza morire, 10 volte",
+     "dmz": "3 uccisioni di nemici senza subire danni, 25 volte",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Territorio selvaggio",
+     "level": 37,
+     "mp": "Esegui 20 uccisioni con arma posizionata contro i giocatori",
+     "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Terrore contagioso",
+     "level": 54,
+     "mp": "Esegui 2 uccisioni di giocatori entro 5 secondi, 20 volte",
+     "dmz": "2 uccisioni di nemici entro 5 secondi, 50 volte",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "astaroth-57-s1.webp",
+    "s2": "astaroth-57-s2.webp",
+    "s3": "astaroth-57-s3.webp"
+   }
+  },
+  {
+   "id": "signal-50",
+   "name": "Signal 50",
+   "class": "sn",
+   "unlock": 35,
+   "maxLevel": 74,
+   "military": {
+    "levels": [
+     10,
+     18,
+     28,
+     35,
+     43,
+     52,
+     57,
+     67
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Anaconda",
+     "level": 28,
+     "mp": "Esegui 2 uccisioni di giocatori in 5 secondi, 10 volte",
+     "dmz": "2 uccisioni di nemici in 5 secondi, 25 volte",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Ondivago",
+     "level": 52,
+     "mp": "Esegui 20 uccisioni puntamento rapido contro i giocatori",
+     "dmz": "30 uccisioni con puntamento rapido contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Scottatura",
+     "level": 74,
+     "mp": "Esegui 40 uccisioni colpo a distanza contro i giocatori",
+     "dmz": "100 uccisioni con un colpo solo contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "signal-50-s1.webp",
+    "s2": "signal-50-s2.webp",
+    "s3": "signal-50-s3.webp"
+   }
+  },
+  {
+   "id": "sang-9mm",
+   "name": "SANG 9mm",
+   "class": "pi",
+   "unlock": 4,
+   "maxLevel": 38,
+   "military": {
+    "levels": [
+     9,
+     13,
+     17,
+     21,
+     25,
+     28,
+     31,
+     35
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Autunno",
+     "level": 13,
+     "mp": "Esegui 25 uccisioni di giocatori in modalità mirino",
+     "dmz": "75 uccisioni mirando contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Pelle di serpente",
+     "level": 25,
+     "mp": "Esegui 3 uccisioni di giocatori senza morire, 5 volte",
+     "dmz": "3 uccisioni di nemici senza subire danni, 15 volte",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Spaziotempo",
+     "level": 38,
+     "mp": "Esegui 50 uccisioni di giocatori mentre usi Akimbo",
+     "dmz": "125 uccisioni di nemici con Akimbo",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "sang-9mm-s1.webp",
+    "s2": "sang-9mm-s2.webp",
+    "s3": "sang-9mm-s3.webp"
+   }
+  },
+  {
+   "id": "krait-p68",
+   "name": "Krait P68",
+   "class": "pi",
+   "unlock": 7,
+   "maxLevel": 38,
+   "military": {
+    "levels": [
+     10,
+     14,
+     18,
+     22,
+     25,
+     28,
+     32,
+     35
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Introvabile",
+     "level": 13,
+     "mp": "Esegui 15 uccisioni contro i giocatori mentre ti appendi a una sporgenza",
+     "dmz": "50 uccisioni di nemici mentre ti appendi a una sporgenza",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Fenicottero urbano",
+     "level": 25,
+     "mp": "Esegui 15 uccisioni bruciapelo contro i giocatori",
+     "dmz": "50 uccisioni a bruciapelo contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Cortina fumogena",
+     "level": 38,
+     "mp": "Esegui 50 uccisioni di giocatori usando un silenziatore",
+     "dmz": "125 uccisioni di nemici con un silenziatore",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "krait-p68-s1.webp",
+    "s2": "krait-p68-s2.webp",
+    "s3": "krait-p68-s3.webp"
+   }
+  },
+  {
+   "id": "mojave-357",
+   "name": "Mojave .357",
+   "class": "pi",
+   "unlock": 48,
+   "maxLevel": 44,
+   "military": {
+    "levels": [
+     9,
+     13,
+     18,
+     22,
+     26,
+     30,
+     35,
+     40
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Miami",
+     "level": 16,
+     "mp": "Esegui 15 uccisioni colpo singolo contro i giocatori",
+     "dmz": "50 uccisioni con un colpo solo contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Wallpaper",
+     "level": 30,
+     "mp": "Esegui 2 uccisioni di giocatori senza ricaricare, 10 volte",
+     "dmz": "2 uccisioni senza ricaricare, 20 volte, contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    },
+    {
+     "name": "Ghirlanda",
+     "level": 44,
+     "mp": "Esegui 30 uccisioni bruciapelo contro i giocatori",
+     "dmz": "75 uccisioni a bruciapelo contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Upblazed"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "mojave-357-s1.webp",
+    "s2": "mojave-357-s2.webp",
+    "s3": "mojave-357-s3.webp"
+   }
+  },
+  {
+   "id": "pila",
+   "name": "PILA",
+   "class": "la",
+   "unlock": 4,
+   "maxLevel": 46,
+   "military": {
+    "levels": [
+     6,
+     11,
+     16,
+     21,
+     26,
+     31,
+     36,
+     41
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Frontiera",
+     "level": 16,
+     "mp": "Esegui 10 uccisioni colpo diretto contro i giocatori",
+     "dmz": "25 uccisioni con colpo diretto contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Sabbiatura",
+     "level": 31,
+     "mp": "Esegui 5 doppie uccisioni contro i giocatori",
+     "dmz": null,
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Caduta digitale",
+     "level": 46,
+     "mp": "Distruggi 30 serie di uccisioni o veicoli nemici",
+     "dmz": "Distruggi 50 serie di uccisioni o veicoli",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "pila-s1.webp",
+    "s2": "pila-s2.webp",
+    "s3": "pila-s3.webp"
+   }
+  },
+  {
+   "id": "rpg-8",
+   "name": "RPG-8",
+   "class": "la",
+   "unlock": 23,
+   "maxLevel": 46,
+   "military": {
+    "levels": [
+     6,
+     11,
+     16,
+     21,
+     26,
+     31,
+     36,
+     41
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Corteccia digitale",
+     "level": 16,
+     "mp": "Esegui 10 uccisioni contro giocatori in posizione sdraiata",
+     "dmz": "25 uccisioni di nemici in posizione sdraiata",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Frammenti di pietra",
+     "level": 31,
+     "mp": "Esegui 10 uccisioni colpo a distanza contro i giocatori",
+     "dmz": "25 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Operazioni gommose",
+     "level": 46,
+     "mp": "Distruggi 30 serie di uccisioni o veicoli",
+     "dmz": "Distruggi 50 serie di uccisioni o veicoli",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "rpg-8-s1.webp",
+    "s2": "rpg-8-s2.webp",
+    "s3": "rpg-8-s3.webp"
+   }
+  },
+  {
+   "id": "jokr",
+   "name": "JOKR",
+   "class": "la",
+   "unlock": 43,
+   "maxLevel": 46,
+   "military": {
+    "levels": [
+     6,
+     11,
+     16,
+     21,
+     26,
+     31,
+     36,
+     41
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Boschetto",
+     "level": 16,
+     "mp": "Esegui 5 doppie uccisioni contro i giocatori",
+     "dmz": "15 doppie uccisioni contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Tettonico",
+     "level": 31,
+     "mp": "Esegui 10 uccisioni colpo a distanza contro i giocatori",
+     "dmz": "25 uccisioni a lunga distanza contro nemici",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Blu tigre",
+     "level": 46,
+     "mp": "Distruggi 30 serie di uccisioni o veicoli",
+     "dmz": "Distruggi 50 serie di uccisioni o veicoli",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "jokr-s1.webp",
+    "s2": "jokr-s2.webp",
+    "s3": "jokr-s3.webp"
+   }
+  },
+  {
+   "id": "pm-40-anvil",
+   "name": "PM-40 Anvil",
+   "class": "la",
+   "unlock": 54,
+   "maxLevel": 46,
+   "military": {
+    "levels": [
+     6,
+     11,
+     16,
+     21,
+     26,
+     31,
+     36,
+     41
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Night Snow",
+     "level": 16,
+     "mp": "25 uccisioni con colpo diretto contro giocatori",
+     "dmz": "25 uccisioni con colpo diretto contro nemici",
+     "wz": null,
+     "src": [
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Recursive",
+     "level": 31,
+     "mp": "2 uccisioni senza ricaricare, 5 volte, contro giocatori",
+     "dmz": "2 uccisioni senza ricaricare, 20 volte, contro nemici",
+     "wz": null,
+     "src": [
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Urban Standard",
+     "level": 46,
+     "mp": "40 uccisioni di giocatori mentre ti muovi",
+     "dmz": "100 uccisioni di nemici mentre ti muovi",
+     "wz": null,
+     "src": [
+      "BossLobbies",
+      "Destructoid"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp"
+   }
+  },
+  {
+   "id": "fss-carbon-edge-1095",
+   "name": "FSS Carbon Edge 1095",
+   "class": "me",
+   "unlock": 4,
+   "maxLevel": 46,
+   "military": {
+    "levels": [
+     6,
+     11,
+     16,
+     21,
+     26,
+     31,
+     36,
+     41
+    ],
+    "src": [
+     "Upblazed"
+    ]
+   },
+   "special": [
+    {
+     "name": "Raster Lite",
+     "level": 16,
+     "mp": "Esegui 25 uccisioni di giocatori mentre salti",
+     "dmz": "100 uccisioni di nemici mentre salti",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Riserva",
+     "level": 31,
+     "mp": "Esegui 25 uccisioni contro i giocatori usando il colpo di grazia corpo a corpo pesante",
+     "dmz": "75 uccisioni di nemici con il colpo di grazia corpo a corpo pesante",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    },
+    {
+     "name": "Agonia",
+     "level": 46,
+     "mp": "Esegui 2 uccisioni in 5 secondi contro i giocatori, 25 volte",
+     "dmz": "2 uccisioni di nemici in 5 secondi, 50 volte",
+     "wz": null,
+     "src": [
+      "Gioco",
+      "BossLobbies",
+      "Destructoid"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "fss-carbon-edge-1095-s1.webp",
+    "s2": "fss-carbon-edge-1095-s2.webp",
+    "s3": "fss-carbon-edge-1095-s3.webp"
+   }
+  }
+ ],
+ "others": [
+  [
+   ".50 GS",
+   "pi"
+  ]
+ ],
+ "weaponPrestige": [
+  {
+   "name": "Pyroclast",
+   "req": "Prestigio arma 1, livello 1",
+   "stage": "p1",
+   "level": 1
+  },
+  {
+   "name": "Pyroclast Terminus",
+   "req": "Livello massimo nel Prestigio arma 1",
+   "stage": "p1",
+   "level": null
+  },
+  {
+   "name": "Pyroclast Scatter",
+   "req": "Prestigio arma Master, livello 150",
+   "stage": "master",
+   "level": 150
+  },
+  {
+   "name": "Cascata piroclastica",
+   "req": "Raggiungi il livello Maestro Prestigio 250",
+   "stage": "master",
+   "level": 250
+  }
+ ],
+ "account": {
+  "divergence": {
+   "name": "Divergenza",
+   "req": "Completa 33 sfide mimetica Rottura armonica"
+  },
+  "mastery": {
+   "mp": [
+    {
+     "id": "mercurial",
+     "name": "Deriva mercuriale",
+     "req": "Completa 33 sfide mimetica Rottura armonica, poi esegui 10 uccisioni in una partita, 250 volte"
+    },
+    {
+     "id": "polyatomic",
+     "name": "Poliatomico riforgiata",
+     "req": "Esegui 10 uccisioni in una partita, 250 volte (sfida di Deriva mercuriale), poi esegui 3 uccisioni senza subire danni, 300 volte"
+    },
+    {
+     "id": "orion",
+     "name": "Orione riforgiata",
+     "req": "Esegui 3 uccisioni senza subire danni, 300 volte (sfida di Poliatomico riforgiata), poi esegui 5 uccisioni senza morire, 500 volte"
+    }
+   ],
+   "dmz": [
+    {
+     "id": "dmz-1",
+     "name": "Chirale",
+     "req": "Completa 33 sfide mimetica Rottura armonica, poi esegui 2500 uccisioni contro nemici al livello 3 o più"
+    },
+    {
+     "id": "dmz-2",
+     "name": "Marea increspata",
+     "req": "Esegui 2500 uccisioni contro nemici al livello 3 o più (sfida di Chirale), poi estrai 2 piastrine tenente in un singolo dispiegamento, 50 volte"
+    },
+    {
+     "id": "dmz-3",
+     "name": "Elio",
+     "req": "Estrai 2 piastrine tenente in un singolo dispiegamento, 50 volte (sfida di Marea increspata), poi esegui 25000 uccisioni usando un’arma leggendaria con un operatore di livello massimo"
+    }
+   ],
+   "wz": [
+    {
+     "id": "parallax",
+     "name": "Parallax",
+     "req": null
+    },
+    {
+     "id": "damascus",
+     "name": "Damascus Reforged",
+     "req": null
+    },
+    {
+     "id": "empyros",
+     "name": "Empyros",
+     "req": null
+    }
+   ]
+  }
+ },
+ "wzExtra": {
+  "status": "pending",
+  "items": []
+ },
+ "images": {
+  "gold": "gold.webp",
+  "plat": "platinum.webp",
+  "hb": "harmonic-break.webp",
+  "divergence": "divergence.webp",
+  "wp1": "pyroclast-1.webp",
+  "wp2": "pyroclast-2b.webp",
+  "wp3": "pyroclast-3.webp",
+  "wp4": "pyroclast-4.webp",
+  "mp:mercurial": "mastery-mp-mercurial-2.webp",
+  "mp:polyatomic": "mastery-mp-polyatomic.webp",
+  "mp:orion": "mastery-mp-orion.webp",
+  "dmz:dmz-1": "mastery-dmz-dmz-1.webp",
+  "dmz:dmz-2": "mastery-dmz-dmz-2.webp",
+  "dmz:dmz-3": "mastery-dmz-dmz-3.webp"
+ },
+ "sources": [
+  {
+   "label": "Activision · progressione e prestigio MW4",
+   "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige",
+   "official": true
+  },
+  {
+   "label": "BossLobbies",
+   "url": "https://bosslobbies.com/guides/modern-warfare-4/camos/",
+   "official": false
+  },
+  {
+   "label": "Upblazed",
+   "url": "https://upblazed.com/tools/mw4-camo-tracker",
+   "official": false
+  },
+  {
+   "label": "CODMunity",
+   "url": "https://codmunity.gg/camo-tracker/mw4",
+   "official": false
+  },
+  {
+   "label": "MW4 Camo Tracker",
+   "url": "https://mw4camotracker.com/weapons/axion-camos",
+   "official": false
+  },
+  {
+   "label": "WarzoneLoadout",
+   "url": "https://warzoneloadout.games/mw4/camos/mw4",
+   "official": false
+  },
+  {
+   "label": "Destructoid",
+   "url": "https://www.destructoid.com/all-camos-in-modern-warfare-4-weapon-camos-guide/",
+   "official": false
+  }
+ ]
 }

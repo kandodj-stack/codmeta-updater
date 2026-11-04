@@ -4,7 +4,7 @@
 Uso:
     python3 scripts/check_camos.py NUOVO.json [RIFERIMENTO.json]
 
-Applica le stesse regole di validateCamos in sync-mw4.php (v44) e dello schema Zod del sito
+Applica le stesse regole di validateCamos in sync-mw4.php (v45) e dello schema Zod del sito
 (app/camo-data.tsx): un file che non passa qui verrebbe rifiutato anche su Aruba.
 Controlla inoltre che ogni immagine elencata esista in data/camo-img/, pesi al massimo
 400 KB e sia davvero un'immagine del tipo indicato dall'estensione.
@@ -122,7 +122,8 @@ def check(d, base_dir):
             err(f"{p}: livelli non validi")
         mil = w["military"]
         if keys(mil, f"{p}.military", ["levels", "src"]):
-            if not isinstance(mil["levels"], list) or len(mil["levels"]) != 8 or not all(is_int(x, 1, 300) for x in mil["levels"]):
+            # null = livello non ancora verificato (accettato da sync-mw4.php v45 e dal sito v45, non dalla v42-v44).
+            if not isinstance(mil["levels"], list) or len(mil["levels"]) != 8 or not all(x is None or is_int(x, 1, 300) for x in mil["levels"]):
                 err(f"{p}: servono 8 livelli militari")
             sources(mil["src"], f"{p}.military.src")
         sp = w["special"]
