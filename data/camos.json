@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "release": 4,
+  "release": 5,
   "checkedAt": "2026-11-04",
   "modes": {
     "mp": {
-      "label": "Multiplayer",
+      "label": "Multigiocatore",
       "live": true
     },
     "dmz": {
@@ -18,9 +18,10 @@
     }
   },
   "gold": {
-    "mp": "15 uccisioni di giocatori in una sola partita",
+    "mp": "Esegui 15 uccisioni contro i giocatori in una sola partita",
     "wz": null,
     "src": [
+      "Gioco",
       "Activision"
     ]
   },
@@ -29,14 +30,15 @@
       "label": "Fucili d’assalto",
       "size": 8,
       "platinum": {
-        "mp": "50 colpi alla testa contro giocatori",
+        "mp": "Esegui 50 colpi alla testa contro i giocatori",
         "wz": null
       },
       "harmonic": {
-        "mp": "25 uccisioni doppie contro giocatori",
+        "mp": "Esegui 25 doppie uccisioni contro i giocatori",
         "wz": null
       },
       "src": [
+        "Gioco",
         "BossLobbies",
         "Upblazed",
         "Game8"
@@ -100,34 +102,37 @@
       },
       "special": [
         {
-          "name": "Smoke",
+          "name": "Fumogeno",
           "level": 25,
-          "mp": "20 uccisioni di giocatori con l’arma in appoggio",
+          "mp": "Esegui 20 uccisioni di giocatori con l’arma posizionata",
           "dmz": "75 uccisioni di nemici con l’arma in appoggio",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Stormwave",
+          "name": "Onda di tempesta",
           "level": 46,
-          "mp": "50 uccisioni di giocatori con un silenziatore",
+          "mp": "Esegui 50 uccisioni contro i giocatori usando un silenziatore",
           "dmz": "125 uccisioni di nemici con un silenziatore",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Red",
+          "name": "Rosso",
           "level": 72,
-          "mp": "3 uccisioni di giocatori senza morire, 15 volte",
+          "mp": "Esegui 3 uccisioni di giocatori senza morire, 15 volte",
           "dmz": "3 uccisioni di nemici senza subire danni, 50 volte",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
@@ -170,37 +175,37 @@
       },
       "special": [
         {
-          "name": "Myriad",
+          "name": "Miriade",
           "level": 26,
-          "levelSrc": 1,
-          "mp": "20 uccisioni a bruciapelo contro giocatori",
+          "mp": "Esegui 20 uccisioni bruciapelo contro i giocatori",
           "dmz": "75 uccisioni a bruciapelo contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Night Ops",
+          "name": "Operazioni notturne",
           "level": 51,
-          "levelSrc": 1,
-          "mp": "20 uccisioni con l’arma in appoggio contro giocatori",
+          "mp": "Esegui 20 uccisioni con arma posizionata contro i giocatori",
           "dmz": "75 uccisioni con l’arma in appoggio contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Green",
+          "name": "Verde",
           "level": 72,
-          "levelSrc": 1,
-          "mp": "25 uccisioni alle spalle contro giocatori",
+          "mp": "Esegui 25 uccisioni alle spalle contro i giocatori",
           "dmz": "100 uccisioni alle spalle contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
@@ -245,32 +250,35 @@
         {
           "name": "Ponderosa",
           "level": 23,
-          "mp": "2 uccisioni senza ricaricare, 10 volte, contro giocatori",
+          "mp": "Esegui 2 uccisioni senza ricaricare, 10 volte, contro i giocatori",
           "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Red Rain",
+          "name": "Pioggia rossa",
           "level": 46,
-          "mp": "20 uccisioni a lunga distanza contro giocatori",
+          "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
           "dmz": "75 uccisioni a lunga distanza contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Kitty Kaos",
+          "name": "Caos felino",
           "level": 68,
-          "mp": "100 uccisioni di giocatori con un silenziatore",
+          "mp": "Esegui 100 uccisioni contro i giocatori usando un silenziatore",
           "dmz": "250 uccisioni di nemici con un silenziatore",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
@@ -313,37 +321,37 @@
       },
       "special": [
         {
-          "name": "Dune Sea",
+          "name": "Mare di dune",
           "level": 24,
-          "levelSrc": 1,
-          "mp": "20 uccisioni sparando dall’anca contro giocatori",
+          "mp": "Esegui 20 uccisioni sparando senza mirare contro i giocatori",
           "dmz": "75 uccisioni sparando dall’anca contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Scorch",
+          "name": "Bruciatura",
           "level": 49,
-          "levelSrc": 1,
-          "mp": "50 uccisioni di giocatori con un silenziatore",
+          "mp": "Esegui 50 uccisioni contro i giocatori usando un silenziatore",
           "dmz": "125 uccisioni di nemici con un silenziatore",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Disperse",
+          "name": "Dispersione",
           "level": 72,
-          "levelSrc": 1,
-          "mp": "30 uccisioni a lunga distanza contro giocatori",
+          "mp": "Esegui 30 uccisioni contro i giocatori con colpi a distanza",
           "dmz": "100 uccisioni a lunga distanza contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
@@ -387,12 +395,12 @@
       "special": [
         {
           "name": "Samnim",
-          "level": 24,
-          "levelSrc": 1,
-          "mp": "3 uccisioni senza morire, 10 volte",
+          "level": 23,
+          "mp": "Esegui 3 uccisioni senza morire, 10 volte",
           "dmz": "5 uccisioni di nemici senza subire danni, 25 volte",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
@@ -400,23 +408,23 @@
         {
           "name": "Raster Aux",
           "level": 48,
-          "levelSrc": 1,
-          "mp": "20 uccisioni a lunga distanza contro giocatori",
+          "mp": "Esegui 20 uccisioni contro i giocatori con colpi a distanza",
           "dmz": "75 uccisioni a lunga distanza contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Yellow",
-          "level": 71,
-          "levelSrc": 1,
-          "mp": "30 uccisioni sparando dall’anca contro giocatori",
+          "name": "Giallo",
+          "level": 68,
+          "mp": "Esegui 30 uccisioni contro i giocatori con fuoco senza mirare",
           "dmz": "100 uccisioni sparando dall’anca contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
@@ -459,37 +467,37 @@
       },
       "special": [
         {
-          "name": "Dark Moss",
+          "name": "Muschio scuro",
           "level": 25,
-          "levelSrc": 1,
-          "mp": "25 uccisioni di giocatori con il lanciagranate Miri 40MM",
+          "mp": "Esegui 25 uccisioni contro i giocatori usando il lanciagranate Miri 40 mm",
           "dmz": "75 uccisioni di nemici con il lanciagranate Miri 40MM",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Shale",
+          "name": "Roccia sedimentaria",
           "level": 44,
-          "levelSrc": 1,
-          "mp": "2 uccisioni senza ricaricare, 10 volte, contro giocatori",
+          "mp": "Esegui 2 uccisioni senza ricaricare, 10 volte, contro i giocatori",
           "dmz": "2 uccisioni senza ricaricare, 30 volte, contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
         },
         {
-          "name": "Hot Rod",
+          "name": "Auto sportiva",
           "level": 65,
-          "levelSrc": 1,
-          "mp": "100 uccisioni mirando contro giocatori",
+          "mp": "Esegui 100 uccisioni in modalità mirino contro i giocatori",
           "dmz": "250 uccisioni mirando contro nemici",
           "wz": null,
           "src": [
+            "Gioco",
             "Upblazed",
             "WarzoneLoadout"
           ]
@@ -533,31 +541,33 @@
       },
       "special": [
         {
-          "name": "Splinter Rock",
+          "name": "Roccia scheggiata",
           "level": 23,
-          "mp": "20 uccisioni a lunga distanza contro giocatori",
+          "mp": "Esegui 20 uccisioni colpo a distanza contro i giocatori",
           "wz": null,
           "src": [
+            "Gioco",
             "BossLobbies",
             "Upblazed",
             "MW4 Camo Tracker"
           ]
         },
         {
-          "name": "Sunset Tropic",
+          "name": "Tramonto tropicale",
           "level": 45,
-          "mp": "25 uccisioni di giocatori con il lanciagranate Miri 40MM",
+          "mp": "Esegui 25 uccisioni contro i giocatori usando il lanciagranate Miri 40 mm",
           "wz": null,
           "src": [
+            "Gioco",
             "BossLobbies",
             "Upblazed",
             "MW4 Camo Tracker"
           ]
         },
         {
-          "name": "Cyan",
+          "name": "Azzurro",
           "level": 69,
-          "mp": "2 uccisioni senza ricaricare, 25 volte, contro giocatori",
+          "mp": "Esegui 2 uccisioni senza ricaricare, 25 volte, contro i giocatori",
           "wz": null,
           "src": [
             "BossLobbies",
@@ -838,50 +848,50 @@
       "level": 150
     },
     {
-      "name": "Pyroclast Cascade",
-      "req": "Prestigio arma Master, livello 250",
+      "name": "Cascata piroclastica",
+      "req": "Raggiungi il livello Maestro Prestigio 250",
       "stage": "master",
       "level": 250
     }
   ],
   "account": {
     "divergence": {
-      "name": "Divergence",
-      "req": "Harmonic Break su tutte le 33 armi"
+      "name": "Divergenza",
+      "req": "Completa 33 sfide mimetica Rottura armonica (Harmonic Break su tutte le 33 armi)"
     },
     "mastery": {
       "mp": [
         {
           "id": "mercurial",
-          "name": "Mercurial Drift",
-          "req": "Harmonic Break su tutte le 33 armi, poi 10 uccisioni in una partita, 250 volte"
+          "name": "Deriva mercuriale",
+          "req": "Completa 33 sfide mimetica Rottura armonica, poi esegui 10 uccisioni in una partita, 250 volte"
         },
         {
           "id": "polyatomic",
-          "name": "Polyatomic Reforged",
-          "req": "3 uccisioni senza subire danni, 300 volte"
+          "name": "Poliatomico riforgiata",
+          "req": "Esegui 10 uccisioni in una partita, 250 volte (sfida di Deriva mercuriale), poi esegui 3 uccisioni senza subire danni, 300 volte"
         },
         {
           "id": "orion",
-          "name": "Orion Reforged",
-          "req": "5 uccisioni senza morire, 500 volte"
+          "name": "Orione riforgiata",
+          "req": "Esegui 3 uccisioni senza subire danni, 300 volte (sfida di Poliatomico riforgiata), poi esegui 5 uccisioni senza morire, 500 volte"
         }
       ],
       "dmz": [
         {
           "id": "dmz-1",
-          "name": "Maestria DMZ 1",
-          "req": null
+          "name": "Chirale",
+          "req": "Completa 33 sfide mimetica Rottura armonica, poi esegui 2500 uccisioni contro nemici al livello 3 o più"
         },
         {
           "id": "dmz-2",
-          "name": "Maestria DMZ 2",
-          "req": null
+          "name": "Marea increspata",
+          "req": "Esegui 2500 uccisioni contro nemici al livello 3 o più (sfida di Chirale), poi estrai 2 piastrine tenente in un singolo dispiegamento, 50 volte"
         },
         {
           "id": "dmz-3",
-          "name": "Maestria DMZ 3",
-          "req": null
+          "name": "Elio",
+          "req": "Estrai 2 piastrine tenente in un singolo dispiegamento, 50 volte (sfida di Marea increspata), poi esegui 25000 uccisioni usando un’arma leggendaria con un operatore di livello massimo"
         }
       ],
       "wz": [
@@ -916,7 +926,7 @@
     "wp2": "pyroclast-2b.webp",
     "wp3": "pyroclast-3.webp",
     "wp4": "pyroclast-4.webp",
-    "mp:mercurial": "mastery-mp-mercurial.webp",
+    "mp:mercurial": "mastery-mp-mercurial-2.webp",
     "mp:polyatomic": "mastery-mp-polyatomic.webp",
     "mp:orion": "mastery-mp-orion.webp",
     "dmz:dmz-1": "mastery-dmz-dmz-1.webp",
