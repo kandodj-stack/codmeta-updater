@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": 2,
+  "release": 3,
   "checkedAt": "2026-10-30",
   "modes": {
     "mp": {
@@ -133,7 +133,19 @@
           ]
         }
       ],
-      "images": {}
+      "images": {
+        "m1": "mil-1.webp",
+        "m2": "mil-2.webp",
+        "m3": "mil-3.webp",
+        "m4": "mil-4.webp",
+        "m5": "mil-5.webp",
+        "m6": "mil-6.webp",
+        "m7": "mil-7.webp",
+        "m8": "mil-8.webp",
+        "s1": "axion-s1.webp",
+        "s2": "axion-s2.webp",
+        "s3": "axion-s3.webp"
+      }
     },
     {
       "id": "iso-nightshade",
@@ -196,7 +208,19 @@
           ]
         }
       ],
-      "images": {}
+      "images": {
+        "m1": "mil-1.webp",
+        "m2": "mil-2.webp",
+        "m3": "mil-3.webp",
+        "m4": "mil-4.webp",
+        "m5": "mil-5.webp",
+        "m6": "mil-6.webp",
+        "m7": "mil-7.webp",
+        "m8": "mil-8.webp",
+        "s1": "iso-nightshade-s1.webp",
+        "s2": "iso-nightshade-s2.webp",
+        "s3": "iso-nightshade-s3.webp"
+      }
     },
     {
       "id": "mosin-nagant",
@@ -459,7 +483,16 @@
     "status": "pending",
     "items": []
   },
-  "images": {},
+  "images": {
+    "gold": "gold.webp",
+    "plat": "platinum.webp",
+    "hb": "harmonic-break.webp",
+    "divergence": "divergence.webp",
+    "wp1": "pyroclast-1.webp",
+    "wp2": "pyroclast-2.webp",
+    "wp3": "pyroclast-3.webp",
+    "wp4": "pyroclast-4.webp"
+  },
   "sources": [
     {
       "label": "Activision · progressione e prestigio MW4",
