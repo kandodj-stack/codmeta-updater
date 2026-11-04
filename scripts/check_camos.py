@@ -4,7 +4,7 @@
 Uso:
     python3 scripts/check_camos.py NUOVO.json [RIFERIMENTO.json]
 
-Applica le stesse regole di validateCamos in sync-mw4.php e dello schema Zod del sito
+Applica le stesse regole di validateCamos in sync-mw4.php (v44) e dello schema Zod del sito
 (app/camo-data.tsx): un file che non passa qui verrebbe rifiutato anche su Aruba.
 Controlla inoltre che ogni immagine elencata esista in data/camo-img/, pesi al massimo
 400 KB e sia davvero un'immagine del tipo indicato dall'estensione.
@@ -131,8 +131,10 @@ def check(d, base_dir):
             sp = []
         for j, s in enumerate(sp):
             q = f"{p}.special[{j}]"
-            if not keys(s, q, ["name", "level", "mp", "wz", "src"], ["altNames", "levelSrc", "dmz"]):
+            if not keys(s, q, ["name", "level", "mp", "wz", "src"], ["altNames", "levelSrc", "dmz", "en"]):
                 continue
+            if "en" in s and not txt(s["en"]):
+                err(f"{q}: nome inglese non valido")
             if not txt(s["name"]) or not (s["level"] is None or is_int(s["level"], 1, 200)):
                 err(f"{q}: nome o livello non validi")
             if "levelSrc" in s and not is_int(s["levelSrc"], 1, 9):
@@ -158,12 +160,14 @@ def check(d, base_dir):
     if wp is None or len(wp) > 8:
         err("weaponPrestige non valido")
     for i, x in enumerate(wp or []):
-        if keys(x, f"weaponPrestige[{i}]", ["name", "req", "stage", "level"]):
+        if keys(x, f"weaponPrestige[{i}]", ["name", "req", "stage", "level"], ["en"]):
+            if "en" in x and not txt(x["en"]):
+                err(f"weaponPrestige[{i}]: nome inglese non valido")
             if not txt(x["name"]) or not txt(x["req"]) or x["stage"] not in ("p1", "master") or not (x["level"] is None or is_int(x["level"], 1, 999)):
                 err(f"weaponPrestige[{i}] non valido")
     acc = d["account"]
     if keys(acc, "account", ["divergence", "mastery"]):
-        if keys(acc["divergence"], "account.divergence", ["name", "req"]) and not (txt(acc["divergence"]["name"]) and txt(acc["divergence"]["req"])):
+        if keys(acc["divergence"], "account.divergence", ["name", "req"], ["en"]) and not (txt(acc["divergence"]["name"]) and txt(acc["divergence"]["req"]) and ("en" not in acc["divergence"] or txt(acc["divergence"]["en"]))):
             err("account.divergence non valida")
         if keys(acc["mastery"], "account.mastery", ["mp", "dmz", "wz"]):
             for k, lst in acc["mastery"].items():
@@ -171,8 +175,8 @@ def check(d, base_dir):
                     err(f"account.mastery.{k} non valido")
                     continue
                 for m in lst:
-                    if keys(m, f"account.mastery.{k}", ["id", "name", "req"]):
-                        if not (isinstance(m["id"], str) and ITEM_RE.match(m["id"]) and txt(m["name"]) and (m["req"] is None or txt(m["req"]))):
+                    if keys(m, f"account.mastery.{k}", ["id", "name", "req"], ["en"]):
+                        if not (isinstance(m["id"], str) and ITEM_RE.match(m["id"]) and txt(m["name"]) and (m["req"] is None or txt(m["req"])) and ("en" not in m or txt(m["en"]))):
                             err(f"account.mastery.{k}: voce non valida")
     wx = d["wzExtra"]
     if keys(wx, "wzExtra", ["status", "items"]):
