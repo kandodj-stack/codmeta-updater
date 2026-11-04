@@ -7,6 +7,7 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
 ## Regole fisse
 
 - Modifica **solo** `data/content.json` e `data/catalog.json`. Non toccare `.github/`, `scripts/` o altri file.
+- `data/camos.json` (tracker mimetiche) e `data/camo-img/` non fanno parte di questo controllo: li aggiorna Claude solo su richiesta di Kando, validando con `python3 scripts/check_camos.py data/camos.json RIFERIMENTO.json`.
 - Ogni file ha la sua `release`: aumenta solo quella del file che cambia.
 - Non inventare mai dati. Ogni dato nuovo deve venire da una fonte letta in questa esecuzione.
 - Classifiche e build WZStats sono **editoriali di terzi**: non presentarle come ufficiali Activision.

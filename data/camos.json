@@ -1,0 +1,490 @@
+{
+  "schemaVersion": 1,
+  "release": 2,
+  "checkedAt": "2026-10-30",
+  "modes": {
+    "mp": {
+      "label": "Multiplayer",
+      "live": true
+    },
+    "dmz": {
+      "label": "DMZ",
+      "live": true
+    },
+    "wz": {
+      "label": "Warzone",
+      "live": false,
+      "from": "Stagione 1"
+    }
+  },
+  "gold": {
+    "mp": "15 uccisioni di giocatori in una sola partita",
+    "wz": null,
+    "src": [
+      "Activision"
+    ]
+  },
+  "classes": {
+    "ar": {
+      "label": "Fucili d’assalto",
+      "size": 8,
+      "platinum": {
+        "mp": "50 colpi alla testa contro giocatori",
+        "wz": null
+      },
+      "harmonic": {
+        "mp": "25 uccisioni doppie contro giocatori",
+        "wz": null
+      },
+      "src": [
+        "BossLobbies",
+        "Upblazed",
+        "Game8"
+      ]
+    },
+    "smg": {
+      "label": "Mitragliette",
+      "size": 5,
+      "platinum": {
+        "mp": "25 uccisioni di giocatori alle spalle",
+        "wz": null
+      },
+      "harmonic": {
+        "mp": "50 uccisioni di giocatori sparando dall’anca",
+        "wz": null
+      },
+      "src": [
+        "CODMunity",
+        "BossLobbies",
+        "Upblazed"
+      ]
+    },
+    "tac": {
+      "label": "Fucili tattici",
+      "size": 3,
+      "platinum": {
+        "mp": "75 uccisioni di giocatori da prono",
+        "wz": null
+      },
+      "harmonic": {
+        "mp": "75 uccisioni con un colpo solo contro giocatori",
+        "wz": null
+      },
+      "src": [
+        "BossLobbies",
+        "Upblazed"
+      ]
+    }
+  },
+  "weapons": [
+    {
+      "id": "axion",
+      "name": "Axion",
+      "class": "ar",
+      "unlock": 52,
+      "maxLevel": 69,
+      "military": {
+        "levels": [
+          10,
+          19,
+          26,
+          34,
+          41,
+          48,
+          55,
+          62
+        ],
+        "src": [
+          "BossLobbies",
+          "Upblazed"
+        ]
+      },
+      "special": [
+        {
+          "name": "Splinter Rock",
+          "level": 23,
+          "mp": "20 uccisioni a lunga distanza contro giocatori",
+          "wz": null,
+          "src": [
+            "BossLobbies",
+            "Upblazed",
+            "MW4 Camo Tracker"
+          ]
+        },
+        {
+          "name": "Sunset Tropic",
+          "level": 45,
+          "mp": "25 uccisioni di giocatori con il lanciagranate Miri 40MM",
+          "wz": null,
+          "src": [
+            "BossLobbies",
+            "Upblazed",
+            "MW4 Camo Tracker"
+          ]
+        },
+        {
+          "name": "Cyan",
+          "level": 69,
+          "mp": "2 uccisioni senza ricaricare, 25 volte, contro giocatori",
+          "wz": null,
+          "src": [
+            "BossLobbies",
+            "Upblazed"
+          ]
+        }
+      ],
+      "images": {}
+    },
+    {
+      "id": "iso-nightshade",
+      "name": "ISO Nightshade",
+      "class": "smg",
+      "unlock": 4,
+      "maxLevel": 64,
+      "military": {
+        "levels": [
+          12,
+          19,
+          25,
+          31,
+          38,
+          44,
+          50,
+          57
+        ],
+        "src": [
+          "CODMunity",
+          "BossLobbies",
+          "Upblazed"
+        ]
+      },
+      "special": [
+        {
+          "name": "Asphalt",
+          "level": 22,
+          "levelSrc": 1,
+          "mp": "50 uccisioni di giocatori mirando",
+          "wz": null,
+          "src": [
+            "CODMunity",
+            "BossLobbies",
+            "Upblazed"
+          ]
+        },
+        {
+          "name": "Black Topo",
+          "level": 44,
+          "levelSrc": 1,
+          "mp": "10 uccisioni doppie contro giocatori",
+          "wz": null,
+          "src": [
+            "CODMunity",
+            "BossLobbies",
+            "Upblazed"
+          ]
+        },
+        {
+          "name": "Brown",
+          "level": 64,
+          "levelSrc": 1,
+          "mp": "3 uccisioni di giocatori senza morire, 15 volte",
+          "wz": null,
+          "src": [
+            "CODMunity",
+            "BossLobbies",
+            "Upblazed"
+          ]
+        }
+      ],
+      "images": {}
+    },
+    {
+      "id": "mosin-nagant",
+      "name": "Mosin-Nagant",
+      "class": "tac",
+      "unlock": 36,
+      "maxLevel": 69,
+      "military": {
+        "levels": [
+          10,
+          17,
+          25,
+          31,
+          38,
+          47,
+          55,
+          61
+        ],
+        "src": [
+          "BossLobbies",
+          "Upblazed"
+        ]
+      },
+      "special": [
+        {
+          "name": "Ice Sheer",
+          "level": 25,
+          "levelSrc": 1,
+          "mp": "25 colpi alla testa contro giocatori",
+          "wz": null,
+          "src": [
+            "BossLobbies",
+            "Upblazed"
+          ]
+        },
+        {
+          "name": "Speciale 2",
+          "altNames": [
+            "Brown",
+            "Fractal Snow"
+          ],
+          "level": null,
+          "mp": "3 uccisioni di giocatori senza morire, 15 volte",
+          "wz": null,
+          "src": [
+            "BossLobbies",
+            "Upblazed"
+          ]
+        },
+        {
+          "name": "Speciale 3",
+          "altNames": [
+            "Gunmetal",
+            "Sticker Shock"
+          ],
+          "level": null,
+          "mp": "20 colpi alla testa contro giocatori",
+          "wz": null,
+          "src": [
+            "BossLobbies",
+            "Upblazed"
+          ]
+        }
+      ],
+      "images": {}
+    }
+  ],
+  "others": [
+    [
+      "Han 86",
+      "ar"
+    ],
+    [
+      "M4",
+      "ar"
+    ],
+    [
+      "Hyeon Burst",
+      "ar"
+    ],
+    [
+      "Patriot XMR",
+      "ar"
+    ],
+    [
+      "Kastov 762",
+      "ar"
+    ],
+    [
+      "Oden",
+      "ar"
+    ],
+    [
+      "Cronen Squall",
+      "ar"
+    ],
+    [
+      "VEL 46",
+      "smg"
+    ],
+    [
+      "Wz.55 Striga",
+      "smg"
+    ],
+    [
+      "PPSh-41",
+      "smg"
+    ],
+    [
+      "X-58 Nyx",
+      "smg"
+    ],
+    [
+      "Rezi 12",
+      "sg"
+    ],
+    [
+      "Warlord",
+      "sg"
+    ],
+    [
+      "FiNN LMG",
+      "lmg"
+    ],
+    [
+      "Type 73",
+      "lmg"
+    ],
+    [
+      "APOC-338",
+      "lmg"
+    ],
+    [
+      "MAR-9",
+      "tac"
+    ],
+    [
+      "Oris 8.6",
+      "tac"
+    ],
+    [
+      "KG-7 Vulcan",
+      "sn"
+    ],
+    [
+      "Astaroth .57",
+      "sn"
+    ],
+    [
+      "Signal 50",
+      "sn"
+    ],
+    [
+      "SANG 9mm",
+      "pi"
+    ],
+    [
+      "Krait P68",
+      "pi"
+    ],
+    [
+      ".50 GS",
+      "pi"
+    ],
+    [
+      "Mojave .357",
+      "pi"
+    ],
+    [
+      "PILA",
+      "la"
+    ],
+    [
+      "RPG-8",
+      "la"
+    ],
+    [
+      "JOKR",
+      "la"
+    ],
+    [
+      "PM-40 Anvil",
+      "la"
+    ],
+    [
+      "FSS Carbon Edge 1095",
+      "me"
+    ]
+  ],
+  "weaponPrestige": [
+    {
+      "name": "Pyroclast",
+      "req": "Prestigio arma 1, livello 1",
+      "stage": "p1",
+      "level": 1
+    },
+    {
+      "name": "Pyroclast Terminus",
+      "req": "Livello massimo nel Prestigio arma 1",
+      "stage": "p1",
+      "level": null
+    },
+    {
+      "name": "Pyroclast Scatter",
+      "req": "Prestigio arma Master, livello 150",
+      "stage": "master",
+      "level": 150
+    },
+    {
+      "name": "Pyroclast Cascade",
+      "req": "Prestigio arma Master, livello 250",
+      "stage": "master",
+      "level": 250
+    }
+  ],
+  "account": {
+    "divergence": {
+      "name": "Divergence",
+      "req": "Harmonic Break su tutte le 33 armi"
+    },
+    "mastery": {
+      "mp": [
+        {
+          "id": "mercurial",
+          "name": "Mercurial Drift",
+          "req": "10 uccisioni in una partita, 250 volte"
+        },
+        {
+          "id": "polyatomic",
+          "name": "Polyatomic Reforged",
+          "req": "3 uccisioni senza subire danni, 300 volte"
+        },
+        {
+          "id": "orion",
+          "name": "Orion Reforged",
+          "req": "5 uccisioni senza morire, 500 volte"
+        }
+      ],
+      "dmz": [],
+      "wz": [
+        {
+          "id": "parallax",
+          "name": "Parallax",
+          "req": null
+        },
+        {
+          "id": "damascus",
+          "name": "Damascus Reforged",
+          "req": null
+        },
+        {
+          "id": "empyros",
+          "name": "Empyros",
+          "req": null
+        }
+      ]
+    }
+  },
+  "wzExtra": {
+    "status": "pending",
+    "items": []
+  },
+  "images": {},
+  "sources": [
+    {
+      "label": "Activision · progressione e prestigio MW4",
+      "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige",
+      "official": true
+    },
+    {
+      "label": "BossLobbies",
+      "url": "https://bosslobbies.com/guides/modern-warfare-4/camos/",
+      "official": false
+    },
+    {
+      "label": "Upblazed",
+      "url": "https://upblazed.com/tools/mw4-camo-tracker",
+      "official": false
+    },
+    {
+      "label": "CODMunity",
+      "url": "https://codmunity.gg/camo-tracker/mw4",
+      "official": false
+    },
+    {
+      "label": "MW4 Camo Tracker",
+      "url": "https://mw4camotracker.com/weapons/axion-camos",
+      "official": false
+    }
+  ]
+}
