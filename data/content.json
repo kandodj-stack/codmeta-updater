@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 11,
+  "release": 12,
   "header": {
-    "liveStatus": "STAGIONE 06 · META WZSTATS 03.11"
+    "liveStatus": "STAGIONE 06 · META WZSTATS 04.11"
   },
   "ticker": [
+    {
+      "tag": "04 NOV · WARZONE",
+      "text": "Meta WZStats del 4 novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "03 NOV · WARZONE",
       "text": "Meta WZStats del 3 novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
@@ -98,11 +103,6 @@
     {
       "tag": "14 OTT · WARZONE",
       "text": "VMP: più rinculo visivo. Migliorati DS20 Mirage, Ryden 45K e XM325; build coinvolte da rivalutare.",
-      "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
-    },
-    {
-      "tag": "14 OTT · ACCESSORI",
-      "text": "TR51: Bolt Carrier Group +6% cadenza. Sokol Warpath: bonus ADS 30 ms e sprint-to-fire 15 ms. Argus Lever rallentato.",
       "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
     }
   ],
@@ -259,12 +259,12 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS · 3 NOVEMBRE",
-    "checked": "03 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS · 4 NOVEMBRE",
+    "checked": "04 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 3 novembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 3 novembre invariata rispetto al 1° novembre; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
-    "currentBuildDate": "03 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 3 NOVEMBRE",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 4 novembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 4 novembre invariata rispetto al 3 novembre; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
+    "currentBuildDate": "04 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 4 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 1 novembre 2026",
     "pendingReview": [
       "TR51 PARA"
