@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": 13,
+  "release": 14,
   "header": {
-    "liveStatus": "STAGIONE 06 · META WZSTATS 04.11"
+    "liveStatus": "STAGIONE 06 · META WZSTATS 05.11"
   },
   "ticker": [
+    {
+      "tag": "05 NOV · MW4",
+      "text": "Meta MW4 WZStats: KG-7 Vulcan sale nel tier Meta; nuove build Versatile per Patriot XMR, PPSh-41 e X-58 Nyx, Kastov 762 passa alla build Mobility (la Versatile ora è Apex). KG-7 Vulcan per ora senza build (slot Otturatore da confermare). Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it/mw4/meta"
+    },
+    {
+      "tag": "05 NOV · WARZONE",
+      "text": "Meta WZStats del 5 novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "04 NOV · MW4",
       "text": "Meta MW4 WZStats del 4 novembre: classifica e build invariate; entra la build Short Range della Mojave .357 (tier C), prima pistola tra le build. Classifica indipendente, non ufficiale Activision.",
@@ -94,16 +104,6 @@
       "tag": "STAGIONE 1 · WARZONE",
       "text": "Le note ufficiali MW4 confermano che il nuovo Warzone arriverà con la Stagione 1. Data riportata da fonti terze: 6 novembre.",
       "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
-    },
-    {
-      "tag": "27 OTT · ARCHIVIO",
-      "text": "Modern Warfare 2019, Cold War e Vanguard completati: catalogo di tutte le armi e 31 build di fine ciclo con fonte.",
-      "url": "https://wzstats.gg/it/modern-warfare-2019/meta"
-    },
-    {
-      "tag": "19 OTT · MW4",
-      "text": "33 armi di lancio: catalogo e progressione consultabili selezionando Modern Warfare 4. Sette build Multiplayer disponibili nelle schede MW4.",
-      "url": "https://www.callofduty.com/uk/en/blog/2026/10/call-of-duty-modern-warfare-4-launch-multiplayer-operators-weapons-equipment-create-a-class"
     }
   ],
   "news": {
@@ -259,12 +259,12 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS · 4 NOVEMBRE",
-    "checked": "04 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS · 5 NOVEMBRE",
+    "checked": "05 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 4 novembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 4 novembre invariata rispetto al 3 novembre; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
-    "currentBuildDate": "04 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 4 NOVEMBRE",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 5 novembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 5 novembre invariata rispetto al 4 novembre; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
+    "currentBuildDate": "05 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 5 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 1 novembre 2026",
     "pendingReview": [
       "TR51 PARA"

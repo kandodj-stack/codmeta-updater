@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 8,
+  "release": 9,
   "mw4": {
-    "buildCheckedAt": "2026-11-04",
+    "buildCheckedAt": "2026-11-05",
     "catalogCheckedAt": "2026-10-23",
     "catalog": [
       {
@@ -419,7 +419,7 @@
         "category": "Fucili d’assalto",
         "slug": "kastov-762",
         "tier": "A",
-        "buildType": "Versatile",
+        "buildType": "Mobility",
         "attachments": [
           [
             "Ottica",
@@ -427,14 +427,14 @@
             35
           ],
           [
-            "Canna",
-            "FJX GHOSTFIRE 16.3\"",
-            61
+            "Volata",
+            "FT HYPERPORT 408",
+            16
           ],
           [
-            "Sottocanna",
-            "FSS TAC90 GRIP",
-            47
+            "Canna",
+            "TT 414-R HIGHTAC",
+            2
           ],
           [
             "Calcio",
@@ -451,19 +451,14 @@
       "PATRIOT XMR": {
         "rank": 4,
         "category": "Fucili d’assalto",
-        "slug": "partriot-xmr",
+        "slug": "patriot-xmr",
         "tier": "A",
         "buildType": "Versatile",
         "attachments": [
           [
-            "Ottica",
-            "FJX 708 PRO",
-            19
-          ],
-          [
             "Volata",
-            "EXP UNDERTOW GEN. 2",
-            25
+            "MEIKO 30CAL-SP",
+            62
           ],
           [
             "Sottocanna",
@@ -474,6 +469,11 @@
             "Impugnatura posteriore",
             "SCHLAGER ATTACK-7 GRIP",
             28
+          ],
+          [
+            "Calcio",
+            "HANBIT B56T-L9",
+            22
           ],
           [
             "Laser",
@@ -524,14 +524,14 @@
         "buildType": "Versatile",
         "attachments": [
           [
-            "Volata",
-            "FTAC SILENT RECON",
-            12
+            "Canna",
+            "HANBIT CHIMMUK-INTR",
+            5
           ],
           [
-            "Canna",
-            "HANBIT RDR-TIGER 50-XL",
-            15
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            2
           ],
           [
             "Caricatore",
@@ -539,14 +539,14 @@
             3
           ],
           [
+            "Calcio",
+            "HANBIT JANGUN-H9",
+            25
+          ],
+          [
             "Laser",
             "SCHLAGER VISIV-5",
             4
-          ],
-          [
-            "Munizioni",
-            "7.62 TOKAREV FRANGIBLE",
-            28
           ]
         ]
       },
@@ -559,13 +559,13 @@
         "attachments": [
           [
             "Canna",
-            "LX3-V 408.94MM",
-            44
+            "DOKSA 4F 304.8MM",
+            37
           ],
           [
             "Sottocanna",
-            "MIRE-50 TAC GRIP",
-            7
+            "FSS TAC90 GRIP",
+            39
           ],
           [
             "Impugnatura posteriore",
@@ -579,8 +579,8 @@
           ],
           [
             "Laser",
-            "SCHLAGER VISIV-5",
-            12
+            "XRK CLUTCH-LS",
+            38
           ]
         ]
       },
@@ -652,42 +652,8 @@
           ]
         ]
       },
-      "KG-7 VULCAN": {
-        "rank": 1,
-        "category": "Fucili di precisione",
-        "slug": "kg-7-vulcan",
-        "tier": "A",
-        "buildType": "ADS Speed",
-        "attachments": [
-          [
-            "Volata",
-            "IVANOV QR600",
-            64
-          ],
-          [
-            "Canna",
-            "HAEBANG NASEON V.5 26\"",
-            22
-          ],
-          [
-            "Poggiaguancia",
-            "HAEBANG YNC-45",
-            34
-          ],
-          [
-            "Calcio",
-            "TT G76-RP STOCK",
-            47
-          ],
-          [
-            "Laser",
-            "SCHLAGER VISIV-5",
-            7
-          ]
-        ]
-      },
       "ASTAROTH .57": {
-        "rank": 2,
+        "rank": 1,
         "category": "Fucili di precisione",
         "slug": "astaroth-57",
         "tier": "A",
@@ -972,7 +938,6 @@
       "X-58 NYX",
       "WZ.55 STRIGA",
       "HAN 86",
-      "KG-7 VULCAN",
       "ASTAROTH .57",
       "APOC-338",
       "FINN LMG",
