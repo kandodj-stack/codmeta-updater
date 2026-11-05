@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "release": 14,
+  "release": 15,
   "header": {
     "liveStatus": "STAGIONE 06 · META WZSTATS 05.11"
   },
   "ticker": [
     {
       "tag": "05 NOV · MW4",
-      "text": "Meta MW4 WZStats: KG-7 Vulcan sale nel tier Meta; nuove build Versatile per Patriot XMR, PPSh-41 e X-58 Nyx, Kastov 762 passa alla build Mobility (la Versatile ora è Apex). KG-7 Vulcan per ora senza build (slot Otturatore da confermare). Classifica indipendente, non ufficiale Activision.",
+      "text": "Meta MW4 WZStats: KG-7 Vulcan sale nel tier Meta con la build Long Range; nuove build Versatile per Patriot XMR, PPSh-41 e X-58 Nyx, Kastov 762 passa alla build Mobility (la Versatile ora è Apex). 21 build Multiplayer. Classifica indipendente, non ufficiale Activision.",
       "url": "https://wzstats.gg/it/mw4/meta"
     },
     {

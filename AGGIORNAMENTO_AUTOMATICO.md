@@ -63,7 +63,7 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
      livello `null` se la fonte non lo indica. Se un nome di accessorio manca o i due controlli non coincidono, l'arma resta fuori.
      Slot in italiano come nelle voci esistenti
      (Ottica, Volata, Canna, Sottocanna, Calcio, Impugnatura posteriore, Laser, Caricatore, Munizioni, Poggiaguancia,
-     Grilletto per «Trigger Action» delle pistole).
+     Grilletto per «Trigger Action» delle pistole, Otturatore per «Bolt» dei fucili, approvato da Kando il 5 nov 2026).
      Nomi accessori in inglese MAIUSCOLO, nella forma già usata (es. `FSS TAC90 GRIP`, non `IMPUGNATURA FSS TAC90`).
    - Leggi due volte classifica e build cambiate: devono coincidere. Se un'arma in classifica non è in `catalog`,
      non pubblicare il file MW4 e spiegalo nel resoconto. Le armi senza build valida (solo Apex, meno di 5 accessori,

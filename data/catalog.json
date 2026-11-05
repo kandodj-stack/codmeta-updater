@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": 9,
+  "release": 10,
   "mw4": {
     "buildCheckedAt": "2026-11-05",
     "catalogCheckedAt": "2026-10-23",
@@ -414,6 +414,40 @@
           ]
         ]
       },
+      "KG-7 VULCAN": {
+        "rank": 1,
+        "category": "Fucili di precisione",
+        "slug": "kg-7-vulcan",
+        "tier": "META",
+        "buildType": "Long Range",
+        "attachments": [
+          [
+            "Ottica",
+            "CRONEN R808",
+            3
+          ],
+          [
+            "Volata",
+            "IVANOV QR600",
+            64
+          ],
+          [
+            "Canna",
+            "TT BAEM 12\"",
+            5
+          ],
+          [
+            "Poggiaguancia",
+            "TT TYPE 40 COMB",
+            6
+          ],
+          [
+            "Otturatore",
+            "KT76 LIGHT BOLT",
+            63
+          ]
+        ]
+      },
       "KASTOV 762": {
         "rank": 3,
         "category": "Fucili d’assalto",
@@ -653,7 +687,7 @@
         ]
       },
       "ASTAROTH .57": {
-        "rank": 1,
+        "rank": 2,
         "category": "Fucili di precisione",
         "slug": "astaroth-57",
         "tier": "A",
@@ -931,6 +965,7 @@
       "VEL 46",
       "M4",
       "MOSIN-NAGANT",
+      "KG-7 VULCAN",
       "KASTOV 762",
       "PATRIOT XMR",
       "ODEN",
