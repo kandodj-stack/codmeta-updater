@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 17,
+  "release": 18,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "06 NOV · SFIDE",
+      "text": "Stagione 1 di MW4 e Warzone senza sfide settimanali: al loro posto eventi (Return to Warzone, Wager Match in arrivo), sfide giornaliere e dei biglietti da visita.",
+      "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+    },
     {
       "tag": "06 NOV · STAGIONE 1",
       "text": "Stagione 1 di MW4 e Warzone disponibile dalle 6:00 italiane: Warzone integra MW4, nuove mappe Hajin (Battle Royale) e Zodiac (Resurgence), Cronen Osprey e CSG-35 gratis nel Battle Pass.",
@@ -99,11 +104,6 @@
       "tag": "29 OTT · MW4 PATCH",
       "text": "Nuova modalità Possession per Halloween, più XP in diverse modalità Multiplayer, più denaro dalle missioni DMZ e varie correzioni. Nessuna modifica alle armi.",
       "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
-    },
-    {
-      "tag": "29 OTT · WARZONE",
-      "text": "Meta WZStats del 29 ottobre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it"
     }
   ],
   "news": {
@@ -1029,28 +1029,28 @@
     }
   },
   "weekly": {
-    "eyebrow": "WEEKLY OPERATIONS · SEASON 06",
-    "title": "Sfide settimanali BO7 / Warzone",
-    "intro": "Archivio BO7 / Warzone · Stagione 06 · Settimana 4: sei obiettivi per Warzone, Multiplayer e Zombies. Elenco riportato da Sportskeeda l’8 ottobre. Controllo del 27 ottobre: gli elenchi delle settimane successive non sono stati verificati e quindi non sono pubblicati.",
-    "officialUrl": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes",
+    "eyebrow": "SFIDE SETTIMANALI · STAGIONE 1",
+    "title": "Stagione 1: niente sfide settimanali",
+    "intro": "Nella Stagione 1 di Modern Warfare 4 e Warzone le sfide settimanali non ci sono: lo dicono le note ufficiali di lancio di MW4 («Weekly Challenges will not be available in Season 1»), perché Activision punta sugli eventi. Restano le sfide giornaliere, le sfide dei biglietti da visita e gli eventi della stagione, come Return to Warzone (in arrivo anche Wager Match). Le schede qui sotto sono l’archivio BO7 / Warzone della Stagione 06, settimana 4. Controllo del 6 novembre 2026.",
+    "officialUrl": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
     "season": "Stagione 06",
     "week": 4,
     "summary": [
       {
         "label": "STATO",
-        "value": "S06 · ULTIMA SETTIMANA VERIFICATA: 4"
+        "value": "STAGIONE 1 · NESSUNA SFIDA SETTIMANALE"
       },
       {
-        "label": "OBIETTIVO",
-        "value": "COMPLETA 6 SFIDE"
+        "label": "AL LORO POSTO",
+        "value": "EVENTI · SFIDE GIORNALIERE"
       },
       {
-        "label": "RICOMPENSA",
-        "value": "FG42 · PEARL MOLLUSK + 10.000 XP"
+        "label": "ARCHIVIO",
+        "value": "BO7 / WARZONE S06 · SETTIMANA 4"
       },
       {
         "label": "ULTIMO CONTROLLO",
-        "value": "27.10.2026"
+        "value": "06.11.2026"
       }
     ],
     "sourceUrl": "https://www.sportskeeda.com/call-of-duty-game/all-warzone-black-ops-7-season-6-week-4-challenges-rewards",
@@ -1059,7 +1059,7 @@
       "warzone": {
         "label": "WARZONE",
         "game": "CALL OF DUTY: WARZONE",
-        "description": "Stagione 06 · Settimana 4. Scegli gli obiettivi da completare.",
+        "description": "Archivio · Stagione 06 · Settimana 4, prima della Stagione 1.",
         "challenges": [
           {
             "objective": "40 eliminazioni con armi raccolte a terra."
@@ -1084,7 +1084,7 @@
       "multiplayer": {
         "label": "BO7 MULTIPLAYER",
         "game": "BLACK OPS 7 · MULTIPLAYER",
-        "description": "Stagione 06 · Settimana 4. Scegli gli obiettivi da completare.",
+        "description": "Archivio · Stagione 06 · Settimana 4, prima della Stagione 1.",
         "challenges": [
           {
             "objective": "100 eliminazioni con mitragliatrici leggere (LMG)."
@@ -1109,7 +1109,7 @@
       "zombies": {
         "label": "BO7 ZOMBIES",
         "game": "BLACK OPS 7 · ZOMBIES",
-        "description": "Stagione 06 · Settimana 4. Scegli gli obiettivi da completare.",
+        "description": "Archivio · Stagione 06 · Settimana 4, prima della Stagione 1.",
         "challenges": [
           {
             "objective": "20 uccisioni senza ricaricare con un’arma S05 o S06, 20 volte."

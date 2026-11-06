@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "release": 7,
- "checkedAt": "2026-11-04",
+ "release": 8,
+ "checkedAt": "2026-11-06",
  "modes": {
   "mp": {
    "label": "Multigiocatore",
@@ -13,7 +13,7 @@
   },
   "wz": {
    "label": "Warzone",
-   "live": false,
+   "live": true,
    "from": "Stagione 1"
   }
  },
@@ -2736,17 +2736,17 @@
     {
      "id": "parallax",
      "name": "Parallax",
-     "req": null
+     "req": "Completa 33 sfide mimetica Rottura armonica (mimetica Divergenza), poi esegui 5 uccisioni in una partita, 300 volte"
     },
     {
      "id": "damascus",
      "name": "Damascus Reforged",
-     "req": null
+     "req": "Esegui 5 uccisioni in una partita, 300 volte (sfida di Parallax), poi esegui 2 uccisioni senza inserire piastre corazza, 200 volte"
     },
     {
      "id": "empyros",
      "name": "Empyros",
-     "req": null
+     "req": "Esegui 2 uccisioni senza inserire piastre corazza, 200 volte (sfida di Damascus Reforged), poi arriva tra i primi 5 con almeno 6 uccisioni, 75 volte"
     }
    ]
   }
@@ -2775,6 +2775,11 @@
   {
    "label": "Activision · progressione e prestigio MW4",
    "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige",
+   "official": true
+  },
+  {
+   "label": "Activision · Warzone Stagione 1",
+   "url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1",
    "official": true
   },
   {
