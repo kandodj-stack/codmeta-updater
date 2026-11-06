@@ -92,8 +92,10 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
    Ripeti il promemoria ogni giorno finché l'arma non compare in `camos.json`. Le armi già presenti in `weapons[]` o in
    `others` non danno promemoria (es. .50 GS, che resta in `others` solo finché non è online la v45).
 
-5. **Sfide settimanali.** Prova a trovare la settimana successiva a `weekly.week` da una fonte leggibile.
-   Pubblica solo l'elenco completo per tutte e tre le modalità, con fonte e data. Altrimenti lascia tutto com'è.
+5. **Sfide settimanali.** Nella Stagione 1 di MW4 + Warzone le sfide settimanali non esistono (note ufficiali di lancio MW4:
+   «Weekly Challenges will not be available in Season 1»): la sezione `weekly` lo dice e tiene come archivio la Stagione 06,
+   settimana 4. Non cercare altre settimane della Stagione 06 e non cambiare `weekly`. Se una fonte ufficiale annuncia
+   che le sfide settimanali tornano (per esempio dalla Stagione 2), non pubblicare niente: segnalalo nel resoconto.
 
 6. **Limita le dimensioni.** Tieni al massimo 20 voci in `ticker` e 20 in `news.items`, togliendo le più vecchie.
    Testi lunghi fino a 2000 caratteri, brevi fino a 300.
