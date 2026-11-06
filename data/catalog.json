@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 11,
+  "release": 12,
   "mw4": {
-    "buildCheckedAt": "2026-11-05",
+    "buildCheckedAt": "2026-11-06",
     "catalogCheckedAt": "2026-11-06",
     "catalog": [
       {
@@ -942,8 +942,42 @@
           ]
         ]
       },
-      "MOJAVE .357": {
+      ".50 GS": {
         "rank": 1,
+        "category": "Pistole",
+        "slug": "50-gs",
+        "tier": "C",
+        "buildType": "Short Range",
+        "attachments": [
+          [
+            "Volata",
+            "TA SVG-50K",
+            2
+          ],
+          [
+            "Caricatore",
+            "14 ROUND MAG",
+            9
+          ],
+          [
+            "Impugnatura posteriore",
+            "TT BULKKOT GRIP",
+            39
+          ],
+          [
+            "Laser",
+            "GW 700-V",
+            36
+          ],
+          [
+            "Grilletto",
+            "SCHLAGER GS MATCH",
+            6
+          ]
+        ]
+      },
+      "MOJAVE .357": {
+        "rank": 2,
         "category": "Pistole",
         "slug": "mojave-357",
         "tier": "C",
@@ -998,6 +1032,7 @@
       "MAR-9",
       "CRONEN SQUALL",
       "WARLORD",
+      ".50 GS",
       "MOJAVE .357"
     ]
   }
