@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "release": 10,
+  "release": 11,
   "mw4": {
     "buildCheckedAt": "2026-11-05",
-    "catalogCheckedAt": "2026-10-23",
+    "catalogCheckedAt": "2026-11-06",
     "catalog": [
       {
         "name": "Han 86",
@@ -62,6 +62,15 @@
         "category": "FUCILE D’ASSALTO"
       },
       {
+        "name": "Cronen Osprey",
+        "maxLevel": 70,
+        "unlock": null,
+        "apex": "Cronen Helix Mk. II",
+        "category": "FUCILE D’ASSALTO",
+        "unlockLabel": "Battle Pass Stagione 1, livello 16 (gratis)",
+        "note": "Arma della Stagione 1, dal 6 novembre 2026. Sblocco dal blog ufficiale del Battle Pass; livello massimo e Apex dalle guide TimeSaver, MyPandaPlay e NeuralBoost, da ricontrollare in gioco."
+      },
+      {
         "name": "ISO Nightshade",
         "maxLevel": 64,
         "unlock": 4,
@@ -99,6 +108,15 @@
         "apex": "X-58 Void",
         "category": "MITRAGLIETTA",
         "unlockSummary": 46
+      },
+      {
+        "name": "CSG-35",
+        "maxLevel": 42,
+        "unlock": null,
+        "apex": "CSG Crossfire",
+        "category": "MITRAGLIETTA",
+        "unlockLabel": "Battle Pass Stagione 1, livello 36 (gratis)",
+        "note": "Mitraglietta akimbo (un’arma per mano) della Stagione 1, dal 6 novembre 2026. Sblocco dal blog ufficiale del Battle Pass; livello massimo e Apex dalle guide TimeSaver e MyPandaPlay, da ricontrollare in gioco."
       },
       {
         "name": "Rezi 12",

@@ -78,11 +78,17 @@ def main():
         err("catalogo vuoto o troppo lungo")
         cat = []
     for i, w in enumerate(cat):
-        if fields(w, ["name", "category", "unlock", "maxLevel", "apex"], ["unlockSummary"], f"catalogo[{i}]"):
-            if not (txt(w["name"]) and txt(w["category"]) and txt(w["apex"]) and level(w["unlock"]) and level(w["maxLevel"])):
+        if fields(w, ["name", "category", "unlock", "maxLevel", "apex"], ["unlockSummary", "unlockLabel", "note"], f"catalogo[{i}]"):
+            # Armi del Battle Pass (v48): unlock null e unlockLabel obbligatorio (es. «Battle Pass Stagione 1 · livello 16»).
+            unlock_ok = level(w["unlock"]) or (w["unlock"] is None and "unlockLabel" in w)
+            if not (txt(w["name"]) and txt(w["category"]) and txt(w["apex"]) and unlock_ok and level(w["maxLevel"])):
                 err(f"dati arma non validi: {w.get('name')}")
             if "unlockSummary" in w and not level(w["unlockSummary"]):
                 err(f"unlockSummary non valido: {w.get('name')}")
+            if "unlockLabel" in w and not txt(w["unlockLabel"]):
+                err(f"unlockLabel non valido: {w.get('name')}")
+            if "note" in w and not txt(w["note"]):
+                err(f"nota non valida: {w.get('name')}")
             names.append(str(w["name"]).upper())
     if len(set(names)) != len(names):
         err("armi duplicate nel catalogo")

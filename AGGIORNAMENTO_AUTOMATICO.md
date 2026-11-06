@@ -25,6 +25,11 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
 
 2. **Meta Warzone (WZStats).** Con WebFetch leggi `https://wzstats.gg/it` e la data «Updated …» della classifica Battle Royale.
    - Se la data corrisponde a `warzone.currentBuildDate`, la classifica non è cambiata: passa al punto 3.
+   - Dalla Stagione 1 Warzone usa le armi di Modern Warfare 4; quelle dei giochi precedenti sono «Legacy».
+     In ogni build `origin` = gioco dell'arma: `MW4` per Modern Warfare 4 (nomi in MAIUSCOLO come in `catalog.json`,
+     es. `AXION`, `M4`), `BO7`, `BO6`, `MW3`, `MWII` per le Legacy. Il sito mette una build `MW4` solo sulla scheda MW4.
+     Quando WZStats pubblica il primo meta della Stagione 1, sostituisci classifica e build per intero e riscrivi `status`
+     e `intro` togliendo il riferimento all'archivio della Stagione 06.
    - Se è più recente: rileggi la classifica, aggiorna `metaOrder` (prime 23 armi), `roleRanks` e i tier.
      Per ogni arma in `builds` apri la pagina build `https://wzstats.gg/it/best-loadouts/...` e confronta
      il codice build. Aggiorna accessori, livelli, `code`, `updated` solo per le build cambiate o nuove.
@@ -74,6 +79,9 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
      `git show HEAD:data/catalog.json > /tmp/rif_cat.json && python3 scripts/check_catalog.py data/catalog.json /tmp/rif_cat.json`.
    - Il catalogo delle armi (`catalog`, `catalogCheckedAt`) si cambia solo se compare un'arma nuova con livello di sblocco,
      livello massimo e Apex letti da una fonte; altrimenti segnalalo nel resoconto senza aggiungerla.
+     Le armi del Battle Pass o degli eventi non hanno un livello giocatore: `unlock: null`, `unlockLabel` con il testo
+     (es. «Battle Pass Stagione 1, livello 16 (gratis)», «Ricompensa dell'evento …») e `note` con fonti e data,
+     come Cronen Osprey e CSG-35 (sito v48 e sync-mw4.php v48 li accettano). `category` al singolare come nelle altre voci.
    - Se cambia la classifica MW4, aggiungi anche una voce in testa a `ticker` di `content.json`.
 
 4b. **Armi nuove → promemoria screenshot per Kando** (richiesta di Kando, 4 nov 2026). Non modificare `data/camos.json`.
