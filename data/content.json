@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": 16,
+  "release": 17,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
@@ -278,7 +278,7 @@
     "status": "META WZSTATS STAGIONE 06 · IN ATTESA DELLA STAGIONE 1",
     "checked": "05 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 5 novembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 5 novembre invariata rispetto al 4 novembre; build consigliate invariate. Le build riportano la data dell’ultima modifica. Dal 6 novembre (Stagione 1) Warzone integra Modern Warfare 4: le armi di Black Ops 7 restano nella scheda Legacy con build predefinite a 5 accessori, non modificabili nell’Armaiolo. Queste build BO7 sono quindi un archivio finché WZStats non pubblica il meta della Stagione 1.",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 5 novembre 2026 (valutazione indipendente, non ufficiale Activision). Il numero a sinistra è la posizione nella classifica generale. Le prime otto armi sono nel tier Meta. Classifica del 5 novembre invariata rispetto al 4 novembre; build consigliate invariate. Le build riportano la data dell’ultima modifica. Dal 6 novembre (Stagione 1) Warzone integra Modern Warfare 4: le armi di Black Ops 7 restano nella scheda Legacy con build predefinite a 5 accessori, non modificabili nell’Armaiolo. Queste build BO7 sono quindi un archivio finché WZStats non pubblica il meta della Stagione 1.",
     "currentBuildDate": "05 NOV 2026",
     "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 5 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 1 novembre 2026",
