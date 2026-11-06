@@ -1,10 +1,35 @@
 {
   "schemaVersion": 1,
-  "release": 15,
+  "release": 16,
   "header": {
-    "liveStatus": "STAGIONE 06 · META WZSTATS 05.11"
+    "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "06 NOV · STAGIONE 1",
+      "text": "Stagione 1 di MW4 e Warzone disponibile dalle 6:00 italiane: Warzone integra MW4, nuove mappe Hajin (Battle Royale) e Zodiac (Resurgence), Cronen Osprey e CSG-35 gratis nel Battle Pass.",
+      "url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1"
+    },
+    {
+      "tag": "06 NOV · MW4 PATCH",
+      "text": "Note della Stagione 1: potenziati Axion, M4, Kastov 762, Patriot XMR, ISO Nightshade, Wz.55 Striga, Mosin-Nagant e Oris 8.6; ridotti APOC-338 e l’Apex Hyperburst. Nuove mappe Backstab, Canyon e Shoot House.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+    },
+    {
+      "tag": "06 NOV · WARZONE PATCH",
+      "text": "Note Warzone Stagione 1: armi MW4 integrate, armi da MWII a BO7 nella scheda Legacy con build predefinite, torna lo Scatto tattico, slot vantaggio Élite, partite più brevi di circa 5,5 minuti.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
+    },
+    {
+      "tag": "06 NOV · MW4",
+      "text": "Meta MW4 WZStats del 6 novembre: classifica e 21 build Multiplayer invariate dopo la patch della Stagione 1. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it/mw4/meta"
+    },
+    {
+      "tag": "06 NOV · WARZONE",
+      "text": "Il meta Warzone di WZStats è ancora quello della Stagione 06 (BO7, 5 novembre): classifica e build restano in archivio finché non arriva quello della Stagione 1. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "05 NOV · MW4",
       "text": "Meta MW4 WZStats: KG-7 Vulcan sale nel tier Meta con la build Long Range; nuove build Versatile per Patriot XMR, PPSh-41 e X-58 Nyx, Kastov 762 passa alla build Mobility (la Versatile ora è Apex). 21 build Multiplayer. Classifica indipendente, non ufficiale Activision.",
@@ -79,37 +104,39 @@
       "tag": "29 OTT · WARZONE",
       "text": "Meta WZStats del 29 ottobre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
       "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "28 OTT · MW4 PATCH",
-      "text": "Primo bilanciamento armi: più portata per Han 86, Kastov 762 e M4; braccia a moltiplicatore 1 per le mitragliette (ISO Nightshade, VEL 46, PPSh-41, Striga, X-58 Nyx). Tuffo più lento del 23%.",
-      "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
-    },
-    {
-      "tag": "28 OTT · WARZONE",
-      "text": "Meta WZStats del 28 ottobre: classifica invariata, Voyak KT-3 e VMP in testa. Nuove build per VST, EGRT-17 e Dravec 45. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "27 OTT · WARZONE",
-      "text": "Meta WZStats del 27 ottobre: Voyak KT-3 e VMP in testa; Ryden 45K e Strider 300 entrano nel tier Meta. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "25 OTT · MW4 HOTFIX",
-      "text": "Statistiche visibili anche per gli accessori bloccati; Patriot XMR, Oden e Cronen Squall non più indicati come fucili da battaglia; 300 XP per eliminazione in Cerca e Distruggi e Collateral.",
-      "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
-    },
-    {
-      "tag": "STAGIONE 1 · WARZONE",
-      "text": "Le note ufficiali MW4 confermano che il nuovo Warzone arriverà con la Stagione 1. Data riportata da fonti terze: 6 novembre.",
-      "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
     }
   ],
   "news": {
-    "title": "PATCH & NEWS · CONTROLLO 29 OTTOBRE 2026",
-    "subtitle": "Warzone e BO7: nessuna patch dopo il 14 ottobre · MW4: aggiornamento del 30 ottobre",
+    "title": "PATCH & NEWS · CONTROLLO 6 NOVEMBRE 2026",
+    "subtitle": "Stagione 1 di MW4 e Warzone disponibile dal 6 novembre · note ufficiali MW4 e Warzone del 5 novembre",
     "items": [
+      {
+        "label": "06 NOV · STAGIONE 1",
+        "title": "Stagione 1 di MW4 e Warzone: orari, Battle Pass e download",
+        "body": "La Stagione 1 è disponibile da venerdì 6 novembre alle 6:00 italiane (mezzanotte ET) su tutte le piattaforme. Battle Pass: 100 livelli lineari a 1.100 COD Points (pacchetto con 20 salti livello a 2.400 COD Points); chi resta indietro viene portato in automatico alla ricompensa del giorno della stagione, fino al giorno 50 (solo con il Battle Pass a pagamento); ricompense bonus dopo il 100% con la Stagione 1 Reloaded. Armi gratuite: Cronen Osprey (fucile d’assalto) al livello 16, progetto al livello 87; CSG-35 (mitraglietta, 1.200 colpi al minuto) al livello 36, progetto al livello 73. BlackCell: Battle Pass, 20 salti livello, sette skin Operatore e sette progetti arma (Kastov 762, Axion, KG-7 Vulcan, ISO Nightshade, CSG-35, Cronen Osprey, Mosin-Nagant); il prezzo non è indicato nel blog ufficiale. Evento «Return to Call of Duty: Warzone» con le mimetiche Renaissance, Violet Striker (animata) e Neutral Ground; evento Wager Match in arrivo. Dimensione del download: Activision non l’ha pubblicata. Per PC (Battle.net) fonti terze riportano circa 63–66 GB; per PS5, Xbox Series X|S e Switch 2 non c’è ancora un dato affidabile.",
+        "link": {
+          "label": "BLOG UFFICIALE ↗",
+          "url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1"
+        }
+      },
+      {
+        "label": "06 NOV · MODERN WARFARE 4",
+        "title": "Stagione 1: nuove mappe, Cronen Osprey e CSG-35, primo grande bilanciamento",
+        "body": "Note ufficiali della Stagione 1 (5 novembre). Multiplayer: nuove mappe Backstab, Canyon e Shoot House e la combinazione Kill Block: Crash; nuove modalità Grind e Drop Zone; Gauntlet 1v1 in arrivo con l’evento Wager Match. Nuove armi: Cronen Osprey (fucile d’assalto 5.56) e CSG-35 (mitraglietta), altre due durante la stagione. Bilanciamento: Axion portata media 34,8→38,61 m e velocità proiettile 415→470 m/s; Han 86 testa 1,25→1,3; Kastov 762 danno medio 24→25 e moltiplicatori di testa, collo e torace alto aumentati; M4 portata massima 25,91→27,94 m e testa 1,25→1,3; Patriot XMR portata massima 31,24→33,53 m; Hyeon Burst danno medio 24→25, ma Apex Hyperburst ridotto (massimo 30→23); ISO Nightshade portata massima 10,54→11,68 m e danno minimo 13→14; VEL 46 portate ridotte ma danno minimo 13→14; Wz.55 Striga danno 26→27, minimo 17→19, testa 1,3→1,4; X-58 Nyx e PPSh-41 danni medi e minimi aumentati di 1; APOC-338 ridotta (minimo 33→32, testa 1,35→1,3); Type 73 portata 24,89→25,53 m; Rezi 12 portate aumentate e minimo 14→16; Mosin-Nagant portata 36,83→40,13 m; Oris 8.6 portata 19,05→22,61 m e minimo 58→63; Krait P68 portate aumentate. Equipaggiamento: mine di prossimità e Claymore si armano in 0,75 s, Argonaut 800→1.200 di salute, Crossfire ridotto, salute in Hardcore 30→22. DMZ: nuova Zona di esclusione X01 sotto Hajin, Stampante 3D e Venditore nella FOB, evento Threat Briefing: Battle Tank. Modalità Prestazioni a 120 Hz su PS5 e Xbox Series X|S. Build WZStats ricontrollate il 6 novembre dopo la patch: invariate.",
+        "link": {
+          "label": "NOTE UFFICIALI MW4 ↗",
+          "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+        }
+      },
+      {
+        "label": "06 NOV · WARZONE",
+        "title": "Warzone passa a MW4: Hajin, Zodiac e armi Legacy",
+        "body": "Note ufficiali Raven del 5 novembre. Warzone integra completamente Modern Warfare 4: tutte le 33 armi di lancio più quelle della Stagione 1. Le armi da Modern Warfare II a Black Ops 7 restano nella scheda Legacy con versioni predefinite a 5 accessori, non modificabili nell’Armaiolo e senza mimetiche Maestria; Operatori, skin e progetti si conservano. Mappe: Hajin, nuova Battle Royale con 13 punti di interesse tra Corea del Nord e del Sud, meteo variabile, visore notturno e nuovo Gulag; Zodiac, nuova Resurgence con 10 punti di interesse e treni in movimento; Verdansk e Rebirth Island tornano durante la stagione. Modalità: Rally Point (Zodiac, 20 giocatori, senza gas), Massive Resurgence (Hajin, 120 giocatori) e Loaded Resurgence (44 giocatori); cerchi più rapidi, partite più brevi di circa 5,5 minuti. Movimento: torna lo Scatto tattico predefinito, scivolata e salto più reattivi. Vantaggi: 15 vantaggi base in tre slot più uno slot Élite (Athleticism, Fieldcraft, Phantom); nuove mine Tripwire e Screamer. Bomb Glider sotto i 300 danni, non elimina più un giocatore con corazza piena. Partite private disattivate per tutta la Stagione 1. Warzone arriva su Nintendo Switch 2 e lascia PS4 e Xbox One. Il meta WZStats di Warzone è ancora quello della Stagione 06: le build BO7 restano in archivio finché non arriva quello nuovo.",
+        "link": {
+          "label": "NOTE UFFICIALI WARZONE ↗",
+          "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
+        }
+      },
       {
         "label": "02 NOV · MODERN WARFARE 4",
         "title": "Tuffo ripristinato, spawn di Shipment e meno torri UAV in DMZ",
@@ -226,43 +253,32 @@
         "label": "30 SET · BO7",
         "title": "VMP Ranked e correzioni Zombies",
         "body": "In Ranked sono consentiti altri quattro accessori VMP: Quorum Velocity Barrel, Civet Barrel, Gambol Light Barrel e Venerate Rubberized Grip. Per Roc 20mm in Zombies sono stati corretti le munizioni dopo Pack-a-Punch e i requisiti della mimetica Mutilate; la patch non indica il nuovo numero richiesto."
-      },
-      {
-        "label": "24 SET · BO7 MULTIPLAYER",
-        "title": "VMP disponibile in Ranked",
-        "body": "Rimosse le restrizioni per VMP e alcuni suoi accessori. La nota ufficiale non elenca quali: controlla quelli consentiti nel menu Ranked. Corretto anche il selettore della modalità di fuoco Akimbo del Warden 308."
-      },
-      {
-        "label": "24 SET · PROGRESSIONE ARMI",
-        "title": "Network e Prestigio corretti",
-        "body": "VS Recon con VS Rebound Havoc Repeater ora contribuisce alla mimetica Network in Warzone e BO7 Endgame. Risolto il problema che applicava il Prestigio all’arma precedente tramite “Equipaggia arma e apri Armaiolo”. Nessuna modifica annunciata ai livelli di sblocco o alle statistiche delle armi in questo hotfix."
-      },
-      {
-        "label": "24 SET · WARZONE",
-        "title": "C4 e zona di esclusione",
-        "body": "Il C4 non può essere detonato quando si è a terra (Last Stand). La zona di esclusione della barca di Fortune’s Keep passa da 3 a 2 utilizzi e da circa 140 a 80 secondi. Risolti problemi con casse equipaggiamento spostate dal C4 e invulnerabilità durante l’interazione con il caveau."
       }
     ],
     "links": [
       {
-        "label": "ANNUNCIO SEASON 06",
-        "url": "https://www.callofduty.com/blog/2026/09/call-of-duty-black-ops-7-warzone-season-6-the-haunting-announcement"
+        "label": "ANNUNCIO STAGIONE 1",
+        "url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1"
       },
       {
-        "label": "PATCH BO7 UFFICIALE",
-        "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes"
+        "label": "PATCH MW4 UFFICIALE",
+        "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
       },
       {
         "label": "PATCH WARZONE UFFICIALE",
-        "url": "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes"
+        "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
+      },
+      {
+        "label": "BATTLE PASS E BLACKCELL",
+        "url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-season-1-battle-pass-blackcell-store-bundles"
       }
     ]
   },
   "warzone": {
-    "status": "META WZSTATS · 5 NOVEMBRE",
+    "status": "META WZSTATS STAGIONE 06 · IN ATTESA DELLA STAGIONE 1",
     "checked": "05 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 5 novembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 5 novembre invariata rispetto al 4 novembre; build consigliate invariate. Le build riportano la data dell’ultima modifica.",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 5 novembre 2026 (valutazione indipendente, non ufficiale Activision). I numeri laterali indicano le righe; il numero accanto al ruolo indica la posizione per distanza. Le prime otto armi sono nel tier Meta. Classifica del 5 novembre invariata rispetto al 4 novembre; build consigliate invariate. Le build riportano la data dell’ultima modifica. Dal 6 novembre (Stagione 1) Warzone integra Modern Warfare 4: le armi di Black Ops 7 restano nella scheda Legacy con build predefinite a 5 accessori, non modificabili nell’Armaiolo. Queste build BO7 sono quindi un archivio finché WZStats non pubblica il meta della Stagione 1.",
     "currentBuildDate": "05 NOV 2026",
     "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 5 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 1 novembre 2026",
