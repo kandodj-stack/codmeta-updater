@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 19,
+  "release": 20,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "07 NOV · WARZONE",
+      "text": "Primo meta Warzone della Stagione 1 su WZStats: in testa Cronen Osprey, ISO Nightshade, Han 86, VEL 46 e Mosin-Nagant; le armi BO7 scendono in fascia B. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "06 NOV · MW4",
       "text": "Meta MW4 WZStats del 6 novembre: aggiunta la build Multiplayer della pistola .50 GS (Short Range, tier C), ora 22 build. Le altre 21 sono invariate. Classifica indipendente, non ufficiale Activision.",
@@ -98,11 +103,6 @@
     {
       "tag": "31 OTT · MW4",
       "text": "Meta MW4 WZStats: VEL 46 sale al secondo posto davanti a ISO Nightshade. Classifica: Axion, VEL 46, ISO Nightshade, M4, Mosin-Nagant. Build invariate. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it/mw4/meta"
-    },
-    {
-      "tag": "30 OTT · MW4",
-      "text": "Meta MW4 WZStats del 30 ottobre: in classifica restano cinque armi (Axion, ISO Nightshade, VEL 46, M4, Mosin-Nagant); Han 86 e Kastov 762 scendono in A Tier. Build invariate. Classifica indipendente, non ufficiale Activision.",
       "url": "https://wzstats.gg/it/mw4/meta"
     }
   ],
@@ -275,650 +275,139 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS STAGIONE 06 · IN ATTESA DELLA STAGIONE 1",
-    "checked": "05 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS STAGIONE 1 · 7 NOV 2026",
+    "checked": "07 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 5 novembre 2026 (valutazione indipendente, non ufficiale Activision). Il numero a sinistra è la posizione nella classifica generale. Le prime otto armi sono nel tier Meta. Classifica del 5 novembre invariata rispetto al 4 novembre; build consigliate invariate. Le build riportano la data dell’ultima modifica. Dal 6 novembre (Stagione 1) Warzone integra Modern Warfare 4: le armi di Black Ops 7 restano nella scheda Legacy con build predefinite a 5 accessori, non modificabili nell’Armaiolo. Queste build BO7 sono quindi un archivio finché WZStats non pubblica il meta della Stagione 1.",
-    "currentBuildDate": "05 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 5 NOVEMBRE",
-    "ratingLabel": "Valutazione WZStats · 1 novembre 2026",
-    "pendingReview": [
-      "TR51 PARA"
-    ],
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 7 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: per ora ci sono quelle di Cronen Osprey e VEL 46, le altre arrivano con il controllo giornaliero.",
+    "currentBuildDate": "07 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 7 NOVEMBRE",
+    "ratingLabel": "Valutazione WZStats · 7 novembre 2026",
+    "pendingReview": [],
     "pendingLabel": "Valutazione in sospeso dopo il nerf del 30 settembre",
     "metaOrder": [
-      "VOYAK KT-3",
-      "VMP",
-      "MK35 ISR",
-      "MPC-25",
-      "DS20 MIRAGE",
-      "REV-46",
-      "RYDEN 45K",
-      "STRIDER 300",
-      "VX COMPACT",
-      "STURMWOLF 45",
-      "PEACEKEEPER MK1",
-      "CARBON 57",
-      "M15 MOD 0",
-      "VST",
-      "FG42",
-      "AK-27",
-      "EGRT-17",
-      "SOKOL 545",
-      "CBRS-3",
-      "VS RECON",
-      "HAWKER HX",
-      "AN-94",
-      "KOGOT-7"
+      "CRONEN OSPREY",
+      "ISO NIGHTSHADE",
+      "HAN 86",
+      "VEL 46",
+      "MOSIN-NAGANT",
+      "KASTOV 762",
+      "WZ.55 STRIGA",
+      "M4",
+      "PPSH-41",
+      "KG-7 VULCAN",
+      "AXION",
+      "CSG-35",
+      "X-58 NYX",
+      "ASTAROTH .57",
+      "HYEON BURST",
+      "PATRIOT XMR",
+      "CRONEN SQUALL",
+      "APOC-338",
+      "ODEN",
+      "FINN LMG",
+      "KRAIT P68",
+      "REZI 12",
+      "SIGNAL 50"
     ],
     "roleRanks": {
-      "VOYAK KT-3": 1,
-      "VMP": 1,
-      "MK35 ISR": 2,
-      "MPC-25": 2,
-      "DS20 MIRAGE": 3,
-      "REV-46": 3,
-      "RYDEN 45K": 4,
-      "STRIDER 300": 1,
-      "VX COMPACT": 1,
-      "STURMWOLF 45": 5,
-      "PEACEKEEPER MK1": 5,
-      "CARBON 57": 6,
-      "M15 MOD 0": 6,
-      "VST": 7,
-      "FG42": 7,
-      "AK-27": 8,
-      "EGRT-17": 9,
-      "SOKOL 545": 10,
-      "CBRS-3": 8,
-      "VS RECON": 2,
-      "HAWKER HX": 3,
-      "AN-94": 11,
-      "KOGOT-7": 9
+      "CRONEN OSPREY": 1,
+      "ISO NIGHTSHADE": 1,
+      "HAN 86": 2,
+      "VEL 46": 2,
+      "MOSIN-NAGANT": 1,
+      "KASTOV 762": 3,
+      "WZ.55 STRIGA": 3,
+      "M4": 4,
+      "PPSH-41": 4,
+      "KG-7 VULCAN": 2,
+      "AXION": 5,
+      "CSG-35": 5,
+      "X-58 NYX": 6,
+      "ASTAROTH .57": 3,
+      "HYEON BURST": 6,
+      "PATRIOT XMR": 7,
+      "CRONEN SQUALL": 8,
+      "APOC-338": 9,
+      "ODEN": 10,
+      "FINN LMG": 11,
+      "KRAIT P68": 7,
+      "REZI 12": 8,
+      "SIGNAL 50": 4
     },
     "builds": [
       {
-        "name": "VOYAK KT-3",
+        "name": "CRONEN OSPREY",
         "rank": 1,
         "tier": "S",
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "42",
-        "updated": "27 OTT 2026",
-        "code": "A09-34FBS-SSP4W-11",
-        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
+        "origin": "MW4",
+        "maxLevel": "70",
+        "updated": "06 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte. WZStats la indica anche come supporto cecchino.",
         "attachments": [
           {
             "slot": "OTTICA",
-            "name": "OLE Fang Hoverpoint",
-            "unlock": "Armeria"
+            "name": "Locus PX3 Canted",
+            "unlock": "Livello 32"
           },
           {
             "slot": "VOLATA",
-            "name": "Silenziatore monoblocco",
-            "unlock": "Livello 28"
+            "name": "FSS IS300",
+            "unlock": "Livello 21"
           },
           {
             "slot": "CANNA",
-            "name": "LTI Grav-4 da 17,6\"",
-            "unlock": "Livello 34"
+            "name": "IO-556 Tac 18\"",
+            "unlock": "Livello 54"
           },
           {
             "slot": "CARICATORE",
-            "name": "Tamburo SK-Garrison",
-            "unlock": "Livello 40"
+            "name": "60 Round Mag",
+            "unlock": "Livello 42"
           },
           {
-            "slot": "CALCIO",
-            "name": "Cuscinetto V-Last Control",
-            "unlock": "Livello 33"
+            "slot": "MUNIZIONI",
+            "name": "5.56 NATO High Velocity",
+            "unlock": "Livello 68"
           }
         ]
       },
       {
-        "name": "VMP",
-        "rank": 2,
-        "tier": "S",
-        "category": "MITRAGLIETTA",
-        "role": "CORTA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "35",
-        "updated": "27 OTT 2026",
-        "code": "S14-6K7PG-6B11",
-        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
-        "attachments": [
-          {
-            "slot": "VOLATA",
-            "name": "Freno stentoreo LTI",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "CANNA",
-            "name": "14.6\" Nocturnal-VI Barrel",
-            "unlock": "Livello 9"
-          },
-          {
-            "slot": "SOTTOCANNA",
-            "name": "Ferma mano Sapper Guard",
-            "unlock": "Livello 33"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Dapple Capacity Mag",
-            "unlock": "Livello 35"
-          },
-          {
-            "slot": "CALCIO",
-            "name": "Greaves Valour Pad",
-            "unlock": "Livello 8"
-          }
-        ]
-      },
-      {
-        "name": "MK35 ISR",
-        "rank": 3,
-        "tier": "S",
-        "category": "FUCILE D'ASSALTO",
-        "role": "LUNGA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "43",
-        "updated": "27 OTT 2026",
-        "code": "A12-34FBS-SSY4B-11",
-        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
-        "attachments": [
-          {
-            "slot": "OTTICA",
-            "name": "OLE Fang Hoverpoint",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "VOLATA",
-            "name": "Silenziatore monoblocco",
-            "unlock": "Livello 39"
-          },
-          {
-            "slot": "CANNA",
-            "name": "Greaves Bellum da 16,5\"",
-            "unlock": "Livello 14"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Tamburo Bowen Siren",
-            "unlock": "Livello 29"
-          },
-          {
-            "slot": "CALCIO",
-            "name": "Greaves Cassin Stock",
-            "unlock": "Livello 8"
-          }
-        ]
-      },
-      {
-        "name": "MPC-25",
+        "name": "VEL 46",
         "rank": 4,
         "tier": "S",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "42",
-        "updated": "27 OTT 2026",
-        "code": "S06-3SUZ7-NU11",
-        "note": "Configurazione consigliata da WZStats per Battle Royale (controllo 27 ottobre 2026). Requisiti riportati dalla fonte; Armeria non corrisponde a un livello arma.",
+        "origin": "MW4",
+        "maxLevel": "60",
+        "updated": "06 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "VOLATA",
-            "name": "Freno stentoreo LTI",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "CANNA",
-            "name": "VAS Ashe da 14,5\"",
-            "unlock": "Livello 15"
-          },
-          {
-            "slot": "SOTTOCANNA",
-            "name": "Impugnatura anteriore Flowguard",
-            "unlock": "Livello 32"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Tamburo MPC Overload",
-            "unlock": "Livello 35"
-          },
-          {
-            "slot": "CALCIO",
-            "name": "Calcio essenziale Viper",
-            "unlock": "Livello 34"
-          }
-        ]
-      },
-      {
-        "name": "DS20 MIRAGE",
-        "rank": 5,
-        "tier": "S",
-        "category": "FUCILE D'ASSALTO",
-        "role": "LUNGA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "43",
-        "updated": "27 OTT 2026",
-        "code": "A05-34FBS-SSSND-11",
-        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
-        "attachments": [
-          {
-            "slot": "OTTICA",
-            "name": "OLE Fang Hoverpoint",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "VOLATA",
-            "name": "Silenziatore monoblocco",
-            "unlock": "Livello 18"
-          },
-          {
-            "slot": "CANNA",
-            "name": "Abdicator da 17,1\"",
-            "unlock": "Livello 29"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Griffon Reserve II",
+            "name": "Compensatore 212 LC40",
             "unlock": "Livello 27"
           },
           {
-            "slot": "CALCIO",
-            "name": "Calcio controbilanciato",
+            "slot": "CANNA",
+            "name": "VB-46 Series 11",
             "unlock": "Livello 3"
-          }
-        ]
-      },
-      {
-        "name": "REV-46",
-        "rank": 6,
-        "tier": "S",
-        "category": "MITRAGLIETTA",
-        "role": "CORTA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "34",
-        "updated": "27 OTT 2026",
-        "code": "S09-AV4JD-2ZI31-1",
-        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
-        "attachments": [
-          {
-            "slot": "OTTICA",
-            "name": "OLE Lethal Tools",
-            "unlock": "Da Dravec 45"
-          },
-          {
-            "slot": "VOLATA",
-            "name": "Freno stentoreo LTI",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "CANNA",
-            "name": "Caudal Target",
-            "unlock": "Livello 12"
           },
           {
             "slot": "SOTTOCANNA",
-            "name": "Ferma mano Sapper Guard",
-            "unlock": "Livello 24"
+            "name": "Impugnatura FSS TAC90",
+            "unlock": "Livello 46"
           },
           {
             "slot": "CARICATORE",
-            "name": "Tamburo Komodo",
-            "unlock": "Livello 34"
-          }
-        ]
-      },
-      {
-        "name": "RYDEN 45K",
-        "rank": 7,
-        "tier": "S",
-        "category": "MITRAGLIETTA",
-        "role": "CORTA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "42",
-        "updated": "27 OTT 2026",
-        "code": "S01-34FEK-EX39Q-11",
-        "note": "Configurazione consigliata da WZStats per Battle Royale (controllo 27 ottobre 2026). Requisiti riportati dalla fonte; Armeria non corrisponde a un livello arma.",
-        "attachments": [
-          {
-            "slot": "OTTICA",
-            "name": "OLE Fang Hoverpoint",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "VOLATA",
-            "name": "Freno stentoreo LTI",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "CANNA",
-            "name": "Basilisk da 9\"",
-            "unlock": "Livello 12"
-          },
-          {
-            "slot": "SOTTOCANNA",
-            "name": "Impugnatura anteriore Flowguard",
-            "unlock": "Livello 28"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Caricatore Forward Breach",
-            "unlock": "Livello 27"
-          }
-        ]
-      },
-      {
-        "name": "STRIDER 300",
-        "rank": 8,
-        "tier": "S",
-        "category": "FUCILE DI PRECISIONE",
-        "role": "CECCHINO",
-        "origin": "BO7",
-        "maxLevel": "40",
-        "updated": "27 OTT 2026",
-        "code": "R07-2JD6P-9UF4L-IW11",
-        "note": "Configurazione consigliata da WZStats per Battle Royale (controllo 27 ottobre 2026). Requisiti riportati dalla fonte; Armeria non corrisponde a un livello arma.",
-        "attachments": [
-          {
-            "slot": "VOLATA",
-            "name": "Silenziatore monoblocco",
+            "name": "Tamburo 60 colpi",
             "unlock": "Livello 33"
           },
           {
-            "slot": "CANNA",
-            "name": "Bowen Grooved da 25\"",
-            "unlock": "Livello 21"
-          },
-          {
-            "slot": "SOTTOCANNA",
-            "name": "Guardamano Cornerstone-642",
-            "unlock": "Livello 9"
-          },
-          {
-            "slot": "IMPUGNATURA",
-            "name": "Impugnatura rapida Hatch",
-            "unlock": "Livello 23"
-          },
-          {
-            "slot": "MOD FUOCO",
-            "name": ".300 WM extra pressione",
-            "unlock": "Livello 24"
-          }
-        ]
-      },
-      {
-        "name": "VX COMPACT",
-        "rank": 9,
-        "tier": "A",
-        "category": "FUCILE D'ASSALTO",
-        "role": "SUPPORTO CECCHINO",
-        "origin": "BO7",
-        "maxLevel": "42",
-        "updated": "27 OTT 2026",
-        "code": "A14-21YVV-R4K3D-D911",
-        "note": "Configurazione consigliata da WZStats per Battle Royale (controllo 27 ottobre 2026). Requisiti riportati dalla fonte; Armeria non corrisponde a un livello arma.",
-        "attachments": [
-          {
-            "slot": "OTTICA",
-            "name": "OLE Fang Hoverpoint",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "VOLATA",
-            "name": "Silenziatore Redwell Shade-X",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "CANNA",
-            "name": "Redwell Ascent da 14,3\"",
-            "unlock": "Livello 11"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Acclivity Extended Mag",
-            "unlock": "Livello 23"
-          },
-          {
-            "slot": "MOD FUOCO",
-            "name": "5,7 x 28 mm FMJ",
-            "unlock": "Livello 7"
-          }
-        ]
-      },
-      {
-        "name": "VST",
-        "rank": 14,
-        "tier": "A",
-        "category": "MITRAGLIETTA",
-        "role": "CORTA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "39",
-        "updated": "28 OTT 2026",
-        "code": "S12-7166A-FQ11",
-        "note": "Configurazione consigliata da WZStats per Battle Royale (controllo 28 ottobre 2026). Requisiti riportati dalla fonte; Armeria non corrisponde a un livello arma.",
-        "attachments": [
-          {
-            "slot": "VOLATA",
-            "name": "Freno stentoreo LTI",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "CANNA",
-            "name": "Enmity da 9,7\"",
-            "unlock": "Livello 10"
-          },
-          {
-            "slot": "SOTTOCANNA",
-            "name": "Impugnatura EAM Steady-90",
-            "unlock": "Livello 36"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Caricatore aumentato II Avari",
-            "unlock": "Livello 28"
-          },
-          {
-            "slot": "IMPUGNATURA",
-            "name": "Impugnatura di controllo Quiver",
-            "unlock": "Livello 37"
-          }
-        ]
-      },
-      {
-        "name": "EGRT-17",
-        "rank": 17,
-        "tier": "A",
-        "category": "FUCILE D'ASSALTO",
-        "role": "LUNGA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "41",
-        "updated": "28 OTT 2026",
-        "note": "Configurazione consigliata da WZStats per Battle Royale (controllo 28 ottobre 2026). Requisiti riportati dalla fonte; Armeria non corrisponde a un livello arma.",
-        "attachments": [
-          {
-            "slot": "OTTICA",
-            "name": "OLE Fang Hoverpoint",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "VOLATA",
-            "name": "Silenziatore monoblocco",
-            "unlock": "Livello 36"
-          },
-          {
-            "slot": "CANNA",
-            "name": "Bowen Resistor da 16,5\"",
-            "unlock": "Livello 34"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Caricatore Fuel Cell-X3",
-            "unlock": "Livello 29"
-          },
-          {
             "slot": "CALCIO",
-            "name": "Calcio di controllo Frigate",
-            "unlock": "Livello 8"
-          }
-        ],
-        "code": "A07-34FBS-SSUGJ-11"
-      },
-      {
-        "name": "VS RECON",
-        "rank": 20,
-        "tier": "A",
-        "category": "FUCILE DI PRECISIONE",
-        "role": "CECCHINO",
-        "origin": "BO7",
-        "maxLevel": "45",
-        "updated": "25 LUG 2026",
-        "code": "R01-21WSG-L369K-P711",
-        "note": "Alternativa da lunga distanza con forte velocità proiettile e un assetto stabile per i colpi di apertura.",
-        "attachments": [
-          {
-            "slot": "VOLATA",
-            "name": "Monolithic Suppressor",
-            "unlock": "Livello 28"
-          },
-          {
-            "slot": "CANNA",
-            "name": "23\" G-Force Barrel",
-            "unlock": "Livello 18"
-          },
-          {
-            "slot": "SOTTOCANNA",
-            "name": "MFS R-Stop Handguard",
-            "unlock": "Prestigio arma"
-          },
-          {
-            "slot": "IMPUGNATURA",
-            "name": "R-1 Shelf Grip",
-            "unlock": "Livello 34"
-          },
-          {
-            "slot": "MOD FUOCO",
-            "name": "7.62 NATO Overpressured",
-            "unlock": "Livello 39"
-          }
-        ]
-      },
-      {
-        "name": "AN-94",
-        "rank": 22,
-        "tier": "A",
-        "category": "FUCILE D'ASSALTO",
-        "role": "LUNGA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "42",
-        "updated": "28 AGO 2026",
-        "code": "A13-23Y3A-MYDVW-11",
-        "note": "Buff ufficiale: danni aumentati in tutte le fasce, portata massima da 40 a 45 m e rinculo verticale ridotto del 10%. La canna Benthic ora offre più controllo e velocità proiettile.",
-        "attachments": [
-          {
-            "slot": "VOLATA",
-            "name": "Monolithic Suppressor",
-            "unlock": "Livello 39"
-          },
-          {
-            "slot": "CANNA",
-            "name": "15\" Benthic Barrel",
-            "unlock": "Livello 11"
-          },
-          {
-            "slot": "OTTICA",
-            "name": "Redwell 30-S 2x",
-            "unlock": "Da X9 Maverick"
-          },
-          {
-            "slot": "SOTTOCANNA",
-            "name": "VAS Convergence Foregrip",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Rexford Extended II",
-            "unlock": "Livello 32"
-          }
-        ]
-      },
-      {
-        "name": "DRAVEC 45",
-        "rank": 25,
-        "tier": "A",
-        "category": "MITRAGLIETTA",
-        "role": "CORTA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "36",
-        "updated": "28 OTT 2026",
-        "code": "S04-BZLTS-31",
-        "note": "Configurazione consigliata da WZStats per Battle Royale (controllo 28 ottobre 2026). Requisiti riportati dalla fonte; Armeria non corrisponde a un livello arma.",
-        "attachments": [
-          {
-            "slot": "VOLATA",
-            "name": "Freno stentoreo LTI",
-            "unlock": "Armeria"
-          },
-          {
-            "slot": "CANNA",
-            "name": "EAM Horizon da 19\"",
-            "unlock": "Livello 12"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Caricatore aumentato Gator",
-            "unlock": "Livello 11"
-          },
-          {
-            "slot": "CALCIO",
-            "name": "Calcio Serval Q-Step",
-            "unlock": "Livello 14"
-          },
-          {
-            "slot": "MOD FUOCO",
-            "name": "Blocco portaotturatore",
-            "unlock": "Livello 18"
-          }
-        ]
-      },
-      {
-        "name": "TR51 PARA",
-        "rank": 24,
-        "tier": "A",
-        "category": "FUCILE D'ASSALTO",
-        "role": "LUNGA DISTANZA",
-        "origin": "BO7",
-        "maxLevel": "41",
-        "updated": "22 SET 2026",
-        "code": "A17-34FK5-FBYY1-11",
-        "note": "Configurazione consigliata da WZStats per Battle Royale. Requisiti riportati dalla fonte; Armeria e Prestigio non corrispondono a un livello arma.",
-        "attachments": [
-          {
-            "slot": "OTTICA",
-            "name": "OLE Fang Hoverpoint",
-            "unlock": "Livello 1 secondo la fonte"
-          },
-          {
-            "slot": "VOLATA",
-            "name": "Silenziatore monoblocco",
+            "name": "Calcio EXP U-Turn",
             "unlock": "Livello 37"
-          },
-          {
-            "slot": "CANNA",
-            "name": "18.5\" MFS Fallen Angel Barrel",
-            "unlock": "Prestigio"
-          },
-          {
-            "slot": "SOTTOCANNA",
-            "name": "Impugnatura anteriore VAS Convergence",
-            "unlock": "Livello 1 secondo la fonte"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Carus Capacity Mag",
-            "unlock": "Livello 28"
           }
         ]
       }
