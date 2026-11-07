@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 12,
+  "release": 13,
   "mw4": {
-    "buildCheckedAt": "2026-11-06",
+    "buildCheckedAt": "2026-11-07",
     "catalogCheckedAt": "2026-11-06",
     "catalog": [
       {
@@ -330,42 +330,42 @@
           ]
         ]
       },
-      "VEL 46": {
+      "CRONEN OSPREY": {
         "rank": 2,
-        "category": "Mitragliette",
-        "slug": "vel-46",
+        "category": "Fucili d’assalto",
+        "slug": "cronen-osprey",
         "tier": "META",
         "buildType": "Versatile",
         "attachments": [
           [
             "Volata",
-            "XRK HERDER 40",
-            51
+            "XRK MIL-TAC SUPPRESSOR",
+            34
           ],
           [
             "Canna",
-            "VB-46 SERIES 11",
-            3
+            "IO-556 TAC 18\"",
+            54
           ],
           [
             "Sottocanna",
-            "FSS FIRELINE GRIP",
-            10
+            "FSS TAC90 GRIP",
+            6
           ],
           [
             "Calcio",
-            "VEL 46 EXTENDED",
-            20
+            "XR-9 TAC V2",
+            69
           ],
           [
             "Laser",
-            "SCHLAGER VISIV-5",
-            null
+            "SA LAZ-500",
+            52
           ]
         ]
       },
       "M4": {
-        "rank": 2,
+        "rank": 3,
         "category": "Fucili d’assalto",
         "slug": "m4",
         "tier": "META",
@@ -466,8 +466,42 @@
           ]
         ]
       },
+      "VEL 46": {
+        "rank": 2,
+        "category": "Mitragliette",
+        "slug": "vel-46",
+        "tier": "A",
+        "buildType": "Versatile",
+        "attachments": [
+          [
+            "Volata",
+            "XRK HERDER 40",
+            51
+          ],
+          [
+            "Canna",
+            "VB-46 SERIES 11",
+            3
+          ],
+          [
+            "Sottocanna",
+            "FSS FIRELINE GRIP",
+            10
+          ],
+          [
+            "Calcio",
+            "VEL 46 EXTENDED",
+            20
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            23
+          ]
+        ]
+      },
       "KASTOV 762": {
-        "rank": 3,
+        "rank": 4,
         "category": "Fucili d’assalto",
         "slug": "kastov-762",
         "tier": "A",
@@ -501,7 +535,7 @@
         ]
       },
       "PATRIOT XMR": {
-        "rank": 4,
+        "rank": 5,
         "category": "Fucili d’assalto",
         "slug": "patriot-xmr",
         "tier": "A",
@@ -534,8 +568,42 @@
           ]
         ]
       },
+      "CSG-35": {
+        "rank": 3,
+        "category": "Mitragliette",
+        "slug": "csg-35",
+        "tier": "A",
+        "buildType": "Versatile",
+        "attachments": [
+          [
+            "Volata",
+            "EXP FORAGE-HVY",
+            35
+          ],
+          [
+            "Sottocanna",
+            "CQC STOP",
+            28
+          ],
+          [
+            "Caricatore",
+            "40 ROUND MAG",
+            17
+          ],
+          [
+            "Calcio",
+            "XRK SLIGHT STOCK",
+            26
+          ],
+          [
+            "Laser",
+            "SA LAZ-500",
+            40
+          ]
+        ]
+      },
       "ODEN": {
-        "rank": 5,
+        "rank": 6,
         "category": "Fucili d’assalto",
         "slug": "oden",
         "tier": "A",
@@ -569,7 +637,7 @@
         ]
       },
       "PPSH-41": {
-        "rank": 3,
+        "rank": 4,
         "category": "Mitragliette",
         "slug": "ppsh-41",
         "tier": "A",
@@ -603,7 +671,7 @@
         ]
       },
       "X-58 NYX": {
-        "rank": 4,
+        "rank": 5,
         "category": "Mitragliette",
         "slug": "x-58-nyx",
         "tier": "A",
@@ -637,7 +705,7 @@
         ]
       },
       "WZ.55 STRIGA": {
-        "rank": 5,
+        "rank": 6,
         "category": "Mitragliette",
         "slug": "wz55-striga",
         "tier": "A",
@@ -671,7 +739,7 @@
         ]
       },
       "HAN 86": {
-        "rank": 6,
+        "rank": 7,
         "category": "Fucili d’assalto",
         "slug": "han-86",
         "tier": "A",
@@ -701,6 +769,40 @@
             "Laser",
             "SCHLAGER VISIV-5",
             46
+          ]
+        ]
+      },
+      "ORIS 8.6": {
+        "rank": 2,
+        "category": "Fucili tattici",
+        "slug": "oris-86",
+        "tier": "A",
+        "buildType": "Low Level",
+        "attachments": [
+          [
+            "Ottica",
+            "CRONEN R808",
+            12
+          ],
+          [
+            "Volata",
+            "MATUZEK BLACKVEIL",
+            14
+          ],
+          [
+            "Caricatore",
+            "6 ROUND MAG",
+            11
+          ],
+          [
+            "Calcio",
+            "NO STOCK",
+            3
+          ],
+          [
+            "Laser",
+            "SCHLAGER VISIV-5",
+            8
           ]
         ]
       },
@@ -841,7 +943,7 @@
         ]
       },
       "MAR-9": {
-        "rank": 2,
+        "rank": 3,
         "category": "Fucili tattici",
         "slug": "mar-9",
         "tier": "B",
@@ -875,7 +977,7 @@
         ]
       },
       "CRONEN SQUALL": {
-        "rank": 7,
+        "rank": 8,
         "category": "Fucili d’assalto",
         "slug": "cronen-squall",
         "tier": "B",
@@ -1014,17 +1116,20 @@
     "order": [
       "AXION",
       "ISO NIGHTSHADE",
-      "VEL 46",
+      "CRONEN OSPREY",
       "M4",
       "MOSIN-NAGANT",
       "KG-7 VULCAN",
+      "VEL 46",
       "KASTOV 762",
       "PATRIOT XMR",
+      "CSG-35",
       "ODEN",
       "PPSH-41",
       "X-58 NYX",
       "WZ.55 STRIGA",
       "HAN 86",
+      "ORIS 8.6",
       "ASTAROTH .57",
       "APOC-338",
       "FINN LMG",

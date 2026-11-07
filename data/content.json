@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 20,
+  "release": 21,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "07 NOV · MW4",
+      "text": "Meta MW4 WZStats del 7 novembre: Cronen Osprey entra nel META, VEL 46 scende in fascia A; nuove build Multiplayer di CSG-35 e Oris 8.6, ora 25 build. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it/mw4/meta"
+    },
     {
       "tag": "07 NOV · WARZONE",
       "text": "Primo meta Warzone della Stagione 1 su WZStats: in testa Cronen Osprey, ISO Nightshade, Han 86, VEL 46 e Mosin-Nagant; le armi BO7 scendono in fascia B. Classifica indipendente, non ufficiale Activision.",
@@ -99,11 +104,6 @@
       "tag": "31 OTT · WARZONE",
       "text": "Meta WZStats del 31 ottobre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
       "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "31 OTT · MW4",
-      "text": "Meta MW4 WZStats: VEL 46 sale al secondo posto davanti a ISO Nightshade. Classifica: Axion, VEL 46, ISO Nightshade, M4, Mosin-Nagant. Build invariate. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it/mw4/meta"
     }
   ],
   "news": {
