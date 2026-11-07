@@ -111,15 +111,19 @@ def check(d, base_dir):
     ids = []
     for i, w in enumerate(weapons):
         p = f"weapons[{i}]"
-        if not keys(w, p, ["id", "name", "class", "unlock", "maxLevel", "military", "special"], ["images"]):
+        if not keys(w, p, ["id", "name", "class", "unlock", "maxLevel", "military", "special"], ["images", "unlockLabel"]):
             continue
         p = f"weapons[{w.get('id')}]"
         if not isinstance(w["id"], str) or not ID_RE.match(w["id"]) or w["id"] == "acc" or not txt(w["name"]):
             err(f"{p}: id o nome non validi")
         if w["class"] not in classes:
             err(f"{p}: classe sconosciuta {w['class']}")
-        if not is_int(w["unlock"], 1, 200) or not is_int(w["maxLevel"], 1, 300):
+        # v50: armi del Battle Pass o di un evento con unlock null e unlockLabel obbligatorio.
+        bp = w["unlock"] is None and txt(w.get("unlockLabel"))
+        if not (bp or is_int(w["unlock"], 1, 200)) or not is_int(w["maxLevel"], 1, 300):
             err(f"{p}: livelli non validi")
+        if "unlockLabel" in w and not txt(w["unlockLabel"]):
+            err(f"{p}: sblocco non valido")
         mil = w["military"]
         if keys(mil, f"{p}.military", ["levels", "src"]):
             # null = livello non ancora verificato (accettato da sync-mw4.php v45 e dal sito v45, non dalla v42-v44).

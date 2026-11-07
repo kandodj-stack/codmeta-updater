@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "release": 8,
- "checkedAt": "2026-11-06",
+ "release": 9,
+ "checkedAt": "2026-11-07",
  "modes": {
   "mp": {
    "label": "Multigiocatore",
@@ -763,6 +763,80 @@
    }
   },
   {
+   "id": "cronen-osprey",
+   "name": "Cronen Osprey",
+   "class": "ar",
+   "unlock": null,
+   "unlockLabel": "Battle Pass Stagione 1, livello 16",
+   "maxLevel": 71,
+   "military": {
+    "levels": [
+     13,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "src": [
+     "Gioco"
+    ]
+   },
+   "special": [
+    {
+     "name": "Erba alta",
+     "en": "In the Weeds",
+     "level": 25,
+     "mp": "Esegui 20 uccisioni sparando senza mirare contro i giocatori",
+     "dmz": "75 uccisioni sparando dall’anca contro nemici",
+     "wz": "10 uccisioni sparando dall’anca contro giocatori",
+     "src": [
+      "Gioco",
+      "CODMunity"
+     ]
+    },
+    {
+     "name": "Icore oscuro",
+     "en": "Dark Ichor",
+     "level": 50,
+     "mp": "Esegui 50 uccisioni in modalità mirino contro i giocatori",
+     "dmz": "125 uccisioni mirando contro nemici",
+     "wz": "30 uccisioni mirando contro giocatori",
+     "src": [
+      "Gioco",
+      "CODMunity"
+     ]
+    },
+    {
+     "name": "Incatenato",
+     "en": "Chained",
+     "level": 71,
+     "mp": "Esegui 2 uccisioni senza ricaricare, 25 volte, contro i giocatori",
+     "dmz": null,
+     "wz": "2 uccisioni senza ricaricare, 20 volte, contro giocatori",
+     "src": [
+      "Gioco",
+      "CODMunity"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "cronen-osprey-s1.webp",
+    "s2": "cronen-osprey-s2.webp",
+    "s3": "cronen-osprey-s3.webp"
+   }
+  },
+  {
    "id": "iso-nightshade",
    "name": "ISO Nightshade",
    "class": "smg",
@@ -1140,6 +1214,80 @@
     "s1": "x-58-nyx-s1.webp",
     "s2": "x-58-nyx-s2.webp",
     "s3": "x-58-nyx-s3.webp"
+   }
+  },
+  {
+   "id": "csg-35",
+   "name": "CSG-35",
+   "class": "smg",
+   "unlock": null,
+   "unlockLabel": "Battle Pass Stagione 1, livello 36",
+   "maxLevel": 43,
+   "military": {
+    "levels": [
+     11,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "src": [
+     "Gioco"
+    ]
+   },
+   "special": [
+    {
+     "name": "Poliedro",
+     "en": "Polyhedron",
+     "level": 16,
+     "mp": "Esegui 3 uccisioni contro giocatori senza morire, 20 volte",
+     "dmz": "3 uccisioni di nemici senza subire danni, 30 volte",
+     "wz": "3 uccisioni di giocatori senza morire, 5 volte",
+     "src": [
+      "Gioco",
+      "CODMunity"
+     ]
+    },
+    {
+     "name": "Scorza",
+     "en": "Rind",
+     "level": 29,
+     "mp": "Esegui 50 uccisioni di giocatori usando un silenziatore",
+     "dmz": "125 uccisioni di nemici con un silenziatore",
+     "wz": "30 uccisioni di giocatori con un silenziatore",
+     "src": [
+      "Gioco",
+      "CODMunity"
+     ]
+    },
+    {
+     "name": "Stretta oscura",
+     "en": "Black Grip",
+     "level": 43,
+     "mp": "Esegui 50 uccisioni contro giocatori mentre ti muovi",
+     "dmz": "100 uccisioni di nemici mentre ti muovi",
+     "wz": "20 uccisioni di giocatori mentre ti muovi",
+     "src": [
+      "Gioco",
+      "CODMunity"
+     ]
+    }
+   ],
+   "images": {
+    "m1": "mil-1.webp",
+    "m2": "mil-2.webp",
+    "m3": "mil-3.webp",
+    "m4": "mil-4.webp",
+    "m5": "mil-5.webp",
+    "m6": "mil-6.webp",
+    "m7": "mil-7.webp",
+    "m8": "mil-8.webp",
+    "s1": "csg-35-s1.webp",
+    "s2": "csg-35-s2.webp",
+    "s3": "csg-35-s3.webp"
    }
   },
   {
