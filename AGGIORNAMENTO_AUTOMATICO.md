@@ -24,7 +24,14 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
    Se online c'è una release più bassa di quella su `main` da più di due ore, segnalalo nel resoconto.
 
 2. **Meta Warzone (WZStats).** Con WebFetch leggi `https://wzstats.gg/it` e la data «Updated …» della classifica Battle Royale.
-   - Se la data corrisponde a `warzone.currentBuildDate`, la classifica non è cambiata: passa al punto 3.
+   - Se la data corrisponde a `warzone.currentBuildDate`, la classifica non è cambiata, ma **controlla comunque le build mancanti**
+     (richiesta di Kando, 7 nov 2026: WZStats pubblica le build Warzone un po' alla volta, anche senza cambiare la data):
+     per ogni arma di `metaOrder` che non ha una voce in `builds`, apri la sua pagina build e cerca la sezione
+     «Migliore classe per … per Warzone Battle Royale» (non Resurgence, Multigiocatore o DMZ). Aggiungi la build solo se due letture
+     coincidono, ha 5 accessori tutti con nome, e non è una build Apex (se c'è anche una build non Apex, usa quella).
+     `rank` = posizione in `metaOrder`, `tier` `S` per le armi del tier Meta e `A` per le altre, `updated` = data «Creato il»
+     della build, nomi degli accessori come scritti sulla pagina italiana. Aggiorna la frase dell'intro sulle build mancanti
+     e aggiungi una voce in testa a `ticker`. Poi passa al punto 3.
    - Dalla Stagione 1 Warzone usa le armi di Modern Warfare 4; quelle dei giochi precedenti sono «Legacy».
      In ogni build `origin` = gioco dell'arma: `MW4` per Modern Warfare 4 (nomi in MAIUSCOLO come in `catalog.json`,
      es. `AXION`, `M4`), `BO7`, `BO6`, `MW3`, `MWII` per le Legacy. Il sito mette una build `MW4` solo sulla scheda MW4.
