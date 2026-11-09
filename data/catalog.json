@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 14,
+  "release": 15,
   "mw4": {
-    "buildCheckedAt": "2026-11-07",
+    "buildCheckedAt": "2026-11-09",
     "catalogCheckedAt": "2026-11-07",
     "catalog": [
       {
@@ -262,8 +262,42 @@
       }
     ],
     "builds": {
-      "AXION": {
+      "CRONEN OSPREY": {
         "rank": 1,
+        "category": "Fucili d’assalto",
+        "slug": "cronen-osprey",
+        "tier": "META",
+        "buildType": "Versatile",
+        "attachments": [
+          [
+            "Volata",
+            "XRK MIL-TAC SUPPRESSOR",
+            34
+          ],
+          [
+            "Canna",
+            "IO-556 TAC 18\"",
+            54
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            6
+          ],
+          [
+            "Calcio",
+            "XR-9 TAC V2",
+            69
+          ],
+          [
+            "Laser",
+            "SA LAZ-500",
+            52
+          ]
+        ]
+      },
+      "AXION": {
+        "rank": 2,
         "category": "Fucili d’assalto",
         "slug": "axion",
         "tier": "META",
@@ -293,6 +327,40 @@
             "Laser",
             "SCHLAGER VISIV-5",
             9
+          ]
+        ]
+      },
+      "HYEON BURST": {
+        "rank": 3,
+        "category": "Fucili d’assalto",
+        "slug": "hyeon-burst",
+        "tier": "META",
+        "buildType": "Burst",
+        "attachments": [
+          [
+            "Volata",
+            "ZLR REVERB90",
+            19
+          ],
+          [
+            "Canna",
+            "MUGI INGOEM 558.8MM",
+            46
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            41
+          ],
+          [
+            "Impugnatura posteriore",
+            "HYN-MEIPEUL",
+            8
+          ],
+          [
+            "Laser",
+            "SA LAZ-500",
+            51
           ]
         ]
       },
@@ -330,42 +398,8 @@
           ]
         ]
       },
-      "CRONEN OSPREY": {
-        "rank": 2,
-        "category": "Fucili d’assalto",
-        "slug": "cronen-osprey",
-        "tier": "META",
-        "buildType": "Versatile",
-        "attachments": [
-          [
-            "Volata",
-            "XRK MIL-TAC SUPPRESSOR",
-            34
-          ],
-          [
-            "Canna",
-            "IO-556 TAC 18\"",
-            54
-          ],
-          [
-            "Sottocanna",
-            "FSS TAC90 GRIP",
-            6
-          ],
-          [
-            "Calcio",
-            "XR-9 TAC V2",
-            69
-          ],
-          [
-            "Laser",
-            "SA LAZ-500",
-            52
-          ]
-        ]
-      },
       "M4": {
-        "rank": 3,
+        "rank": 4,
         "category": "Fucili d’assalto",
         "slug": "m4",
         "tier": "META",
@@ -426,9 +460,9 @@
             27
           ],
           [
-            "Laser",
-            "SCHLAGER VISIV-5",
-            5
+            "Otturatore",
+            "TV-LIGHT 7- BOLT",
+            57
           ]
         ]
       },
@@ -501,7 +535,7 @@
         ]
       },
       "KASTOV 762": {
-        "rank": 4,
+        "rank": 5,
         "category": "Fucili d’assalto",
         "slug": "kastov-762",
         "tier": "A",
@@ -535,7 +569,7 @@
         ]
       },
       "PATRIOT XMR": {
-        "rank": 5,
+        "rank": 6,
         "category": "Fucili d’assalto",
         "slug": "patriot-xmr",
         "tier": "A",
@@ -603,7 +637,7 @@
         ]
       },
       "ODEN": {
-        "rank": 6,
+        "rank": 7,
         "category": "Fucili d’assalto",
         "slug": "oden",
         "tier": "A",
@@ -739,7 +773,7 @@
         ]
       },
       "HAN 86": {
-        "rank": 7,
+        "rank": 8,
         "category": "Fucili d’assalto",
         "slug": "han-86",
         "tier": "A",
@@ -977,7 +1011,7 @@
         ]
       },
       "CRONEN SQUALL": {
-        "rank": 8,
+        "rank": 9,
         "category": "Fucili d’assalto",
         "slug": "cronen-squall",
         "tier": "B",
@@ -1114,9 +1148,10 @@
       }
     },
     "order": [
-      "AXION",
-      "ISO NIGHTSHADE",
       "CRONEN OSPREY",
+      "AXION",
+      "HYEON BURST",
+      "ISO NIGHTSHADE",
       "M4",
       "MOSIN-NAGANT",
       "KG-7 VULCAN",

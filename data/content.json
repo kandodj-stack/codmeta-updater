@@ -1,10 +1,30 @@
 {
   "schemaVersion": 1,
-  "release": 23,
+  "release": 24,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "09 NOV · WARZONE",
+      "text": "Meta Warzone WZStats del 9 novembre: stesse cinque armi nel tier Meta; in fascia A CSG-35 sale al 7° posto, M4 e Wz.55 Striga scendono di uno. Nuova build Battle Royale del Cronen Osprey (calcio XR-9 Tac V2 al posto delle munizioni) e prima build del Signal 50, ora 19 su 23. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
+    {
+      "tag": "09 NOV · MW4",
+      "text": "Meta MW4 WZStats del 9 novembre: Cronen Osprey passa in testa davanti ad Axion; Hyeon Burst entra con la build Burst (non Apex); nuova build Multiplayer del Mosin-Nagant con otturatore TV-Light 7-Bolt. Ora 26 build. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it/mw4/meta"
+    },
+    {
+      "tag": "07 NOV · WARZONE PATCH",
+      "text": "Aggiornamento Warzone del 7 novembre: XP rivisti in tutte le modalità, passi dei compagni di squadra più bassi, correzioni a Grinding for Royalty, Loadout Drop e collisioni di Hajin. Nessuna modifica alle armi.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
+    },
+    {
+      "tag": "07 NOV · MW4 PATCH",
+      "text": "Aggiornamento MW4 del 7 novembre: corretti la progressione del Battle Pass con i Token, il punteggio bloccato in Hardcore e vari problemi DMZ. Problema noto: le sfide Platino di Cronen Osprey e CSG-35 non avanzano. Nessuna modifica alle armi.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+    },
     {
       "tag": "08 NOV · WARZONE",
       "text": "Meta Warzone WZStats dell’8 novembre: stesse cinque armi nel tier Meta; in fascia A salgono CSG-35 e X-58 Nyx, scendono PPSh-41 e KG-7 Vulcan. Nuova build Battle Royale del Patriot XMR, ora 18 su 23. Classifica indipendente, non ufficiale Activision.",
@@ -84,26 +104,6 @@
       "tag": "04 NOV · WARZONE",
       "text": "Meta WZStats del 4 novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
       "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "03 NOV · WARZONE",
-      "text": "Meta WZStats del 3 novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "02 NOV · MW4 PATCH",
-      "text": "Ripristinata la velocità del tuffo, modifiche agli spawn di Shipment, meno torri UAV in DMZ, Infrarossi del JOKR disattivato temporaneamente. Nessun bilanciamento delle armi.",
-      "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
-    },
-    {
-      "tag": "01 NOV · WARZONE",
-      "text": "Meta WZStats del 1° novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "01 NOV · MW4",
-      "text": "Meta MW4 WZStats del 1° novembre: ISO Nightshade torna al secondo posto davanti a VEL 46; Hyeon Burst entra nel tier Meta ma ha solo build Apex, quindi non è tra le build. Build invariate. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it/mw4/meta"
     }
   ],
   "news": {
@@ -275,12 +275,12 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS STAGIONE 1 · 8 NOV 2026",
-    "checked": "08 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS STAGIONE 1 · 9 NOV 2026",
+    "checked": "09 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 8 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 18; mancano Hyeon Burst (solo build Apex), Cronen Squall (dati incompleti), Oden, FiNN LMG e Signal 50 (nessuna build Warzone), che arrivano con il controllo giornaliero.",
-    "currentBuildDate": "08 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 8 NOVEMBRE",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 9 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 19; mancano Hyeon Burst (solo build Apex), Cronen Squall (dati incompleti), Oden e FiNN LMG (nessuna build Warzone), che arrivano con il controllo giornaliero.",
+    "currentBuildDate": "09 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 9 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 8 novembre 2026",
     "pendingReview": [],
     "pendingLabel": "Valutazione in sospeso dopo il nerf del 30 settembre",
@@ -291,9 +291,9 @@
       "VEL 46",
       "MOSIN-NAGANT",
       "KASTOV 762",
-      "WZ.55 STRIGA",
-      "M4",
       "CSG-35",
+      "M4",
+      "WZ.55 STRIGA",
       "X-58 NYX",
       "AXION",
       "PPSH-41",
@@ -316,12 +316,12 @@
       "VEL 46": 2,
       "MOSIN-NAGANT": 1,
       "KASTOV 762": 3,
-      "WZ.55 STRIGA": 3,
+      "WZ.55 STRIGA": 4,
       "M4": 4,
       "PPSH-41": 6,
       "KG-7 VULCAN": 2,
       "AXION": 5,
-      "CSG-35": 4,
+      "CSG-35": 3,
       "X-58 NYX": 5,
       "ASTAROTH .57": 3,
       "HYEON BURST": 6,
@@ -343,12 +343,12 @@
         "role": "LUNGA DISTANZA",
         "origin": "MW4",
         "maxLevel": "71",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte. WZStats la indica anche come supporto cecchino.",
+        "updated": "09 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 9 novembre 2026). Livelli arma come indicati dalla fonte. WZStats la indica anche come supporto cecchino.",
         "attachments": [
           {
             "slot": "OTTICA",
-            "name": "Locus PX3 Canted",
+            "name": "Locus PX3 alternabile",
             "unlock": "Livello 32"
           },
           {
@@ -363,13 +363,13 @@
           },
           {
             "slot": "CARICATORE",
-            "name": "60 Round Mag",
+            "name": "Caricatore da 60 colpi",
             "unlock": "Livello 42"
           },
           {
-            "slot": "MUNIZIONI",
-            "name": "5.56 NATO High Velocity",
-            "unlock": "Livello 68"
+            "slot": "CALCIO",
+            "name": "XR-9 Tac V2",
+            "unlock": "Livello 69"
           }
         ]
       },
@@ -564,40 +564,40 @@
         ]
       },
       {
-        "name": "WZ.55 STRIGA",
+        "name": "CSG-35",
         "rank": 7,
         "tier": "A",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
         "origin": "MW4",
-        "maxLevel": "60",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "maxLevel": "43",
+        "updated": "07 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 7 novembre 2026). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "VOLATA",
-            "name": "Compensatore Full Port",
-            "unlock": "Livello 3"
+            "name": "EXP Forage-Hvy",
+            "unlock": "Livello 35"
           },
           {
-            "slot": "CANNA",
-            "name": "GW Sender 500",
-            "unlock": "Livello 5"
+            "slot": "SOTTOCANNA",
+            "name": "CQC Stop",
+            "unlock": "Livello 28"
           },
           {
             "slot": "CARICATORE",
-            "name": "Caricatore a tamburo da 50 colpi",
-            "unlock": "Livello 49"
-          },
-          {
-            "slot": "IMPUGNATURA",
-            "name": "Impugnatura Matuzek 532-L",
-            "unlock": "Livello 15"
+            "name": "40 Round Mag",
+            "unlock": "Livello 17"
           },
           {
             "slot": "CALCIO",
-            "name": "Calcio essenziale",
-            "unlock": "Livello 52"
+            "name": "XRK Slight Stock",
+            "unlock": "Livello 26"
+          },
+          {
+            "slot": "LASER",
+            "name": "SA Laz-500",
+            "unlock": "Livello 40"
           }
         ]
       },
@@ -640,40 +640,40 @@
         ]
       },
       {
-        "name": "CSG-35",
+        "name": "WZ.55 STRIGA",
         "rank": 9,
         "tier": "A",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
         "origin": "MW4",
-        "maxLevel": "43",
-        "updated": "07 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 7 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "maxLevel": "60",
+        "updated": "06 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "VOLATA",
-            "name": "EXP Forage-Hvy",
-            "unlock": "Livello 35"
+            "name": "Compensatore Full Port",
+            "unlock": "Livello 3"
           },
           {
-            "slot": "SOTTOCANNA",
-            "name": "CQC Stop",
-            "unlock": "Livello 28"
+            "slot": "CANNA",
+            "name": "GW Sender 500",
+            "unlock": "Livello 5"
           },
           {
             "slot": "CARICATORE",
-            "name": "40 Round Mag",
-            "unlock": "Livello 17"
+            "name": "Caricatore a tamburo da 50 colpi",
+            "unlock": "Livello 49"
+          },
+          {
+            "slot": "IMPUGNATURA",
+            "name": "Impugnatura Matuzek 532-L",
+            "unlock": "Livello 15"
           },
           {
             "slot": "CALCIO",
-            "name": "XRK Slight Stock",
-            "unlock": "Livello 26"
-          },
-          {
-            "slot": "LASER",
-            "name": "SA Laz-500",
-            "unlock": "Livello 40"
+            "name": "Calcio essenziale",
+            "unlock": "Livello 52"
           }
         ]
       },
@@ -1016,6 +1016,44 @@
             "slot": "MUNIZIONI",
             "name": "12G Slug Rounds",
             "unlock": "Livello 10"
+          }
+        ]
+      },
+      {
+        "name": "SIGNAL 50",
+        "rank": 23,
+        "tier": "A",
+        "category": "FUCILE DI PRECISIONE",
+        "role": "LUNGA DISTANZA",
+        "origin": "MW4",
+        "maxLevel": "74",
+        "updated": "06 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026, pubblicata sul sito il 9 novembre). Livelli arma come indicati dalla fonte.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "FSS HOC-30",
+            "unlock": "Livello 59"
+          },
+          {
+            "slot": "CANNA",
+            "name": "MR50 Tyrant 29\"",
+            "unlock": "Livello 15"
+          },
+          {
+            "slot": "IMPUGNATURA",
+            "name": "EXP Trim-54F",
+            "unlock": "Livello 5"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Cronen SN-Pad50",
+            "unlock": "Livello 26"
+          },
+          {
+            "slot": "MUNIZIONI",
+            "name": ".50 Cal High Velocity",
+            "unlock": "Livello 69"
           }
         ]
       }
