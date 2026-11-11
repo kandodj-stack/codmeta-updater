@@ -8,6 +8,9 @@ RIFERIMENTO è l'ultima versione pubblicata (per esempio quella in git HEAD).
 Il controllo è volutamente più severo dello script PHP su Aruba: accetta solo
 campi e tipi già presenti nel riferimento, così un file con struttura nuova
 non arriva mai al sito. Se cambia lo schema, va aggiornato anche questo file.
+
+Eccezione: i campi facoltativi elencati in OPTIONAL_BUILD_FIELDS (sito v51 e
+sync-mw4.php v51) sono ammessi anche se il riferimento non li contiene ancora.
 """
 import json
 import re
@@ -17,7 +20,37 @@ import sys
 FREE_MAPS = {"warzone.roleRanks", "warzone.weaponNotes.notes"}
 MAX_TEXT = 2000
 MAX_ATTACHMENTS = 12
+MAX_ALTERNATIVES = 3
+MAX_BUILD_TYPE = 60
 DATE_RE = re.compile(r"^\d{1,2} (GEN|FEB|MAR|APR|MAG|GIU|LUG|AGO|SET|OTT|NOV|DIC) \d{4}$")
+
+# v51: varianti delle build Warzone. In ogni build (builds ed extraBuilds) sono facoltativi
+# `buildType` (etichetta WZStats, es. "Lunga distanza") e `alternatives` (max 3 build
+# Battle Royale non Apex: buildType, role, updated, note, attachments, code facoltativo).
+ATTACHMENT_KEYS = {"slot", "name", "unlock"}
+ALTERNATIVE_KEYS = {"buildType", "role", "updated", "note", "attachments", "code"}
+OPTIONAL_BUILD_FIELDS = {"buildType", "alternatives"}
+
+
+def allow_optional_fields(shape):
+    """Aggiunge alla forma imparata dal riferimento i campi facoltativi della v51."""
+    def add(path, types, keys=()):
+        entry = shape.setdefault(path, {"types": set(), "keys": set()})
+        entry["types"].update(types)
+        entry["keys"].update(keys)
+
+    for base in ("warzone.builds[]", "warzone.extraBuilds[]"):
+        add(base, {"dict"}, OPTIONAL_BUILD_FIELDS)
+        add(f"{base}.buildType", {"str"})
+        add(f"{base}.alternatives", {"list"})
+        alt = f"{base}.alternatives[]"
+        add(alt, {"dict"}, ALTERNATIVE_KEYS)
+        for k in ("buildType", "role", "updated", "note", "code"):
+            add(f"{alt}.{k}", {"str"})
+        add(f"{alt}.attachments", {"list"})
+        add(f"{alt}.attachments[]", {"dict"}, ATTACHMENT_KEYS)
+        for k in ATTACHMENT_KEYS:
+            add(f"{alt}.attachments[].{k}", {"str"})
 
 errors = []
 
@@ -77,6 +110,49 @@ def check_shape(obj, path, shape):
             check_shape(v, f"{path}[{i}]", shape)
 
 
+def text_ok(value, max_len):
+    return isinstance(value, str) and value.strip() != "" and len(value) <= max_len
+
+
+def check_variants(b):
+    """Controlli della v51 su buildType e alternatives di una build Warzone."""
+    name = b.get("name")
+    if "buildType" in b and not text_ok(b["buildType"], MAX_BUILD_TYPE):
+        err(f"buildType non valido per {name}: {b.get('buildType')!r}")
+    if "alternatives" not in b:
+        return
+    alts = b["alternatives"]
+    if not isinstance(alts, list) or len(alts) > MAX_ALTERNATIVES:
+        err(f"alternatives non valide per {name}: al massimo {MAX_ALTERNATIVES} varianti")
+        return
+    labels = [b.get("buildType", "").strip().lower()]
+    for i, alt in enumerate(alts):
+        where = f"{name}, variante {i + 1}"
+        if not isinstance(alt, dict):
+            err(f"variante non valida: {where}")
+            continue
+        missing = ALTERNATIVE_KEYS - {"code"} - set(alt)
+        if missing:
+            err(f"campi mancanti in {where}: {sorted(missing)}")
+        if not text_ok(alt.get("buildType"), MAX_BUILD_TYPE):
+            err(f"buildType non valido in {where}")
+        if not text_ok(alt.get("role"), 300) or not text_ok(alt.get("note"), MAX_TEXT):
+            err(f"ruolo o nota non validi in {where}")
+        if not DATE_RE.match(str(alt.get("updated", ""))):
+            err(f"data 'updated' non valida in {where}: {alt.get('updated')}")
+        att = alt.get("attachments", [])
+        if not isinstance(att, list) or not att or len(att) > MAX_ATTACHMENTS:
+            err(f"accessori non validi in {where}")
+        else:
+            for a in att:
+                if not isinstance(a, dict) or not all(text_ok(a.get(k), 300) for k in ATTACHMENT_KEYS):
+                    err(f"accessorio senza nome, slot o livello in {where}")
+        label = str(alt.get("buildType", "")).strip().lower()
+        if label in labels:
+            err(f"buildType ripetuto in {where}: {alt.get('buildType')}")
+        labels.append(label)
+
+
 def main():
     if len(sys.argv) != 3:
         print(__doc__)
@@ -86,6 +162,7 @@ def main():
 
     shape = {}
     collect_shape(ref, "", shape)
+    allow_optional_fields(shape)
     check_shape(new, "", shape)
 
     # Chiavi di primo livello: nessuna sezione deve sparire.
@@ -115,6 +192,7 @@ def main():
             err(f"tier non valido per {b.get('name')}: {b.get('tier')}")
         if not DATE_RE.match(str(b.get("updated", ""))):
             err(f"data 'updated' non valida per {b.get('name')}: {b.get('updated')}")
+        check_variants(b)
     ranks = [b.get("rank") for b in builds]
     if len(set(ranks)) != len(ranks):
         err("rank duplicati nelle build")

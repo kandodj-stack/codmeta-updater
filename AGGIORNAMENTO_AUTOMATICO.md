@@ -32,6 +32,22 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
      `rank` = posizione in `metaOrder`, `tier` `S` per le armi del tier Meta e `A` per le altre, `updated` = data «Creato il»
      della build, nomi degli accessori come scritti sulla pagina italiana. Aggiorna la frase dell'intro sulle build mancanti
      e aggiungi una voce in testa a `ticker`. Poi passa al punto 3.
+   - **Tutte le build Battle Royale di ogni arma** (richiesta di Kando, 11 nov 2026; sito v51 e sync-mw4.php v51).
+     La sezione Battle Royale di una pagina può avere più build (es. Cronen Osprey: «Lunga distanza» e «Supporto cecchino»).
+     Leggi tutte quelle **non Apex**: la prima della pagina resta la build principale (i campi di sempre), le altre vanno
+     in `alternatives` (al massimo 3, nell'ordine della pagina). Ogni variante: `buildType`, `role`, `updated`
+     (data «Creato il»), `note`, `attachments` (stesso formato delle build: `slot`, `name`, `unlock`), `code` solo se
+     la pagina lo mostra. Stesse regole della build principale: 5 accessori tutti con nome, due letture coincidenti
+     (italiano e inglese), altrimenti la variante resta fuori senza bloccare il resto.
+     `buildType` = etichetta della build, uniformata così (WZStats traduce a volte «Close Range» con «Corto raggio»):
+     Long Range → `Lunga distanza`, Close Range / Short Range → `Corta distanza`, Sniper Support → `Supporto cecchino`;
+     altre etichette tradotte in italiano con la prima lettera maiuscola. `role` = `buildType` in MAIUSCOLO
+     (`LUNGA DISTANZA`, `CORTA DISTANZA`, `SUPPORTO CECCHINO`): il sito crea i filtri per ruolo da questo campo.
+     Ogni build principale ha il suo `buildType`. Se una variante sparisce dalla pagina, toglila; se `alternatives`
+     resta vuoto, togli il campo. Nel ticker cita le varianti nuove o cambiate.
+   - Le build già pubblicate possono cambiare anche se la classifica non cambia (es. Han 86 e VEL 46 ricreate il
+     10 nov): a ogni controllo confronta la data «Creato il» di ogni build e variante con `updated`; se è diversa,
+     rileggi la build due volte e aggiornala.
    - Dalla Stagione 1 Warzone usa le armi di Modern Warfare 4; quelle dei giochi precedenti sono «Legacy».
      In ogni build `origin` = gioco dell'arma: `MW4` per Modern Warfare 4 (nomi in MAIUSCOLO come in `catalog.json`,
      es. `AXION`, `M4`), `BO7`, `BO6`, `MW3`, `MWII` per le Legacy. Il sito mette una build `MW4` solo sulla scheda MW4.
@@ -39,7 +55,8 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
      e `intro` togliendo il riferimento all'archivio della Stagione 06.
    - Se è più recente: rileggi la classifica, aggiorna `metaOrder` (prime 23 armi), `roleRanks` e i tier.
      Per ogni arma in `builds` apri la pagina build `https://wzstats.gg/it/best-loadouts/...` e confronta
-     il codice build. Aggiorna accessori, livelli, `code`, `updated` solo per le build cambiate o nuove.
+     il codice build (o, se non c'è, data «Creato il» e accessori), varianti comprese.
+     Aggiorna accessori, livelli, `code`, `updated` solo per le build cambiate o nuove.
      Aggiorna `currentBuildDate`, `currentBuildLabel`, `checked`, `status`, l'intro se cita la data,
      e aggiungi una voce in testa a `ticker`.
 

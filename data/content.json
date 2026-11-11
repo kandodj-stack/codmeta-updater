@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 25,
+  "release": 26,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "11 NOV · BUILD WARZONE",
+      "text": "Build Warzone ricontrollate l’11 novembre sera: nuove build Battle Royale di Han 86 (ottica Locus PX3 alternabile), VEL 46 (volata TA Lightning R3M e laser XRK Clutch-LS al posto di compensatore e canna) e Kastov 762 (ottica Locus PX3 e canna Haebang MT-414 mm). Ogni build ora indica il suo ruolo e il Cronen Osprey ha anche la variante «Supporto cecchino». Build indipendenti, non ufficiali Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "11 NOV · WARZONE",
       "text": "Meta Warzone WZStats dell’11 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta; il Warlord entra in fascia A al 24° posto. Nuove build Battle Royale di M4 (ottica Locus PX3 e tamburo da 60 colpi) e Axion (canna Cronen DC-Forge 40 e impugnatura FSS TAC90). Classifica indipendente, non ufficiale Activision.",
@@ -99,11 +104,6 @@
       "tag": "06 NOV · WARZONE",
       "text": "Il meta Warzone di WZStats è ancora quello della Stagione 06 (BO7, 5 novembre): classifica e build restano in archivio finché non arriva quello della Stagione 1. Classifica indipendente, non ufficiale Activision.",
       "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "05 NOV · MW4",
-      "text": "Meta MW4 WZStats: KG-7 Vulcan sale nel tier Meta con la build Long Range; nuove build Versatile per Patriot XMR, PPSh-41 e X-58 Nyx, Kastov 762 passa alla build Mobility (la Versatile ora è Apex). 21 build Multiplayer. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it/mw4/meta"
     }
   ],
   "news": {
@@ -278,7 +278,7 @@
     "status": "META WZSTATS STAGIONE 1 · 11 NOV 2026",
     "checked": "11 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 11 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 19; mancano Hyeon Burst (solo build Apex), Cronen Squall (dati incompleti), Oden e FiNN LMG (nessuna build Warzone), che arrivano con il controllo giornaliero.",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 11 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 19; mancano Hyeon Burst (solo build Apex), Cronen Squall (dati incompleti), Oden e FiNN LMG (nessuna build Warzone), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
     "currentBuildDate": "11 NOV 2026",
     "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 11 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 11 novembre 2026",
@@ -341,10 +341,11 @@
         "tier": "S",
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "71",
         "updated": "09 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 9 novembre 2026). Livelli arma come indicati dalla fonte. WZStats la indica anche come supporto cecchino.",
+        "note": "Build Warzone Battle Royale «Lunga distanza» consigliata da WZStats (creata il 9 novembre 2026). Livelli arma come indicati dalla fonte. WZStats propone anche la variante «Supporto cecchino»: si apre con il pulsante sopra gli accessori.",
         "attachments": [
           {
             "slot": "OTTICA",
@@ -371,6 +372,41 @@
             "name": "XR-9 Tac V2",
             "unlock": "Livello 69"
           }
+        ],
+        "alternatives": [
+          {
+            "buildType": "Supporto cecchino",
+            "role": "SUPPORTO CECCHINO",
+            "updated": "09 NOV 2026",
+            "note": "Variante Battle Royale «Supporto cecchino» di WZStats (creata il 9 novembre 2026), da usare come seconda arma insieme a un fucile di precisione. Livelli arma come indicati dalla fonte.",
+            "attachments": [
+              {
+                "slot": "VOLATA",
+                "name": "Silenziatore XRK Mil-Tac",
+                "unlock": "Livello 34"
+              },
+              {
+                "slot": "CANNA",
+                "name": "IO-556 Tac 18\"",
+                "unlock": "Livello 54"
+              },
+              {
+                "slot": "SOTTOCANNA",
+                "name": "Impugnatura FSS TAC90",
+                "unlock": "Livello 6"
+              },
+              {
+                "slot": "CARICATORE",
+                "name": "Caricatore da 60 colpi",
+                "unlock": "Livello 42"
+              },
+              {
+                "slot": "CALCIO",
+                "name": "Fade Tac 9L",
+                "unlock": "Livello 57"
+              }
+            ]
+          }
         ]
       },
       {
@@ -379,6 +415,7 @@
         "tier": "S",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
+        "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "64",
         "updated": "07 NOV 2026",
@@ -417,15 +454,16 @@
         "tier": "S",
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "72",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "10 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 10 novembre 2026). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "OTTICA",
-            "name": "Cronen R808",
-            "unlock": "Livello 19"
+            "name": "Locus PX3 alternabile",
+            "unlock": "Livello 20"
           },
           {
             "slot": "VOLATA",
@@ -455,20 +493,16 @@
         "tier": "S",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
+        "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "60",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "10 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 10 novembre 2026). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "VOLATA",
-            "name": "Compensatore 212 LC40",
-            "unlock": "Livello 27"
-          },
-          {
-            "slot": "CANNA",
-            "name": "VB-46 Series 11",
-            "unlock": "Livello 3"
+            "name": "TA Lightning R3M",
+            "unlock": "Livello 35"
           },
           {
             "slot": "SOTTOCANNA",
@@ -484,6 +518,11 @@
             "slot": "CALCIO",
             "name": "Calcio EXP U-Turn",
             "unlock": "Livello 37"
+          },
+          {
+            "slot": "LASER",
+            "name": "XRK Clutch-LS",
+            "unlock": "Livello 39"
           }
         ]
       },
@@ -493,6 +532,7 @@
         "tier": "S",
         "category": "FUCILE TATTICO",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "69",
         "updated": "06 NOV 2026",
@@ -531,15 +571,16 @@
         "tier": "A",
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "68",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "07 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 7 novembre 2026). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "OTTICA",
-            "name": "Cronen R808",
-            "unlock": "Livello 26"
+            "name": "Locus PX3 alternabile",
+            "unlock": "Livello 20"
           },
           {
             "slot": "VOLATA",
@@ -548,8 +589,8 @@
           },
           {
             "slot": "CANNA",
-            "name": "BCS-K 589.28mm Barrel",
-            "unlock": "Livello 24"
+            "name": "Haebang MT-414 mm",
+            "unlock": "Livello 14"
           },
           {
             "slot": "CARICATORE",
@@ -569,6 +610,7 @@
         "tier": "A",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
+        "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "43",
         "updated": "07 NOV 2026",
@@ -607,6 +649,7 @@
         "tier": "A",
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "72",
         "updated": "07 NOV 2026",
@@ -645,6 +688,7 @@
         "tier": "A",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
+        "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "60",
         "updated": "06 NOV 2026",
@@ -683,6 +727,7 @@
         "tier": "A",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
+        "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "53",
         "updated": "06 NOV 2026",
@@ -721,6 +766,7 @@
         "tier": "A",
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "69",
         "updated": "07 NOV 2026",
@@ -759,6 +805,7 @@
         "tier": "A",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
+        "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "62",
         "updated": "06 NOV 2026",
@@ -797,6 +844,7 @@
         "tier": "A",
         "category": "FUCILE DI PRECISIONE",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "75",
         "updated": "06 NOV 2026",
@@ -835,6 +883,7 @@
         "tier": "A",
         "category": "FUCILE DI PRECISIONE",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "54",
         "updated": "06 NOV 2026",
@@ -873,6 +922,7 @@
         "tier": "A",
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "72",
         "updated": "06 NOV 2026",
@@ -911,6 +961,7 @@
         "tier": "A",
         "category": "MITRAGLIATRICE LEGGERA",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "56",
         "updated": "06 NOV 2026",
@@ -949,6 +1000,7 @@
         "tier": "A",
         "category": "PISTOLA",
         "role": "CORTA DISTANZA",
+        "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "38",
         "updated": "06 NOV 2026",
@@ -987,6 +1039,7 @@
         "tier": "A",
         "category": "FUCILE A POMPA",
         "role": "CORTA DISTANZA",
+        "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "60",
         "updated": "06 NOV 2026",
@@ -1025,6 +1078,7 @@
         "tier": "A",
         "category": "FUCILE DI PRECISIONE",
         "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "74",
         "updated": "06 NOV 2026",
