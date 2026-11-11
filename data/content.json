@@ -1,10 +1,25 @@
 {
   "schemaVersion": 1,
-  "release": 24,
+  "release": 25,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "11 NOV · WARZONE",
+      "text": "Meta Warzone WZStats dell’11 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta; il Warlord entra in fascia A al 24° posto. Nuove build Battle Royale di M4 (ottica Locus PX3 e tamburo da 60 colpi) e Axion (canna Cronen DC-Forge 40 e impugnatura FSS TAC90). Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
+    {
+      "tag": "10 NOV · WARZONE PATCH",
+      "text": "Aggiornamento Warzone del 10 novembre: passaggio alla sensibilità da fianco anticipato dopo la mira, correzioni a crash, HUD e modifica delle classi con armi Legacy; ora avanzano le sfide Platino di Cronen Osprey e CSG-35. Nessuna modifica alle armi.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
+    },
+    {
+      "tag": "10 NOV · MW4 PATCH",
+      "text": "Aggiornamento MW4 del 10 novembre: transizione della sensibilità mira/fianco rivista, chat di partita in Tutti contro tutti e Gun Game, corretti il binario Trimmer del CSG-35 e il ritardo nel passare al Cronen Osprey; in DMZ soldi anche dopo un'esfiltrazione fallita e UAV disattivati in X01. Nessuna modifica di bilanciamento.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+    },
     {
       "tag": "09 NOV · WARZONE",
       "text": "Meta Warzone WZStats del 9 novembre: stesse cinque armi nel tier Meta; in fascia A CSG-35 sale al 7° posto, M4 e Wz.55 Striga scendono di uno. Nuova build Battle Royale del Cronen Osprey (calcio XR-9 Tac V2 al posto delle munizioni) e prima build del Signal 50, ora 19 su 23. Classifica indipendente, non ufficiale Activision.",
@@ -89,21 +104,6 @@
       "tag": "05 NOV · MW4",
       "text": "Meta MW4 WZStats: KG-7 Vulcan sale nel tier Meta con la build Long Range; nuove build Versatile per Patriot XMR, PPSh-41 e X-58 Nyx, Kastov 762 passa alla build Mobility (la Versatile ora è Apex). 21 build Multiplayer. Classifica indipendente, non ufficiale Activision.",
       "url": "https://wzstats.gg/it/mw4/meta"
-    },
-    {
-      "tag": "05 NOV · WARZONE",
-      "text": "Meta WZStats del 5 novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "04 NOV · MW4",
-      "text": "Meta MW4 WZStats del 4 novembre: classifica e build invariate; entra la build Short Range della Mojave .357 (tier C), prima pistola tra le build. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it/mw4/meta"
-    },
-    {
-      "tag": "04 NOV · WARZONE",
-      "text": "Meta WZStats del 4 novembre: classifica e build invariate, Voyak KT-3 e VMP in testa. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it"
     }
   ],
   "news": {
@@ -275,13 +275,13 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS STAGIONE 1 · 9 NOV 2026",
-    "checked": "09 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS STAGIONE 1 · 11 NOV 2026",
+    "checked": "11 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 9 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 19; mancano Hyeon Burst (solo build Apex), Cronen Squall (dati incompleti), Oden e FiNN LMG (nessuna build Warzone), che arrivano con il controllo giornaliero.",
-    "currentBuildDate": "09 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 9 NOVEMBRE",
-    "ratingLabel": "Valutazione WZStats · 8 novembre 2026",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 11 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 19; mancano Hyeon Burst (solo build Apex), Cronen Squall (dati incompleti), Oden e FiNN LMG (nessuna build Warzone), che arrivano con il controllo giornaliero.",
+    "currentBuildDate": "11 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 11 NOVEMBRE",
+    "ratingLabel": "Valutazione WZStats · 11 novembre 2026",
     "pendingReview": [],
     "pendingLabel": "Valutazione in sospeso dopo il nerf del 30 settembre",
     "metaOrder": [
@@ -609,13 +609,13 @@
         "role": "LUNGA DISTANZA",
         "origin": "MW4",
         "maxLevel": "72",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "07 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 7 novembre 2026). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "OTTICA",
-            "name": "Cronen R808",
-            "unlock": "Livello 70"
+            "name": "Locus PX3 alternabile",
+            "unlock": "Livello 46"
           },
           {
             "slot": "VOLATA",
@@ -629,13 +629,13 @@
           },
           {
             "slot": "CARICATORE",
-            "name": "Caricatore da 45 colpi",
-            "unlock": "Livello 9"
+            "name": "Tamburo 60 colpi",
+            "unlock": "Livello 39"
           },
           {
-            "slot": "MUNIZIONI",
-            "name": "5,56 NATO alta velocità",
-            "unlock": "Livello 57"
+            "slot": "CALCIO",
+            "name": "Calcio fisso PF1",
+            "unlock": "Livello 14"
           }
         ]
       },
@@ -723,13 +723,13 @@
         "role": "LUNGA DISTANZA",
         "origin": "MW4",
         "maxLevel": "69",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "07 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 7 novembre 2026). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "OTTICA",
-            "name": "Cronen R808",
-            "unlock": "Livello 13"
+            "name": "Locus PX3 alternabile",
+            "unlock": "Livello 21"
           },
           {
             "slot": "VOLATA",
@@ -738,18 +738,18 @@
           },
           {
             "slot": "CANNA",
-            "name": "SA DMN-L 30\"",
-            "unlock": "Livello 6"
+            "name": "Cronen DC-Forge 40",
+            "unlock": "Livello 40"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "Impugnatura FSS TAC90",
+            "unlock": "Livello 31"
           },
           {
             "slot": "CARICATORE",
             "name": "Caricatore da 40 colpi",
             "unlock": "Livello 65"
-          },
-          {
-            "slot": "CALCIO",
-            "name": "Calcio TA Harrow",
-            "unlock": "Livello 2"
           }
         ]
       },
