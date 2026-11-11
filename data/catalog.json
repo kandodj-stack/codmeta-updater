@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 15,
+  "release": 16,
   "mw4": {
-    "buildCheckedAt": "2026-11-09",
+    "buildCheckedAt": "2026-11-11",
     "catalogCheckedAt": "2026-11-07",
     "catalog": [
       {
@@ -328,6 +328,68 @@
             "SCHLAGER VISIV-5",
             9
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Mobility",
+            "attachments": [
+              [
+                "Volata",
+                "FSS IS40",
+                56
+              ],
+              [
+                "Canna",
+                "XRK 09-RTAC PRO",
+                52
+              ],
+              [
+                "Impugnatura posteriore",
+                "GS50 GRIP",
+                55
+              ],
+              [
+                "Calcio",
+                "XRK RELAY 7",
+                59
+              ],
+              [
+                "Laser",
+                "SCHLAGER VISIV-5",
+                9
+              ]
+            ]
+          },
+          {
+            "buildType": "Low Recoil",
+            "attachments": [
+              [
+                "Ottica",
+                "SZ PRIMA-4 DOT",
+                35
+              ],
+              [
+                "Volata",
+                "CORVUS LVL-40",
+                63
+              ],
+              [
+                "Canna",
+                "CRONEN DC-FORGE 40",
+                40
+              ],
+              [
+                "Sottocanna",
+                "FSS FIRELINE GRIP",
+                7
+              ],
+              [
+                "Calcio",
+                "CRONEN BLACKSTONE-6P",
+                15
+              ]
+            ]
+          }
         ]
       },
       "HYEON BURST": {
@@ -396,6 +458,98 @@
             "SCHLAGER VISIV-5",
             43
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Low Level",
+            "attachments": [
+              [
+                "Volata",
+                "FSS CRACKDOWN",
+                4
+              ],
+              [
+                "Canna",
+                "ZLR MAG-Z 9\"",
+                2
+              ],
+              [
+                "Impugnatura posteriore",
+                "DEMO STP-1",
+                6
+              ],
+              [
+                "Calcio",
+                "GI-80 MILSPEC STOCK",
+                16
+              ],
+              [
+                "Munizioni",
+                "9MM PARABELLUM FRANGIBLE",
+                8
+              ]
+            ]
+          },
+          {
+            "buildType": "Mobility",
+            "attachments": [
+              [
+                "Volata",
+                "DEMO IRONSHADE",
+                40
+              ],
+              [
+                "Canna",
+                "RT OUTRIDE-X 8\"",
+                22
+              ],
+              [
+                "Impugnatura posteriore",
+                "DEMO STP-1",
+                6
+              ],
+              [
+                "Calcio",
+                "EXP G2-44 STOCK",
+                5
+              ],
+              [
+                "Laser",
+                "SCHLAGER VISIV-5",
+                43
+              ]
+            ]
+          },
+          {
+            "buildType": "Low Recoil",
+            "attachments": [
+              [
+                "Volata",
+                "212 LC40 COMP",
+                15
+              ],
+              [
+                "Canna",
+                "ZLR CARBON-900",
+                41
+              ],
+              [
+                "Sottocanna",
+                "FSS FIRELINE GRIP",
+                23
+              ],
+              [
+                "Impugnatura posteriore",
+                "BRUEN MOD3",
+                35
+              ],
+              [
+                "Calcio",
+                "GI-80 MILSPEC STOCK",
+                16
+              ]
+            ]
+          }
         ]
       },
       "M4": {
@@ -430,6 +584,98 @@
             "SA LAZ-500",
             24
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Low Level",
+            "attachments": [
+              [
+                "Ottica",
+                "SLIMLINE ELITE",
+                13
+              ],
+              [
+                "Volata",
+                "FSS IS300",
+                4
+              ],
+              [
+                "Calcio",
+                "PF1 FIXED STOCK",
+                14
+              ],
+              [
+                "Laser",
+                "SZ GEN.6 PEQ",
+                2
+              ],
+              [
+                "Munizioni",
+                "5.56 NATO OVERPRESSURED",
+                3
+              ]
+            ]
+          },
+          {
+            "buildType": "Mobility",
+            "attachments": [
+              [
+                "Volata",
+                "CORVUS LVL-40",
+                53
+              ],
+              [
+                "Canna",
+                "FT CANNONADE 7\"",
+                7
+              ],
+              [
+                "Impugnatura posteriore",
+                "ZLR PHASE GRIP",
+                55
+              ],
+              [
+                "Calcio",
+                "ZLR ASP50 STOCK",
+                44
+              ],
+              [
+                "Laser",
+                "SZ GEN.6 PEQ",
+                2
+              ]
+            ]
+          },
+          {
+            "buildType": "Low Recoil",
+            "attachments": [
+              [
+                "Volata",
+                "CORVUS LVL-40",
+                53
+              ],
+              [
+                "Canna",
+                "16\" HIGHMARK BARREL",
+                18
+              ],
+              [
+                "Sottocanna",
+                "FSS FIRELINE GRIP",
+                38
+              ],
+              [
+                "Impugnatura posteriore",
+                "BRACE DX GRIP",
+                10
+              ],
+              [
+                "Calcio",
+                "PF1 FIXED STOCK",
+                14
+              ]
+            ]
+          }
         ]
       },
       "MOSIN-NAGANT": {
@@ -498,6 +744,38 @@
             "KT76 LIGHT BOLT",
             63
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Low Level",
+            "attachments": [
+              [
+                "Ottica",
+                "HANBIT 3080 FIRELINE",
+                14
+              ],
+              [
+                "Volata",
+                "DS RKT-90",
+                4
+              ],
+              [
+                "Canna",
+                "TT BAEM 12\"",
+                5
+              ],
+              [
+                "Poggiaguancia",
+                "TT TYPE 40 COMB",
+                6
+              ],
+              [
+                "Laser",
+                "SCHLAGER VISIV-5",
+                7
+              ]
+            ]
+          }
         ]
       },
       "VEL 46": {
@@ -532,6 +810,68 @@
             "SCHLAGER VISIV-5",
             23
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Mobility",
+            "attachments": [
+              [
+                "Volata",
+                "212 LC40 COMP",
+                27
+              ],
+              [
+                "Canna",
+                "RV-B V2 BARREL",
+                45
+              ],
+              [
+                "Impugnatura posteriore",
+                "LM COMBAT GRIP",
+                40
+              ],
+              [
+                "Calcio",
+                "EXP U-TURN STOCK",
+                37
+              ],
+              [
+                "Laser",
+                "SCHLAGER VISIV-5",
+                23
+              ]
+            ]
+          },
+          {
+            "buildType": "Low Recoil",
+            "attachments": [
+              [
+                "Volata",
+                "212 LC40 COMP",
+                27
+              ],
+              [
+                "Canna",
+                "XRK TANGO 380 BARREL",
+                25
+              ],
+              [
+                "Sottocanna",
+                "FSS FIRELINE GRIP",
+                10
+              ],
+              [
+                "Impugnatura posteriore",
+                "V46 R-SKEL GRIP",
+                9
+              ],
+              [
+                "Calcio",
+                "EXP LOCKDOWN STOCK",
+                15
+              ]
+            ]
+          }
         ]
       },
       "KASTOV 762": {
@@ -566,6 +906,38 @@
             "SCHLAGER VISIV-5",
             30
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Low Recoil",
+            "attachments": [
+              [
+                "Ottica",
+                "CRONEN ZERO-K",
+                35
+              ],
+              [
+                "Volata",
+                "FT HYPERPORT 408",
+                16
+              ],
+              [
+                "Canna",
+                "HAEBANG MT-414MM",
+                14
+              ],
+              [
+                "Sottocanna",
+                "FSS FIRELINE GRIP",
+                3
+              ],
+              [
+                "Calcio",
+                "SPETSNAZ S10 STOCK",
+                19
+              ]
+            ]
+          }
         ]
       },
       "PATRIOT XMR": {
@@ -600,6 +972,38 @@
             "SA LAZ-500",
             12
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Low Recoil",
+            "attachments": [
+              [
+                "Volata",
+                "HET-S6 COMP",
+                14
+              ],
+              [
+                "Canna",
+                "SO 898F 19\"",
+                60
+              ],
+              [
+                "Sottocanna",
+                "FSS FIRELINE GRIP",
+                33
+              ],
+              [
+                "Impugnatura posteriore",
+                "SCHLAGER ATTACK-7 GRIP",
+                28
+              ],
+              [
+                "Laser",
+                "SZ GEN.6 PEQ",
+                23
+              ]
+            ]
+          }
         ]
       },
       "CSG-35": {
@@ -668,6 +1072,38 @@
             "SCHLAGER VISIV-5",
             6
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Low Recoil",
+            "attachments": [
+              [
+                "Ottica",
+                "SLIMLINE ELITE",
+                13
+              ],
+              [
+                "Volata",
+                "BRYSON BULLHIDE 90",
+                37
+              ],
+              [
+                "Canna",
+                "ROCKFALL-900 BARREL",
+                5
+              ],
+              [
+                "Sottocanna",
+                "FSS FIRELINE GRIP",
+                22
+              ],
+              [
+                "Calcio",
+                "HAEBANG STAL-W5",
+                3
+              ]
+            ]
+          }
         ]
       },
       "PPSH-41": {
@@ -702,6 +1138,98 @@
             "SCHLAGER VISIV-5",
             4
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Low Level",
+            "attachments": [
+              [
+                "Volata",
+                "FTAC SILENT RECON",
+                12
+              ],
+              [
+                "Canna",
+                "HANBIT RDR-TIGER 50-XL",
+                15
+              ],
+              [
+                "Caricatore",
+                "53 ROUND MAG",
+                3
+              ],
+              [
+                "Laser",
+                "SCHLAGER VISIV-5",
+                4
+              ],
+              [
+                "Munizioni",
+                "7.62 TOKAREV OVERPRESSURED",
+                9
+              ]
+            ]
+          },
+          {
+            "buildType": "Mobility",
+            "attachments": [
+              [
+                "Volata",
+                "1/2X28 DUAL PORT",
+                29
+              ],
+              [
+                "Sottocanna",
+                "FSS TAC90 GRIP",
+                2
+              ],
+              [
+                "Caricatore",
+                "53 ROUND MAG",
+                3
+              ],
+              [
+                "Calcio",
+                "MT-L5 JINHUA",
+                41
+              ],
+              [
+                "Laser",
+                "SCHLAGER VISIV-5",
+                4
+              ]
+            ]
+          },
+          {
+            "buildType": "Low Recoil",
+            "attachments": [
+              [
+                "Volata",
+                "1/2X28 DUAL PORT",
+                29
+              ],
+              [
+                "Canna",
+                "HANBIT RDR-TIGER 50",
+                33
+              ],
+              [
+                "Sottocanna",
+                "FSS FIRELINE GRIP",
+                61
+              ],
+              [
+                "Calcio",
+                "HANBIT JANGUN-H9",
+                25
+              ],
+              [
+                "Laser",
+                "SCHLAGER VISIV-5",
+                4
+              ]
+            ]
+          }
         ]
       },
       "X-58 NYX": {
@@ -736,6 +1264,38 @@
             "XRK CLUTCH-LS",
             38
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Mobility",
+            "attachments": [
+              [
+                "Canna",
+                "DOKSA 4F 304.8MM",
+                37
+              ],
+              [
+                "Sottocanna",
+                "FSS TAC90 GRIP",
+                39
+              ],
+              [
+                "Impugnatura posteriore",
+                "BOK-980",
+                20
+              ],
+              [
+                "Calcio",
+                "NO STOCK",
+                null
+              ],
+              [
+                "Laser",
+                "SCHLAGER VISIV-5",
+                12
+              ]
+            ]
+          }
         ]
       },
       "WZ.55 STRIGA": {
@@ -770,6 +1330,38 @@
             "WIRE STOCK",
             52
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Mobility",
+            "attachments": [
+              [
+                "Volata",
+                "1/2X28 DUAL PORT",
+                17
+              ],
+              [
+                "Canna",
+                "DS 9X18 PRO",
+                44
+              ],
+              [
+                "Caricatore",
+                "35 ROUND MAG",
+                10
+              ],
+              [
+                "Impugnatura posteriore",
+                "MATUZEK 532-L GRIP",
+                15
+              ],
+              [
+                "Laser",
+                "SCHLAGER VISIV-5",
+                32
+              ]
+            ]
+          }
         ]
       },
       "HAN 86": {
@@ -804,6 +1396,38 @@
             "SCHLAGER VISIV-5",
             46
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Low Level",
+            "attachments": [
+              [
+                "Ottica",
+                "SZ MICRO D-3",
+                5
+              ],
+              [
+                "Canna",
+                "HANBIT RK8 406.4MM",
+                7
+              ],
+              [
+                "Calcio",
+                "FR4 RETRACTABLE STOCK",
+                4
+              ],
+              [
+                "Laser",
+                "XRK CLUTCH-LS",
+                3
+              ],
+              [
+                "Munizioni",
+                "5.56 NATO FRANGIBLE",
+                8
+              ]
+            ]
+          }
         ]
       },
       "ORIS 8.6": {
@@ -940,6 +1564,38 @@
             "SZ GEN.6 PEQ",
             50
           ]
+        ],
+        "alternatives": [
+          {
+            "buildType": "Low Level",
+            "attachments": [
+              [
+                "Ottica",
+                "SLIMLINE ELITE",
+                7
+              ],
+              [
+                "Volata",
+                "FTAC DOMINION",
+                9
+              ],
+              [
+                "Canna",
+                "FTAC FIREBASE-70 15\"",
+                2
+              ],
+              [
+                "Impugnatura posteriore",
+                "XRK AURA-5",
+                8
+              ],
+              [
+                "Calcio",
+                "HANBIT TECH50 GEN.5",
+                5
+              ]
+            ]
+          }
         ]
       },
       "TYPE 73": {
@@ -957,7 +1613,7 @@
           [
             "Volata",
             "IVANOV QR600",
-            null
+            12
           ],
           [
             "Canna",

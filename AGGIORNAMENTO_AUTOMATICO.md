@@ -90,6 +90,16 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
      3. se ci sono solo build Apex (o la build contiene l'arma Apex), l'arma resta fuori.
      Servono esattamente 5 accessori con slot diversi: `[slot, NOME, livello]`,
      livello `null` se la fonte non lo indica. Se un nome di accessorio manca o i due controlli non coincidono, l'arma resta fuori.
+     **Varianti** (richiesta di Kando, 11 nov 2026; sito v52 e sync-mw4.php v52): le altre build Multiplayer **non Apex**
+     della stessa arma (es. «Mobility», «Low Recoil», «Low Level») vanno in `alternatives`, nell'ordine della pagina,
+     al massimo 5: `{ "buildType": "Mobility", "attachments": [[slot, NOME, livello], …] }`, stesse regole della build
+     principale (5 accessori con slot diversi, nomi in inglese MAIUSCOLO, due letture coincidenti: inglese per i nomi,
+     italiano per slot e livelli). Le build che contengono un accessorio o l'arma Apex restano fuori (es. la «Versatile»
+     del Kastov 762 usa l'Apex Kastov Arc: la principale è «Mobility»). `buildType` sempre in inglese come su WZStats:
+     il sito lo traduce. Una variante con dati incompleti si salta senza bloccare il resto; se `alternatives` resta vuoto,
+     togli il campo. Ordine dei campi: `rank`, `category`, `slug`, `tier`, `buildType`, `attachments`, `alternatives`.
+     Nel titolo della scheda WZStats compare spesso il nome del primo accessorio (es. «Low Level (HANBIT 3080 FIRELINE)»):
+     è il nome dell'accessorio nel primo slot.
      Slot in italiano come nelle voci esistenti
      (Ottica, Volata, Canna, Sottocanna, Calcio, Impugnatura posteriore, Laser, Caricatore, Munizioni, Poggiaguancia,
      Grilletto per «Trigger Action» delle pistole, Otturatore per «Bolt» dei fucili, approvato da Kando il 5 nov 2026).
@@ -97,7 +107,7 @@ Lo scopo è aggiornare `data/content.json` e `data/catalog.json` (MW4) solo quan
    - Leggi due volte classifica e build cambiate: devono coincidere. Se un'arma in classifica non è in `catalog`,
      non pubblicare il file MW4 e spiegalo nel resoconto. Le armi senza build valida (solo Apex, meno di 5 accessori,
      nomi mancanti, letture diverse) si saltano senza bloccare le altre.
-   - Se classifica, tier e build sono identiche a quelle presenti, non toccare il file (nemmeno le date).
+   - Se classifica, tier, build e varianti sono identiche a quelle presenti, non toccare il file (nemmeno le date).
    - Se un'arma cambia tier (es. da A a META) la classifica è cambiata: aggiorna `tier`, `order` e `rank`.
    - Se cambia qualcosa: aggiorna `buildCheckedAt` (AAAA-MM-GG), aumenta `release` di 1 e valida con
      `git show HEAD:data/catalog.json > /tmp/rif_cat.json && python3 scripts/check_catalog.py data/catalog.json /tmp/rif_cat.json`.

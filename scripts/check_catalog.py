@@ -5,7 +5,8 @@ Uso:
     python3 scripts/check_catalog.py NUOVO.json RIFERIMENTO.json
 
 Replica le regole di app/catalog-sync.tsx (Zod) e di validateCatalog in
-public/monitor/sync-mw4.php (v41). Se cambiano lì, va aggiornato anche questo file.
+public/monitor/sync-mw4.php (v41; v52: varianti `alternatives`). Se cambiano lì,
+va aggiornato anche questo file.
 In più richiede che release sia esattamente quella del riferimento + 1.
 """
 import datetime
@@ -49,6 +50,46 @@ def fields(obj, required, optional=(), where=""):
     if extra:
         err(f"{where}: campi non previsti {sorted(extra)}")
     return not missing and not extra
+
+
+MAX_ALTERNATIVES = 5
+
+
+def check_attachments(where, att):
+    """Esattamente cinque accessori [slot, NOME, livello o null] con slot diversi."""
+    if not isinstance(att, list) or len(att) != 5:
+        err(f"{where}: servono esattamente cinque accessori")
+        return
+    slots = []
+    for a in att:
+        if not (isinstance(a, list) and len(a) == 3 and txt(a[0]) and txt(a[1]) and (a[2] is None or level(a[2]))):
+            err(f"{where}: accessorio non valido {a}")
+        else:
+            slots.append(a[0])
+    if len(set(slots)) != 5:
+        err(f"{where}: slot accessori duplicati")
+
+
+def check_alternatives(name, b):
+    """v52: varianti Multiplayer non Apex della stessa arma (es. «Mobility», «Low Recoil»)."""
+    if "alternatives" not in b:
+        return
+    alts = b["alternatives"]
+    if not isinstance(alts, list) or len(alts) > MAX_ALTERNATIVES:
+        err(f"{name}: alternatives deve essere un elenco di al massimo {MAX_ALTERNATIVES} varianti")
+        return
+    labels = [str(b.get("buildType", "")).strip().lower()]
+    for i, v in enumerate(alts):
+        where = f"{name}, variante {i + 1}"
+        if not fields(v, ["buildType", "attachments"], where=where):
+            continue
+        if not txt(v["buildType"], 60):
+            err(f"{where}: buildType non valido")
+        label = str(v["buildType"]).strip().lower()
+        if label in labels:
+            err(f"{where}: buildType ripetuto ({v['buildType']})")
+        labels.append(label)
+        check_attachments(where, v["attachments"])
 
 
 def main():
@@ -111,8 +152,9 @@ def main():
     for name, b in builds.items():
         if name not in order or name not in names:
             err(f"build senza corrispondenza in ordine/catalogo: {name}")
-        if not fields(b, ["rank", "category", "slug", "attachments"], ["tier", "buildType"], where=f"build {name}"):
+        if not fields(b, ["rank", "category", "slug", "attachments"], ["tier", "buildType", "alternatives"], where=f"build {name}"):
             continue
+        check_alternatives(name, b)
         if "tier" in b and b["tier"] not in ("META", "A", "B", "C", "D"):
             err(f"{name}: tier non valido (META, A, B, C, D)")
         if "buildType" in b and not txt(b["buildType"], 60):
@@ -121,18 +163,7 @@ def main():
                 and re.fullmatch(r"[a-z0-9-]{1,80}", b["slug"])):
             err(f"metadati non validi nella build {name}")
         ranks.append(b["rank"])
-        att = b["attachments"]
-        if not isinstance(att, list) or len(att) != 5:
-            err(f"{name}: servono esattamente cinque accessori")
-            continue
-        slots = []
-        for a in att:
-            if not (isinstance(a, list) and len(a) == 3 and txt(a[0]) and txt(a[1]) and (a[2] is None or level(a[2]))):
-                err(f"{name}: accessorio non valido {a}")
-            else:
-                slots.append(a[0])
-        if len(set(slots)) != 5:
-            err(f"{name}: slot accessori duplicati")
+        check_attachments(name, b["attachments"])
     # rank è la posizione dentro la categoria (es. #1 fucili d'assalto e #1 mitragliette):
     # i duplicati tra categorie diverse sono normali.
     return report(d)
@@ -145,7 +176,8 @@ def report(d=None):
             print(" -", e)
         return 1
     m = d["mw4"]
-    print(f"VALIDO: release {d['release']}, {len(m['catalog'])} armi, {len(m['builds'])} build, ordine: {', '.join(m['order'])}")
+    variants = sum(len(b.get("alternatives", [])) for b in m["builds"].values())
+    print(f"VALIDO: release {d['release']}, {len(m['catalog'])} armi, {len(m['builds'])} build, {variants} varianti, ordine: {', '.join(m['order'])}")
     return 0
 
 
