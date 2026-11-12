@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": 26,
+  "release": 27,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "12 NOV · WARZONE",
+      "text": "Meta Warzone WZStats del 12 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta. Nuova build Battle Royale «Lunga distanza» dell’Oden (19°): ottica SZ Lonewolf olografico, volata TV Multical-77, canna Rockfall-900, caricatore da 30 colpi e munizioni 12,7 x 55 mm alta velocità. Classifica e build indipendenti, non ufficiali Activision.",
+      "url": "https://wzstats.gg/it"
+    },
+    {
+      "tag": "11 NOV · MW4 PATCH",
+      "text": "Aggiornamento MW4 dell’11 novembre: hitscan di tutte le armi balistiche aumentato di 3,91 volte (circa 35 m in media, +288% rispetto al lancio) e colpi a lunga distanza 34 ms più rapidi, in tutte le modalità; corretti danni eccessivi dell’Astaroth .57 ai veicoli delle serie di uccisioni.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+    },
     {
       "tag": "11 NOV · BUILD WARZONE",
       "text": "Build Warzone ricontrollate l’11 novembre sera: nuove build Battle Royale di Han 86 (ottica Locus PX3 alternabile), VEL 46 (volata TA Lightning R3M e laser XRK Clutch-LS al posto di compensatore e canna) e Kastov 762 (ottica Locus PX3 e canna Haebang MT-414 mm). Ogni build ora indica il suo ruolo e il Cronen Osprey ha anche la variante «Supporto cecchino». Build indipendenti, non ufficiali Activision.",
@@ -94,22 +104,21 @@
       "tag": "06 NOV · WARZONE PATCH",
       "text": "Note Warzone Stagione 1: armi MW4 integrate, armi da MWII a BO7 nella scheda Legacy con build predefinite, torna lo Scatto tattico, slot vantaggio Élite, partite più brevi di circa 5,5 minuti.",
       "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
-    },
-    {
-      "tag": "06 NOV · MW4",
-      "text": "Meta MW4 WZStats del 6 novembre: classifica e 21 build Multiplayer invariate dopo la patch della Stagione 1. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it/mw4/meta"
-    },
-    {
-      "tag": "06 NOV · WARZONE",
-      "text": "Il meta Warzone di WZStats è ancora quello della Stagione 06 (BO7, 5 novembre): classifica e build restano in archivio finché non arriva quello della Stagione 1. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it"
     }
   ],
   "news": {
     "title": "PATCH & NEWS · CONTROLLO 6 NOVEMBRE 2026",
     "subtitle": "Stagione 1 di MW4 e Warzone disponibile dal 6 novembre · note ufficiali MW4 e Warzone del 5 novembre",
     "items": [
+      {
+        "label": "11 NOV · MODERN WARFARE 4",
+        "title": "Patch dell’11 novembre: hitscan quasi quadruplicato per tutte le armi",
+        "body": "Note ufficiali Infinity Ward dell’11 novembre. Armi (globale, tutte le modalità): l’hitscan di tutte le armi a proiettile balistico aumenta di 3,91 volte a ogni distanza; la distanza effettiva di hitscan sale in media a circa 35 metri (+288% rispetto al lancio), per scontri ravvicinati più reattivi. Una nuova simulazione dei proiettili a lunga distanza riduce di 34 millisecondi il tempo di arrivo dei colpi, soprattutto negli scontri a media e lunga distanza con i fucili d’assalto. Multiplayer: più XP a fine partita in Infected e Ground War; corretti il Prestigio che poteva togliere accessori munizioni dai progetti, i danni eccessivi dell’Astaroth .57 ai veicoli delle serie di uccisioni, i Tripwire sulle porte dei garage e una finestra di Backstab che bloccava le granate. DMZ: Taglia un po’ più rapida in solo e duo, Bombing Run disattivato in X01, corretti il ritiro delle ricompense del Battle Pass e alcuni elementi dell’interfaccia. Le note Warzone non riportano questa modifica.",
+        "link": {
+          "label": "NOTE UFFICIALI MW4 ↗",
+          "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+        }
+      },
       {
         "label": "06 NOV · STAGIONE 1",
         "title": "Stagione 1 di MW4 e Warzone: orari, Battle Pass e download",
@@ -248,11 +257,6 @@
         "label": "30 SET · WARZONE · GAMEPLAY",
         "title": "Gas più pericoloso e niente elicotteri nel finale",
         "body": "Il danno del gas aumenta con la permanenza: ×2 dopo 35 secondi, ×4 dopo 50, ×6 dopo 65 e ×10 dopo 80. Gli elicotteri vengono disattivati nell’ultimo cerchio. Kit di auto-rianimazione, stim e stazioni di decontaminazione lasciati in profondità nel gas vengono rimossi a ogni chiusura del cerchio."
-      },
-      {
-        "label": "30 SET · BO7",
-        "title": "VMP Ranked e correzioni Zombies",
-        "body": "In Ranked sono consentiti altri quattro accessori VMP: Quorum Velocity Barrel, Civet Barrel, Gambol Light Barrel e Venerate Rubberized Grip. Per Roc 20mm in Zombies sono stati corretti le munizioni dopo Pack-a-Punch e i requisiti della mimetica Mutilate; la patch non indica il nuovo numero richiesto."
       }
     ],
     "links": [
@@ -275,13 +279,13 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS STAGIONE 1 · 11 NOV 2026",
-    "checked": "11 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS STAGIONE 1 · 12 NOV 2026",
+    "checked": "12 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 11 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 19; mancano Hyeon Burst (solo build Apex), Cronen Squall (dati incompleti), Oden e FiNN LMG (nessuna build Warzone), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
-    "currentBuildDate": "11 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 11 NOVEMBRE",
-    "ratingLabel": "Valutazione WZStats · 11 novembre 2026",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 12 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 20; mancano Hyeon Burst (solo build Apex), Cronen Squall (dati incompleti) e FiNN LMG (nessuna build Warzone), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
+    "currentBuildDate": "12 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 12 NOVEMBRE",
+    "ratingLabel": "Valutazione WZStats · 12 novembre 2026",
     "pendingReview": [],
     "pendingLabel": "Valutazione in sospeso dopo il nerf del 30 settembre",
     "metaOrder": [
@@ -991,6 +995,45 @@
             "slot": "CALCIO",
             "name": "Calcio EXP ARC-7",
             "unlock": "Livello 47"
+          }
+        ]
+      },
+      {
+        "name": "ODEN",
+        "rank": 19,
+        "tier": "A",
+        "category": "FUCILE D'ASSALTO",
+        "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
+        "origin": "MW4",
+        "maxLevel": "65",
+        "updated": "06 NOV 2026",
+        "note": "Build Warzone Battle Royale «Lunga distanza» consigliata da WZStats (creata il 6 novembre 2026, pubblicata sul sito il 12 novembre). Livelli arma come indicati dalla fonte.",
+        "attachments": [
+          {
+            "slot": "OTTICA",
+            "name": "SZ Lonewolf olografico",
+            "unlock": "Livello 15"
+          },
+          {
+            "slot": "VOLATA",
+            "name": "TV Multical-77",
+            "unlock": "Livello 4"
+          },
+          {
+            "slot": "CANNA",
+            "name": "Canna Rockfall-900",
+            "unlock": "Livello 5"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Caricatore da 30 colpi",
+            "unlock": "Livello 10"
+          },
+          {
+            "slot": "MUNIZIONI",
+            "name": "12,7 x 55 mm alta velocità",
+            "unlock": "Livello 61"
           }
         ]
       },
