@@ -1,10 +1,25 @@
 {
   "schemaVersion": 1,
-  "release": 27,
+  "release": 28,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "13 NOV · WARZONE",
+      "text": "Meta Warzone WZStats del 13 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta. Nuova build Battle Royale «Lunga distanza» della FiNN LMG (20ª): ottica SZ Helios olografico, volata FSS IS300, canna TA Sustain-99 20\", impugnatura Schlager KM60-G e munizioni 5,56 NATO alta velocità. Classifica e build indipendenti, non ufficiali Activision.",
+      "url": "https://wzstats.gg/it"
+    },
+    {
+      "tag": "12 NOV · MW4 PATCH",
+      "text": "Aggiornamento MW4 del 12 novembre: ripristinato il riflesso da cecchino dell’ottica Schlager Indigo-RF, Mani veloci ora accelera anche alcune animazioni dell’equipaggiamento tattico, correzioni alle Wager Match e al Battle Pass; in DMZ corretti l’assicurazione di Operatore e armi in X01 e alcune sfide mimetica BlackCell che non avanzavano. Nessuna modifica di bilanciamento.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+    },
+    {
+      "tag": "11 NOV · WARZONE PATCH",
+      "text": "Aggiornamento Warzone dell’11 novembre: anche in Warzone l’hitscan di tutte le armi balistiche aumenta di 3,91 volte (circa 35 m in media, +288% rispetto al lancio) e i colpi a lunga distanza arrivano 34 ms prima; Special Delivery Drone più frequente in Rally Point, mimetiche preordine utilizzabili in Warzone, il Prestigio non blocca più gli accessori munizioni dei progetti.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
+    },
     {
       "tag": "12 NOV · WARZONE",
       "text": "Meta Warzone WZStats del 12 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta. Nuova build Battle Royale «Lunga distanza» dell’Oden (19°): ottica SZ Lonewolf olografico, volata TV Multical-77, canna Rockfall-900, caricatore da 30 colpi e munizioni 12,7 x 55 mm alta velocità. Classifica e build indipendenti, non ufficiali Activision.",
@@ -89,21 +104,6 @@
       "tag": "06 NOV · SFIDE",
       "text": "Stagione 1 di MW4 e Warzone senza sfide settimanali: al loro posto eventi (Return to Warzone, Wager Match in arrivo), sfide giornaliere e dei biglietti da visita.",
       "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
-    },
-    {
-      "tag": "06 NOV · STAGIONE 1",
-      "text": "Stagione 1 di MW4 e Warzone disponibile dalle 6:00 italiane: Warzone integra MW4, nuove mappe Hajin (Battle Royale) e Zodiac (Resurgence), Cronen Osprey e CSG-35 gratis nel Battle Pass.",
-      "url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1"
-    },
-    {
-      "tag": "06 NOV · MW4 PATCH",
-      "text": "Note della Stagione 1: potenziati Axion, M4, Kastov 762, Patriot XMR, ISO Nightshade, Wz.55 Striga, Mosin-Nagant e Oris 8.6; ridotti APOC-338 e l’Apex Hyperburst. Nuove mappe Backstab, Canyon e Shoot House.",
-      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
-    },
-    {
-      "tag": "06 NOV · WARZONE PATCH",
-      "text": "Note Warzone Stagione 1: armi MW4 integrate, armi da MWII a BO7 nella scheda Legacy con build predefinite, torna lo Scatto tattico, slot vantaggio Élite, partite più brevi di circa 5,5 minuti.",
-      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
     }
   ],
   "news": {
@@ -113,7 +113,7 @@
       {
         "label": "11 NOV · MODERN WARFARE 4",
         "title": "Patch dell’11 novembre: hitscan quasi quadruplicato per tutte le armi",
-        "body": "Note ufficiali Infinity Ward dell’11 novembre. Armi (globale, tutte le modalità): l’hitscan di tutte le armi a proiettile balistico aumenta di 3,91 volte a ogni distanza; la distanza effettiva di hitscan sale in media a circa 35 metri (+288% rispetto al lancio), per scontri ravvicinati più reattivi. Una nuova simulazione dei proiettili a lunga distanza riduce di 34 millisecondi il tempo di arrivo dei colpi, soprattutto negli scontri a media e lunga distanza con i fucili d’assalto. Multiplayer: più XP a fine partita in Infected e Ground War; corretti il Prestigio che poteva togliere accessori munizioni dai progetti, i danni eccessivi dell’Astaroth .57 ai veicoli delle serie di uccisioni, i Tripwire sulle porte dei garage e una finestra di Backstab che bloccava le granate. DMZ: Taglia un po’ più rapida in solo e duo, Bombing Run disattivato in X01, corretti il ritiro delle ricompense del Battle Pass e alcuni elementi dell’interfaccia. Le note Warzone non riportano questa modifica.",
+        "body": "Note ufficiali Infinity Ward dell’11 novembre. Armi (globale, tutte le modalità): l’hitscan di tutte le armi a proiettile balistico aumenta di 3,91 volte a ogni distanza; la distanza effettiva di hitscan sale in media a circa 35 metri (+288% rispetto al lancio), per scontri ravvicinati più reattivi. Una nuova simulazione dei proiettili a lunga distanza riduce di 34 millisecondi il tempo di arrivo dei colpi, soprattutto negli scontri a media e lunga distanza con i fucili d’assalto. Multiplayer: più XP a fine partita in Infected e Ground War; corretti il Prestigio che poteva togliere accessori munizioni dai progetti, i danni eccessivi dell’Astaroth .57 ai veicoli delle serie di uccisioni, i Tripwire sulle porte dei garage e una finestra di Backstab che bloccava le granate. DMZ: Taglia un po’ più rapida in solo e duo, Bombing Run disattivato in X01, corretti il ritiro delle ricompense del Battle Pass e alcuni elementi dell’interfaccia. Le note Warzone dell’11 novembre confermano che la modifica vale anche in Warzone.",
         "link": {
           "label": "NOTE UFFICIALI MW4 ↗",
           "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
@@ -279,13 +279,13 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS STAGIONE 1 · 12 NOV 2026",
-    "checked": "12 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS STAGIONE 1 · 13 NOV 2026",
+    "checked": "13 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 12 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 20; mancano Hyeon Burst (solo build Apex), Cronen Squall (dati incompleti) e FiNN LMG (nessuna build Warzone), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
-    "currentBuildDate": "12 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 12 NOVEMBRE",
-    "ratingLabel": "Valutazione WZStats · 12 novembre 2026",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 13 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
+    "currentBuildDate": "13 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 13 NOVEMBRE",
+    "ratingLabel": "Valutazione WZStats · 13 novembre 2026",
     "pendingReview": [],
     "pendingLabel": "Valutazione in sospeso dopo il nerf del 30 settembre",
     "metaOrder": [
@@ -1034,6 +1034,45 @@
             "slot": "MUNIZIONI",
             "name": "12,7 x 55 mm alta velocità",
             "unlock": "Livello 61"
+          }
+        ]
+      },
+      {
+        "name": "FINN LMG",
+        "rank": 20,
+        "tier": "A",
+        "category": "MITRAGLIATRICE LEGGERA",
+        "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
+        "origin": "MW4",
+        "maxLevel": "59",
+        "updated": "06 NOV 2026",
+        "note": "Build Warzone Battle Royale «Lunga distanza» consigliata da WZStats (creata il 6 novembre 2026, pubblicata sul sito il 13 novembre). Livelli arma come indicati dalla fonte.",
+        "attachments": [
+          {
+            "slot": "OTTICA",
+            "name": "SZ Helios olografico",
+            "unlock": "Livello 43"
+          },
+          {
+            "slot": "VOLATA",
+            "name": "FSS IS300",
+            "unlock": "Livello 35"
+          },
+          {
+            "slot": "CANNA",
+            "name": "TA Sustain-99 20\"",
+            "unlock": "Livello 33"
+          },
+          {
+            "slot": "IMPUGNATURA",
+            "name": "Schlager KM60-G",
+            "unlock": "Livello 25"
+          },
+          {
+            "slot": "MUNIZIONI",
+            "name": "5,56 NATO alta velocità",
+            "unlock": "Livello 42"
           }
         ]
       },
