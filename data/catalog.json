@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 16,
+  "release": 17,
   "mw4": {
-    "buildCheckedAt": "2026-11-11",
+    "buildCheckedAt": "2026-11-14",
     "catalogCheckedAt": "2026-11-07",
     "catalog": [
       {
@@ -271,13 +271,8 @@
         "attachments": [
           [
             "Volata",
-            "XRK MIL-TAC SUPPRESSOR",
-            34
-          ],
-          [
-            "Canna",
-            "IO-556 TAC 18\"",
-            54
+            "FSS IS300",
+            21
           ],
           [
             "Sottocanna",
@@ -285,9 +280,14 @@
             6
           ],
           [
+            "Impugnatura posteriore",
+            "A56 STOUT",
+            46
+          ],
+          [
             "Calcio",
-            "XR-9 TAC V2",
-            69
+            "FT STALWART MK2",
+            50
           ],
           [
             "Laser",
@@ -304,24 +304,24 @@
         "buildType": "Versatile",
         "attachments": [
           [
-            "Volata",
-            "FSS IS300",
-            28
-          ],
-          [
             "Canna",
-            "SA DMN-L 30\"",
-            6
+            "MATUZEK S5-BRACE",
+            29
           ],
           [
             "Sottocanna",
-            "FSS FIRELINE GRIP",
-            7
+            "FSS TAC90 GRIP",
+            31
           ],
           [
             "Impugnatura posteriore",
-            "GS50 GRIP",
-            55
+            "MATUZEK LOCKGRIP",
+            23
+          ],
+          [
+            "Calcio",
+            "TA HARROW STOCK",
+            2
           ],
           [
             "Laser",

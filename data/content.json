@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": 28,
+  "release": 29,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "14 NOV · MW4",
+      "text": "Meta MW4 Multigiocatore WZStats del 14 novembre: classifica e tier invariati, con Cronen Osprey e Axion in testa. Dopo la patch del 13 novembre cambiano le build «Versatile» di Cronen Osprey (FSS IS300, FSS Tac90 Grip, A56 Stout, FT Stalwart MK2, SA Laz-500) e Axion (canna Matuzek S5-Brace, FSS Tac90 Grip, Matuzek Lockgrip, calcio TA Harrow, Schlager Visiv-5). Build indipendenti, non ufficiali Activision.",
+      "url": "https://wzstats.gg/it/mw4/meta"
+    },
+    {
+      "tag": "13 NOV · MW4 PATCH",
+      "text": "Aggiornamento MW4 del 13 novembre, solo Multigiocatore: meno flinch per fucili d’assalto, mitragliette, mitragliatrici leggere e pistole e portata maggiore per quasi tutti i fucili d’assalto e le mitragliette (M4 +26%, Wz.55 Striga +22%, PPSh-41 +24%); Mosin-Nagant con portata del danno massimo ridotta del 63%; mira assistita disattivata attraverso il fumo. Le note Warzone non riportano queste modifiche.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+    },
     {
       "tag": "13 NOV · WARZONE",
       "text": "Meta Warzone WZStats del 13 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta. Nuova build Battle Royale «Lunga distanza» della FiNN LMG (20ª): ottica SZ Helios olografico, volata FSS IS300, canna TA Sustain-99 20\", impugnatura Schlager KM60-G e munizioni 5,56 NATO alta velocità. Classifica e build indipendenti, non ufficiali Activision.",
@@ -94,22 +104,21 @@
       "tag": "07 NOV · WARZONE",
       "text": "Primo meta Warzone della Stagione 1 su WZStats: in testa Cronen Osprey, ISO Nightshade, Han 86, VEL 46 e Mosin-Nagant; le armi BO7 scendono in fascia B. Classifica indipendente, non ufficiale Activision.",
       "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "06 NOV · MW4",
-      "text": "Meta MW4 WZStats del 6 novembre: aggiunta la build Multiplayer della pistola .50 GS (Short Range, tier C), ora 22 build. Le altre 21 sono invariate. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it/mw4/meta"
-    },
-    {
-      "tag": "06 NOV · SFIDE",
-      "text": "Stagione 1 di MW4 e Warzone senza sfide settimanali: al loro posto eventi (Return to Warzone, Wager Match in arrivo), sfide giornaliere e dei biglietti da visita.",
-      "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
     }
   ],
   "news": {
     "title": "PATCH & NEWS · CONTROLLO 6 NOVEMBRE 2026",
     "subtitle": "Stagione 1 di MW4 e Warzone disponibile dal 6 novembre · note ufficiali MW4 e Warzone del 5 novembre",
     "items": [
+      {
+        "label": "13 NOV · MODERN WARFARE 4",
+        "title": "Patch del 13 novembre: meno flinch e più portata per fucili d’assalto e mitragliette",
+        "body": "Note ufficiali Infinity Ward del 13 novembre, sezione Multigiocatore (le note Warzone non riportano queste modifiche). Categorie: flinch subito −25,4% per i fucili d’assalto, −15,6% per le mitragliette, −19,3% per le mitragliatrici leggere, −17,8% per le pistole; ora anche i lanciarazzi subiscono flinch; le munizioni speciali causano +30,8% di flinch. Fucili d’assalto: portata del danno massimo dell’M4 da 27,94 a 35,31 m (+26%); Axion con velocità del proiettile 500 m/s; più portata per Hyeon Burst, Cronen Squall, Oden, Patriot XMR (danno minimo 22→24), HAN 86 e Kastov 762. Mitragliette: ISO Nightshade (danno minimo 14→16), PPSh-41 (+24% portata massima), Wz.55 Striga (+22% massima, +34% media), CSG-35 e X-58 Nyx migliorate. Fucili tattici: Mosin-Nagant con danno massimo 93→95 ma portata del danno massimo da 40,13 a 14,99 m (−63%); MAR-9 migliorato, Oris 8.6 con più flinch subito. Anche Rezi 12, Warlord, FiNN LMG, .50 GS, Krait P68, Sang 9mm e Mojave .357 ricevono miglioramenti. Gameplay: mira assistita disattivata quando si spara attraverso il fumo di granate e Smoke Wall; probabilità maggiore di trofei nelle Wager Match. Interfaccia: le mimetiche Speciali di Cronen Osprey e CSG-35 sono nella scheda Mimetiche condivise. DMZ: Resupply Run disponibile e varie correzioni in X01.",
+        "link": {
+          "label": "NOTE UFFICIALI MW4 ↗",
+          "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+        }
+      },
       {
         "label": "11 NOV · MODERN WARFARE 4",
         "title": "Patch dell’11 novembre: hitscan quasi quadruplicato per tutte le armi",
@@ -252,11 +261,6 @@
         "label": "30 SET · WARZONE · ARMI",
         "title": "TR51 Para: cadenza quasi dimezzata",
         "body": "La cadenza passa da 625 a 333 colpi/minuto. La precedente build resta consultabile, ma efficacia e posizione meta richiedono nuove prove dopo il nerf: la TR51 Para è stata spostata in fondo alla lista provvisoria."
-      },
-      {
-        "label": "30 SET · WARZONE · GAMEPLAY",
-        "title": "Gas più pericoloso e niente elicotteri nel finale",
-        "body": "Il danno del gas aumenta con la permanenza: ×2 dopo 35 secondi, ×4 dopo 50, ×6 dopo 65 e ×10 dopo 80. Gli elicotteri vengono disattivati nell’ultimo cerchio. Kit di auto-rianimazione, stim e stazioni di decontaminazione lasciati in profondità nel gas vengono rimossi a ogni chiusura del cerchio."
       }
     ],
     "links": [
