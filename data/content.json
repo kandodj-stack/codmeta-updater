@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": 29,
+  "release": 30,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "15 NOV · WARZONE",
+      "text": "Meta Warzone WZStats del 15 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta (Cronen Osprey, Iso Nightshade, Han 86, VEL 46, Mosin-Nagant). Le 21 build Battle Royale pubblicate sono invariate; mancano ancora Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti). Classifica e build indipendenti, non ufficiali Activision.",
+      "url": "https://wzstats.gg/it"
+    },
+    {
+      "tag": "12 NOV · WARZONE PATCH",
+      "text": "Aggiornamento Warzone del 12 novembre: mira assistita disattivata quando si spara attraverso il fumo di granate fumogene e Smoke Wall; corretti il gettone Prestigio del percorso classico, i progressi delle sfide POI di Zodiac, il riflesso da cecchino dell’ottica Schlager Indigo-RF e il Battle Pass «In corso» al livello massimo. Nessuna modifica di bilanciamento armi.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
+    },
     {
       "tag": "14 NOV · MW4",
       "text": "Meta MW4 Multigiocatore WZStats del 14 novembre: classifica e tier invariati, con Cronen Osprey e Axion in testa. Dopo la patch del 13 novembre cambiano le build «Versatile» di Cronen Osprey (FSS IS300, FSS Tac90 Grip, A56 Stout, FT Stalwart MK2, SA Laz-500) e Axion (canna Matuzek S5-Brace, FSS Tac90 Grip, Matuzek Lockgrip, calcio TA Harrow, Schlager Visiv-5). Build indipendenti, non ufficiali Activision.",
@@ -93,16 +103,6 @@
     {
       "tag": "07 NOV · WARZONE",
       "text": "Build Warzone Battle Royale della Stagione 1: aggiunte 15 build MW4 da WZStats (tra cui ISO Nightshade, Han 86, Mosin-Nagant, Kastov 762, M4, Axion e CSG-35), ora 17 su 23 armi in classifica. Build indipendenti, non ufficiali Activision.",
-      "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "07 NOV · MW4",
-      "text": "Meta MW4 WZStats del 7 novembre: Cronen Osprey entra nel META, VEL 46 scende in fascia A; nuove build Multiplayer di CSG-35 e Oris 8.6, ora 25 build. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it/mw4/meta"
-    },
-    {
-      "tag": "07 NOV · WARZONE",
-      "text": "Primo meta Warzone della Stagione 1 su WZStats: in testa Cronen Osprey, ISO Nightshade, Han 86, VEL 46 e Mosin-Nagant; le armi BO7 scendono in fascia B. Classifica indipendente, non ufficiale Activision.",
       "url": "https://wzstats.gg/it"
     }
   ],
@@ -283,13 +283,13 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS STAGIONE 1 · 13 NOV 2026",
-    "checked": "13 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS STAGIONE 1 · 15 NOV 2026",
+    "checked": "15 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 13 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
-    "currentBuildDate": "13 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 13 NOVEMBRE",
-    "ratingLabel": "Valutazione WZStats · 13 novembre 2026",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 15 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
+    "currentBuildDate": "15 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 15 NOVEMBRE",
+    "ratingLabel": "Valutazione WZStats · 15 novembre 2026",
     "pendingReview": [],
     "pendingLabel": "Valutazione in sospeso dopo il nerf del 30 settembre",
     "metaOrder": [
