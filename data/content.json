@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": 31,
+  "release": 32,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "16 NOV · MW4 PATCH",
+      "text": "Aggiornamento MW4 del 16 novembre: danno da impatto della Drill Charge dalla distanza ridotto del 75% (invariato a corta distanza), tablet di puntamento Crossfire allineato al bombardamento in arrivo, fine corretta dell’evento Joint Fire (24 ore ogni venerdì della Stagione 1); in DMZ ricompense in denaro delle piastrine Tenente a tutta la squadra e zoom della minimappa di UAV Upgrade Pro da 3x a 1,5x. Nessuna modifica di bilanciamento armi; Infinity Ward indaga sul reset delle classi.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+    },
+    {
+      "tag": "16 NOV · WARZONE PATCH",
+      "text": "Aggiornamento Warzone del 16 novembre, solo correzioni: serie di vittorie in Grinding for Royalty, cerchi finali sull’acqua a Hajin, notifiche delle ricompense a metà partita, Ground Ops Safe Crack su Zodiac e segni di completamento delle sfide. Nessuna modifica di bilanciamento armi.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
+    },
     {
       "tag": "16 NOV · WARZONE",
       "text": "Meta Warzone WZStats del 16 novembre: la Wz.55 Striga sale dal 9° al 4° posto ed entra nel tier Meta (Cronen Osprey, Iso Nightshade, Han 86, Wz.55 Striga, Mosin-Nagant); la VEL 46 scende dal 4° al 7° posto in fascia A, la CSG-35 dal 7° al 9°. Le 21 build Battle Royale pubblicate sono invariate; mancano ancora Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti). Classifica e build indipendenti, non ufficiali Activision.",
@@ -93,16 +103,6 @@
     {
       "tag": "07 NOV · MW4 PATCH",
       "text": "Aggiornamento MW4 del 7 novembre: corretti la progressione del Battle Pass con i Token, il punteggio bloccato in Hardcore e vari problemi DMZ. Problema noto: le sfide Platino di Cronen Osprey e CSG-35 non avanzano. Nessuna modifica alle armi.",
-      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
-    },
-    {
-      "tag": "08 NOV · WARZONE",
-      "text": "Meta Warzone WZStats dell’8 novembre: stesse cinque armi nel tier Meta; in fascia A salgono CSG-35 e X-58 Nyx, scendono PPSh-41 e KG-7 Vulcan. Nuova build Battle Royale del Patriot XMR, ora 18 su 23. Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "06 NOV · MW4 PATCH",
-      "text": "Aggiornamento MW4 del 6 novembre: nuova playlist Shransit (Shipment, Shoot House, Transit 213), Hardcore in Partita rapida, corrette le classi dopo il Prestigio; in DMZ Imbottitura termica e Inalatore sedativo nascondono dagli UAV potenziati.",
       "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
     }
   ],
