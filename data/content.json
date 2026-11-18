@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 32,
+  "release": 33,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "18 NOV · WARZONE",
+      "text": "Meta Warzone WZStats del 18 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta (Cronen Osprey, Iso Nightshade, Han 86, Wz.55 Striga, Mosin-Nagant). Cambiano le posizioni per ruolo: il Mosin-Nagant passa tra le armi a lunga distanza (3°) e il KG-7 Vulcan diventa il 1° cecchino. Le 21 build Battle Royale pubblicate sono invariate; mancano ancora Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti). Classifica e build indipendenti, non ufficiali Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "16 NOV · MW4 PATCH",
       "text": "Aggiornamento MW4 del 16 novembre: danno da impatto della Drill Charge dalla distanza ridotto del 75% (invariato a corta distanza), tablet di puntamento Crossfire allineato al bombardamento in arrivo, fine corretta dell’evento Joint Fire (24 ore ogni venerdì della Stagione 1); in DMZ ricompense in denaro delle piastrine Tenente a tutta la squadra e zoom della minimappa di UAV Upgrade Pro da 3x a 1,5x. Nessuna modifica di bilanciamento armi; Infinity Ward indaga sul reset delle classi.",
@@ -99,11 +104,6 @@
       "tag": "07 NOV · WARZONE PATCH",
       "text": "Aggiornamento Warzone del 7 novembre: XP rivisti in tutte le modalità, passi dei compagni di squadra più bassi, correzioni a Grinding for Royalty, Loadout Drop e collisioni di Hajin. Nessuna modifica alle armi.",
       "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
-    },
-    {
-      "tag": "07 NOV · MW4 PATCH",
-      "text": "Aggiornamento MW4 del 7 novembre: corretti la progressione del Battle Pass con i Token, il punteggio bloccato in Hardcore e vari problemi DMZ. Problema noto: le sfide Platino di Cronen Osprey e CSG-35 non avanzano. Nessuna modifica alle armi.",
-      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
     }
   ],
   "news": {
@@ -283,12 +283,12 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS STAGIONE 1 · 16 NOV 2026",
-    "checked": "16 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS STAGIONE 1 · 18 NOV 2026",
+    "checked": "18 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 16 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
-    "currentBuildDate": "16 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 16 NOVEMBRE",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 18 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
+    "currentBuildDate": "18 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 18 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 15 novembre 2026",
     "pendingReview": [],
     "pendingLabel": "Valutazione in sospeso dopo il nerf del 30 settembre",
@@ -321,26 +321,26 @@
       "CRONEN OSPREY": 1,
       "ISO NIGHTSHADE": 1,
       "HAN 86": 2,
-      "VEL 46": 3,
-      "MOSIN-NAGANT": 1,
-      "KASTOV 762": 3,
       "WZ.55 STRIGA": 2,
-      "M4": 4,
-      "PPSH-41": 6,
-      "KG-7 VULCAN": 2,
-      "AXION": 5,
+      "MOSIN-NAGANT": 3,
+      "KASTOV 762": 4,
+      "VEL 46": 3,
+      "M4": 5,
       "CSG-35": 4,
       "X-58 NYX": 5,
-      "ASTAROTH .57": 3,
-      "HYEON BURST": 6,
-      "PATRIOT XMR": 7,
-      "CRONEN SQUALL": 8,
-      "APOC-338": 9,
-      "ODEN": 10,
-      "FINN LMG": 11,
+      "AXION": 6,
+      "PPSH-41": 6,
+      "KG-7 VULCAN": 1,
+      "ASTAROTH .57": 2,
+      "HYEON BURST": 7,
+      "PATRIOT XMR": 8,
+      "CRONEN SQUALL": 9,
+      "APOC-338": 10,
+      "ODEN": 11,
+      "FINN LMG": 12,
       "KRAIT P68": 7,
       "REZI 12": 8,
-      "SIGNAL 50": 4
+      "SIGNAL 50": 3
     },
     "builds": [
       {
