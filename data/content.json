@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 35,
+  "release": 36,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "21 NOV · WARZONE",
+      "text": "Meta Warzone WZStats del 21 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta (Cronen Osprey, Iso Nightshade, Han 86, Wz.55 Striga, Mosin-Nagant) e le stesse posizioni per ruolo. Le 21 build Battle Royale pubblicate, compresa la variante «Supporto cecchino» del Cronen Osprey, hanno gli stessi accessori; mancano ancora Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti). Classifica e build indipendenti, non ufficiali Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "19 NOV · MW4 PATCH",
       "text": "Aggiornamento MW4 del 19 novembre, Multigiocatore: più portata e letalità per le armi automatiche e nerf del Mosin-Nagant (danno massimo 95→91, danno minimo 60→68, portata del danno massimo da 14,99 a 43,18 m). Ritocchi a M4, Cronen Squall, Oden, Patriot XMR, Hyeon Burst, Kastov 762, CSG-35, ISO Nightshade, PPSh-41, X-58 Nyx, FiNN LMG, Type 73 e Rezi 12 (proiettile esplosivo). Nuovo evento War Chest in DMZ.",
@@ -99,11 +104,6 @@
       "tag": "10 NOV · WARZONE PATCH",
       "text": "Aggiornamento Warzone del 10 novembre: passaggio alla sensibilità da fianco anticipato dopo la mira, correzioni a crash, HUD e modifica delle classi con armi Legacy; ora avanzano le sfide Platino di Cronen Osprey e CSG-35. Nessuna modifica alle armi.",
       "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
-    },
-    {
-      "tag": "10 NOV · MW4 PATCH",
-      "text": "Aggiornamento MW4 del 10 novembre: transizione della sensibilità mira/fianco rivista, chat di partita in Tutti contro tutti e Gun Game, corretti il binario Trimmer del CSG-35 e il ritardo nel passare al Cronen Osprey; in DMZ soldi anche dopo un'esfiltrazione fallita e UAV disattivati in X01. Nessuna modifica di bilanciamento.",
-      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
     }
   ],
   "news": {
@@ -287,12 +287,12 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS STAGIONE 1 · 19 NOV 2026",
-    "checked": "19 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS STAGIONE 1 · 21 NOV 2026",
+    "checked": "21 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 19 novembre 2026 (valutazione indipendente, non ufficiale Activision): è il primo meta della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
-    "currentBuildDate": "19 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 19 NOVEMBRE",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 21 novembre 2026 (valutazione indipendente, non ufficiale Activision): classifica della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
+    "currentBuildDate": "21 NOV 2026",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 21 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 15 novembre 2026",
     "pendingReview": [],
     "pendingLabel": "Valutazione in sospeso dopo il nerf del 30 settembre",
