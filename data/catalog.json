@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 18,
+  "release": 19,
   "mw4": {
-    "buildCheckedAt": "2026-11-16",
+    "buildCheckedAt": "2026-11-24",
     "catalogCheckedAt": "2026-11-07",
     "catalog": [
       {
@@ -392,40 +392,6 @@
           }
         ]
       },
-      "HYEON BURST": {
-        "rank": 3,
-        "category": "Fucili d’assalto",
-        "slug": "hyeon-burst",
-        "tier": "META",
-        "buildType": "Burst",
-        "attachments": [
-          [
-            "Volata",
-            "ZLR REVERB90",
-            19
-          ],
-          [
-            "Canna",
-            "MUGI INGOEM 558.8MM",
-            46
-          ],
-          [
-            "Sottocanna",
-            "FSS TAC90 GRIP",
-            41
-          ],
-          [
-            "Impugnatura posteriore",
-            "HYN-MEIPEUL",
-            8
-          ],
-          [
-            "Laser",
-            "SA LAZ-500",
-            51
-          ]
-        ]
-      },
       "ISO NIGHTSHADE": {
         "rank": 1,
         "category": "Mitragliette",
@@ -553,7 +519,7 @@
         ]
       },
       "M4": {
-        "rank": 4,
+        "rank": 3,
         "category": "Fucili d’assalto",
         "slug": "m4",
         "tier": "META",
@@ -776,6 +742,40 @@
               ]
             ]
           }
+        ]
+      },
+      "HYEON BURST": {
+        "rank": 4,
+        "category": "Fucili d’assalto",
+        "slug": "hyeon-burst",
+        "tier": "A",
+        "buildType": "Burst",
+        "attachments": [
+          [
+            "Volata",
+            "ZLR REVERB90",
+            19
+          ],
+          [
+            "Canna",
+            "MUGI INGOEM 558.8MM",
+            46
+          ],
+          [
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            41
+          ],
+          [
+            "Impugnatura posteriore",
+            "HYN-MEIPEUL",
+            8
+          ],
+          [
+            "Laser",
+            "SA LAZ-500",
+            51
+          ]
         ]
       },
       "VEL 46": {
@@ -1464,79 +1464,11 @@
           ]
         ]
       },
-      "ASTAROTH .57": {
-        "rank": 2,
-        "category": "Fucili di precisione",
-        "slug": "astaroth-57",
-        "tier": "A",
-        "buildType": "Long Range",
-        "attachments": [
-          [
-            "Ottica",
-            "SCHLAGER 7X",
-            9
-          ],
-          [
-            "Volata",
-            "FSS MOODKILLER",
-            5
-          ],
-          [
-            "Canna",
-            "FTAC CROSSWIND 30",
-            4
-          ],
-          [
-            "Impugnatura posteriore",
-            "FJX S-TAC GRIP",
-            44
-          ],
-          [
-            "Calcio",
-            "USENKO V8-LKR",
-            3
-          ]
-        ]
-      },
-      "APOC-338": {
+      "FINN LMG": {
         "rank": 1,
         "category": "Mitragliatrici leggere",
-        "slug": "apoc-338",
-        "tier": "B",
-        "buildType": "Versatile",
-        "attachments": [
-          [
-            "Ottica",
-            "SZ MICRO D-3",
-            11
-          ],
-          [
-            "Volata",
-            "EXP 450 RTL",
-            19
-          ],
-          [
-            "Sottocanna",
-            "BRUEN RENEGADE GRIP",
-            8
-          ],
-          [
-            "Calcio",
-            "DEMO BAR-7 STOCK",
-            15
-          ],
-          [
-            "Laser",
-            "SZ GEN.6 PEQ",
-            10
-          ]
-        ]
-      },
-      "FINN LMG": {
-        "rank": 2,
-        "category": "Mitragliatrici leggere",
         "slug": "finn-lmg",
-        "tier": "B",
+        "tier": "A",
         "buildType": "Versatile",
         "attachments": [
           [
@@ -1596,6 +1528,74 @@
               ]
             ]
           }
+        ]
+      },
+      "ASTAROTH .57": {
+        "rank": 2,
+        "category": "Fucili di precisione",
+        "slug": "astaroth-57",
+        "tier": "A",
+        "buildType": "Long Range",
+        "attachments": [
+          [
+            "Ottica",
+            "SCHLAGER 7X",
+            9
+          ],
+          [
+            "Volata",
+            "FSS MOODKILLER",
+            5
+          ],
+          [
+            "Canna",
+            "FTAC CROSSWIND 30",
+            4
+          ],
+          [
+            "Impugnatura posteriore",
+            "FJX S-TAC GRIP",
+            44
+          ],
+          [
+            "Calcio",
+            "USENKO V8-LKR",
+            3
+          ]
+        ]
+      },
+      "APOC-338": {
+        "rank": 2,
+        "category": "Mitragliatrici leggere",
+        "slug": "apoc-338",
+        "tier": "B",
+        "buildType": "Versatile",
+        "attachments": [
+          [
+            "Ottica",
+            "SZ MICRO D-3",
+            11
+          ],
+          [
+            "Volata",
+            "EXP 450 RTL",
+            19
+          ],
+          [
+            "Sottocanna",
+            "BRUEN RENEGADE GRIP",
+            8
+          ],
+          [
+            "Calcio",
+            "DEMO BAR-7 STOCK",
+            15
+          ],
+          [
+            "Laser",
+            "SZ GEN.6 PEQ",
+            10
+          ]
         ]
       },
       "TYPE 73": {
@@ -1806,11 +1806,11 @@
     "order": [
       "CRONEN OSPREY",
       "AXION",
-      "HYEON BURST",
       "ISO NIGHTSHADE",
       "M4",
       "MOSIN-NAGANT",
       "KG-7 VULCAN",
+      "HYEON BURST",
       "VEL 46",
       "KASTOV 762",
       "PATRIOT XMR",
@@ -1821,9 +1821,9 @@
       "WZ.55 STRIGA",
       "HAN 86",
       "ORIS 8.6",
+      "FINN LMG",
       "ASTAROTH .57",
       "APOC-338",
-      "FINN LMG",
       "TYPE 73",
       "MAR-9",
       "CRONEN SQUALL",

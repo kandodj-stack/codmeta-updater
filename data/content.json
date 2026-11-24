@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "release": 36,
+  "release": 37,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "24 NOV · MW4",
+      "text": "Meta MW4 Multigiocatore WZStats del 24 novembre: nel tier Meta restano Cronen Osprey, Axion, ISO Nightshade, M4, Mosin-Nagant e KG-7 Vulcan; l’Hyeon Burst scende in fascia A e la FiNN LMG sale dalla B alla A. Build invariate. Classifica e build indipendenti, non ufficiali Activision.",
+      "url": "https://wzstats.gg/mw4/meta"
+    },
+    {
+      "tag": "23 NOV · MW4 PATCH",
+      "text": "Aggiornamento MW4 del 23 novembre: evento del Ringraziamento Duty Roster (classifica a punti con le uccisioni in tutte le modalità, progetto Astaroth .57 «Bird Call»), Ground War: Combat Outpost a 24 contro 24, ricompense raddoppiate in Wager Match: Gauntlet 1v1. In DMZ tempo per uccidere più lungo a corta distanza per quasi tutte le armi automatiche e buff al Signal 50. Nessuna modifica di bilanciamento in Multigiocatore.",
+      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+    },
     {
       "tag": "21 NOV · WARZONE",
       "text": "Meta Warzone WZStats del 21 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta (Cronen Osprey, Iso Nightshade, Han 86, Wz.55 Striga, Mosin-Nagant) e le stesse posizioni per ruolo. Le 21 build Battle Royale pubblicate, compresa la variante «Supporto cecchino» del Cronen Osprey, hanno gli stessi accessori; mancano ancora Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti). Classifica e build indipendenti, non ufficiali Activision.",
@@ -94,22 +104,21 @@
       "tag": "11 NOV · BUILD WARZONE",
       "text": "Build Warzone ricontrollate l’11 novembre sera: nuove build Battle Royale di Han 86 (ottica Locus PX3 alternabile), VEL 46 (volata TA Lightning R3M e laser XRK Clutch-LS al posto di compensatore e canna) e Kastov 762 (ottica Locus PX3 e canna Haebang MT-414 mm). Ogni build ora indica il suo ruolo e il Cronen Osprey ha anche la variante «Supporto cecchino». Build indipendenti, non ufficiali Activision.",
       "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "11 NOV · WARZONE",
-      "text": "Meta Warzone WZStats dell’11 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta; il Warlord entra in fascia A al 24° posto. Nuove build Battle Royale di M4 (ottica Locus PX3 e tamburo da 60 colpi) e Axion (canna Cronen DC-Forge 40 e impugnatura FSS TAC90). Classifica indipendente, non ufficiale Activision.",
-      "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "10 NOV · WARZONE PATCH",
-      "text": "Aggiornamento Warzone del 10 novembre: passaggio alla sensibilità da fianco anticipato dopo la mira, correzioni a crash, HUD e modifica delle classi con armi Legacy; ora avanzano le sfide Platino di Cronen Osprey e CSG-35. Nessuna modifica alle armi.",
-      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
     }
   ],
   "news": {
     "title": "PATCH & NEWS · CONTROLLO 6 NOVEMBRE 2026",
     "subtitle": "Stagione 1 di MW4 e Warzone disponibile dal 6 novembre · note ufficiali MW4 e Warzone del 5 novembre",
     "items": [
+      {
+        "label": "23 NOV · MODERN WARFARE 4",
+        "title": "Patch del 23 novembre: evento del Ringraziamento e armi più lente a uccidere in DMZ",
+        "body": "Note ufficiali Infinity Ward del 23 novembre. Evento «Thanksgiving Duty Roster»: punti per ogni uccisione (10 in Multigiocatore, 20 in Warzone, 2 in DMZ) e classifiche di 3 ore che ripartono ogni 4 ore; tra le ricompense il progetto Astaroth .57 «Bird Call». Multigiocatore: Ground War: Combat Outpost passa a 24 contro 24; in Wager Match: Gauntlet 1v1 ricompense raddoppiate (ogni vittoria consecutiva aggiunge 10 trofei alla puntata successiva); corretti la comparsa fuori mappa in Wager Match Gun Game e la classe vuota dopo il Prestigio classico. DMZ: danni ridotti per allungare il tempo per uccidere a corta distanza, con portate invariate, per fucili d’assalto (es. Cronen Osprey 31→28 danno massimo, Axion 40→36, M4 34→30), mitragliette (ISO Nightshade 34→30, Wz.55 Striga 45→39, VEL 46 32→28) e mitragliatrici leggere (APOC-338 46→40, FiNN LMG 39→34); Signal 50 più forte (danno medio 145→180, minimo 140→168, moltiplicatore testa 1,3→1,6). Correzioni a interfaccia, stabilità ed exploit DMZ. Nessuna modifica alle armi in Multigiocatore e Warzone.",
+        "link": {
+          "label": "NOTE UFFICIALI MW4 ↗",
+          "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
+        }
+      },
       {
         "label": "19 NOV · MODERN WARFARE 4",
         "title": "Patch del 19 novembre: nerf al Mosin-Nagant, più portata per le armi automatiche",
@@ -260,11 +269,6 @@
         "label": "7 OTT · WARZONE",
         "title": "C4 più lento e meno droni rifornimento",
         "body": "Il ritardo di detonazione del C4 passa da 0,05 a 0,2 secondi. Il limite di droni rifornimento simultanei scende da 13 a 11 in Battle Royale e da 8 a 7 in Resurgence. Aumenta leggermente la quota di casse riutilizzabili e diminuisce quella delle leggendarie. Corretti i danni degli elicotteri negli schianti e le espulsioni per inattività di giocatori attivi. Nessuna modifica ad armi, accessori o livelli di sblocco: questa patch non impone un riordino del meta."
-      },
-      {
-        "label": "7 OTT · BO7 ZOMBIES",
-        "title": "XM325: corretta l’arma sinistra con Titan Wield",
-        "body": "Risolto il problema che svuotava le munizioni dell’arma sinistra e la rendeva inutilizzabile usando XM325 con calcio Titan Wield, Mule Kick e Augment Pack Mule. Corretti anche il riutilizzo illimitato di Void Claw, la duplicazione di Web Mother, testi obiettivo tagliati a Kowakujō e la comparsa del portale Mangler Helmet Relic a Paradox Junction. Nessun nuovo buff o nerf annunciato."
       }
     ],
     "links": [
