@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 37,
+  "release": 38,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "25 NOV · WARZONE / MW4",
+      "text": "Build WZStats aggiornate il 25 novembre: la build Battle Royale dell’Axion ora usa il calcio TA Harrow al posto dell’impugnatura FSS TAC90; in Multigiocatore MW4 l’Axion resta «Versatile» ma WZStats ha tolto le varianti Mobility e Low Recoil. Classifiche Warzone (21 novembre) e MW4 (25 novembre) invariate. Classifiche e build indipendenti, non ufficiali Activision.",
+      "url": "https://wzstats.gg/it/best-loadouts/axion-mw4"
+    },
     {
       "tag": "24 NOV · MW4",
       "text": "Meta MW4 Multigiocatore WZStats del 24 novembre: nel tier Meta restano Cronen Osprey, Axion, ISO Nightshade, M4, Mosin-Nagant e KG-7 Vulcan; l’Hyeon Burst scende in fascia A e la FiNN LMG sale dalla B alla A. Build invariate. Classifica e build indipendenti, non ufficiali Activision.",
@@ -99,11 +104,6 @@
       "tag": "11 NOV · MW4 PATCH",
       "text": "Aggiornamento MW4 dell’11 novembre: hitscan di tutte le armi balistiche aumentato di 3,91 volte (circa 35 m in media, +288% rispetto al lancio) e colpi a lunga distanza 34 ms più rapidi, in tutte le modalità; corretti danni eccessivi dell’Astaroth .57 ai veicoli delle serie di uccisioni.",
       "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
-    },
-    {
-      "tag": "11 NOV · BUILD WARZONE",
-      "text": "Build Warzone ricontrollate l’11 novembre sera: nuove build Battle Royale di Han 86 (ottica Locus PX3 alternabile), VEL 46 (volata TA Lightning R3M e laser XRK Clutch-LS al posto di compensatore e canna) e Kastov 762 (ottica Locus PX3 e canna Haebang MT-414 mm). Ogni build ora indica il suo ruolo e il Cronen Osprey ha anche la variante «Supporto cecchino». Build indipendenti, non ufficiali Activision.",
-      "url": "https://wzstats.gg/it"
     }
   ],
   "news": {
@@ -292,7 +292,7 @@
   },
   "warzone": {
     "status": "META WZSTATS STAGIONE 1 · 21 NOV 2026",
-    "checked": "21 NOV 2026 · CLASSIFICA / BUILD",
+    "checked": "25 NOV 2026 · CLASSIFICA / BUILD",
     "sourceUrl": "https://wzstats.gg/it",
     "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 21 novembre 2026 (valutazione indipendente, non ufficiale Activision): classifica della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
     "currentBuildDate": "21 NOV 2026",
@@ -785,18 +785,18 @@
         "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "69",
-        "updated": "07 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 7 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "25 NOV 2026",
+        "note": "Build Warzone Battle Royale «Lunga distanza» consigliata da WZStats, cambiata il 25 novembre 2026 (calcio TA Harrow al posto dell’impugnatura FSS TAC90; la pagina non mostra più la data di creazione). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "OTTICA",
             "name": "Locus PX3 alternabile",
-            "unlock": "Livello 21"
+            "unlock": "Livello 20"
           },
           {
             "slot": "VOLATA",
             "name": "FSS IS300",
-            "unlock": "Livello 28"
+            "unlock": "Livello 27"
           },
           {
             "slot": "CANNA",
@@ -804,14 +804,14 @@
             "unlock": "Livello 40"
           },
           {
-            "slot": "SOTTOCANNA",
-            "name": "Impugnatura FSS TAC90",
-            "unlock": "Livello 31"
-          },
-          {
             "slot": "CARICATORE",
             "name": "Caricatore da 40 colpi",
-            "unlock": "Livello 65"
+            "unlock": "Livello 64"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Calcio TA Harrow",
+            "unlock": "Livello 1"
           }
         ]
       },

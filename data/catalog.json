@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 19,
+  "release": 20,
   "mw4": {
-    "buildCheckedAt": "2026-11-24",
+    "buildCheckedAt": "2026-11-25",
     "catalogCheckedAt": "2026-11-07",
     "catalog": [
       {
@@ -306,90 +306,28 @@
           [
             "Canna",
             "MATUZEK S5-BRACE",
-            29
+            28
           ],
           [
             "Sottocanna",
             "FSS TAC90 GRIP",
-            31
+            30
           ],
           [
             "Impugnatura posteriore",
             "MATUZEK LOCKGRIP",
-            23
+            22
           ],
           [
             "Calcio",
             "TA HARROW STOCK",
-            2
+            1
           ],
           [
             "Laser",
             "SCHLAGER VISIV-5",
-            9
+            8
           ]
-        ],
-        "alternatives": [
-          {
-            "buildType": "Mobility",
-            "attachments": [
-              [
-                "Volata",
-                "FSS IS40",
-                56
-              ],
-              [
-                "Canna",
-                "XRK 09-RTAC PRO",
-                52
-              ],
-              [
-                "Impugnatura posteriore",
-                "GS50 GRIP",
-                55
-              ],
-              [
-                "Calcio",
-                "XRK RELAY 7",
-                59
-              ],
-              [
-                "Laser",
-                "SCHLAGER VISIV-5",
-                9
-              ]
-            ]
-          },
-          {
-            "buildType": "Low Recoil",
-            "attachments": [
-              [
-                "Ottica",
-                "SZ PRIMA-4 DOT",
-                35
-              ],
-              [
-                "Volata",
-                "CORVUS LVL-40",
-                63
-              ],
-              [
-                "Canna",
-                "CRONEN DC-FORGE 40",
-                40
-              ],
-              [
-                "Sottocanna",
-                "FSS FIRELINE GRIP",
-                7
-              ],
-              [
-                "Calcio",
-                "CRONEN BLACKSTONE-6P",
-                15
-              ]
-            ]
-          }
         ]
       },
       "ISO NIGHTSHADE": {
