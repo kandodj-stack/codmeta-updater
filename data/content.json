@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 38,
+  "release": 39,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "26 NOV · WARZONE",
+      "text": "Meta Warzone WZStats del 26 novembre: il KG-7 Vulcan sale nel tier Meta (6°), che ora ha sei armi; l’Axion passa davanti all’X-58 Nyx (11° e 12°) e il Mosin-Nagant è ora primo tra i cecchini, davanti a KG-7 Vulcan, Astaroth .57 e Signal 50. Build Battle Royale non ancora ricontrollate. Classifica indipendente, non ufficiale Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "25 NOV · WARZONE / MW4",
       "text": "Build WZStats aggiornate il 25 novembre: la build Battle Royale dell’Axion ora usa il calcio TA Harrow al posto dell’impugnatura FSS TAC90; in Multigiocatore MW4 l’Axion resta «Versatile» ma WZStats ha tolto le varianti Mobility e Low Recoil. Classifiche Warzone (21 novembre) e MW4 (25 novembre) invariate. Classifiche e build indipendenti, non ufficiali Activision.",
@@ -99,11 +104,6 @@
       "tag": "12 NOV · WARZONE",
       "text": "Meta Warzone WZStats del 12 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta. Nuova build Battle Royale «Lunga distanza» dell’Oden (19°): ottica SZ Lonewolf olografico, volata TV Multical-77, canna Rockfall-900, caricatore da 30 colpi e munizioni 12,7 x 55 mm alta velocità. Classifica e build indipendenti, non ufficiali Activision.",
       "url": "https://wzstats.gg/it"
-    },
-    {
-      "tag": "11 NOV · MW4 PATCH",
-      "text": "Aggiornamento MW4 dell’11 novembre: hitscan di tutte le armi balistiche aumentato di 3,91 volte (circa 35 m in media, +288% rispetto al lancio) e colpi a lunga distanza 34 ms più rapidi, in tutte le modalità; corretti danni eccessivi dell’Astaroth .57 ai veicoli delle serie di uccisioni.",
-      "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes"
     }
   ],
   "news": {
@@ -291,11 +291,11 @@
     ]
   },
   "warzone": {
-    "status": "META WZSTATS STAGIONE 1 · 21 NOV 2026",
-    "checked": "25 NOV 2026 · CLASSIFICA / BUILD",
+    "status": "META WZSTATS STAGIONE 1 · 26 NOV 2026",
+    "checked": "26 NOV 2026 · CLASSIFICA",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 21 novembre 2026 (valutazione indipendente, non ufficiale Activision): classifica della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime cinque armi sono nel tier Meta, le altre diciotto in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
-    "currentBuildDate": "21 NOV 2026",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 26 novembre 2026 (valutazione indipendente, non ufficiale Activision): classifica della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime sei armi sono nel tier Meta, le altre diciassette in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
+    "currentBuildDate": "26 NOV 2026",
     "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 21 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 15 novembre 2026",
     "pendingReview": [],
@@ -306,14 +306,14 @@
       "HAN 86",
       "WZ.55 STRIGA",
       "MOSIN-NAGANT",
+      "KG-7 VULCAN",
       "KASTOV 762",
       "VEL 46",
       "M4",
       "CSG-35",
-      "X-58 NYX",
       "AXION",
+      "X-58 NYX",
       "PPSH-41",
-      "KG-7 VULCAN",
       "ASTAROTH .57",
       "HYEON BURST",
       "PATRIOT XMR",
@@ -330,25 +330,25 @@
       "ISO NIGHTSHADE": 1,
       "HAN 86": 2,
       "WZ.55 STRIGA": 2,
-      "MOSIN-NAGANT": 3,
-      "KASTOV 762": 4,
+      "MOSIN-NAGANT": 1,
+      "KG-7 VULCAN": 2,
+      "KASTOV 762": 3,
       "VEL 46": 3,
-      "M4": 5,
+      "M4": 4,
       "CSG-35": 4,
+      "AXION": 5,
       "X-58 NYX": 5,
-      "AXION": 6,
       "PPSH-41": 6,
-      "KG-7 VULCAN": 1,
-      "ASTAROTH .57": 2,
-      "HYEON BURST": 7,
-      "PATRIOT XMR": 8,
-      "CRONEN SQUALL": 9,
-      "APOC-338": 10,
-      "ODEN": 11,
-      "FINN LMG": 12,
+      "ASTAROTH .57": 3,
+      "HYEON BURST": 6,
+      "PATRIOT XMR": 7,
+      "CRONEN SQUALL": 8,
+      "APOC-338": 9,
+      "ODEN": 10,
+      "FINN LMG": 11,
       "KRAIT P68": 7,
       "REZI 12": 8,
-      "SIGNAL 50": 3
+      "SIGNAL 50": 4
     },
     "builds": [
       {
@@ -582,8 +582,47 @@
         ]
       },
       {
-        "name": "KASTOV 762",
+        "name": "KG-7 VULCAN",
         "rank": 6,
+        "tier": "S",
+        "category": "FUCILE DI PRECISIONE",
+        "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
+        "origin": "MW4",
+        "maxLevel": "75",
+        "updated": "06 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "attachments": [
+          {
+            "slot": "VOLATA",
+            "name": "Gauge-12 Mono",
+            "unlock": "Livello 32"
+          },
+          {
+            "slot": "CANNA",
+            "name": "Haebang RMT762 29\"",
+            "unlock": "Livello 43"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "TT G76-RP Stock",
+            "unlock": "Livello 47"
+          },
+          {
+            "slot": "MUNIZIONI",
+            "name": "7,62 x 54 mm R alta velocità",
+            "unlock": "Livello 71"
+          },
+          {
+            "slot": "OTTURATORE",
+            "name": "KT76 Light Bolt",
+            "unlock": "Livello 63"
+          }
+        ]
+      },
+      {
+        "name": "KASTOV 762",
+        "rank": 7,
         "tier": "A",
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
@@ -622,7 +661,7 @@
       },
       {
         "name": "VEL 46",
-        "rank": 7,
+        "rank": 8,
         "tier": "A",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
@@ -661,7 +700,7 @@
       },
       {
         "name": "M4",
-        "rank": 8,
+        "rank": 9,
         "tier": "A",
         "category": "FUCILE D'ASSALTO",
         "role": "LUNGA DISTANZA",
@@ -700,7 +739,7 @@
       },
       {
         "name": "CSG-35",
-        "rank": 9,
+        "rank": 10,
         "tier": "A",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
@@ -734,45 +773,6 @@
             "slot": "LASER",
             "name": "SA Laz-500",
             "unlock": "Livello 40"
-          }
-        ]
-      },
-      {
-        "name": "X-58 NYX",
-        "rank": 10,
-        "tier": "A",
-        "category": "MITRAGLIETTA",
-        "role": "CORTA DISTANZA",
-        "buildType": "Corta distanza",
-        "origin": "MW4",
-        "maxLevel": "53",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
-        "attachments": [
-          {
-            "slot": "CANNA",
-            "name": "Doksa 4F 304.8mm",
-            "unlock": "Livello 37"
-          },
-          {
-            "slot": "SOTTOCANNA",
-            "name": "Impugnatura MIRE-50 Tac",
-            "unlock": "Livello 7"
-          },
-          {
-            "slot": "CARICATORE",
-            "name": "Caricatore da 60 colpi",
-            "unlock": "Livello 9"
-          },
-          {
-            "slot": "IMPUGNATURA",
-            "name": "BOK-980",
-            "unlock": "Livello 20"
-          },
-          {
-            "slot": "CALCIO",
-            "name": "Calcio Mugi HUL-73.M",
-            "unlock": "Livello 3"
           }
         ]
       },
@@ -816,8 +816,47 @@
         ]
       },
       {
-        "name": "PPSH-41",
+        "name": "X-58 NYX",
         "rank": 12,
+        "tier": "A",
+        "category": "MITRAGLIETTA",
+        "role": "CORTA DISTANZA",
+        "buildType": "Corta distanza",
+        "origin": "MW4",
+        "maxLevel": "53",
+        "updated": "06 NOV 2026",
+        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "attachments": [
+          {
+            "slot": "CANNA",
+            "name": "Doksa 4F 304.8mm",
+            "unlock": "Livello 37"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "Impugnatura MIRE-50 Tac",
+            "unlock": "Livello 7"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Caricatore da 60 colpi",
+            "unlock": "Livello 9"
+          },
+          {
+            "slot": "IMPUGNATURA",
+            "name": "BOK-980",
+            "unlock": "Livello 20"
+          },
+          {
+            "slot": "CALCIO",
+            "name": "Calcio Mugi HUL-73.M",
+            "unlock": "Livello 3"
+          }
+        ]
+      },
+      {
+        "name": "PPSH-41",
+        "rank": 13,
         "tier": "A",
         "category": "MITRAGLIETTA",
         "role": "CORTA DISTANZA",
@@ -851,45 +890,6 @@
             "slot": "CALCIO",
             "name": "MT-L5 Jinhwa",
             "unlock": "Livello 41"
-          }
-        ]
-      },
-      {
-        "name": "KG-7 VULCAN",
-        "rank": 13,
-        "tier": "A",
-        "category": "FUCILE DI PRECISIONE",
-        "role": "LUNGA DISTANZA",
-        "buildType": "Lunga distanza",
-        "origin": "MW4",
-        "maxLevel": "75",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
-        "attachments": [
-          {
-            "slot": "VOLATA",
-            "name": "Gauge-12 Mono",
-            "unlock": "Livello 32"
-          },
-          {
-            "slot": "CANNA",
-            "name": "Haebang RMT762 29\"",
-            "unlock": "Livello 43"
-          },
-          {
-            "slot": "CALCIO",
-            "name": "TT G76-RP Stock",
-            "unlock": "Livello 47"
-          },
-          {
-            "slot": "MUNIZIONI",
-            "name": "7,62 x 54 mm R alta velocità",
-            "unlock": "Livello 71"
-          },
-          {
-            "slot": "OTTURATORE",
-            "name": "KT76 Light Bolt",
-            "unlock": "Livello 63"
           }
         ]
       },
