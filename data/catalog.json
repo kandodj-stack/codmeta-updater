@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": 20,
+  "release": 21,
   "mw4": {
-    "buildCheckedAt": "2026-11-25",
+    "buildCheckedAt": "2026-11-27",
     "catalogCheckedAt": "2026-11-07",
     "catalog": [
       {
@@ -272,27 +272,27 @@
           [
             "Volata",
             "FSS IS300",
-            21
+            43
           ],
           [
             "Sottocanna",
             "FSS TAC90 GRIP",
-            6
+            16
           ],
           [
             "Impugnatura posteriore",
             "A56 STOUT",
-            46
+            15
           ],
           [
             "Calcio",
             "FT STALWART MK2",
-            50
+            22
           ],
           [
             "Laser",
             "SA LAZ-500",
-            52
+            26
           ]
         ]
       },
@@ -621,12 +621,12 @@
         "category": "Fucili di precisione",
         "slug": "kg-7-vulcan",
         "tier": "META",
-        "buildType": "Long Range",
+        "buildType": "Sniper",
         "attachments": [
           [
             "Ottica",
             "CRONEN R808",
-            3
+            2
           ],
           [
             "Volata",
@@ -636,50 +636,18 @@
           [
             "Canna",
             "TT BAEM 12\"",
-            5
+            4
           ],
           [
             "Poggiaguancia",
             "TT TYPE 40 COMB",
-            6
+            5
           ],
           [
             "Otturatore",
             "KT76 LIGHT BOLT",
             63
           ]
-        ],
-        "alternatives": [
-          {
-            "buildType": "Low Level",
-            "attachments": [
-              [
-                "Ottica",
-                "HANBIT 3080 FIRELINE",
-                14
-              ],
-              [
-                "Volata",
-                "DS RKT-90",
-                4
-              ],
-              [
-                "Canna",
-                "TT BAEM 12\"",
-                5
-              ],
-              [
-                "Poggiaguancia",
-                "TT TYPE 40 COMB",
-                6
-              ],
-              [
-                "Laser",
-                "SCHLAGER VISIV-5",
-                7
-              ]
-            ]
-          }
         ]
       },
       "HYEON BURST": {
@@ -888,60 +856,28 @@
           [
             "Volata",
             "MEIKO 30CAL-SP",
-            62
+            63
           ],
           [
             "Sottocanna",
-            "FSS FIRELINE GRIP",
-            33
+            "FSS TAC90 GRIP",
+            7
           ],
           [
             "Impugnatura posteriore",
             "SCHLAGER ATTACK-7 GRIP",
-            28
+            31
           ],
           [
             "Calcio",
             "HANBIT B56T-L9",
-            22
+            23
           ],
           [
             "Laser",
             "SA LAZ-500",
             12
           ]
-        ],
-        "alternatives": [
-          {
-            "buildType": "Low Recoil",
-            "attachments": [
-              [
-                "Volata",
-                "HET-S6 COMP",
-                14
-              ],
-              [
-                "Canna",
-                "SO 898F 19\"",
-                60
-              ],
-              [
-                "Sottocanna",
-                "FSS FIRELINE GRIP",
-                33
-              ],
-              [
-                "Impugnatura posteriore",
-                "SCHLAGER ATTACK-7 GRIP",
-                28
-              ],
-              [
-                "Laser",
-                "SZ GEN.6 PEQ",
-                23
-              ]
-            ]
-          }
         ]
       },
       "CSG-35": {
@@ -1054,120 +990,28 @@
           [
             "Canna",
             "HANBIT CHIMMUK-INTR",
-            5
+            4
           ],
           [
             "Sottocanna",
             "FSS TAC90 GRIP",
-            2
+            1
           ],
           [
             "Caricatore",
             "53 ROUND MAG",
-            3
+            2
           ],
           [
             "Calcio",
-            "HANBIT JANGUN-H9",
-            25
+            "MT-L5 JINHWA",
+            40
           ],
           [
             "Laser",
             "SCHLAGER VISIV-5",
-            4
+            3
           ]
-        ],
-        "alternatives": [
-          {
-            "buildType": "Low Level",
-            "attachments": [
-              [
-                "Volata",
-                "FTAC SILENT RECON",
-                12
-              ],
-              [
-                "Canna",
-                "HANBIT RDR-TIGER 50-XL",
-                15
-              ],
-              [
-                "Caricatore",
-                "53 ROUND MAG",
-                3
-              ],
-              [
-                "Laser",
-                "SCHLAGER VISIV-5",
-                4
-              ],
-              [
-                "Munizioni",
-                "7.62 TOKAREV OVERPRESSURED",
-                9
-              ]
-            ]
-          },
-          {
-            "buildType": "Mobility",
-            "attachments": [
-              [
-                "Volata",
-                "1/2X28 DUAL PORT",
-                29
-              ],
-              [
-                "Sottocanna",
-                "FSS TAC90 GRIP",
-                2
-              ],
-              [
-                "Caricatore",
-                "53 ROUND MAG",
-                3
-              ],
-              [
-                "Calcio",
-                "MT-L5 JINHUA",
-                41
-              ],
-              [
-                "Laser",
-                "SCHLAGER VISIV-5",
-                4
-              ]
-            ]
-          },
-          {
-            "buildType": "Low Recoil",
-            "attachments": [
-              [
-                "Volata",
-                "1/2X28 DUAL PORT",
-                29
-              ],
-              [
-                "Canna",
-                "HANBIT RDR-TIGER 50",
-                33
-              ],
-              [
-                "Sottocanna",
-                "FSS FIRELINE GRIP",
-                61
-              ],
-              [
-                "Calcio",
-                "HANBIT JANGUN-H9",
-                25
-              ],
-              [
-                "Laser",
-                "SCHLAGER VISIV-5",
-                4
-              ]
-            ]
-          }
         ]
       },
       "X-58 NYX": {
@@ -1179,61 +1023,29 @@
         "attachments": [
           [
             "Canna",
-            "DOKSA 4F 304.8MM",
-            37
+            "DOKSA 4F 305MM",
+            36
           ],
           [
             "Sottocanna",
             "FSS TAC90 GRIP",
-            39
+            38
           ],
           [
             "Impugnatura posteriore",
             "BOK-980",
-            20
+            19
           ],
           [
             "Calcio",
             "MUGI HUL-73.M STOCK",
-            3
+            2
           ],
           [
             "Laser",
             "XRK CLUTCH-LS",
-            38
+            37
           ]
-        ],
-        "alternatives": [
-          {
-            "buildType": "Mobility",
-            "attachments": [
-              [
-                "Canna",
-                "DOKSA 4F 304.8MM",
-                37
-              ],
-              [
-                "Sottocanna",
-                "FSS TAC90 GRIP",
-                39
-              ],
-              [
-                "Impugnatura posteriore",
-                "BOK-980",
-                20
-              ],
-              [
-                "Calcio",
-                "NO STOCK",
-                null
-              ],
-              [
-                "Laser",
-                "SCHLAGER VISIV-5",
-                12
-              ]
-            ]
-          }
         ]
       },
       "WZ.55 STRIGA": {
@@ -1246,60 +1058,28 @@
           [
             "Ottica",
             "SZ PRIMA-4 DOT",
-            59
+            58
           ],
           [
             "Volata",
             "FTAC SILENT RECON",
-            13
+            12
           ],
           [
             "Canna",
             "DS 9X18 PRO",
-            44
+            43
           ],
           [
             "Caricatore",
             "35 ROUND MAG",
-            10
+            9
           ],
           [
             "Calcio",
             "WIRE STOCK",
-            52
+            51
           ]
-        ],
-        "alternatives": [
-          {
-            "buildType": "Mobility",
-            "attachments": [
-              [
-                "Volata",
-                "1/2X28 DUAL PORT",
-                17
-              ],
-              [
-                "Canna",
-                "DS 9X18 PRO",
-                44
-              ],
-              [
-                "Caricatore",
-                "35 ROUND MAG",
-                10
-              ],
-              [
-                "Impugnatura posteriore",
-                "MATUZEK 532-L GRIP",
-                15
-              ],
-              [
-                "Laser",
-                "SCHLAGER VISIV-5",
-                32
-              ]
-            ]
-          }
         ]
       },
       "HAN 86": {
@@ -1512,27 +1292,27 @@
           [
             "Ottica",
             "SZ MICRO D-3",
-            11
+            10
           ],
           [
             "Volata",
             "EXP 450 RTL",
-            19
+            18
           ],
           [
             "Sottocanna",
             "BRUEN RENEGADE GRIP",
-            8
+            7
           ],
           [
             "Calcio",
             "DEMO BAR-7 STOCK",
-            15
+            14
           ],
           [
             "Laser",
             "SZ GEN.6 PEQ",
-            10
+            9
           ]
         ]
       },
@@ -1612,29 +1392,29 @@
         "buildType": "Versatile",
         "attachments": [
           [
-            "Ottica",
-            "SZ PRIMA-4 DOT",
-            16
-          ],
-          [
             "Volata",
-            "OCTA-63 COMP",
-            12
+            "EXP UNDERTOW GEN. 2",
+            22
           ],
           [
             "Canna",
             "BRYSON LONGHORN 20\"",
-            35
+            34
           ],
           [
-            "Caricatore",
-            "30 ROUND MAG",
-            10
+            "Sottocanna",
+            "FSS TAC90 GRIP",
+            51
+          ],
+          [
+            "Poggiaguancia",
+            "EXP FCO-44",
+            30
           ],
           [
             "Laser",
-            "SZ GEN.6 PEQ",
-            6
+            "SA LAZ-500",
+            18
           ]
         ]
       },

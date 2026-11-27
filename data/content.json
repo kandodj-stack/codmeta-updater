@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
-  "release": 39,
+  "release": 40,
   "header": {
     "liveStatus": "STAGIONE 1 · MW4 + WARZONE · DAL 06.11"
   },
   "ticker": [
+    {
+      "tag": "27 NOV · WARZONE / MW4",
+      "text": "Build WZStats ricontrollate il 27 novembre: nuova build Battle Royale del Cronen Squall (Lunga distanza) e build Warzone cambiate per Cronen Osprey (anche la variante «Supporto cecchino»), KG-7 Vulcan (ora «Cecchino»), Patriot XMR, PPSh-41, X-58 Nyx, Wz.55 Striga e APOC-338. In Multigiocatore MW4 cambiano le stesse armi e spariscono le varianti di KG-7 Vulcan, Patriot XMR, PPSh-41, X-58 Nyx e Wz.55 Striga. Classifiche invariate. Build indipendenti, non ufficiali Activision.",
+      "url": "https://wzstats.gg/it"
+    },
     {
       "tag": "26 NOV · WARZONE",
       "text": "Meta Warzone WZStats del 26 novembre: il KG-7 Vulcan sale nel tier Meta (6°), che ora ha sei armi; l’Axion passa davanti all’X-58 Nyx (11° e 12°) e il Mosin-Nagant è ora primo tra i cecchini, davanti a KG-7 Vulcan, Astaroth .57 e Signal 50. Build Battle Royale non ancora ricontrollate. Classifica indipendente, non ufficiale Activision.",
@@ -99,11 +104,6 @@
       "tag": "11 NOV · WARZONE PATCH",
       "text": "Aggiornamento Warzone dell’11 novembre: anche in Warzone l’hitscan di tutte le armi balistiche aumenta di 3,91 volte (circa 35 m in media, +288% rispetto al lancio) e i colpi a lunga distanza arrivano 34 ms prima; Special Delivery Drone più frequente in Rally Point, mimetiche preordine utilizzabili in Warzone, il Prestigio non blocca più gli accessori munizioni dei progetti.",
       "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
-    },
-    {
-      "tag": "12 NOV · WARZONE",
-      "text": "Meta Warzone WZStats del 12 novembre: le prime 23 armi restano nello stesso ordine, con le stesse cinque nel tier Meta. Nuova build Battle Royale «Lunga distanza» dell’Oden (19°): ottica SZ Lonewolf olografico, volata TV Multical-77, canna Rockfall-900, caricatore da 30 colpi e munizioni 12,7 x 55 mm alta velocità. Classifica e build indipendenti, non ufficiali Activision.",
-      "url": "https://wzstats.gg/it"
     }
   ],
   "news": {
@@ -294,9 +294,9 @@
     "status": "META WZSTATS STAGIONE 1 · 26 NOV 2026",
     "checked": "26 NOV 2026 · CLASSIFICA",
     "sourceUrl": "https://wzstats.gg/it",
-    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 26 novembre 2026 (valutazione indipendente, non ufficiale Activision): classifica della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime sei armi sono nel tier Meta, le altre diciassette in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 21; mancano Hyeon Burst (solo build Apex) e Cronen Squall (dati incompleti), che arrivano con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
+    "intro": "Warzone è il gioco predefinito. Ordine meta: WZStats, 26 novembre 2026 (valutazione indipendente, non ufficiale Activision): classifica della Stagione 1, con le armi di Modern Warfare 4. Il numero a sinistra è la posizione nella classifica generale. Le prime sei armi sono nel tier Meta, le altre diciassette in fascia A; le armi di Black Ops 7, ora Legacy con build predefinite, sono scese in fascia B. WZStats sta pubblicando le build Warzone un po’ alla volta: ora ce ne sono 22; manca solo l’Hyeon Burst (solo build Apex), che arriva con il controllo giornaliero. Alcune armi hanno più build Battle Royale (per ora il Cronen Osprey: «Lunga distanza» e «Supporto cecchino»): si sceglie dalla scheda dell’arma o con il filtro «Ruolo build» sopra la classifica.",
     "currentBuildDate": "26 NOV 2026",
-    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 21 NOVEMBRE",
+    "currentBuildLabel": "BUILD WZSTATS · VERIFICATA 27 NOVEMBRE",
     "ratingLabel": "Valutazione WZStats · 15 novembre 2026",
     "pendingReview": [],
     "pendingLabel": "Valutazione in sospeso dopo il nerf del 30 settembre",
@@ -360,66 +360,66 @@
         "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "71",
-        "updated": "09 NOV 2026",
-        "note": "Build Warzone Battle Royale «Lunga distanza» consigliata da WZStats (creata il 9 novembre 2026). Livelli arma come indicati dalla fonte. WZStats propone anche la variante «Supporto cecchino»: si apre con il pulsante sopra gli accessori.",
+        "updated": "27 NOV 2026",
+        "note": "Build Warzone Battle Royale «Lunga distanza» consigliata da WZStats, ricontrollata il 27 novembre 2026 (la pagina non indica più la data di creazione). Livelli arma come indicati dalla fonte. WZStats propone anche la variante «Supporto cecchino»: si apre con il pulsante sopra gli accessori.",
         "attachments": [
           {
             "slot": "OTTICA",
             "name": "Locus PX3 alternabile",
-            "unlock": "Livello 32"
+            "unlock": "Livello 64"
           },
           {
             "slot": "VOLATA",
             "name": "FSS IS300",
-            "unlock": "Livello 21"
+            "unlock": "Livello 43"
           },
           {
             "slot": "CANNA",
             "name": "IO-556 Tac 18\"",
-            "unlock": "Livello 54"
+            "unlock": "Livello 29"
           },
           {
             "slot": "CARICATORE",
             "name": "Caricatore da 60 colpi",
-            "unlock": "Livello 42"
+            "unlock": "Livello 8"
           },
           {
             "slot": "CALCIO",
-            "name": "XR-9 Tac V2",
-            "unlock": "Livello 69"
+            "name": "FT Stalwart Mk2",
+            "unlock": "Livello 22"
           }
         ],
         "alternatives": [
           {
             "buildType": "Supporto cecchino",
             "role": "SUPPORTO CECCHINO",
-            "updated": "09 NOV 2026",
-            "note": "Variante Battle Royale «Supporto cecchino» di WZStats (creata il 9 novembre 2026), da usare come seconda arma insieme a un fucile di precisione. Livelli arma come indicati dalla fonte.",
+            "updated": "27 NOV 2026",
+            "note": "Variante Battle Royale «Supporto cecchino» di WZStats, ricontrollata il 27 novembre 2026 (la pagina non indica più la data di creazione), da usare come seconda arma insieme a un fucile di precisione. Livelli arma come indicati dalla fonte.",
             "attachments": [
               {
-                "slot": "VOLATA",
-                "name": "Silenziatore XRK Mil-Tac",
-                "unlock": "Livello 34"
+                "slot": "OTTICA",
+                "name": "Locus PX3 alternabile",
+                "unlock": "Livello 64"
               },
               {
                 "slot": "CANNA",
                 "name": "IO-556 Tac 18\"",
-                "unlock": "Livello 54"
+                "unlock": "Livello 29"
               },
               {
                 "slot": "SOTTOCANNA",
                 "name": "Impugnatura FSS TAC90",
-                "unlock": "Livello 6"
+                "unlock": "Livello 16"
               },
               {
                 "slot": "CARICATORE",
-                "name": "Caricatore da 60 colpi",
-                "unlock": "Livello 42"
+                "name": "Tamburo 100 colpi",
+                "unlock": "Livello 44"
               },
               {
                 "slot": "CALCIO",
-                "name": "Fade Tac 9L",
-                "unlock": "Livello 57"
+                "name": "FT Stalwart Mk2",
+                "unlock": "Livello 22"
               }
             ]
           }
@@ -512,33 +512,33 @@
         "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "60",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "27 NOV 2026",
+        "note": "Build Warzone Battle Royale «Corta distanza» consigliata da WZStats, ricontrollata il 27 novembre 2026 (la pagina non indica più la data di creazione). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "VOLATA",
-            "name": "Compensatore Full Port",
-            "unlock": "Livello 3"
+            "name": "RX-5 Overstrike",
+            "unlock": "Livello 39"
           },
           {
             "slot": "CANNA",
             "name": "GW Sender 500",
-            "unlock": "Livello 5"
+            "unlock": "Livello 4"
           },
           {
             "slot": "CARICATORE",
             "name": "Caricatore a tamburo da 50 colpi",
-            "unlock": "Livello 49"
-          },
-          {
-            "slot": "IMPUGNATURA",
-            "name": "Impugnatura Matuzek 532-L",
-            "unlock": "Livello 15"
+            "unlock": "Livello 48"
           },
           {
             "slot": "CALCIO",
-            "name": "Calcio essenziale",
-            "unlock": "Livello 52"
+            "name": "EXP Narrow-Lite",
+            "unlock": "Livello 1"
+          },
+          {
+            "slot": "LASER",
+            "name": "Schlager Visiv-5",
+            "unlock": "Livello 31"
           }
         ]
       },
@@ -586,37 +586,37 @@
         "rank": 6,
         "tier": "S",
         "category": "FUCILE DI PRECISIONE",
-        "role": "LUNGA DISTANZA",
-        "buildType": "Lunga distanza",
+        "role": "CECCHINO",
+        "buildType": "Cecchino",
         "origin": "MW4",
         "maxLevel": "75",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "27 NOV 2026",
+        "note": "Build Warzone Battle Royale «Cecchino» consigliata da WZStats, ricontrollata il 27 novembre 2026 (la pagina non indica più la data di creazione). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "VOLATA",
             "name": "Gauge-12 Mono",
-            "unlock": "Livello 32"
+            "unlock": "Livello 31"
           },
           {
             "slot": "CANNA",
             "name": "Haebang RMT762 29\"",
-            "unlock": "Livello 43"
+            "unlock": "Livello 42"
           },
           {
             "slot": "CALCIO",
-            "name": "TT G76-RP Stock",
-            "unlock": "Livello 47"
+            "name": "Bruen KG-7 Mk. IV",
+            "unlock": "Livello 26"
+          },
+          {
+            "slot": "LASER",
+            "name": "XRK Clutch-LS",
+            "unlock": "Livello 58"
           },
           {
             "slot": "MUNIZIONI",
             "name": "7,62 x 54 mm R alta velocità",
-            "unlock": "Livello 71"
-          },
-          {
-            "slot": "OTTURATORE",
-            "name": "KT76 Light Bolt",
-            "unlock": "Livello 63"
+            "unlock": "Livello 70"
           }
         ]
       },
@@ -824,33 +824,33 @@
         "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "53",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "23 NOV 2026",
+        "note": "Build Warzone Battle Royale «Corta distanza» consigliata da WZStats (aggiornata il 23 novembre 2026, ricontrollata sul sito il 27 novembre). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "CANNA",
-            "name": "Doksa 4F 304.8mm",
-            "unlock": "Livello 37"
+            "name": "Doksa 4F 305 mm",
+            "unlock": "Livello 36"
           },
           {
             "slot": "SOTTOCANNA",
-            "name": "Impugnatura MIRE-50 Tac",
-            "unlock": "Livello 7"
+            "name": "Impugnatura FSS TAC90",
+            "unlock": "Livello 38"
           },
           {
             "slot": "CARICATORE",
             "name": "Caricatore da 60 colpi",
-            "unlock": "Livello 9"
-          },
-          {
-            "slot": "IMPUGNATURA",
-            "name": "BOK-980",
-            "unlock": "Livello 20"
+            "unlock": "Livello 8"
           },
           {
             "slot": "CALCIO",
             "name": "Calcio Mugi HUL-73.M",
-            "unlock": "Livello 3"
+            "unlock": "Livello 2"
+          },
+          {
+            "slot": "LASER",
+            "name": "XRK Clutch-LS",
+            "unlock": "Livello 37"
           }
         ]
       },
@@ -863,33 +863,33 @@
         "buildType": "Corta distanza",
         "origin": "MW4",
         "maxLevel": "62",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "27 NOV 2026",
+        "note": "Build Warzone Battle Royale «Corta distanza» consigliata da WZStats, ricontrollata il 27 novembre 2026 (la pagina non indica più la data di creazione). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "OTTICA",
             "name": "ZLR Type C",
-            "unlock": "Livello 7"
+            "unlock": "Livello 6"
           },
           {
             "slot": "VOLATA",
             "name": "Compensatore Full Port",
-            "unlock": "Livello 48"
-          },
-          {
-            "slot": "CANNA",
-            "name": "TT Banseok-24N",
-            "unlock": "Livello 49"
+            "unlock": "Livello 47"
           },
           {
             "slot": "SOTTOCANNA",
-            "name": "Impugnatura MIRE-50 Tac",
-            "unlock": "Livello 52"
+            "name": "Impugnatura FSS TAC90",
+            "unlock": "Livello 1"
           },
           {
             "slot": "CALCIO",
             "name": "MT-L5 Jinhwa",
-            "unlock": "Livello 41"
+            "unlock": "Livello 40"
+          },
+          {
+            "slot": "LASER",
+            "name": "XRK Clutch-LS",
+            "unlock": "Livello 20"
           }
         ]
       },
@@ -941,33 +941,72 @@
         "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "72",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026, pubblicata sul sito l’8 novembre). Livelli arma come indicati dalla fonte.",
+        "updated": "23 NOV 2026",
+        "note": "Build Warzone Battle Royale «Lunga distanza» consigliata da WZStats (aggiornata il 23 novembre 2026, ricontrollata sul sito il 27 novembre). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "OTTICA",
-            "name": "Cronen R808",
-            "unlock": "Livello 13"
+            "name": "Locus PX3 alternabile",
+            "unlock": "Livello 69"
           },
           {
             "slot": "VOLATA",
             "name": "EXP Undertow Gen. 2",
-            "unlock": "Livello 25"
+            "unlock": "Livello 26"
           },
           {
             "slot": "CANNA",
             "name": "SO 898F 19\"",
-            "unlock": "Livello 60"
+            "unlock": "Livello 61"
           },
           {
             "slot": "CARICATORE",
             "name": "Caricatore a tamburo da 50 colpi",
-            "unlock": "Livello 10"
+            "unlock": "Livello 9"
           },
           {
             "slot": "CALCIO",
             "name": "Hanbit B56T-L9",
+            "unlock": "Livello 23"
+          }
+        ]
+      },
+      {
+        "name": "CRONEN SQUALL",
+        "rank": 17,
+        "tier": "A",
+        "category": "FUCILE D'ASSALTO",
+        "role": "LUNGA DISTANZA",
+        "buildType": "Lunga distanza",
+        "origin": "MW4",
+        "maxLevel": "67",
+        "updated": "23 NOV 2026",
+        "note": "Build Warzone Battle Royale «Lunga distanza» consigliata da WZStats (aggiornata il 23 novembre 2026, ricontrollata sul sito il 27 novembre). Livelli arma come indicati dalla fonte.",
+        "attachments": [
+          {
+            "slot": "OTTICA",
+            "name": "Locus PX3 alternabile",
+            "unlock": "Livello 54"
+          },
+          {
+            "slot": "VOLATA",
+            "name": "EXP Undertow Gen. 2",
             "unlock": "Livello 22"
+          },
+          {
+            "slot": "CANNA",
+            "name": "FJX Sypher 27\"",
+            "unlock": "Livello 53"
+          },
+          {
+            "slot": "SOTTOCANNA",
+            "name": "Impugnatura FSS Fireline",
+            "unlock": "Livello 24"
+          },
+          {
+            "slot": "CARICATORE",
+            "name": "Tamburo 60 colpi",
+            "unlock": "Livello 38"
           }
         ]
       },
@@ -980,33 +1019,33 @@
         "buildType": "Lunga distanza",
         "origin": "MW4",
         "maxLevel": "56",
-        "updated": "06 NOV 2026",
-        "note": "Build Warzone Battle Royale consigliata da WZStats (creata il 6 novembre 2026). Livelli arma come indicati dalla fonte.",
+        "updated": "27 NOV 2026",
+        "note": "Build Warzone Battle Royale «Lunga distanza» consigliata da WZStats, ricontrollata il 27 novembre 2026 (la pagina non indica più la data di creazione). Livelli arma come indicati dalla fonte.",
         "attachments": [
           {
             "slot": "OTTICA",
             "name": "SZ Helios olografico",
-            "unlock": "Livello 6"
+            "unlock": "Livello 5"
           },
           {
             "slot": "VOLATA",
             "name": "TV Multical-77",
-            "unlock": "Livello 2"
+            "unlock": "Livello 1"
           },
           {
             "slot": "CANNA",
             "name": "SA Trident 24.5\"",
-            "unlock": "Livello 4"
+            "unlock": "Livello 3"
           },
           {
             "slot": "IMPUGNATURA",
             "name": "Impugnatura FSS TCB-1",
-            "unlock": "Livello 7"
+            "unlock": "Livello 6"
           },
           {
             "slot": "CALCIO",
             "name": "Calcio EXP ARC-7",
-            "unlock": "Livello 47"
+            "unlock": "Livello 46"
           }
         ]
       },
